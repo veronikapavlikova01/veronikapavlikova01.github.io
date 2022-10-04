@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/veronikapavlikova01/veronikapavlikova01.github.io.git/static/css/main.7f49e62c.css",
+    "main.js": "/veronikapavlikova01/veronikapavlikova01.github.io.git/static/js/main.6e8a8ddf.js",
+    "static/js/787.8b87e823.chunk.js": "/veronikapavlikova01/veronikapavlikova01.github.io.git/static/js/787.8b87e823.chunk.js",
+    "service-worker.js": "/veronikapavlikova01/veronikapavlikova01.github.io.git/service-worker.js",
+    "static/media/logo.svg": "/veronikapavlikova01/veronikapavlikova01.github.io.git/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/veronikapavlikova01/veronikapavlikova01.github.io.git/index.html",
+    "main.7f49e62c.css.map": "/veronikapavlikova01/veronikapavlikova01.github.io.git/static/css/main.7f49e62c.css.map",
+    "main.6e8a8ddf.js.map": "/veronikapavlikova01/veronikapavlikova01.github.io.git/static/js/main.6e8a8ddf.js.map",
+    "787.8b87e823.chunk.js.map": "/veronikapavlikova01/veronikapavlikova01.github.io.git/static/js/787.8b87e823.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f49e62c.css",
+    "static/js/main.6e8a8ddf.js"
+  ]
+}
