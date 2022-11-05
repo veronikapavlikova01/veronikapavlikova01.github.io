@@ -1,0 +1,1629 @@
+{
+    "languages":["en", "de", "pl"],
+    
+    "home":[
+        {
+            "language": "en",
+            "label_1": "Welcome",
+            "label_2": "to the state castle",
+            "label_3": "and chateau Frýdlant",
+            "button_label": "Start"
+        },
+        {
+            "language": "de",
+            "label_1":"Wilkommen",
+            "label_2":"auf der Burg und",
+            "label_3":"dem Schloss Friedland",
+            "button_label": "Start"
+        },
+        {
+            "language": "pl",
+            "label_1":"Witamy",
+            "label_2":"w zamku i",
+            "label_3":"pałacu Frýdlant",
+            "button_label": "Początek"
+        }
+    ],
+
+    "navbar":[
+        {
+            "language": "en",
+            "tours": "Tours",
+            "history": "History",
+            "map": "Map",
+            "contact": "Contact"
+        },
+        {
+            "language": "de",
+            "tours": "Führungen",
+            "history": "Historie",
+            "map": "Landkarte",
+            "contact": "Kontakt"
+        },
+        {
+            "language": "pl",
+            "tours": "Trasy zwiedzania",
+            "history": "Historia",
+            "map": "Mapa",
+            "contact": "Kontakt"
+        }
+    ],
+
+    "contact":[
+        {
+            "language": "en",
+            "info":"Informations",
+            "address":"Address",
+            "reservation": "Ticket reservation",
+            "phone": "Phone number"
+        },
+        {
+            "language": "de",
+            "info":"Informationen",
+            "address":"Addresse",
+            "reservation": "Ticketbuchung",
+            "phone": "Telefonnummer"
+        },
+        {
+            "language": "pl",
+            "info":"Informacje",
+            "address":"Adres",
+            "reservation": "rezerwacje wycieczek",
+            "phone": "Numer telefonu"
+        }
+    ],
+    "history":[
+        {
+            "language":"en",
+            "path": "/history_overview",
+            "title":"History overview",
+            "button": "Learn more",
+            "card_label": "Seznamte se s historií frýdlantského panství od založení až po současnost.",
+            "description":"Seznamte se se stručnou historií frýdlanstkého hradu a zámku. Od jeho založení až po současnost.",
+            "label": "Seznamte se s historií hradu a zámku"
+        },
+        {
+            "language":"en",
+            "path": "/houses",
+            "title":"Houses",
+            "card_label": "Seznamte se s jednotlivými majiteli frýdlanstkého panství",
+            "button" :"Learn more",
+            "houses":[
+                {
+                    "title": "Ronovci",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                },
+                {
+                    "title": "Biberštejnové",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                },
+                {
+                    "title": "Redernové",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                },
+                {
+                    "title": "Albrecht z Valdštejna",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }
+                    ]
+                },
+                {
+                    "title": "Gallasové",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                },
+                {
+                    "title": "Clam-Gallasové",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                }
+            ]   
+        },
+        {
+            "language":"pl",
+            "path": "/history_overview",
+            "title":"History overview",
+            "button": "Learn more",
+            "card_label": "Seznamte se s historií frýdlantského panství od založení až po současnost.",
+            "description":"Seznamte se se stručnou historií frýdlanstkého hradu a zámku. Od jeho založení až po současnost.",
+            "label": "Seznamte se s historií hradu a zámku"
+        },
+        {
+            "language":"pl",
+            "path": "/houses",
+            "title":"Houses",
+            "card_label": "Seznamte se s jednotlivými majiteli frýdlanstkého panství",
+            "button" :"Learn more",
+            "houses":[
+                {
+                    "title": "Ronovci",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                },
+                {
+                    "title": "Biberštejnové",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                },
+                {
+                    "title": "Redernové",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                },
+                {
+                    "title": "Albrecht z Valdštejna",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }
+                    ]
+                },
+                {
+                    "title": "Gallasové",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                },
+                {
+                    "title": "Clam-Gallasové",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                }
+            ]   
+        },
+        {
+            "language":"de",
+            "path": "/history_overview",
+            "title":"History overview",
+            "button": "Learn more",
+            "card_label": "Seznamte se s historií frýdlantského panství od založení až po současnost.",
+            "description":"Seznamte se se stručnou historií frýdlanstkého hradu a zámku. Od jeho založení až po současnost.",
+            "label": "Seznamte se s historií hradu a zámku"
+        },
+        {
+            "language":"de",
+            "path": "/houses",
+            "title":"Houses",
+            "card_label": "Seznamte se s jednotlivými majiteli frýdlanstkého panství",
+            "button" :"Learn more",
+            "houses":[
+                {
+                    "title": "Ronovci",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                },
+                {
+                    "title": "Biberštejnové",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                },
+                {
+                    "title": "Redernové",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                },
+                {
+                    "title": "Albrecht z Valdštejna",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }
+                    ]
+                },
+                {
+                    "title": "Gallasové",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                },
+                {
+                    "title": "Clam-Gallasové",
+                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "button":"Learn",
+                    "owners":[
+                        {
+                            "number":"1",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        },
+                        {
+                            "number":"2",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"3",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        }, 
+                        {
+                            "number":"4",
+                            "name": "Majitel číslo 1",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                        } 
+                    ]
+                }
+            ]   
+        }
+    ],
+    "tours":[
+            {
+                "tour_id":"castle",
+                "language":"en",
+                "title": "Castle",
+                "description": "This tour takes the visitor through the Upper Castle, which is the oldest part of the Frýdlant area. The entire route is dominated by a large knight's hall with an ancestral gallery, armory, banquet hall or a large collection of employee uniforms.",
+                "button":"Start",
+                "rooms":[
+                    {
+                        "number":"1",
+                        "title": "Nádvoří",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"2",
+                        "title": "Biberštejnové a Redernové",
+                        "card_label": "V první hradní místnosti bude návštěvník seznámen s prvními majitely hradu, konkrétně tedy Biberštejny a Rederny.",
+                        "label": "První místnost poskytne přehled majitelů hradu do poloviny 17.století",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"3",
+                        "title": "Albrecht z Valdštejna",
+                        "card_label": "Tato místnost prohlídkového okruhu je věnována dalšímu majiteli hradu, jedné z nejvýznamějších osob české historie, a to Albrechtovi z Valdštejna.",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"4",
+                        "title": "Rytířský sál",
+                        "card_label": "Rytířský sál, později využívaný jako rodová galerie, seznámí návštevníka s rodem Gallasů a jeho působením na hradu a v okolí.",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"5",
+                        "title": "U piána",
+                        "card_label": "Ve čtvrté hradní místnosti bude návštěvníkovi představen rod Clam-Gallasů. Zároveň ",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"6",
+                        "title": "Pracovna Eduarda z Gallasu",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"6",
+                        "title": "Uniformy",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"7",
+                        "title": "Nosítka",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"8",
+                        "title": "Lovecký salonek",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"9",
+                        "title": "Hradní kuchyně",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"10",
+                        "title": "U vězení",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"11",
+                        "title": "Hradní zbrojnice",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"12",
+                        "title": "Koňské postroje",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"13",
+                        "title": "Hradní galerie",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"14",
+                        "title": "Vrchnostenská kancelář",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    }
+                ]
+            },
+            {
+                "tour_id":"castle",
+                "language":"de",
+                "title":"Die Burg",
+                "description": "Die Führung führt den Besucher durch die Obere Burg, den ältesten Teil des Frýdlant-Gebiets. Der gesamte Weg wird dominiert von einem großen Rittersaal mit Ahnenempore, einer Rüstkammer, einem Festsaal oder einer großen Sammlung von Dienstkleidung.",
+                "button":"Start",
+                "rooms":[                    {
+                    "number":"1",
+                    "title": "Nádvoří",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"2",
+                    "title": "Biberštejnové a Redernové",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"3",
+                    "title": "Albrecht z Valdštejna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"4",
+                    "title": "Rytířský sál",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"5",
+                    "title": "U piána",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"6",
+                    "title": "Pracovna Eduarda z Gallasu",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"6",
+                    "title": "Uniformy",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"7",
+                    "title": "Nosítka",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"8",
+                    "title": "Lovecký salonek",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"9",
+                    "title": "Hradní kuchyně",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"10",
+                    "title": "U vězení",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"11",
+                    "title": "Hradní zbrojnice",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"12",
+                    "title": "Koňské postroje",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"13",
+                    "title": "Hradní galerie",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"14",
+                    "title": "Vrchnostenská kancelář",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                }]
+            },
+            {
+                "tour_id":"castle",
+                "language":"pl",
+                "title":"Kasztel",
+                "description":"Trasa zwiedzania prowadzi przez Górny Zamek, który jest najstarszą częścią ziemi frydlantskiej. Na całej trasie dominuje duża sala rycerska z rodową galerią, zbrojownia, sala bankietowa czy też duża kolekcja mundurów pracowniczych.",
+                "button":"Start",
+                "rooms":[
+                    {
+                        "number":"1",
+                        "title": "Nádvoří",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"2",
+                        "title": "Biberštejnové a Redernové",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"3",
+                        "title": "Albrecht z Valdštejna",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"4",
+                        "title": "Rytířský sál",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"5",
+                        "title": "U piána",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"6",
+                        "title": "Pracovna Eduarda z Gallasu",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"6",
+                        "title": "Uniformy",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"7",
+                        "title": "Nosítka",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"8",
+                        "title": "Lovecký salonek",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"9",
+                        "title": "Hradní kuchyně",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"10",
+                        "title": "U vězení",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"11",
+                        "title": "Hradní zbrojnice",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"12",
+                        "title": "Koňské postroje",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"13",
+                        "title": "Hradní galerie",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    },
+                    {
+                        "number":"14",
+                        "title": "Vrchnostenská kancelář",
+                        "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                        "label": "Kratky popisek mistnosti",
+                        "button": "Navštívit",
+                        "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    }
+                ]
+            },
+            {
+                "tour_id":"chateau",
+                "language":"en",
+                "title":"Chateau",
+                "description":"This tour takes the visitor through the richly furnished castle and the history of the last owners of Clam Gallas. A fully equipped tour route maps the castle and its 24 accessible rooms on all its floors.",
+                "button":"Start",
+                "rooms":[
+                {
+                    "number":"1",
+                    "title": "Kuchyně",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"2",
+                    "title": "Chodba",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"3",
+                    "title": "Herna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"4",
+                    "title": "Jídelna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"5",
+                    "title": "Modrý salon",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"6",
+                    "title": "Předpokoj",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"6",
+                    "title": "Přijímací salonek",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"7",
+                    "title": "Pracovna hraběte",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"8",
+                    "title": "Ložnice",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"9",
+                    "title": "Nad schody",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"10",
+                    "title": "Květinový salon",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"11",
+                    "title": "Ložnice",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"12",
+                    "title": "Ranní salon",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"13",
+                    "title": "Malá jídelna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"14",
+                    "title": "Převlekárna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"15",
+                    "title": "Královská chodba",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"16",
+                    "title": "Podkroví",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"17",
+                    "title": "Lokajna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"18",
+                    "title": "Kaple sv. Anny",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                }
+            ]
+            },
+            {
+                "tour_id":"chateau",
+                "language":"de",
+                "title":"Das Schloß",
+                "description":"Die Führung führt den Besucher durch das reich ausgestattete Schloss und die Geschichte der letzten Besitzer von Clam Gallas. Ein komplett ausgestatteter Rundgang zeigt das Schloss und seine 24 barrierefreien Räume auf allen Etagen.",
+                "button":"Start",
+                "rooms":[                 {
+                    "number":"1",
+                    "title": "Kuchyně",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"2",
+                    "title": "Chodba",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"3",
+                    "title": "Herna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"4",
+                    "title": "Jídelna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"5",
+                    "title": "Modrý salon",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"6",
+                    "title": "Předpokoj",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"6",
+                    "title": "Přijímací salonek",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"7",
+                    "title": "Pracovna hraběte",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"8",
+                    "title": "Ložnice",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"9",
+                    "title": "Nad schody",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"10",
+                    "title": "Květinový salon",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"11",
+                    "title": "Ložnice",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"12",
+                    "title": "Ranní salon",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"13",
+                    "title": "Malá jídelna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"14",
+                    "title": "Převlekárna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"15",
+                    "title": "Královská chodba",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"16",
+                    "title": "Podkroví",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"17",
+                    "title": "Lokajna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"18",
+                    "title": "Kaple sv. Anny",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                }]
+            },
+            {
+                "tour_id":"chateau",
+                "language":"pl",
+                "title":"Pałac",
+                "description":"Trasa zwiedzania prowadzi przez bogato wyposażony zamek i historię ostatnich właścicieli Clam Gallas. W pełni wyposażona trasa zwiedzania przedstawia zamek i 24 dostępne pokoje na wszystkich jego piętrach.",
+                "button":"Start",
+                "rooms":[                
+                {
+                    "number":"1",
+                    "title": "Kuchyně",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"2",
+                    "title": "Chodba",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"3",
+                    "title": "Herna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"4",
+                    "title": "Jídelna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"5",
+                    "title": "Modrý salon",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"6",
+                    "title": "Předpokoj",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"6",
+                    "title": "Přijímací salonek",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"7",
+                    "title": "Pracovna hraběte",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"8",
+                    "title": "Ložnice",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"9",
+                    "title": "Nad schody",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"10",
+                    "title": "Květinový salon",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"11",
+                    "title": "Ložnice",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"12",
+                    "title": "Ranní salon",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"13",
+                    "title": "Malá jídelna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"14",
+                    "title": "Převlekárna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"15",
+                    "title": "Královská chodba",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"16",
+                    "title": "Podkroví",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"17",
+                    "title": "Lokajna",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number":"18",
+                    "title": "Kaple sv. Anny",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                }]
+            }
+        ]
+    }
+
