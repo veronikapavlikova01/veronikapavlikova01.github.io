@@ -1,6 +1,6 @@
 import React from "react";
 import { Context } from "../Context";
-import { useContext, useState, useEffect } from "react";
+import { useContext} from "react";
 import { Link } from 'react-router-dom'
 import NavBar from "./NavBar";
 import DataAPI from '../DataAPI';
@@ -11,15 +11,9 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
 
 function Houses() {
     const context = useContext(Context);
-    const [houses, setHouses] = useState([]);
-
-    useEffect(() => {
-        const houses = new DataAPI().getHouses(context.language);
-        console.log(houses);
-        setHouses(houses);
-    }, [context.language]);
-
-
+    const dataAPI = new DataAPI();
+    const houses = dataAPI.getHouses(context.language);
+    const labels = dataAPI.getLabels(context.language);
 
     return (
         <>
@@ -29,7 +23,7 @@ function Houses() {
                     <Link to="/history">
                         <AiOutlineArrowLeft className="icon" />
                     </Link>
-                    <h2 className="margin-right-primary margin-left-primary">Tours</h2>
+                    <h2 className="margin-right-primary margin-left-primary">{labels.houses}</h2>
                     <AiOutlineArrowRight className="icon visibility-hidden" />
                 </div>
                 <div className="flex align-items-primary">

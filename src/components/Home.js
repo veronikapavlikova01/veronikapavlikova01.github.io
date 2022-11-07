@@ -1,6 +1,6 @@
 import Dropdown from "./Dropdown";
 import { Context } from "../Context";
-import { useContext, useState, useEffect } from "react";
+import { useContext} from "react";
 import { Link } from 'react-router-dom'
 import DataAPI from '../DataAPI'
 
@@ -8,12 +8,7 @@ import DataAPI from '../DataAPI'
 
 function Home() {
     const context = useContext(Context);
-    const [home, setHome] = useState({});
-
-    useEffect(() => {
-        const newHome = new DataAPI().getHome(context.language);
-        setHome(newHome);
-    },[context.language]);
+    const home = new DataAPI().getHome(context.language);
 
     return (
         <div className="welcome-background flex">

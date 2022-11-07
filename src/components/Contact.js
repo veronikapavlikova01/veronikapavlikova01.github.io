@@ -1,6 +1,6 @@
 import React from "react";
 import {Context } from "../Context";
-import { useContext, useEffect, useState } from "react";
+import { useContext} from "react";
 import NavBar from './NavBar'
 import DataAPI from '../DataAPI'
 import { AiOutlineArrowLeft} from 'react-icons/ai'
@@ -8,12 +8,7 @@ import { AiOutlineArrowLeft} from 'react-icons/ai'
 
 function Contact() {
     const context = useContext(Context);
-    const [contact, setContact] = useState({});
-
-    useEffect(() => {
-        const newContact = new DataAPI().getContact(context.language);
-        setContact(newContact);
-    },[context.language]);
+    const contact = new DataAPI().getContact(context.language);
 
     return (
         <>

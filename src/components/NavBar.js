@@ -1,20 +1,15 @@
 import { NavLink } from 'react-router-dom'
 import Dropdown from './Dropdown';
-import { useContext, useState, useEffect } from "react";
+import { useContext, useState} from "react";
 import { Context } from "../Context";
-import dataAPI from '../DataAPI'
+import DataAPI from '../DataAPI'
 
 
 function NavBar() {
     const language = useContext(Context);
-    const [navbar, setNavbar] = useState({});
+    const navbar = new DataAPI().getNavbar(language.language);
     const [sidebar, setSidebar] = useState(false);
     const showSidebar = () => setSidebar(!sidebar);
-
-    useEffect(() => {
-        const newNavbar = new dataAPI().getNavbar(language.language);
-        setNavbar(newNavbar);
-    }, [language.language])
 
     return (
         <>

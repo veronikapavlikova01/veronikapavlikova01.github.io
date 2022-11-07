@@ -1,23 +1,15 @@
-import React from "react";
-import { Context } from "../Context";
-import { useContext, useState, useEffect } from "react";
+import React from "react"
+import { Context } from "../Context"
+import { useContext} from "react"
 import { Link } from 'react-router-dom'
-import NavBar from "./NavBar";
-import dataAPI from '../DataAPI'
+import NavBar from "./NavBar"
+import DataAPI from '../DataAPI'
 import castle from '../img/uvod.jpg'
-
 
 
 function History() {
     const context = useContext(Context);
-    const [history, setHistory] = useState([]);
-
-    useEffect(() => {
-        const newHistory = new dataAPI().getHistory(context.language);
-        setHistory(newHistory);
-    }, [context.language]);
-
-
+    const history = new DataAPI().getHistory(context.language);
 
     return (
         <>

@@ -5,6 +5,17 @@ import Info from './Info.json'
 
 class DataAPI {
 
+    //labels
+    getLabels(language){
+        const labels = Info.labels;
+        for (let i=0; i<labels.length;i++){
+            if(labels[i].language===language){
+                return labels[i];
+            }
+        }
+        return null;
+    }
+
     //home
     getHome(language) {
         const homeLabel = Info.home;
@@ -115,6 +126,16 @@ class DataAPI {
             }
         }
         return houses;
+    }
+
+    getHouse(language, house){
+        const houses = this.getHouses(language);
+        for(let i=0;i<houses.length;i++){
+            if(houses[i].title===house){
+                return houses[i];
+            }
+        }
+        return null;
     }
 
     //owners

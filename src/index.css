@@ -366,6 +366,7 @@ a{
 }
 
 .card {
+  display:flex;
   position: relative;
   border-radius: 20px;
   transition: transform 0.3s;
@@ -429,12 +430,11 @@ a{
 }
 
 /***Mistnost***/
-.icon {
+.icon{
   display: block;
   width: 2em;
   height: 2em;
 }
-
 
 /****Media****/
 @media (max-width:1200px) {
@@ -496,10 +496,6 @@ a{
       font-size: 1em;
   }
 
-  h2,
-  h3 {
-      font-size: 1.5em;
-  }
 
   .language-image {
       max-width: 175px;
@@ -549,7 +545,7 @@ a{
 
   h2,
   h3 {
-      font-size: 1em;
+      font-size: 1.5em;
   }
   .nav-label {
       font-size: 1.5em;

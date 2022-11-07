@@ -1,6 +1,6 @@
 import React from "react";
 import { Context } from "../Context";
-import { useContext, useState, useEffect } from "react";
+import { useContext} from "react";
 import { Link } from 'react-router-dom'
 import NavBar from "./NavBar";
 import DataAPI from '../DataAPI';
@@ -10,14 +10,9 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
 
 function Owners() {
     const context = useContext(Context);
-    const [owners, setOwners] = useState([]);
-
-    useEffect(() => {
-        const owners = new DataAPI().getOwners(context.language, context.house);
-        console.log(owners);
-        setOwners(owners);
-    }, [context.language, context.house]);
-
+    const dataAPI = new DataAPI();
+    const labels = dataAPI.getLabels(context.language);
+    const owners = dataAPI.getOwners(context.language, context.house);
 
 
     return (
@@ -28,7 +23,7 @@ function Owners() {
                     <Link to="/houses">
                         <AiOutlineArrowLeft className="icon" />
                     </Link>
-                    <h2 className="margin-right-primary margin-left-primary">Tours</h2>
+                    <h2 className="margin-right-primary margin-left-primary">{labels.owners}</h2>
                     <AiOutlineArrowRight className="icon visibility-hidden" />
                 </div>
                 <div className="grid">
