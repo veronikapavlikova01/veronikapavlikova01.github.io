@@ -10,13 +10,13 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
 
 
 function prevOwnerExists(number){
-    if(number>=1){
+    if((number-1)>=1){
         return true;
     }
     return false;
 }
 function nextOwnerExists(number, length){
-    if(number<=length){
+    if((number+1)<=length){
         return true;
     }
     return false;
@@ -24,14 +24,14 @@ function nextOwnerExists(number, length){
 
 function previous(number, length, context){
     let newNumber = number-1;
-    if(prevOwnerExists(newNumber)){
+    if(prevOwnerExists(number)){
         context.changeOwner(newNumber);
     }
 }
 
 function next(number, length, context){
     let newNumber=number+1;
-    if(nextOwnerExists(newNumber,length)){
+    if(nextOwnerExists(number,length)){
         context.changeOwner(newNumber);
     }
 }
@@ -41,6 +41,8 @@ function Owner() {
     const dataAPI = new DataAPI();
     const owner = dataAPI.getOwner(context.language, context.house, context.owner);
     const house = dataAPI.getHouse(context.language, context.house);
+    const isPrev = prevOwnerExists(owner.number);
+    const isNext = nextOwnerExists(owner.number, house.owners.length);
 
     return (
         <>
@@ -61,8 +63,8 @@ function Owner() {
                     <img src={castle} alt="castle margin-top-secondary" className="page-image" />
                     <p className="start-text margin-top-secondary">{owner.text}</p>
                     <div className="flex-secondary">
-                        <BsFillArrowLeftCircleFill className={'icon margin-right-primary margin-top-third cursor-primary ()'} onClick={() => {previous(owner.number, house.owners.length, context)}}></BsFillArrowLeftCircleFill>
-                        <BsFillArrowRightCircleFill className={'icon margin-left-primary margin-top-third cursor-primary ()'} onClick={() => {next(owner.number, house.owners.length, context)}}></BsFillArrowRightCircleFill>
+                        <BsFillArrowLeftCircleFill className={`icon margin-right-primary margin-top-third cursor-primary () ${isPrev? '' : ' visibility-hidden'}`} onClick={() => {previous(owner.number, house.owners.length, context)}}></BsFillArrowLeftCircleFill>
+                        <BsFillArrowRightCircleFill className={`icon margin-left-primary margin-top-third cursor-primary () ${isNext? '' : ' visibility-hidden'}`} onClick={() => {next(owner.number, house.owners.length, context)}}></BsFillArrowRightCircleFill>
                     </div>
                 </article>
             </div>

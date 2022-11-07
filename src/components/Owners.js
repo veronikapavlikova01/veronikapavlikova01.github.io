@@ -29,8 +29,8 @@ function Owners() {
                 <div className="grid">
                     {
                         owners.map((item) => (
-                            <Link to="/owner" className="card box-shadow">
-                                <article className="flex text-medium" key={item.title} onClick={() => context.changeOwner(item.number)}>
+                            <Link to="/owner" className="card box-shadow" key={item.title}>
+                                <article className="flex text-medium" onClick={() => context.changeOwner(item.number)}>
                                     <img src={castle} alt="castle" className="card-image" />
                                     <h3 className="padding-primary">{item.name}</h3>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.label}</p>
