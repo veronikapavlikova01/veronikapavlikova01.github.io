@@ -38,11 +38,13 @@ function next(number, length, context){
     }
 }
 
-function slide(x1, x2, number, length, context){
-    if(x1>x2){
-        next(number, length, context);
-    } else if(x1<x2){
-        previous(number, length, context);
+function slide(x1, x2, y1, y2, number, length, context){
+    if(Math.abs(y1-y2) < 50){
+        if(x1>x2){
+            next(number, length, context);
+        } else if(x1<x2){
+            previous(number, length, context);
+        }
     }
 }
 
@@ -54,11 +56,12 @@ function Room() {
     const isPrev = prevRoomExists(room.number);
     const isNext = nextRoomExists(room.number, tour.rooms.length);
     var x1 = 0;
+    var y1 = 0;
 
     return (
         <>
             <NavBar />
-            <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => {x1 = touchStartEvent.changedTouches[0].clientX}} onTouchEnd={touchEndEvent => {slide(x1, touchEndEvent.changedTouches[0].clientX, room.number, tour.rooms.length, context)}}>
+            <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => {x1 = touchStartEvent.changedTouches[0].clientX; y1=touchStartEvent.changedTouches[0].clientY}} onTouchEnd={touchEndEvent => {slide(x1, touchEndEvent.changedTouches[0].clientX, y1, touchEndEvent.changedTouches[0].clientY, room.number, tour.rooms.length, context)}}>
                 <article className="font-size-third">
                     <div className="flex-secondary">
                         <Link to="/rooms">
