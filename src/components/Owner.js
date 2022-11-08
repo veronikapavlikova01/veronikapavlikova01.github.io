@@ -36,6 +36,14 @@ function next(number, length, context){
     }
 }
 
+function slide(x1, x2, number, length, context){
+    if(x1>x2){
+        next(number, length, context);
+    } else if(x1<x2){
+        previous(number, length, context);
+    }
+}
+
 function Owner() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
@@ -43,11 +51,12 @@ function Owner() {
     const house = dataAPI.getHouse(context.language, context.house);
     const isPrev = prevOwnerExists(owner.number);
     const isNext = nextOwnerExists(owner.number, house.owners.length);
+    var x1 = 0;
 
     return (
         <>
             <NavBar />
-            <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary">
+            <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary" onTouchStart={touchStartEvent => {x1 = touchStartEvent.changedTouches[0].clientX}} onTouchEnd={touchEndEvent => {slide(x1, touchEndEvent.changedTouches[0].clientX, owner.number, house.owners.length, context)}}>
                 <article className="font-size-third medieval-first-letter">
                     <div className="flex-secondary">
                         <Link to="/owners">

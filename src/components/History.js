@@ -18,8 +18,8 @@ function History() {
                 <div className="grid-secondary">
                     {
                         history.map((item) => (
-                            <Link to={item.path} className="card box-shadow">
-                                <article className="flex text-medium" key={item.title}>
+                            <Link to={item.path} className="card box-shadow" key={item.title}>
+                                <article className="flex text-medium">
                                     <img src={castle} alt="castle" className="card-image" />
                                     <h3 className="padding-primary">{item.title}</h3>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.card_label}</p>

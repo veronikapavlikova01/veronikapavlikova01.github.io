@@ -29,7 +29,7 @@ function Owners() {
                 <div className="grid">
                     {
                         owners.map((item) => (
-                            <Link to="/owner" className="card box-shadow" key={item.title}>
+                            <Link to="/owner" className="card box-shadow" key={item.number}>
                                 <article className="flex text-medium" onClick={() => context.changeOwner(item.number)}>
                                     <img src={castle} alt="castle" className="card-image" />
                                     <h3 className="padding-primary">{item.name}</h3>

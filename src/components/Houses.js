@@ -32,8 +32,8 @@ function Houses() {
                 <div className="grid">
                     {
                         houses.map((item) => (
-                            <Link to="/owners" className="card box-shadow">
-                                <article className="flex text-medium" key={item.title} onClick={() => context.changeHouse(item.title)}>
+                            <Link to="/owners" className="card box-shadow" key={item.title}>
+                                <article className="flex text-medium" onClick={() => context.changeHouse(item.title)}>
                                     <img src={castle} alt="castle" className="card-image" />
                                     <h3 className="padding-primary">{item.title}</h3>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.description}</p>

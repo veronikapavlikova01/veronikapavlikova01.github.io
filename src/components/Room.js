@@ -38,6 +38,14 @@ function next(number, length, context){
     }
 }
 
+function slide(x1, x2, number, length, context){
+    if(x1>x2){
+        next(number, length, context);
+    } else if(x1<x2){
+        previous(number, length, context);
+    }
+}
+
 function Room() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
@@ -45,11 +53,12 @@ function Room() {
     const tour = dataAPI.getTour(context.language, context.tour);
     const isPrev = prevRoomExists(room.number);
     const isNext = nextRoomExists(room.number, tour.rooms.length);
+    var x1 = 0;
 
     return (
         <>
             <NavBar />
-            <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow">
+            <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => {x1 = touchStartEvent.changedTouches[0].clientX}} onTouchEnd={touchEndEvent => {slide(x1, touchEndEvent.changedTouches[0].clientX, room.number, tour.rooms.length, context)}}>
                 <article className="font-size-third">
                     <div className="flex-secondary">
                         <Link to="/rooms">
