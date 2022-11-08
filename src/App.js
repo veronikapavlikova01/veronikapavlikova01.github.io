@@ -17,28 +17,28 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
-    this.changeLanguage = (e) =>{
-      this.setState({language: e.target.value});
+    this.changeLanguage = (e) => {
+      this.setState({ language: e.target.value });
       localStorage.setItem("language", JSON.stringify(e.target.value));
     }
 
-    this.changeHouse = (e) =>{
-      this.setState({house: e});
+    this.changeHouse = (e) => {
+      this.setState({ house: e });
       localStorage.setItem("house", JSON.stringify(e));
     }
 
-    this.changeTour = (e) =>{
-      this.setState({tour: e});
+    this.changeTour = (e) => {
+      this.setState({ tour: e });
       localStorage.setItem("tour", JSON.stringify(e));
     }
 
-    this.changeRoom = (e) =>{
-      this.setState({room: e});
+    this.changeRoom = (e) => {
+      this.setState({ room: e });
       localStorage.setItem("room", JSON.stringify(e));
     }
 
-    this.changeOwner =(e) =>{
-      this.setState({owner: e});
+    this.changeOwner = (e) => {
+      this.setState({ owner: e });
       localStorage.setItem("owner", JSON.stringify(e));
     }
 
@@ -51,7 +51,7 @@ class App extends React.Component {
       changeRoom: this.changeRoom,
       house: localStorage.getItem("house") !== null ? JSON.parse(localStorage.getItem("house")) : "Redernové",
       changeHouse: this.changeHouse,
-      owner:localStorage.getItem("language") !== null ? JSON.parse(localStorage.getItem("owner")) : "1",
+      owner: localStorage.getItem("language") !== null ? JSON.parse(localStorage.getItem("owner")) : "1",
       changeOwner: this.changeOwner,
     };
   }
@@ -60,18 +60,18 @@ class App extends React.Component {
     return (
       <HashRouter>
         <Context.Provider value={this.state}>
-        <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/tours" element={<Tours/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/rooms" element={<Rooms/>}/>
-          <Route path="/room" element={<Room/>}/>
-          <Route path="/history" element={<History/>}/>
-          <Route path="/history_overview" element={<HistoryOverview/>}/>
-          <Route path="/houses" element={<Houses/>}/>
-          <Route path="/owners" element={<Owners/>}/>
-          <Route path="/owner" element={<Owner/>}/>
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/tours" element={<Tours />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/rooms" element={<Rooms />} />
+            <Route path="/room" element={<Room />} />
+            <Route path="/history" element={<History />} />
+            <Route path="/history_overview" element={<HistoryOverview />} />
+            <Route path="/houses" element={<Houses />} />
+            <Route path="/owners" element={<Owners />} />
+            <Route path="/owner" element={<Owner />} />
+          </Routes>
         </Context.Provider>
       </HashRouter>
     )

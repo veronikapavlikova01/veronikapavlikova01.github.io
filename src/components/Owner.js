@@ -1,4 +1,5 @@
 import React from "react"
+import {useEffect} from 'react'
 import { Context } from "../Context"
 import { useContext} from "react"
 import { Link } from 'react-router-dom'
@@ -54,6 +55,10 @@ function Owner() {
     var x1 = 0;
     var y1 = 0;
 
+    useEffect(()=>{
+        window.scrollTo(0,0);
+    })
+    
     return (
         <>
             <NavBar />
