@@ -19,7 +19,7 @@ function Rooms() {
             <NavBar />
             <div className="margin-primary content-container">
                 <div className="flex-secondary margin-bottom-primary">
-                    <Link to="/tours">
+                    <Link to="/tours" classname="flex-secondary align-items-primary">
                         <AiOutlineArrowLeft className="icon align-self-primary" />
                     </Link>
                     <h2 className="margin-right-primary margin-left-primary align-self-primary">{labels.rooms}</h2>

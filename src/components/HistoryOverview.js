@@ -22,7 +22,7 @@ function HistoryOverview() {
             <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary">
                 <article className="font-size-third ">
                     <div className="flex-secondary">
-                        <Link to="/rooms">
+                        <Link to="/history">
                             <AiOutlineArrowLeft className="icon" />
                         </Link>
                         <div className="margin-right-primary margin-left-primary">

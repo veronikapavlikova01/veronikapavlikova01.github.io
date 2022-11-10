@@ -20,7 +20,7 @@ function Houses() {
             <NavBar />
             <div className="margin-primary content-container">
                 <div className="flex-secondary margin-bottom-primary">
-                    <Link to="/history">
+                    <Link to="/history" classname="flex-secondary align-items-primary">
                         <AiOutlineArrowLeft className="icon" />
                     </Link>
                     <h2 className="margin-right-primary margin-left-primary">{labels.houses}</h2>

@@ -20,7 +20,7 @@ function Owners() {
             <NavBar />
             <div className="margin-primary content-container">
                 <div className="flex-secondary margin-bottom-primary">
-                    <Link to="/houses">
+                    <Link to="/houses" classname="flex-secondary align-items-primary">
                         <AiOutlineArrowLeft className="icon" />
                     </Link>
                     <h2 className="margin-right-primary margin-left-primary">{labels.owners}</h2>
