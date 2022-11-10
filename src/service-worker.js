@@ -69,6 +69,8 @@ self.addEventListener('message', (event) => {
   }
 });
 
+
+// Any other custom service worker logic can go here.
 /*testing*/
 self.addEventListener('install', (event) => {
   console.log("installing service worker...", event);
@@ -78,5 +80,3 @@ self.addEventListener('activate', (event) =>{
   console.log("Activated", event);
   return self.clients.claim();
 })
-
-// Any other custom service worker logic can go here.
