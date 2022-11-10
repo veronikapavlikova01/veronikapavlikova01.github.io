@@ -18,12 +18,12 @@ function Rooms() {
         <>
             <Header />
             <div className="margin-primary content-container">
-                <div className="flex-secondary margin-bottom-primary">
-                    <Link to="/tours" classname="flex-secondary align-items-primary">
-                        <AiOutlineArrowLeft className="icon align-self-primary" />
+                <div className="flex-secondary margin-bottom-primary align-items-primary">
+                    <Link to="/tours" className="flex-secondary align-items-primary">
+                        <AiOutlineArrowLeft className="icon" />
                     </Link>
-                    <h2 className="margin-right-primary margin-left-primary align-self-primary">{labels.rooms}</h2>
-                    <AiOutlineArrowRight className="icon visibility-hidden align-self-primary" />
+                    <h2 className="margin-right-primary margin-left-primary">{labels.rooms}</h2>
+                    <AiOutlineArrowRight className="icon visibility-hidden" />
                 </div>
                 <div className="grid">
                     {

@@ -1,6 +1,6 @@
 import React from "react";
 import { Context } from "../Context";
-import { useContext} from "react";
+import { useContext } from "react";
 import { Link } from 'react-router-dom'
 import Header from "./Header";
 import DataAPI from '../DataAPI';
@@ -19,8 +19,8 @@ function Houses() {
         <>
             <Header />
             <div className="margin-primary content-container">
-                <div className="flex-secondary margin-bottom-primary">
-                    <Link to="/history" classname="flex-secondary align-items-primary">
+                <div className="flex-secondary margin-bottom-primary align-items-primary">
+                    <Link to="/tours" className="flex-secondary align-items-primary">
                         <AiOutlineArrowLeft className="icon" />
                     </Link>
                     <h2 className="margin-right-primary margin-left-primary">{labels.houses}</h2>
