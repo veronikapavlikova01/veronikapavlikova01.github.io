@@ -1,7 +1,7 @@
 import React from "react";
 import {Context } from "../Context";
 import { useContext} from "react";
-import NavBar from './NavBar'
+import Header from './Header'
 import DataAPI from '../DataAPI'
 import { AiOutlineArrowLeft} from 'react-icons/ai'
 
@@ -12,7 +12,7 @@ function Contact() {
 
     return (
         <>
-            <NavBar />
+            <Header />
             {
                 <section class="content-container background-secondary text-medium padding-secondary box-shadow border-radius-primary">
                     <h2>{contact.info}</h2>

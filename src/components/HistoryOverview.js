@@ -2,7 +2,7 @@ import React from "react"
 import { Context } from "../Context"
 import { useContext} from "react"
 import { Link } from 'react-router-dom'
-import NavBar from "./NavBar"
+import Header from "./Header"
 import DataAPI from '../DataAPI'
 import castle from '../img/uvod.jpg'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
@@ -18,7 +18,7 @@ function HistoryOverview() {
 
     return (
         <>
-            <NavBar />
+            <Header />
             <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary">
                 <article className="font-size-third ">
                     <div className="flex-secondary">

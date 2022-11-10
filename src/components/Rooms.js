@@ -2,7 +2,7 @@ import React from "react";
 import { Context } from "../Context";
 import { Link } from 'react-router-dom';
 import { useContext} from "react";
-import NavBar from "./NavBar";
+import Header from "./Header";
 import DataAPI from '../DataAPI'
 import castle from '../img/uvod.jpg'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
@@ -16,7 +16,7 @@ function Rooms() {
 
     return (
         <>
-            <NavBar />
+            <Header />
             <div className="margin-primary content-container">
                 <div className="flex-secondary margin-bottom-primary">
                     <Link to="/tours" classname="flex-secondary align-items-primary">

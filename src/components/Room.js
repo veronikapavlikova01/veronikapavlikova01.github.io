@@ -3,7 +3,7 @@ import { useEffect } from "react"
 import { Context } from "../Context"
 import { useContext} from "react"
 import { Link } from 'react-router-dom'
-import NavBar from "./NavBar"
+import Header from "./Header"
 import DataAPI from '../DataAPI'
 import castle from '../img/uvod.jpg'
 import { BsFillArrowRightCircleFill, BsFillArrowLeftCircleFill } from 'react-icons/bs'
@@ -65,7 +65,7 @@ function Room() {
 
     return (
         <>
-            <NavBar />
+            <Header />
             <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => {x1 = touchStartEvent.changedTouches[0].clientX; y1=touchStartEvent.changedTouches[0].clientY}} onTouchEnd={touchEndEvent => {slide(x1, touchEndEvent.changedTouches[0].clientX, y1, touchEndEvent.changedTouches[0].clientY, room.number, tour.rooms.length, context)}}>
                 <article className="font-size-third">
                     <div className="flex-secondary">

@@ -2,7 +2,7 @@ import React from "react";
 import { Context } from "../Context";
 import { useContext} from "react";
 import { Link } from 'react-router-dom'
-import NavBar from "./NavBar";
+import Header from "./Header";
 import DataAPI from '../DataAPI';
 import castle from '../img/uvod.jpg'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
@@ -17,7 +17,7 @@ function Owners() {
 
     return (
         <>
-            <NavBar />
+            <Header />
             <div className="margin-primary content-container">
                 <div className="flex-secondary margin-bottom-primary">
                     <Link to="/houses" classname="flex-secondary align-items-primary">

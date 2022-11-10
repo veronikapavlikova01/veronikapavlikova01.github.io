@@ -12,6 +12,14 @@ body {
   line-height: 1.5;
 }
 
+h1{
+  font-size:3em;
+}
+
+h1 span{
+  font-size:0.5em;
+}
+
 h2,h3 {
   font-size: 2em;
 }
@@ -266,11 +274,6 @@ a{
 }
 
 
-
-.nav-label {
-  font-size: 3em;
-}
-
 .hamburger {
   cursor: pointer;
   display:block;
@@ -496,7 +499,6 @@ a{
       font-size: 1em;
   }
 
-
   .language-image {
       max-width: 175px;
   }
@@ -507,9 +509,6 @@ a{
 
   .page-image {
       height: 250px;
-  }
-  .nav-label {
-      font-size: 2em;
   }
 }
 
@@ -546,12 +545,6 @@ a{
   h2,
   h3 {
       font-size: 1.5em;
-  }
-  .nav-label {
-      font-size: 1.5em;
-  }
-  .card-title{
-      font-size:1em;
   }
   .card-title-number{
       font-size:2em;

@@ -3,7 +3,7 @@ import {useEffect} from 'react'
 import { Context } from "../Context"
 import { useContext} from "react"
 import { Link } from 'react-router-dom'
-import NavBar from "./NavBar"
+import Header from "./Header"
 import DataAPI from '../DataAPI'
 import castle from '../img/uvod.jpg'
 import { BsFillArrowRightCircleFill, BsFillArrowLeftCircleFill } from 'react-icons/bs'
@@ -61,7 +61,7 @@ function Owner() {
     
     return (
         <>
-            <NavBar />
+            <Header />
             <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary" onTouchStart={touchStartEvent => {x1 = touchStartEvent.changedTouches[0].clientX; y1=touchStartEvent.changedTouches[0].clientY}} onTouchEnd={touchEndEvent => {slide(x1, touchEndEvent.changedTouches[0].clientX, y1, touchEndEvent.changedTouches[0].clientY, owner.number, house.owners.length, context)}}>
                 <article className="font-size-third medieval-first-letter">
                     <div className="flex-secondary">
