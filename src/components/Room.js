@@ -5,7 +5,6 @@ import { useContext} from "react"
 import { Link } from 'react-router-dom'
 import Header from "./Header"
 import DataAPI from '../DataAPI'
-import castle from '../img/uvod.jpg'
 import { BsFillArrowRightCircleFill, BsFillArrowLeftCircleFill } from 'react-icons/bs'
 import { AiOutlineArrowLeft, AiOutlineArrowRight, AiFillCamera } from 'react-icons/ai'
 
@@ -80,7 +79,7 @@ function Room() {
                         <AiOutlineArrowRight className="icon visibility-hidden" />
                     </div>
                     <div className="margin-top-secondary">
-                        <img src={castle} alt="castle" className="page-image" />
+                        <img src={require(`../img${room.img}`)} alt="castle" className="page-image" />
                         <audio controls src="/src/mp3/nachod.mp3" className="page-audio"> Your browser does not support the audio element.</audio>
                     </div>
                     <p className="start-text margin-top-secondary medieval-first-letter">{room.text}</p>

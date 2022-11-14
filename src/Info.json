@@ -792,6 +792,7 @@
             "rooms": [
                 {
                     "number": 1,
+                    "img":"/castle/room1.jpg",
                     "title": "Nádvoří",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -800,6 +801,7 @@
                 },
                 {
                     "number": 2,
+                    "img":"/castle/room2.jpg",
                     "title": "Biberštejnové a Redernové",
                     "card_label": "V první hradní místnosti bude návštěvník seznámen s prvními majitely hradu, konkrétně tedy Biberštejny a Rederny.",
                     "label": "První místnost poskytne přehled majitelů hradu do poloviny 17.století",
@@ -808,6 +810,7 @@
                 },
                 {
                     "number": 3,
+                    "img":"/castle/room3.jpg",
                     "title": "Albrecht z Valdštejna",
                     "card_label": "Tato místnost prohlídkového okruhu je věnována dalšímu majiteli hradu, jedné z nejvýznamějších osob české historie, a to Albrechtovi z Valdštejna.",
                     "label": "Kratky popisek mistnosti",
@@ -816,6 +819,7 @@
                 },
                 {
                     "number": 4,
+                    "img":"/castle/room4.jpg",
                     "title": "Rytířský sál",
                     "card_label": "Rytířský sál, později využívaný jako rodová galerie, seznámí návštevníka s rodem Gallasů a jeho působením na hradu a v okolí.",
                     "label": "Kratky popisek mistnosti",
@@ -824,6 +828,7 @@
                 },
                 {
                     "number": 5,
+                    "img":"/castle/room5.jpg",
                     "title": "U piána",
                     "card_label": "Ve čtvrté hradní místnosti bude návštěvníkovi představen rod Clam-Gallasů. Zároveň ",
                     "label": "Kratky popisek mistnosti",
@@ -832,6 +837,7 @@
                 },
                 {
                     "number": 6,
+                    "img":"/castle/room6.jpg",
                     "title": "Pracovna Eduarda z Gallasu",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -840,6 +846,7 @@
                 },
                 {
                     "number": 7,
+                    "img":"/castle/room7.jpg",
                     "title": "Uniformy",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -848,6 +855,7 @@
                 },
                 {
                     "number": 8,
+                    "img":"/castle/room8.jpg",
                     "title": "Nosítka",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -856,6 +864,7 @@
                 },
                 {
                     "number": 9,
+                    "img":"/castle/room9.jpg",
                     "title": "Lovecký salonek",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -864,6 +873,7 @@
                 },
                 {
                     "number": 10,
+                    "img":"/castle/room10.jpg",
                     "title": "Hradní kuchyně",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -872,6 +882,7 @@
                 },
                 {
                     "number": 11,
+                    "img":"/castle/room11.jpg",
                     "title": "U vězení",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -880,6 +891,7 @@
                 },
                 {
                     "number": 12,
+                    "img":"/castle/room12.jpg",
                     "title": "Hradní zbrojnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -888,6 +900,7 @@
                 },
                 {
                     "number": 13,
+                    "img":"/castle/room13.jpg",
                     "title": "Koňské postroje",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -896,6 +909,7 @@
                 },
                 {
                     "number": 14,
+                    "img":"/castle/room14.jpg",
                     "title": "Hradní galerie",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -904,6 +918,7 @@
                 },
                 {
                     "number": 15,
+                    "img":"/castle/room15.jpg",
                     "title": "Vrchnostenská kancelář",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -921,6 +936,7 @@
             "rooms": [
                 {
                     "number": 1,
+                    "img":"/castle/room1.jpg",
                     "title": "Nádvoří",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -929,38 +945,43 @@
                 },
                 {
                     "number": 2,
+                    "img":"/castle/room2.jpg",
                     "title": "Biberštejnové a Redernové",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
+                    "card_label": "V první hradní místnosti bude návštěvník seznámen s prvními majitely hradu, konkrétně tedy Biberštejny a Rederny.",
+                    "label": "První místnost poskytne přehled majitelů hradu do poloviny 17.století",
                     "button": "Navštívit",
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
                     "number": 3,
+                    "img":"/castle/room3.jpg",
                     "title": "Albrecht z Valdštejna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "card_label": "Tato místnost prohlídkového okruhu je věnována dalšímu majiteli hradu, jedné z nejvýznamějších osob české historie, a to Albrechtovi z Valdštejna.",
                     "label": "Kratky popisek mistnosti",
                     "button": "Navštívit",
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
                     "number": 4,
+                    "img":"/castle/room4.jpg",
                     "title": "Rytířský sál",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "card_label": "Rytířský sál, později využívaný jako rodová galerie, seznámí návštevníka s rodem Gallasů a jeho působením na hradu a v okolí.",
                     "label": "Kratky popisek mistnosti",
                     "button": "Navštívit",
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
                     "number": 5,
+                    "img":"/castle/room5.jpg",
                     "title": "U piána",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "card_label": "Ve čtvrté hradní místnosti bude návštěvníkovi představen rod Clam-Gallasů. Zároveň ",
                     "label": "Kratky popisek mistnosti",
                     "button": "Navštívit",
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
                     "number": 6,
+                    "img":"/castle/room6.jpg",
                     "title": "Pracovna Eduarda z Gallasu",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -969,6 +990,7 @@
                 },
                 {
                     "number": 7,
+                    "img":"/castle/room7.jpg",
                     "title": "Uniformy",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -977,6 +999,7 @@
                 },
                 {
                     "number": 8,
+                    "img":"/castle/room8.jpg",
                     "title": "Nosítka",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -985,6 +1008,7 @@
                 },
                 {
                     "number": 9,
+                    "img":"/castle/room9.jpg",
                     "title": "Lovecký salonek",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -993,6 +1017,7 @@
                 },
                 {
                     "number": 10,
+                    "img":"/castle/room10.jpg",
                     "title": "Hradní kuchyně",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1001,6 +1026,7 @@
                 },
                 {
                     "number": 11,
+                    "img":"/castle/room11.jpg",
                     "title": "U vězení",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1009,6 +1035,7 @@
                 },
                 {
                     "number": 12,
+                    "img":"/castle/room12.jpg",
                     "title": "Hradní zbrojnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1017,6 +1044,7 @@
                 },
                 {
                     "number": 13,
+                    "img":"/castle/room13.jpg",
                     "title": "Koňské postroje",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1025,6 +1053,7 @@
                 },
                 {
                     "number": 14,
+                    "img":"/castle/room14.jpg",
                     "title": "Hradní galerie",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1033,6 +1062,7 @@
                 },
                 {
                     "number": 15,
+                    "img":"/castle/room15.jpg",
                     "title": "Vrchnostenská kancelář",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1050,6 +1080,7 @@
             "rooms": [
                 {
                     "number": 1,
+                    "img":"/castle/room1.jpg",
                     "title": "Nádvoří",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1058,38 +1089,43 @@
                 },
                 {
                     "number": 2,
+                    "img":"/castle/room2.jpg",
                     "title": "Biberštejnové a Redernové",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
+                    "card_label": "V první hradní místnosti bude návštěvník seznámen s prvními majitely hradu, konkrétně tedy Biberštejny a Rederny.",
+                    "label": "První místnost poskytne přehled majitelů hradu do poloviny 17.století",
                     "button": "Navštívit",
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
                     "number": 3,
+                    "img":"/castle/room3.jpg",
                     "title": "Albrecht z Valdštejna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "card_label": "Tato místnost prohlídkového okruhu je věnována dalšímu majiteli hradu, jedné z nejvýznamějších osob české historie, a to Albrechtovi z Valdštejna.",
                     "label": "Kratky popisek mistnosti",
                     "button": "Navštívit",
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
                     "number": 4,
+                    "img":"/castle/room4.jpg",
                     "title": "Rytířský sál",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "card_label": "Rytířský sál, později využívaný jako rodová galerie, seznámí návštevníka s rodem Gallasů a jeho působením na hradu a v okolí.",
                     "label": "Kratky popisek mistnosti",
                     "button": "Navštívit",
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
                     "number": 5,
+                    "img":"/castle/room5.jpg",
                     "title": "U piána",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "card_label": "Ve čtvrté hradní místnosti bude návštěvníkovi představen rod Clam-Gallasů. Zároveň ",
                     "label": "Kratky popisek mistnosti",
                     "button": "Navštívit",
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
                     "number": 6,
+                    "img":"/castle/room6.jpg",
                     "title": "Pracovna Eduarda z Gallasu",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1098,6 +1134,7 @@
                 },
                 {
                     "number": 7,
+                    "img":"/castle/room7.jpg",
                     "title": "Uniformy",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1106,6 +1143,7 @@
                 },
                 {
                     "number": 8,
+                    "img":"/castle/room8.jpg",
                     "title": "Nosítka",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1114,6 +1152,7 @@
                 },
                 {
                     "number": 9,
+                    "img":"/castle/room9.jpg",
                     "title": "Lovecký salonek",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1122,6 +1161,7 @@
                 },
                 {
                     "number": 10,
+                    "img":"/castle/room10.jpg",
                     "title": "Hradní kuchyně",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1130,6 +1170,7 @@
                 },
                 {
                     "number": 11,
+                    "img":"/castle/room11.jpg",
                     "title": "U vězení",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1138,6 +1179,7 @@
                 },
                 {
                     "number": 12,
+                    "img":"/castle/room12.jpg",
                     "title": "Hradní zbrojnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1146,6 +1188,7 @@
                 },
                 {
                     "number": 13,
+                    "img":"/castle/room13.jpg",
                     "title": "Koňské postroje",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1154,6 +1197,7 @@
                 },
                 {
                     "number": 14,
+                    "img":"/castle/room14.jpg",
                     "title": "Hradní galerie",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1162,6 +1206,7 @@
                 },
                 {
                     "number": 15,
+                    "img":"/castle/room15.jpg",
                     "title": "Vrchnostenská kancelář",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1179,6 +1224,7 @@
             "rooms": [
                 {
                     "number": 1,
+                    "img":"/chateau/room1.jpg",
                     "title": "Kuchyně",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1187,6 +1233,7 @@
                 },
                 {
                     "number": 2,
+                    "img":"/chateau/room1.jpg",
                     "title": "Chodba",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1195,6 +1242,7 @@
                 },
                 {
                     "number": 3,
+                    "img":"/chateau/room1.jpg",
                     "title": "Herna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1203,6 +1251,7 @@
                 },
                 {
                     "number": 4,
+                    "img":"/chateau/room1.jpg",
                     "title": "Jídelna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1211,6 +1260,7 @@
                 },
                 {
                     "number": 5,
+                    "img":"/chateau/room1.jpg",
                     "title": "Modrý salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1219,6 +1269,7 @@
                 },
                 {
                     "number": 6,
+                    "img":"/chateau/room1.jpg",
                     "title": "Předpokoj",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1227,6 +1278,7 @@
                 },
                 {
                     "number": 7,
+                    "img":"/chateau/room1.jpg",
                     "title": "Přijímací salonek",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1235,6 +1287,7 @@
                 },
                 {
                     "number": 8,
+                    "img":"/chateau/room1.jpg",
                     "title": "Pracovna hraběte",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1243,6 +1296,7 @@
                 },
                 {
                     "number": 9,
+                    "img":"/chateau/room1.jpg",
                     "title": "Ložnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1251,6 +1305,7 @@
                 },
                 {
                     "number": 10,
+                    "img":"/chateau/room1.jpg",
                     "title": "Nad schody",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1259,6 +1314,7 @@
                 },
                 {
                     "number": 11,
+                    "img":"/chateau/room1.jpg",
                     "title": "Květinový salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1267,6 +1323,7 @@
                 },
                 {
                     "number": 12,
+                    "img":"/chateau/room1.jpg",
                     "title": "Ložnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1275,6 +1332,7 @@
                 },
                 {
                     "number": 13,
+                    "img":"/chateau/room1.jpg",
                     "title": "Ranní salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1283,6 +1341,7 @@
                 },
                 {
                     "number": 14,
+                    "img":"/chateau/room1.jpg",
                     "title": "Malá jídelna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1291,6 +1350,7 @@
                 },
                 {
                     "number": 15,
+                    "img":"/chateau/room1.jpg",
                     "title": "Převlekárna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1299,6 +1359,7 @@
                 },
                 {
                     "number": 16,
+                    "img":"/chateau/room1.jpg",
                     "title": "Královská chodba",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1307,6 +1368,7 @@
                 },
                 {
                     "number": 17,
+                    "img":"/chateau/room1.jpg",
                     "title": "Podkroví",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1315,6 +1377,7 @@
                 },
                 {
                     "number": 18,
+                    "img":"/chateau/room1.jpg",
                     "title": "Lokajna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1323,6 +1386,7 @@
                 },
                 {
                     "number": 19,
+                    "img":"/chateau/room1.jpg",
                     "title": "Kaple sv. Anny",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1340,6 +1404,7 @@
             "rooms": [
                 {
                     "number": 1,
+                    "img":"/chateau/room1.jpg",
                     "title": "Kuchyně",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1348,6 +1413,7 @@
                 },
                 {
                     "number": 2,
+                    "img":"/chateau/room1.jpg",
                     "title": "Chodba",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1356,6 +1422,7 @@
                 },
                 {
                     "number": 3,
+                    "img":"/chateau/room1.jpg",
                     "title": "Herna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1364,6 +1431,7 @@
                 },
                 {
                     "number": 4,
+                    "img":"/chateau/room1.jpg",
                     "title": "Jídelna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1372,6 +1440,7 @@
                 },
                 {
                     "number": 5,
+                    "img":"/chateau/room1.jpg",
                     "title": "Modrý salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1380,6 +1449,7 @@
                 },
                 {
                     "number": 6,
+                    "img":"/chateau/room1.jpg",
                     "title": "Předpokoj",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1388,6 +1458,7 @@
                 },
                 {
                     "number": 7,
+                    "img":"/chateau/room1.jpg",
                     "title": "Přijímací salonek",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1396,6 +1467,7 @@
                 },
                 {
                     "number": 8,
+                    "img":"/chateau/room1.jpg",
                     "title": "Pracovna hraběte",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1404,6 +1476,7 @@
                 },
                 {
                     "number": 9,
+                    "img":"/chateau/room1.jpg",
                     "title": "Ložnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1412,6 +1485,7 @@
                 },
                 {
                     "number": 10,
+                    "img":"/chateau/room1.jpg",
                     "title": "Nad schody",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1420,6 +1494,7 @@
                 },
                 {
                     "number": 11,
+                    "img":"/chateau/room1.jpg",
                     "title": "Květinový salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1428,6 +1503,7 @@
                 },
                 {
                     "number": 12,
+                    "img":"/chateau/room1.jpg",
                     "title": "Ložnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1436,6 +1512,7 @@
                 },
                 {
                     "number": 13,
+                    "img":"/chateau/room1.jpg",
                     "title": "Ranní salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1444,6 +1521,7 @@
                 },
                 {
                     "number": 14,
+                    "img":"/chateau/room1.jpg",
                     "title": "Malá jídelna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1452,6 +1530,7 @@
                 },
                 {
                     "number": 15,
+                    "img":"/chateau/room1.jpg",
                     "title": "Převlekárna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1460,6 +1539,7 @@
                 },
                 {
                     "number": 16,
+                    "img":"/chateau/room1.jpg",
                     "title": "Královská chodba",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1468,6 +1548,7 @@
                 },
                 {
                     "number": 17,
+                    "img":"/chateau/room1.jpg",
                     "title": "Podkroví",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1476,6 +1557,7 @@
                 },
                 {
                     "number": 18,
+                    "img":"/chateau/room1.jpg",
                     "title": "Lokajna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1484,6 +1566,7 @@
                 },
                 {
                     "number": 19,
+                    "img":"/chateau/room1.jpg",
                     "title": "Kaple sv. Anny",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1501,6 +1584,7 @@
             "rooms": [
                 {
                     "number": 1,
+                    "img":"/chateau/room1.jpg",
                     "title": "Kuchyně",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1509,6 +1593,7 @@
                 },
                 {
                     "number": 2,
+                    "img":"/chateau/room1.jpg",
                     "title": "Chodba",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1517,6 +1602,7 @@
                 },
                 {
                     "number": 3,
+                    "img":"/chateau/room1.jpg",
                     "title": "Herna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1525,6 +1611,7 @@
                 },
                 {
                     "number": 4,
+                    "img":"/chateau/room1.jpg",
                     "title": "Jídelna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1533,6 +1620,7 @@
                 },
                 {
                     "number": 5,
+                    "img":"/chateau/room1.jpg",
                     "title": "Modrý salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1541,6 +1629,7 @@
                 },
                 {
                     "number": 6,
+                    "img":"/chateau/room1.jpg",
                     "title": "Předpokoj",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1549,6 +1638,7 @@
                 },
                 {
                     "number": 7,
+                    "img":"/chateau/room1.jpg",
                     "title": "Přijímací salonek",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1557,6 +1647,7 @@
                 },
                 {
                     "number": 8,
+                    "img":"/chateau/room1.jpg",
                     "title": "Pracovna hraběte",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1565,6 +1656,7 @@
                 },
                 {
                     "number": 9,
+                    "img":"/chateau/room1.jpg",
                     "title": "Ložnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1573,6 +1665,7 @@
                 },
                 {
                     "number": 10,
+                    "img":"/chateau/room1.jpg",
                     "title": "Nad schody",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1581,6 +1674,7 @@
                 },
                 {
                     "number": 11,
+                    "img":"/chateau/room1.jpg",
                     "title": "Květinový salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1589,6 +1683,7 @@
                 },
                 {
                     "number": 12,
+                    "img":"/chateau/room1.jpg",
                     "title": "Ložnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1597,6 +1692,7 @@
                 },
                 {
                     "number": 13,
+                    "img":"/chateau/room1.jpg",
                     "title": "Ranní salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1605,6 +1701,7 @@
                 },
                 {
                     "number": 14,
+                    "img":"/chateau/room1.jpg",
                     "title": "Malá jídelna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1613,6 +1710,7 @@
                 },
                 {
                     "number": 15,
+                    "img":"/chateau/room1.jpg",
                     "title": "Převlekárna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1621,6 +1719,7 @@
                 },
                 {
                     "number": 16,
+                    "img":"/chateau/room1.jpg",
                     "title": "Královská chodba",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1629,6 +1728,7 @@
                 },
                 {
                     "number": 17,
+                    "img":"/chateau/room1.jpg",
                     "title": "Podkroví",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1637,6 +1737,7 @@
                 },
                 {
                     "number": 18,
+                    "img":"/chateau/room1.jpg",
                     "title": "Lokajna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1645,6 +1746,7 @@
                 },
                 {
                     "number": 19,
+                    "img":"/chateau/room1.jpg.jpg",
                     "title": "Kaple sv. Anny",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",

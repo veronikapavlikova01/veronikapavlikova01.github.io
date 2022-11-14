@@ -347,10 +347,8 @@ a{
 }
 
 .page-image {
-  display: block;
-  height: 400px;
-  width: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  height: auto;
 }
 
 .page-audio {
@@ -506,10 +504,6 @@ a{
   .font-size-third {
       font-size: 1em;
   }
-
-  .page-image {
-      height: 250px;
-  }
   
   h1{
     font-size:2em;
@@ -528,10 +522,6 @@ a{
 
   .language-image {
       max-width: 100px;
-  }
-
-  .page-image {
-      height: 150px;
   }
   .grid-third{
       grid-template-columns: repeat(1, 1fr);

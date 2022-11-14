@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { useContext} from "react";
 import Header from "./Header";
 import DataAPI from '../DataAPI'
-import castle from '../img/uvod.jpg'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
 
 
@@ -30,7 +29,7 @@ function Rooms() {
                         rooms.map((item) => (
                             <Link to="/room" className="card box-shadow" key={item.number}>
                                 <article className="flex text-medium" onClick={() => context.changeRoom(item.number)}>
-                                    <img src={castle} alt="castle" className="card-image" />
+                                    <img src={require(`../img${item.img}`)} alt="castle" className="card-image" />
                                     <h3 className="padding-primary card-title flex-secondary"><span className="card-title-number">{item.number}.</span><span className="align-self-primary">{item.title}</span></h3>
                                     <p className="margin-bottom padding-primary medieval-first-letter">Malé hradní nádvoří seznámí návštěvníka s architekturou starého hradu.</p>
                                     <div className="center-text">

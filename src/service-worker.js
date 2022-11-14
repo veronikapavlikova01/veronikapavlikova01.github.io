@@ -80,3 +80,8 @@ self.addEventListener('activate', (event) =>{
   console.log("Activated", event);
   return self.clients.claim();
 })
+
+self.addEventListener('fetch', (event) =>{
+  console.log("Service worker fetching something");
+  event.respondWith(fetch(event.request));
+})
