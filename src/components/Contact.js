@@ -18,7 +18,7 @@ function Contact() {
                     <h2>{contact.info}</h2>
                     <div class="contact-box">
                         <AiOutlineArrowLeft className="icon" />
-                        <div>
+                        <div className="margin-top">
                             <ul class="contact-list">
                                 <li class="margin-bottom-primary">
                                     <span class="font-weight-primary color-secondary text-transform-primary">{contact.address}</span>
