@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Tours from './components/Tours'
 import Rooms from './components/Rooms'
 import Contact from './components/Contact'
+import Map from './components/Map'
 import Room from './components/Room'
 import History from './components/History'
 import HistoryOverview from './components/HistoryOverview';
@@ -71,6 +72,7 @@ class App extends React.Component {
             <Route path="/houses" element={<Houses />} />
             <Route path="/owners" element={<Owners />} />
             <Route path="/owner" element={<Owner />} />
+            <Route path="/map" element={<Map/>}/>
           </Routes>
         </Context.Provider>
       </HashRouter>

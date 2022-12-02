@@ -1,7 +1,7 @@
 import React from "react"
 import { useEffect } from "react"
 import { Context } from "../Context"
-import { useContext} from "react"
+import { useContext } from "react"
 import { Link } from 'react-router-dom'
 import Header from "./Header"
 import DataAPI from '../DataAPI'
@@ -9,40 +9,42 @@ import { BsFillArrowRightCircleFill, BsFillArrowLeftCircleFill } from 'react-ico
 import { AiOutlineArrowLeft, AiOutlineArrowRight, AiFillCamera } from 'react-icons/ai'
 
 
-function prevRoomExists(number){
-    if((number-1)>=1){
+function prevRoomExists(number) {
+    if ((number - 1) >= 1) {
         return true;
     }
     return false;
 }
 
-function nextRoomExists(number, length){
-    if((number+1) <=length){
+function nextRoomExists(number, length) {
+    if ((number + 1) <= length) {
         return true;
     }
     return false;
 
 }
 
-function previous(number, length, context){
-    let newNumber = number-1;
-    if(prevRoomExists(number)){
+function previous(number, length, context) {
+    let newNumber = number - 1;
+    if (prevRoomExists(number)) {
         context.changeRoom(newNumber);
     }
 }
 
-function next(number, length, context){
-    let newNumber=number+1;
-    if(nextRoomExists(number, length)){
+function next(number, length, context) {
+    let newNumber = number + 1;
+    if (nextRoomExists(number, length)) {
         context.changeRoom(newNumber);
     }
 }
 
-function slide(x1, x2, y1, y2, number, length, context){
-    if(Math.abs(y1-y2) < 50){
-        if(x1>x2){
+function slide(x1, x2, y1, y2, number, length, context) {
+    let distance = 100;
+    console.log(distance);
+    if (Math.abs(y1 - y2) < 50) {
+        if (x1 > (x2+distance)) {
             next(number, length, context);
-        } else if(x1<x2){
+        } else if ((x1+distance) < x2) {
             previous(number, length, context);
         }
     }
@@ -58,14 +60,14 @@ function Room() {
     var x1 = 0;
     var y1 = 0;
 
-    useEffect(()=>{
-        window.scrollTo(0,0);
+    useEffect(() => {
+        window.scrollTo(0, 0);
     })
 
     return (
         <>
             <Header />
-            <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => {x1 = touchStartEvent.changedTouches[0].clientX; y1=touchStartEvent.changedTouches[0].clientY}} onTouchEnd={touchEndEvent => {slide(x1, touchEndEvent.changedTouches[0].clientX, y1, touchEndEvent.changedTouches[0].clientY, room.number, tour.rooms.length, context)}}>
+            <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => { x1 = touchStartEvent.changedTouches[0].clientX; y1 = touchStartEvent.changedTouches[0].clientY }} onTouchEnd={touchEndEvent => { slide(x1, touchEndEvent.changedTouches[0].clientX, y1, touchEndEvent.changedTouches[0].clientY, room.number, tour.rooms.length, context) }}>
                 <article className="font-size-third">
                     <div className="flex-secondary">
                         <Link to="/rooms">
@@ -76,7 +78,6 @@ function Room() {
                             <h2>{room.title}</h2>
                             <span className="font-style-primary margin-primary">{tour.title}</span>
                         </div>
-                        <AiOutlineArrowRight className="icon visibility-hidden" />
                     </div>
                     <div className="margin-top-secondary">
                         <img src={require(`../img${room.img}`)} alt="castle" className="page-image" />
@@ -84,9 +85,14 @@ function Room() {
                     </div>
                     <p className="start-text margin-top-secondary medieval-first-letter">{room.text}</p>
                     <div className="flex-secondary">
-                        <BsFillArrowLeftCircleFill className={`icon margin-right-primary margin-top-third cursor-primary ${isPrev? '' : ' visibility-hidden'}`} onClick={() => {previous(room.number, tour.rooms.length, context)}}></BsFillArrowLeftCircleFill>
-                        <AiFillCamera className="icon margin-top-third cursor-primary visibility-hidden" />
-                        <BsFillArrowRightCircleFill className={`icon margin-left-primary margin-top-third cursor-primary ${isNext? '' : ' visibility-hidden'}`} onClick={() => {next(room.number, tour.rooms.length, context)}}></BsFillArrowRightCircleFill>
+                        <BsFillArrowLeftCircleFill className={`icon margin-right-primary margin-top-third cursor-primary ${isPrev ? '' : ' visibility-hidden'}`} onClick={() => { previous(room.number, tour.rooms.length, context) }}></BsFillArrowLeftCircleFill>
+                        <div>
+                            <label for="imageFile  margin-top-third">
+                                <AiFillCamera className="icon cursor-primary visibility-hidden" />
+                            </label>
+                            <input type="file" id="imageFile" capture="user" accept="image/*" className="visibility-hidden"/>
+                        </div>
+                        <BsFillArrowRightCircleFill className={`icon margin-left-primary margin-top-third cursor-primary ${isNext ? '' : ' visibility-hidden'}`} onClick={() => { next(room.number, tour.rooms.length, context) }}></BsFillArrowRightCircleFill>
                     </div>
                 </article>
             </div>

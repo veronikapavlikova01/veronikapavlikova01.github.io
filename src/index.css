@@ -1,4 +1,6 @@
 /****************************************************************************************/
+/*Otočení */
+
 /*Obecne vlastnosti*/
 * {
   font-family: 'Lato', sans-serif;
@@ -10,18 +12,31 @@
 
 body {
   line-height: 1.5;
+  font-size:1rem;
+}
+
+.text-large{
+  font-size:2rem;
+}
+
+.text-medium{
+  font-size:1.5rem;
+}
+
+.text-small{
+  font-size:1rem;
 }
 
 h1{
-  font-size:3em;
+  font-size:3rem;
 }
 
 h1 span{
-  font-size:0.5em;
+  font-size:1.2rem;
 }
 
 h2,h3 {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .align-items-secondary{
@@ -44,7 +59,7 @@ select{
   color:white;
   border: none;
   padding-right:1em;
-  font-size: 1.4em;
+  font-size: 1.4rem;
 }
 
 .clear-background{
@@ -52,7 +67,7 @@ select{
 }
 
 .box-shadow{
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 option{
@@ -68,13 +83,16 @@ option{
   cursor:pointer;
 }
 
-.font-size-third {
-  font-size: 1.5em;
+
+/*FONT SIZE PRIMARY ON TEXT*/
+.text-medium {
+  font-size: 1.5rem;
 }
 
-.text-medium {
-  font-size: 1.2em;
-}
+/*FONT SIZE PRIMARY ON NAV LINKS AND */
+/*font-size: 1.5rem*/
+
+
 
 .color-primary {
   color: white;
@@ -94,6 +112,10 @@ option{
 
 .background-third {
   background-color: #ebbe84;
+}
+
+.background-color-fourth{
+  background-color:black;
 }
 
 .opacity-primary {
@@ -195,7 +217,7 @@ option{
 }
 
 .welcome-text-large {
-  font-size: calc(15px + 4vw);
+  font-size: calc(15px + 3vw);
 }
 
 .welcome-text-button {
@@ -208,20 +230,19 @@ option{
 
 .medieval-first-letter::first-letter{
   font-family: 'UnifrakturMaguntia', cursive;
-  font-size:1.5em;
+  font-size:1.5rem;
 }
 
 
 /********************************************************************/
 /*Navigation*/
 .navigation {
-  height:100px;
   /*background: linear-gradient(rgba(20, 19, 19, 0.4), rgba(46, 39, 39, 0.5)), url('/src/images/tours.jpg');*/
   background-color:black;
-  padding-right:4vw;
-  padding-left:4vw;
+  padding:1rem 4vw;
   position:absolute;
   z-index:2;
+  transition: 0.5s;
 }
 
 .stick{
@@ -256,8 +277,12 @@ option{
   padding-left:4vw;
 }
 
-.navigation-list.active{
+.navigation-list-active{
   top: 100px;
+}
+
+.navigation-list-active-70{
+  top:70px;
 }
 
 a{
@@ -266,7 +291,7 @@ a{
 
 .navigation-link {
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .navigation-link:hover{
@@ -334,7 +359,6 @@ a{
 
 .card-image {
   margin: 0;
-  padding-bottom: 1em;
   overflow: hidden;
   max-width: 100%;
   height: auto;
@@ -344,6 +368,10 @@ a{
 
 .padding-top-primary{
   padding-top:1em;
+}
+
+.padding-bottom-primary{
+  padding-bottom: 1em;
 }
 
 .page-image {
@@ -397,7 +425,7 @@ a{
 }
 
 .content-container {
-  margin: 2vw 4vw 2vw 4vw;
+  margin: 4vw;
   position:relative;
   z-index:0;
 }
@@ -419,15 +447,35 @@ a{
 }
 
 .card-title {
-  font-size:1.2em;
+  font-size:1.5rem;
   line-height: 1;
   margin-bottom: 0.5em;
 }
+
+.card-number{
+  position: absolute;
+  top:0px;
+  left:1rem;
+  background-color: white;
+}
+
+.round-number{
+  text-align: center;
+  margin-top:1rem;
+  width:2em;
+  height:2em;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
 .card-title-number {
   font-weight: bold;
-  font-size: 2.4em;
-  margin-right: 0.5em;
-  line-height: 1;
+  font-size: 1.5rem;
+  margin: auto;
+}
+
+.position-relative{
+  position: relative;
 }
 
 /***Mistnost***/
@@ -455,12 +503,6 @@ a{
 
   .card:hover {
       transform: scale(1);
-  }
-
-  .language-title {
-      font-size: 3em;
-      margin-bottom: 1em;
-      text-align: center;
   }
 
   .contact-box {
@@ -494,7 +536,7 @@ a{
   }
 
   .text-medium {
-      font-size: 1em;
+      font-size: 1rem;
   }
 
   .language-image {
@@ -502,11 +544,11 @@ a{
   }
 
   .font-size-third {
-      font-size: 1em;
+      font-size: 1rem;
   }
   
   h1{
-    font-size:2em;
+    font-size:2rem;
   }
 }
 
@@ -533,18 +575,15 @@ a{
   }
 
   .padding-primary {
-      padding: 0.5em;
+      padding: 0.5rem;
   }
 
   h1{
-    font-size:1.5em;
+    font-size:1.5rem;
   }
 
   h2,
   h3 {
-      font-size: 1.5em;
-  }
-  .card-title-number{
-      font-size:2em;
+      font-size: 1.5rem;
   }
 }

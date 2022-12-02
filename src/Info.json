@@ -10,21 +10,24 @@
             "rooms": "Rooms",
             "history": "History",
             "houses": "Houses",
-            "owners": "Owners"
+            "owners": "Owners",
+            "tours":"Tours"
         },
         {
             "language": "pl",
             "rooms": "Pokoje",
             "history": "Historia",
             "houses": "Rody",
-            "owners": "Właściciele"
+            "owners": "Właściciele",
+            "tours":"Wycieczki"
         },
         {
             "language": "de",
             "rooms": "Räume",
             "history": "Historie",
             "houses": "Häuser",
-            "owners": "Besitzer"
+            "owners": "Besitzer",
+            "tours":"Führungen"
         }
     ],
     "home": [
