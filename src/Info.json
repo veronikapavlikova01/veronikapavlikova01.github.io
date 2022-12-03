@@ -33,6 +33,29 @@
             "map" : "Landkarte"
         }
     ],
+    "rooms_overview":[
+        {
+            "language":"en",
+            "tour_not_selected":"First, please choose the sightseeing route you want to take.",
+            "label":"Here you can see an overview of the rooms located in the sightseeing route you have chosen.",
+            "seen":"Already visited rooms",
+            "not_seen":"Rooms not yet visited"
+        },
+        {
+            "language": "de",
+            "tour_not_selected":"Bitte wählen Sie zunächst die Führung aus, die Sie nehmen möchten.",
+            "label":"Hier sehen Sie eine Übersicht der Zimmer, die sich in der von Ihnen gewählten Führung befinden.",
+            "seen":"Bereits besuchte Räume",
+            "not_seen":"Noch nicht besuchte Räume"
+        },
+        {
+            "language": "pl",
+            "tour_not_selected":"Najpierw wybierz trasę zwiedzania, którą chcesz obrać.",
+            "label":"Tutaj możesz zobaczyć przegląd pokoi znajdujących się na wybranej trasie zwiedzania.",
+            "seen":"Odwiedzone już pokoje",
+            "not_seen":"Pokoje jeszcze nie odwiedzone"
+        }
+    ],
     "home": [
         {
             "language": "en",
@@ -61,28 +84,31 @@
             "language": "en",
             "tours": "Tours",
             "history": "History",
-            "map": "Map",
+            "map": "Rooms",
             "contact": "Contact",
             "settings":"Settings",
-            "home":"Home"
+            "home":"Home",
+            "other":"Other"
         },
         {
             "language": "de",
             "tours": "Führungen",
             "history": "Historie",
-            "map": "Landkarte",
+            "map": "Räume",
             "contact": "Kontakt",
             "settings":"Einstellung",
-            "home":"Startseite"
+            "home":"Startseite",
+            "other":"Sonstiges"
         },
         {
             "language": "pl",
             "tours": "Trasy zwiedzania",
             "history": "Historia",
-            "map": "Mapa",
+            "map": "Pokoje",
             "contact": "Kontakt",
             "settings":"Ustawienia",
-            "home":"Strona główna"
+            "home":"Strona główna",
+            "other":"Inny"
         }
     ],
     "contact": [

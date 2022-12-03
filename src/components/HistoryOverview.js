@@ -18,7 +18,7 @@ function HistoryOverview() {
 
     return (
         <>
-            <Header header={historyOverview.title}/>
+            <Header header={labels.history}/>
             <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary">
                 <article className="font-size-third ">
                     <div className="flex-secondary">

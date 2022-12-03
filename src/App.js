@@ -5,7 +5,7 @@ import Home from './components/Home';
 import Tours from './components/Tours'
 import Rooms from './components/Rooms'
 import Contact from './components/Contact'
-import Map from './components/Map'
+import RoomsOverview from './components/RoomsOverview'
 import Room from './components/Room'
 import History from './components/History'
 import HistoryOverview from './components/HistoryOverview';
@@ -13,6 +13,7 @@ import Houses from './components/Houses'
 import Owners from './components/Owners'
 import Owner from './components/Owner';
 import Settings from './components/Settings';
+import Other from './components/Other';
 import { Context } from './Context'
 
 class App extends React.Component {
@@ -47,7 +48,7 @@ class App extends React.Component {
     this.state = {
       language: localStorage.getItem("language") !== null ? JSON.parse(localStorage.getItem("language")) : "en",
       changeLanguage: this.changeLanguage,
-      tour: localStorage.getItem("tour") !== null ? JSON.parse(localStorage.getItem("tour")) : null,
+      tour: localStorage.getItem("tour") !== null ? JSON.parse(localStorage.getItem("tour")) : "castle",
       changeTour: this.changeTour,
       room: localStorage.getItem("room") !== null ? JSON.parse(localStorage.getItem("room")) : "1",
       changeRoom: this.changeRoom,
@@ -73,8 +74,9 @@ class App extends React.Component {
             <Route path="/houses" element={<Houses />} />
             <Route path="/owners" element={<Owners />} />
             <Route path="/owner" element={<Owner />} />
-            <Route path="/map" element={<Map/>}/>
+            <Route path="/rooms_overview" element={<RoomsOverview/>}/>
             <Route path="/settings" element={<Settings/>}/>
+            <Route path="/other" element={<Other/>}/>
           </Routes>
         </Context.Provider>
       </HashRouter>

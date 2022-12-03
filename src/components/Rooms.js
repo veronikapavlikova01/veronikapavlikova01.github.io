@@ -12,10 +12,11 @@ function Rooms() {
     const dataAPI = new DataAPI();
     const rooms = dataAPI.getRooms(context.language, context.tour);
     const labels = dataAPI.getLabels(context.language);
+    const tour = dataAPI.getTour(context.language, context.tour);
 
     return (
         <>
-            <Header header={labels.rooms}/>
+            <Header header={tour.title}/>
             <div className="content-container">
                 <div className="grid">
                     {
@@ -28,10 +29,10 @@ function Rooms() {
                                             <span className="card-title-number">{item.number}</span>
                                         </div>
                                     </div>
-                                    <h3 className="padding-primary card-title flex-secondary">{item.title}</h3>
+                                    <h2 className="padding-primary card-title flex-secondary">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">Malé hradní nádvoří seznámí návštěvníka s architekturou starého hradu.</p>
                                     <div className="center-text">
-                                        <button className="button align-self-primary margin-primary text-medium background-primary font-weight-primary color-primary">Navštívit</button>
+                                        <button className="button align-self-primary margin-primary background-primary font-weight-primary color-primary">Navštívit</button>
                                     </div>
                                 </article>
                             </Link>

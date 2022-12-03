@@ -149,16 +149,48 @@ class DataAPI {
         return null;
     }
 
-        //owner
-        getOwner(language, house, number) {
-            let owners = this.getOwners(language, house);
-            for(let i=0;i<owners.length;i++){
-                if(owners[i].number===number){
-                    return owners[i];
-                }
+    //owner
+    getOwner(language, house, number) {
+        let owners = this.getOwners(language, house);
+        for(let i=0;i<owners.length;i++){
+            if(owners[i].number===number){
+                return owners[i];
             }
-            return null;
         }
+        return null;
+    }
+
+    //rooms
+    getRoomsOverview(language){
+        const rooms = Info.rooms_overview;
+        for(let i=0;i<rooms.length;i++){
+            if(rooms[i].language==language){
+                return rooms[i];
+            }
+        }
+    }
+
+    getVisitedRooms(language, tour, room){
+        let rooms = this.getRooms(language,tour);
+        const visited = [];
+        for(let i=0;i<rooms.length;i++){
+            if(rooms[i].number<=room){
+                visited.push(rooms[i]);
+            }
+        }
+        return visited;
+    }
+
+    getUnvisitedRooms(language, tour, room){
+        let rooms = this.getRooms(language,tour);
+        const unvisited = [];
+        for(let i=0;i<rooms.length;i++){
+            if(rooms[i].number>room){
+                unvisited.push(rooms[i]);
+            }
+        }
+        return unvisited;
+    }
 }
 
 export default DataAPI;

@@ -12,7 +12,7 @@ function Contact() {
 
     return (
         <>
-            <Header />
+            <Header header={contact.info}/>
             {
                 <section class="content-container background-secondary text-medium padding-secondary box-shadow border-radius-primary">
                     <h2>{contact.info}</h2>

@@ -20,13 +20,13 @@ function Tours() {
                 <div className="grid-secondary">
                     {
                         tours.map((item) => (
-                            <Link to="/rooms" className="card box-shadow" key={item.tour_id}>
+                            <Link to="/rooms" className="card box-shadow" key={item.title}>
                                 <article className="flex" onClick={() => context.changeTour(item.tour_id)}>
                                     <img src={castle} alt="castle" className="card-image" />
                                     <h2 className="padding-primary">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.description}</p>
                                     <div className="center-text">
-                                        <button className="button align-self-primary margin-primary text-medium background-primary font-weight-primary color-primary">{item.button}</button>
+                                        <button className="button align-self-primary margin-primary background-primary font-weight-primary color-primary">{item.button}</button>
                                     </div>
                                 </article>
                             </Link>
