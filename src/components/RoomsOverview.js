@@ -5,6 +5,7 @@ import Header from './Header'
 import DataAPI from '../DataAPI'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
 import { BsCheck } from "react-icons/bs";
+import {Link} from 'react-router-dom';
 
 
 function Map() {
@@ -39,12 +40,14 @@ function Map() {
                             <h3>{roomsOverview.not_seen}</h3>
                             {
                                 unvisited.map((item) => (
-                                    <div className="flex-secondary align-items-primary margin-bottom-primary box-shadow padding-third border-radius-primary">
-                                        <div className="flex round-number background-fourth margin-right-secondary">
-                                            <span className="card-title-number color-primary">{item.number}</span>
+                                    <Link to="/room">
+                                        <div className="flex-secondary align-items-primary margin-bottom-primary box-shadow padding-third border-radius-primary" onClick={() => context.changeRoom(item.number)}>
+                                            <div className="flex round-number background-fourth margin-right-secondary">
+                                                <span className="card-title-number color-primary">{item.number}</span>
+                                            </div>
+                                            <span>{item.title}</span>
                                         </div>
-                                        <span>{item.title}</span>
-                                    </div>
+                                    </Link>
                                 ))
                             }
                         </>
