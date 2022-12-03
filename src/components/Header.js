@@ -17,16 +17,16 @@ function Header(props) {
         var docHeight = document.documentElement.scrollTop;
         var header = document.getElementById("header");
         var navlist = document.getElementById("navlist");
-        if (docHeight > 100) {
+        if (docHeight > 100 && header.style.height!=="70px") {
             header.style.height = "70px";
+            navlist.classList.remove("navigation-list-active");
             if(sidebar){
-                navlist.classList.remove("navigation-list-active");
                 navlist.classList.add("navigation-list-active-70");
             }
-        } else if(docHeight<70){
+        } else if(docHeight<70 && header.style.height!=="100px"){
             header.style.height = "100px";
+            navlist.classList.remove("navigation-list-active-70");
             if(sidebar){
-                navlist.classList.remove("navigation-list-active-70");
                 navlist.classList.add("navigation-list-active");
             }
         }
