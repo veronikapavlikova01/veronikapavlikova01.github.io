@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3450bbc.css",
-    "main.js": "/static/js/main.88605305.js",
+    "main.css": "/static/css/main.9a324aa0.css",
+    "main.js": "/static/js/main.4d306782.js",
     "static/js/787.8b87e823.chunk.js": "/static/js/787.8b87e823.chunk.js",
     "static/media/hrad-3.jpg": "/static/media/hrad-3.a4177431580707beff9c.jpg",
     "static/media/hrad-38.jpg": "/static/media/hrad-38.fa79ca865aff7f135a36.jpg",
@@ -49,12 +49,12 @@
     "static/media/hrad-16.jpg": "/static/media/hrad-16.5a287b504d66d43fee98.jpg",
     "service-worker.js": "/service-worker.js",
     "index.html": "/index.html",
-    "main.b3450bbc.css.map": "/static/css/main.b3450bbc.css.map",
-    "main.88605305.js.map": "/static/js/main.88605305.js.map",
+    "main.9a324aa0.css.map": "/static/css/main.9a324aa0.css.map",
+    "main.4d306782.js.map": "/static/js/main.4d306782.js.map",
     "787.8b87e823.chunk.js.map": "/static/js/787.8b87e823.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3450bbc.css",
-    "static/js/main.88605305.js"
+    "static/css/main.9a324aa0.css",
+    "static/js/main.4d306782.js"
   ]
 }
