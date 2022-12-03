@@ -4,6 +4,7 @@ import { useContext } from "react";
 import Header from './Header'
 import DataAPI from '../DataAPI'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
+import { BsCheck } from "react-icons/bs";
 
 
 function Map() {
@@ -14,21 +15,22 @@ function Map() {
 
     return (
         <>
-            <Header />
-            {
-                <section class="content-container background-secondary text-medium padding-secondary box-shadow border-radius-primary">
-                    <h2>Map</h2>
-                    <div class="contact-box">
-                        <div className="margin-top">
-                            <p>This is map of rooms for your tour.</p>
-                            <div className="flex-secondary align-items-primary">
-                                <span className="card-title-number">1</span>
-                                <span>Místnost číslo 1</span>
+            <Header header={labels.map}/>
+            <section class="content-container background-secondary text-medium padding-secondary box-shadow border-radius-primary">
+                <h2>Map</h2>
+                <p className="margin-bottom-primary">This is map of rooms for your tour.</p>
+                {
+                    !context.tour? (<p>Please select your tour first!</p>) :
+                    (rooms.map((item) => (
+                        <div className="flex-secondary align-items-primary margin-bottom-primary">
+                            <div className="flex round-number background-fourth margin-right-secondary">
+                                <span className="card-title-number color-primary">{item.number}</span>
                             </div>
+                            <span>{item.title}</span>
                         </div>
-                    </div>
-                </section>
-            }
+                    )))
+                }
+            </section>
         </>
     )
 }

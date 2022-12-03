@@ -12,6 +12,7 @@ import HistoryOverview from './components/HistoryOverview';
 import Houses from './components/Houses'
 import Owners from './components/Owners'
 import Owner from './components/Owner';
+import Settings from './components/Settings';
 import { Context } from './Context'
 
 class App extends React.Component {
@@ -46,7 +47,7 @@ class App extends React.Component {
     this.state = {
       language: localStorage.getItem("language") !== null ? JSON.parse(localStorage.getItem("language")) : "en",
       changeLanguage: this.changeLanguage,
-      tour: localStorage.getItem("tour") !== null ? JSON.parse(localStorage.getItem("tour")) : "castle",
+      tour: localStorage.getItem("tour") !== null ? JSON.parse(localStorage.getItem("tour")) : null,
       changeTour: this.changeTour,
       room: localStorage.getItem("room") !== null ? JSON.parse(localStorage.getItem("room")) : "1",
       changeRoom: this.changeRoom,
@@ -73,6 +74,7 @@ class App extends React.Component {
             <Route path="/owners" element={<Owners />} />
             <Route path="/owner" element={<Owner />} />
             <Route path="/map" element={<Map/>}/>
+            <Route path="/settings" element={<Settings/>}/>
           </Routes>
         </Context.Provider>
       </HashRouter>

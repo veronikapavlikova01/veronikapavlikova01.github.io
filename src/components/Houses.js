@@ -17,18 +17,8 @@ function Houses() {
 
     return (
         <>
-            <Header />
+            <Header header={labels.houses}/>
             <div className="margin-primary content-container">
-                <div className="flex-secondary margin-bottom-primary align-items-primary">
-                    <Link to="/tours" className="flex-secondary align-items-primary">
-                        <AiOutlineArrowLeft className="icon" />
-                    </Link>
-                    <h2 className="margin-right-primary margin-left-primary">{labels.houses}</h2>
-                    <AiOutlineArrowRight className="icon visibility-hidden" />
-                </div>
-                <div className="flex align-items-primary">
-
-                </div>
                 <div className="grid">
                     {
                         houses.map((item) => (

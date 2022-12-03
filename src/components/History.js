@@ -9,11 +9,13 @@ import castle from '../img/uvod.jpg'
 
 function History() {
     const context = useContext(Context);
-    const history = new DataAPI().getHistory(context.language);
+    const dataAPI = new DataAPI();
+    const history = dataAPI.getHistory(context.language);
+    const labels = dataAPI.getLabels(context.language);
 
     return (
         <>
-            <Header />
+            <Header header={labels.history}/>
             <div className="margin-primary content-container">
                 <div className="grid-secondary">
                     {

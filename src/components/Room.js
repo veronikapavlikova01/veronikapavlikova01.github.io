@@ -66,13 +66,10 @@ function Room() {
 
     return (
         <>
-            <Header />
+            <Header header={tour.title}/>
             <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => { x1 = touchStartEvent.changedTouches[0].clientX; y1 = touchStartEvent.changedTouches[0].clientY }} onTouchEnd={touchEndEvent => { slide(x1, touchEndEvent.changedTouches[0].clientX, y1, touchEndEvent.changedTouches[0].clientY, room.number, tour.rooms.length, context) }}>
                 <article className="font-size-third">
                     <div className="flex-secondary">
-                        <Link to="/rooms">
-                            <AiOutlineArrowLeft className="icon" />
-                        </Link>
                         <div className="margin-right-primary margin-left-primary">
                             <span className="font-style-primary margin-primary">{room.number}</span>
                             <h2>{room.title}</h2>
@@ -86,12 +83,6 @@ function Room() {
                     <p className="start-text margin-top-secondary medieval-first-letter">{room.text}</p>
                     <div className="flex-secondary">
                         <BsFillArrowLeftCircleFill className={`icon margin-right-primary margin-top-third cursor-primary ${isPrev ? '' : ' visibility-hidden'}`} onClick={() => { previous(room.number, tour.rooms.length, context) }}></BsFillArrowLeftCircleFill>
-                        <div>
-                            <label for="imageFile  margin-top-third">
-                                <AiFillCamera className="icon cursor-primary visibility-hidden" />
-                            </label>
-                            <input type="file" id="imageFile" capture="user" accept="image/*" className="visibility-hidden"/>
-                        </div>
                         <BsFillArrowRightCircleFill className={`icon margin-left-primary margin-top-third cursor-primary ${isNext ? '' : ' visibility-hidden'}`} onClick={() => { next(room.number, tour.rooms.length, context) }}></BsFillArrowRightCircleFill>
                     </div>
                 </article>

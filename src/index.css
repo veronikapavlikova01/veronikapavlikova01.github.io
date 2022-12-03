@@ -146,6 +146,7 @@ option{
   margin: 1em;
 }
 
+
 .margin-bottom-primary {
   margin-bottom: 1em;
 }
@@ -153,6 +154,11 @@ option{
 
 .margin-right-primary {
   margin-right: auto;
+}
+
+
+.margin-right-secondary{
+  margin-right:0.5rem;
 }
 
 .margin-left-primary {
@@ -243,6 +249,7 @@ option{
   position:absolute;
   z-index:2;
   transition: 0.5s;
+  height:100px;
 }
 
 .stick{
@@ -457,13 +464,13 @@ a{
   top:0px;
   left:1rem;
   background-color: white;
+  margin-top:1rem;
 }
 
 .round-number{
   text-align: center;
-  margin-top:1rem;
-  width:2em;
-  height:2em;
+  width:3rem;
+  height:3rem;
   border-radius: 50%;
   vertical-align: middle;
 }
@@ -481,8 +488,8 @@ a{
 /***Mistnost***/
 .icon{
   display: block;
-  width: 2em;
-  height: 2em;
+  width: 3rem;
+  height: 3rem;
 }
 
 /****Media****/

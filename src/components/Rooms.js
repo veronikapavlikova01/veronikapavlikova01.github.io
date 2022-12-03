@@ -17,13 +17,6 @@ function Rooms() {
         <>
             <Header header={labels.rooms}/>
             <div className="content-container">
-                <div className="flex-secondary margin-bottom-primary align-items-primary">
-                    <Link to="/tours" className="flex-secondary align-items-primary">
-                        <AiOutlineArrowLeft className="icon" />
-                    </Link>
-                    <h2 className="margin-right-primary margin-left-primary">{labels.rooms}</h2>
-                    <AiOutlineArrowRight className="icon visibility-hidden" />
-                </div>
                 <div className="grid">
                     {
                         rooms.map((item) => (

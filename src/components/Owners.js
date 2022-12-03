@@ -17,20 +17,13 @@ function Owners() {
 
     return (
         <>
-            <Header />
+            <Header header={context.house}/>
             <div className="content-container">
-                <div className="flex-secondary margin-bottom-primary align-items-primary">
-                    <Link to="/tours" className="flex-secondary align-items-primary">
-                        <AiOutlineArrowLeft className="icon" />
-                    </Link>
-                    <h2 className="margin-right-primary margin-left-primary">{labels.owners}</h2>
-                    <AiOutlineArrowRight className="icon visibility-hidden" />
-                </div>
                 <div className="grid">
                     {
                         owners.map((item) => (
-                            <Link to="/room" className="card box-shadow" key={item.number}>
-                                <article className="flex text-medium" onClick={() => context.changeRoom(item.number)}>
+                            <Link to="/owner" className="card box-shadow" key={item.number}>
+                                <article className="flex text-medium" onClick={() => context.changeOwner(item.number)}>
                                     <div className="padding-bottom-primary position-relative">
                                         <img src={castle} alt="castle" className="card-image" />
                                     </div>

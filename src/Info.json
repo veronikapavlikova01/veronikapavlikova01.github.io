@@ -11,7 +11,8 @@
             "history": "History",
             "houses": "Houses",
             "owners": "Owners",
-            "tours":"Tours"
+            "tours":"Tours",
+            "map" : "Map"
         },
         {
             "language": "pl",
@@ -19,7 +20,8 @@
             "history": "Historia",
             "houses": "Rody",
             "owners": "Właściciele",
-            "tours":"Wycieczki"
+            "tours":"Wycieczki",
+            "map" : "Mapa"
         },
         {
             "language": "de",
@@ -27,7 +29,8 @@
             "history": "Historie",
             "houses": "Häuser",
             "owners": "Besitzer",
-            "tours":"Führungen"
+            "tours":"Führungen",
+            "map" : "Landkarte"
         }
     ],
     "home": [
@@ -59,21 +62,27 @@
             "tours": "Tours",
             "history": "History",
             "map": "Map",
-            "contact": "Contact"
+            "contact": "Contact",
+            "settings":"Settings",
+            "home":"Home"
         },
         {
             "language": "de",
             "tours": "Führungen",
             "history": "Historie",
             "map": "Landkarte",
-            "contact": "Kontakt"
+            "contact": "Kontakt",
+            "settings":"Einstellung",
+            "home":"Startseite"
         },
         {
             "language": "pl",
             "tours": "Trasy zwiedzania",
             "history": "Historia",
             "map": "Mapa",
-            "contact": "Kontakt"
+            "contact": "Kontakt",
+            "settings":"Ustawienia",
+            "home":"Strona główna"
         }
     ],
     "contact": [

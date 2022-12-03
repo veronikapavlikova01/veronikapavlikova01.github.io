@@ -61,13 +61,10 @@ function Owner() {
     
     return (
         <>
-            <Header />
+            <Header header={context.house}/>
             <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary" onTouchStart={touchStartEvent => {x1 = touchStartEvent.changedTouches[0].clientX; y1=touchStartEvent.changedTouches[0].clientY}} onTouchEnd={touchEndEvent => {slide(x1, touchEndEvent.changedTouches[0].clientX, y1, touchEndEvent.changedTouches[0].clientY, owner.number, house.owners.length, context)}}>
                 <article className="font-size-third medieval-first-letter">
                     <div className="flex-secondary">
-                        <Link to="/owners">
-                            <AiOutlineArrowLeft className="icon" />
-                        </Link>
                         <div className="margin-right-primary margin-left-primary">
                             <span className="font-style-primary margin-primary">{house.title}</span>
                             <h2>{owner.name}</h2>
