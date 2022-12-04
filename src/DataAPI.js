@@ -160,11 +160,21 @@ class DataAPI {
         return null;
     }
 
+    //other
+    getOther(language){
+        const other = Info.other;
+        for(let i=0;i<other.length;i++){
+            if(other[i].language===language){
+                return other[i];
+            }
+        }
+    }
+
     //rooms
     getRoomsOverview(language){
         const rooms = Info.rooms_overview;
         for(let i=0;i<rooms.length;i++){
-            if(rooms[i].language==language){
+            if(rooms[i].language===language){
                 return rooms[i];
             }
         }

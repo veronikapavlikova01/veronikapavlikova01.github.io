@@ -10,13 +10,15 @@ import castle from '../img/uvod.jpg'
 
 function Tours() {
     const context = useContext(Context);
-    const tours = new DataAPI().getTours(context.language);
-    const header = new DataAPI().getLabels(context.language);
+    const dataAPI = new DataAPI();
+    const tours = dataAPI.getTours(context.language);
+    const labels = dataAPI.getLabels(context.language);
 
     return (
         <>
-            <Header header={header.tours}/>
+            <Header header={labels.tours}/>
             <div className="content-container">
+            <p className="margin-bottom-primary font-weight-primary">{labels.tours_label}</p>
                 <div className="grid-secondary">
                     {
                         tours.map((item) => (

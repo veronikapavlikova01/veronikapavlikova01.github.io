@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { useContext } from "react";
 import Header from "./Header";
 import DataAPI from '../DataAPI'
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
 
 
 function Rooms() {
@@ -18,6 +17,7 @@ function Rooms() {
         <>
             <Header header={tour.title}/>
             <div className="content-container">
+                <p className="margin-bottom-primary font-weight-primary">{labels.rooms_label}</p>
                 <div className="grid">
                     {
                         rooms.map((item) => (

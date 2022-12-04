@@ -8,29 +8,64 @@
         {
             "language": "en",
             "rooms": "Rooms",
+            "other":"Other",
             "history": "History",
             "houses": "Houses",
             "owners": "Owners",
             "tours":"Tours",
-            "map" : "Map"
+            "tours_label":"First, choose the tour for which you have purchased a ticket. Then wait at the place where the tour starts. Your guide will pick you up there.",
+            "map" : "Map",
+            "rooms_label":"Here you can see the list of rooms that are included in the tour you selected. The rooms are arranged sequentially according to how you will go through them during the tour. Therefore, start with room number 1. If you are not sure which room you are in, ask your guide."
         },
         {
             "language": "pl",
             "rooms": "Pokoje",
+            "other":"Inny",
             "history": "Historia",
             "houses": "Rody",
             "owners": "Właściciele",
             "tours":"Wycieczki",
-            "map" : "Mapa"
+            "tours_label":"Najpierw wybierz wycieczkę, na którą kupiłeś bilet. Następnie poczekaj w miejscu rozpoczęcia wycieczki. Twój przewodnik cię tam zabierze.",
+            "map" : "Mapa",
+            "rooms_label":"Tutaj możesz zobaczyć listę pokoi, które są objęte wybraną wycieczką. Pokoje są ułożone sekwencyjnie, zgodnie z tym, jak będziesz przez nie przechodzić podczas zwiedzania. Dlatego zacznij od pokoju numer 1. Jeśli nie jesteś pewien, w którym pokoju się znajdujesz, zapytaj przewodnika."
         },
         {
             "language": "de",
             "rooms": "Räume",
+            "other":"Sonstiges",
             "history": "Historie",
             "houses": "Häuser",
             "owners": "Besitzer",
             "tours":"Führungen",
-            "map" : "Landkarte"
+            "tours_label":"Wählen Sie zunächst die Tour aus, für die Sie ein Ticket gekauft haben. Warten Sie dann an der Stelle, an der die Tour beginnt. Dort holt Sie Ihr Guide ab.",
+            "map" : "Landkarte",
+            "rooms_label":"Hier sehen Sie die Liste der Zimmer, die in der von Ihnen ausgewählten Tour enthalten sind. Die Räume sind der Reihe nach so angeordnet, wie Sie sie während der Tour durchlaufen werden. Beginnen Sie daher mit Raum Nummer 1. Wenn Sie sich nicht sicher sind, in welchem ​​Raum Sie sich befinden, fragen Sie Ihren Guide."
+        }
+    ],
+    "other":[
+        {
+            "language":"en",
+            "contact":"Contact",
+            "where_to_next":"Where to next?",
+            "gallery":"Gallery",
+            "settings":"Settings",
+            "about_app":"About app"
+        },
+        {
+            "language":"de",
+            "contact":"Kontakt",
+            "where_to_next":"Wohin als nächstes?",
+            "gallery":"Galerie",
+            "settings":"Einstellung",
+            "about_app":"Über App"
+        },
+        {
+            "language":"pl",
+            "contact":"Kontakt",
+            "where_to_next":"Gdzie teraz?",
+            "gallery":"Galeria",
+            "settings":"Ustawienia",
+            "about_app":"O aplikacji"
         }
     ],
     "rooms_overview":[
@@ -62,21 +97,21 @@
             "label_1": "Welcome",
             "label_2": "to the state castle",
             "label_3": "and chateau Frýdlant",
-            "button_label": "Start"
+            "button_label": "Choose tour"
         },
         {
             "language": "de",
             "label_1": "Wilkommen",
             "label_2": "auf der Burg und",
             "label_3": "dem Schloss Friedland",
-            "button_label": "Start"
+            "button_label": "Führung auswählen"
         },
         {
             "language": "pl",
             "label_1": "Witamy",
             "label_2": "w zamku i",
             "label_3": "pałacu Frýdlant",
-            "button_label": "Początek"
+            "button_label": "Wybierz wycieczkę"
         }
     ],
     "navbar": [
@@ -826,7 +861,7 @@
             "language": "en",
             "title": "Castle",
             "description": "This tour takes the visitor through the Upper Castle, which is the oldest part of the Frýdlant area. The entire route is dominated by a large knight's hall with an ancestral gallery, armory, banquet hall or a large collection of employee uniforms.",
-            "button": "Start",
+            "button": "Start tour",
             "rooms": [
                 {
                     "number": 1,
@@ -970,7 +1005,7 @@
             "language": "de",
             "title": "Die Burg",
             "description": "Die Führung führt den Besucher durch die Obere Burg, den ältesten Teil des Frýdlant-Gebiets. Der gesamte Weg wird dominiert von einem großen Rittersaal mit Ahnenempore, einer Rüstkammer, einem Festsaal oder einer großen Sammlung von Dienstkleidung.",
-            "button": "Start",
+            "button": "Führung beginnen",
             "rooms": [
                 {
                     "number": 1,
@@ -1114,7 +1149,7 @@
             "language": "pl",
             "title": "Kasztel",
             "description": "Trasa zwiedzania prowadzi przez Górny Zamek, który jest najstarszą częścią ziemi frydlantskiej. Na całej trasie dominuje duża sala rycerska z rodową galerią, zbrojownia, sala bankietowa czy też duża kolekcja mundurów pracowniczych.",
-            "button": "Start",
+            "button": "Rozpocząć wycieczkę",
             "rooms": [
                 {
                     "number": 1,
@@ -1258,7 +1293,7 @@
             "language": "en",
             "title": "Chateau",
             "description": "This tour takes the visitor through the richly furnished castle and the history of the last owners of Clam Gallas. A fully equipped tour route maps the castle and its 24 accessible rooms on all its floors.",
-            "button": "Start",
+            "button": "Start tour",
             "rooms": [
                 {
                     "number": 1,
@@ -1438,7 +1473,7 @@
             "language": "de",
             "title": "Das Schloß",
             "description": "Die Führung führt den Besucher durch das reich ausgestattete Schloss und die Geschichte der letzten Besitzer von Clam Gallas. Ein komplett ausgestatteter Rundgang zeigt das Schloss und seine 24 barrierefreien Räume auf allen Etagen.",
-            "button": "Start",
+            "button": "Führung beginnen",
             "rooms": [
                 {
                     "number": 1,
@@ -1618,7 +1653,7 @@
             "language": "pl",
             "title": "Pałac",
             "description": "Trasa zwiedzania prowadzi przez bogato wyposażony zamek i historię ostatnich właścicieli Clam Gallas. W pełni wyposażona trasa zwiedzania przedstawia zamek i 24 dostępne pokoje na wszystkich jego piętrach.",
-            "button": "Start",
+            "button": "Rozpocząć wycieczkę",
             "rooms": [
                 {
                     "number": 1,

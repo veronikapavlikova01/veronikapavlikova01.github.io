@@ -3,8 +3,6 @@ import { Context } from "../Context";
 import { useContext } from "react";
 import Header from './Header'
 import DataAPI from '../DataAPI'
-import { AiOutlineArrowLeft } from 'react-icons/ai'
-import { BsCheck } from "react-icons/bs";
 import {Link} from 'react-router-dom';
 
 
@@ -20,7 +18,7 @@ function Map() {
     return (
         <>
             <Header header={labels.rooms} />
-            <section class="content-container background-secondary">
+            <div class="content-container background-secondary">
                 {
                     !context.room ? (<p>{roomsOverview.tour_not_selected}</p>) :
                         (<>
@@ -53,7 +51,7 @@ function Map() {
                         </>
                         )
                 }
-            </section>
+            </div>
         </>
     )
 }
