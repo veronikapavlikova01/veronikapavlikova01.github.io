@@ -21,7 +21,7 @@ function Rooms() {
                 <div className="grid">
                     {
                         rooms.map((item) => (
-                            <Link to="/room" className="card box-shadow" key={item.number}>
+                            <Link to="/room" className="card box-shadow transition-primary hover-primary" key={item.number}>
                                 <article className="flex" onClick={() => context.changeRoom(item.number)}>
                                     <div className="padding-bottom-primary position-relative">
                                         <img src={require(`../img${item.img}`)} alt="castle" className="card-image" />

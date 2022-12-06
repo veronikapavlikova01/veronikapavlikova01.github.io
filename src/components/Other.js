@@ -18,40 +18,40 @@ function Other() {
         <>
             <Header header={header.other}/>
             <div className="content-container">
-                <Link to="/contact">
-                    <div className="flex-secondary align-items-primary margin-bottom-primary box-shadow padding-third border-radius-primary">
+                <Link to="/contact" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                    <div className="flex-secondary align-items-primary">
                         <div className="flex round-number background-fourth margin-right-secondary">
                             <AiOutlinePhone className="card-title-number color-primary"/>
                         </div>
                         <span>{other.contact}</span>
                     </div>
                 </Link>
-                <Link to="/where_to_next">
-                    <div className="flex-secondary align-items-primary margin-bottom-primary box-shadow padding-third border-radius-primary">
+                <Link to="/where_to_next" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                    <div className="flex-secondary align-items-primary">
                         <div className="flex round-number background-fourth margin-right-secondary">
                             <AiOutlineQuestion className="card-title-number color-primary"/>
                         </div>
                         <span>{other.where_to_next}</span>
                     </div>
                 </Link>
-                <Link to="/gallery">
-                    <div className="flex-secondary align-items-primary margin-bottom-primary box-shadow padding-third border-radius-primary">
+                <Link to="/gallery" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                    <div className="flex-secondary align-items-primary">
                         <div className="flex round-number background-fourth margin-right-secondary">
                             <AiOutlinePicture className="card-title-number color-primary"/>
                         </div>
                         <span>{other.gallery}</span>
                     </div>
                 </Link>
-                <Link to="/settings">
-                    <div className="flex-secondary align-items-primary margin-bottom-primary box-shadow padding-third border-radius-primary">
+                <Link to="/settings" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                    <div className="flex-secondary align-items-primary">
                         <div className="flex round-number background-fourth margin-right-secondary">
                             <FiSettings className="card-title-number color-primary"/>
                         </div>
                         <span>{other.settings}</span>
                     </div>
                 </Link>
-                <Link to="/about_app">
-                    <div className="flex-secondary align-items-primary margin-bottom-primary box-shadow padding-third border-radius-primary">
+                <Link to="/about_app" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                    <div className="flex-secondary align-items-primary">
                         <div className="flex round-number background-fourth margin-right-secondary">
                             <AiOutlineInfoCircle className="card-title-number color-primary"/>
                         </div>

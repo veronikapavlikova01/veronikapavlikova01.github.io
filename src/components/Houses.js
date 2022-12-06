@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom'
 import Header from "./Header";
 import DataAPI from '../DataAPI';
 import castle from '../img/uvod.jpg'
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
-
 
 
 function Houses() {
@@ -22,7 +20,7 @@ function Houses() {
                 <div className="grid">
                     {
                         houses.map((item) => (
-                            <Link to="/owners" className="card box-shadow" key={item.title}>
+                            <Link to="/owners" className="card box-shadow transition-primary hover-primary" key={item.title}>
                                 <article className="flex text-medium" onClick={() => context.changeHouse(item.title)}>
                                     <img src={castle} alt="castle" className="card-image" />
                                     <h3 className="padding-primary">{item.title}</h3>

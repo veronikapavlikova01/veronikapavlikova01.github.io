@@ -22,7 +22,7 @@ function Tours() {
                 <div className="grid-secondary">
                     {
                         tours.map((item) => (
-                            <Link to="/rooms" className="card box-shadow" key={item.title}>
+                            <Link to="/rooms" className="card box-shadow transition-primary hover-primary" key={item.title}>
                                 <article className="flex" onClick={() => context.changeTour(item.tour_id)}>
                                     <img src={castle} alt="castle" className="card-image" />
                                     <h2 className="padding-primary">{item.title}</h2>

@@ -3,7 +3,6 @@ import {Context } from "../Context";
 import { useContext} from "react";
 import Header from './Header'
 import DataAPI from '../DataAPI'
-import { AiOutlineArrowLeft} from 'react-icons/ai'
 
 
 function Contact() {
@@ -12,24 +11,22 @@ function Contact() {
 
     return (
         <>
-            <Header header={contact.info}/>
+            <Header header={contact.title}/>
             {
                 <section class="content-container background-secondary text-medium padding-secondary box-shadow border-radius-primary">
-                    <h2>{contact.info}</h2>
                     <div class="contact-box">
-                        <AiOutlineArrowLeft className="icon" />
                         <div className="margin-top">
                             <ul class="contact-list">
                                 <li class="margin-bottom-primary">
-                                    <span class="font-weight-primary color-secondary text-transform-primary">{contact.address}</span>
+                                    <span class="font-weight-primary text-transform-primary">{contact.address}</span>
                                     <address>Zámecká 4001 464 01 Frýdlant</address>
                                 </li>
                                 <li class="margin-bottom-primary">
-                                    <span class="font-weight-primary color-secondary text-transform-primary">{contact.reservation}</span>
+                                    <span class="font-weight-primary text-transform-primary">{contact.reservation}</span>
                                     <address>zamek.rezervace@seznam.cz</address>
                                 </li>
                                 <li class="margin-bottom-primary">
-                                    <span class="font-weight-primary color-secondary text-transform-primary">{contact.phone}</span>
+                                    <span class="font-weight-primary text-transform-primary">{contact.phone}</span>
                                     <address>+420 771 270 150</address>
                                 </li>
                             </ul>

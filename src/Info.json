@@ -68,6 +68,47 @@
             "about_app":"O aplikacji"
         }
     ],
+    "about_app":[
+        {
+            "language":"en",
+            "for_label":"Oficial app for",
+            "for":"Castle and chateau Frýdlant",
+            "author_label":"Author",
+            "author":"Veronika Pavlíková",
+            "collaboration_label":"In collaboration with",
+            "collaboration":"Palacký Univerzity Olomouc",
+            "photos_label":"Photos by",
+            "photos":"Lukáš Hübner",
+            "logo_label":"Logo by",
+            "logo":"Lucie Pavlíková"
+        },
+        {
+            "language":"de",
+            "for_label":"Ofizielle App für",
+            "for":"Das Schloss und die Burg Frýdlant",
+            "author_label":"Author",
+            "author":"Veronika Pavlíková",
+            "collaboration_label":"In Zusammenarbeit mit",
+            "collaboration":"Palacký Univerzität Olmütz",
+            "photos_label":"Fotos von",
+            "photos":"Lukáš Hübner",
+            "logo_label":"Logo von",
+            "logo":"Lucie Pavlíková"
+        },
+        {
+            "language":"pl",
+            "for_label":"Oficjalna aplikacja dla",
+            "for":"Kasztela i Pałacu Frýdlant",
+            "author_label":"Autor",
+            "author":"Veronika Pavlíková",
+            "collaboration_label":"We współpracy z",
+            "collaboration":"Uniwersytet Palackiego w Ołomuńcu",
+            "photos_label":"zdjęcia",
+            "photos":"Lukáš Hübner",
+            "logo_label":"Logo",
+            "logo":"Lucie Pavlíková"
+        }
+    ],
     "rooms_overview":[
         {
             "language":"en",
@@ -149,21 +190,21 @@
     "contact": [
         {
             "language": "en",
-            "info": "Informations",
+            "title": "Contact",
             "address": "Address",
             "reservation": "Ticket reservation",
             "phone": "Phone number"
         },
         {
             "language": "de",
-            "info": "Informationen",
+            "title": "Kontakt",
             "address": "Addresse",
             "reservation": "Ticketbuchung",
             "phone": "Telefonnummer"
         },
         {
             "language": "pl",
-            "info": "Informacje",
+            "title": "Kontakt",
             "address": "Adres",
             "reservation": "rezerwacje wycieczek",
             "phone": "Numer telefonu"

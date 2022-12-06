@@ -5,13 +5,11 @@ import { Link } from 'react-router-dom'
 import Header from "./Header";
 import DataAPI from '../DataAPI';
 import castle from '../img/uvod.jpg'
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
 
 
 function Owners() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
-    const labels = dataAPI.getLabels(context.language);
     const owners = dataAPI.getOwners(context.language, context.house);
 
 
@@ -22,7 +20,7 @@ function Owners() {
                 <div className="grid">
                     {
                         owners.map((item) => (
-                            <Link to="/owner" className="card box-shadow" key={item.number}>
+                            <Link to="/owner" className="card box-shadow transition-primary hover-primary" key={item.number}>
                                 <article className="flex text-medium" onClick={() => context.changeOwner(item.number)}>
                                     <div className="padding-bottom-primary position-relative">
                                         <img src={castle} alt="castle" className="card-image" />

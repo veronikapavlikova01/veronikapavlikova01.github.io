@@ -151,6 +151,14 @@ option{
   margin-top: 1rem;
 }
 
+.hover-primary:hover{
+  transform: scale(1.03);
+}
+
+.transition-primary{
+  transition: transform 0.3s;
+}
+
 .margin-top-third{
   margin-top:2rem;
 }
@@ -250,6 +258,7 @@ option{
 .medieval-first-letter::first-letter{
   font-family: 'UnifrakturMaguntia', cursive;
   font-size:1.5rem;
+  line-height: 0;
 }
 
 
@@ -418,7 +427,6 @@ a{
   display:flex;
   position: relative;
   border-radius: 20px;
-  transition: transform 0.3s;
   background-color: white;
 }
 
@@ -441,10 +449,6 @@ a{
 
 .margin-top {
   margin-top: 1em;
-}
-
-.card:hover {
-  transform: scale(1.03);
 }
 
 .content-container {
@@ -524,7 +528,7 @@ a{
       grid-template-columns: repeat(2, 1fr);
   }
 
-  .card:hover {
+  .hover-primary:hover {
       transform: scale(1);
   }
 
@@ -573,6 +577,21 @@ a{
   h1{
     font-size:2rem;
   }
+}
+
+@media(max-width:400px){
+  .card {
+    border-radius: 0px;
+  }
+
+  .content-container {
+    margin: 1vw 0vw 1vw 0vw;
+}
+
+  .card-image {
+    border-radius: 0px;
+  }
+
 }
 
 @media (max-width: 319px) {

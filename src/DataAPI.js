@@ -168,6 +168,18 @@ class DataAPI {
                 return other[i];
             }
         }
+        return null;
+    }
+
+    //about_app
+    getAboutApp(language){
+        const about=Info.about_app;
+        for(let i=0;i<about.length;i++){
+            if(about[i].language===language){
+                return about[i];
+            }
+        }
+        return null;
     }
 
     //rooms
