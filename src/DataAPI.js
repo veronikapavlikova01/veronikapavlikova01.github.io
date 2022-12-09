@@ -182,6 +182,17 @@ class DataAPI {
         return null;
     }
 
+    //where_to_next
+    getWhereToNext(language){
+        const whereTo=Info.where_to_next;
+        for(let i=0;i<whereTo.length;i++){
+            if(whereTo[i].language===language){
+                return whereTo[i];
+            }
+        }
+        return null;
+    }
+
     //rooms
     getRoomsOverview(language){
         const rooms = Info.rooms_overview;

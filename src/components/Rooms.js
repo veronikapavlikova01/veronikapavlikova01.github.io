@@ -31,8 +31,8 @@ function Rooms() {
                                     </div>
                                     <h2 className="padding-primary card-title flex-secondary">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">Malé hradní nádvoří seznámí návštěvníka s architekturou starého hradu.</p>
-                                    <div className="center-text">
-                                        <button className="button align-self-primary margin-primary background-primary font-weight-primary color-primary">Navštívit</button>
+                                    <div className="center-text margin-primary ">
+                                        <button className="button align-self-primary background-primary font-weight-primary color-primary">{item.button}</button>
                                     </div>
                                 </article>
                             </Link>

@@ -27,8 +27,8 @@ function Tours() {
                                     <img src={castle} alt="castle" className="card-image" />
                                     <h2 className="padding-primary">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.description}</p>
-                                    <div className="center-text">
-                                        <button className="button align-self-primary margin-primary background-primary font-weight-primary color-primary">{item.button}</button>
+                                    <div className="center-text  margin-primary ">
+                                        <button className="button align-self-primary background-primary font-weight-primary color-primary">{item.button}</button>
                                     </div>
                                 </article>
                             </Link>

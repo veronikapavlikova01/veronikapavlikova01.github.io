@@ -20,31 +20,31 @@ function AboutApp() {
             <section class="content-container background-secondary text-medium padding-secondary box-shadow border-radius-primary">
                 <div className="flex align-items-primary">
                     <div className="margin-top-secondary">
-                        <img src={small_icon} alt="castle" className="page-image" />
+                        <img src={small_icon} alt="logo" className="page-image" />
                     </div>
                 </div>
                 <div class="contact-box">
                     <div className="margin-top">
                         <ul class="contact-list">
-                            <li class="margin-bottom-primary">
+                            <li class="margin-bottom-primary flex">
                                 <span class="font-weight-primary text-transform-primary">{about.for_label}</span>
-                                <address>{about.for}</address>
+                                <span>{about.for}</span>
                             </li>
-                            <li class="margin-bottom-primary">
+                            <li class="margin-bottom-primary flex">
                                 <span class="font-weight-primary text-transform-primary">{about.author_label}</span>
-                                <address>{about.author}</address>
+                                <span>{about.author}</span>
                             </li>
-                            <li class="margin-bottom-primary">
+                            <li class="margin-bottom-primary flex">
                                 <span class="font-weight-primary text-transform-primary">{about.collaboration_label}</span>
-                                <address>{about.collaboration}</address>
+                                <span>{about.collaboration}</span>
                             </li>
-                            <li class="margin-bottom-primary">
+                            <li class="margin-bottom-primary flex">
                                 <span class="font-weight-primary text-transform-primary">{about.photos_label}</span>
-                                <address>{about.photos}</address>
+                                <span>{about.photos}</span>
                             </li>
-                            <li class="margin-bottom-primary">
+                            <li class="margin-bottom-primary flex">
                                 <span class="font-weight-primary text-transform-primary">{about.logo_label}</span>
-                                <address>{about.logo}</address>
+                                <span>{about.logo}</span>
                             </li>
                         </ul>
                     </div>

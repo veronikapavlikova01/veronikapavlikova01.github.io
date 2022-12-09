@@ -15,6 +15,7 @@ import Owner from './components/Owner';
 import Settings from './components/Settings';
 import Other from './components/Other';
 import AboutApp from './components/AboutApp';
+import WhereToNext from './components/WhereToNext';
 import { Context } from './Context'
 
 class App extends React.Component {
@@ -79,6 +80,7 @@ class App extends React.Component {
             <Route path="/settings" element={<Settings/>}/>
             <Route path="/other" element={<Other/>}/>
             <Route path="/about_app" element={<AboutApp/>}/>
+            <Route path="/where_to_next" element={<WhereToNext/>}/>
           </Routes>
         </Context.Provider>
       </HashRouter>

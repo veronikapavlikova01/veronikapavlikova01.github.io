@@ -2,11 +2,9 @@ import React from "react"
 import { useEffect } from "react"
 import { Context } from "../Context"
 import { useContext } from "react"
-import { Link } from 'react-router-dom'
 import Header from "./Header"
 import DataAPI from '../DataAPI'
 import { BsFillArrowRightCircleFill, BsFillArrowLeftCircleFill } from 'react-icons/bs'
-import { AiOutlineArrowLeft, AiOutlineArrowRight, AiFillCamera } from 'react-icons/ai'
 
 
 function prevRoomExists(number) {

@@ -462,7 +462,6 @@ a{
   border: 1px solid #ff9301;
   border-radius: 2em;
   padding: 0.5em 2.5em 0.5em 2.5em;
-  white-space: nowrap;
 }
 
 .center-text {
@@ -579,22 +578,6 @@ a{
   }
 }
 
-/*
-@media(max-width:400px){
-  .card {
-    border-radius: 0px;
-  }
-
-  .content-container {
-    margin: 1vw 0vw 1vw 0vw;
-}
-
-  .card-image {
-    border-radius: 0px;
-  }
-
-}
-*/
 
 @media (max-width: 319px) {
   .welcome-text {
