@@ -5,6 +5,11 @@ import Info from './Info.json'
 
 class DataAPI {
 
+    //languages
+    getLanguages(){
+        return Info.languages;
+    }
+
     //labels
     getLabels(language){
         const labels = Info.labels;
@@ -188,6 +193,17 @@ class DataAPI {
         for(let i=0;i<whereTo.length;i++){
             if(whereTo[i].language===language){
                 return whereTo[i];
+            }
+        }
+        return null;
+    }
+
+    //settings
+    getSettings(language){
+        const settings=Info.settings;
+        for(let i=0;i<settings.length;i++){
+            if(settings[i].language===language){
+                return settings[i];
             }
         }
         return null;

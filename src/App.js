@@ -47,6 +47,26 @@ class App extends React.Component {
       localStorage.setItem("owner", JSON.stringify(e));
     }
 
+    this.changeFontSize =(e) =>{
+      var body = document.getElementById('body');
+      if(e=="d"){
+        body.classList.value='';
+        body.classList.add("font-size-default");
+        localStorage.setItem("fontSize", JSON.stringify(e));
+      } else if(e=="m"){
+        body.classList.value='';
+        body.classList.add("font-size-medium");
+        localStorage.setItem("fontSize", JSON.stringify(e));
+      } else if(e=="l"){
+        body.classList.value='';
+        body.classList.add("font-size-large");
+        localStorage.setItem("fontSize", JSON.stringify(e));
+      } else{
+        console.log("Wrong value of font size.")
+      }
+      //TODO
+    }
+
     this.state = {
       language: localStorage.getItem("language") !== null ? JSON.parse(localStorage.getItem("language")) : "en",
       changeLanguage: this.changeLanguage,
@@ -58,7 +78,16 @@ class App extends React.Component {
       changeHouse: this.changeHouse,
       owner: localStorage.getItem("language") !== null ? JSON.parse(localStorage.getItem("owner")) : "1",
       changeOwner: this.changeOwner,
+      fontSize:localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d",
+      changeFontSize:this.changeFontSize,
     };
+  }
+
+  componentDidMount(){
+    //nastaveni fontu
+    var body = document.getElementById('body');
+    var fontSize = localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d";
+    this.changeFontSize(fontSize);
   }
 
   render() {

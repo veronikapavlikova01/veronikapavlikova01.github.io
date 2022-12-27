@@ -21,8 +21,8 @@ function History() {
                     {
                         history.map((item) => (
                             <Link to={item.path} className="card box-shadow transition-primary hover-primary" key={item.title}>
-                                <article className="flex text-medium">
-                                    <img src={castle} alt="castle" className="card-image" />
+                                <article className="flex">
+                                    <img src={castle} alt="castle" className="card-image padding-bottom-primary" />
                                     <h2 className="padding-primary">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.card_label}</p>
                                     <div className="center-text">

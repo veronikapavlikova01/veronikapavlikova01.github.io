@@ -13,7 +13,7 @@ function Contact() {
         <>
             <Header header={contact.title}/>
             {
-                <section class="content-container background-secondary text-medium padding-secondary box-shadow border-radius-primary">
+                <section class="content-container background-secondary padding-secondary box-shadow border-radius-primary">
                     <div class="contact-box">
                         <div className="margin-top">
                             <ul class="contact-list">

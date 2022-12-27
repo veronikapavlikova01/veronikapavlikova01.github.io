@@ -10,6 +10,8 @@ export const Context = React.createContext({
   house: "rederns",
   changeHouse: () => {},
   owner:"1",
-  changeOwner: () => {}
+  changeOwner: () => {},
+  "font-size":"d",
+  changeFontSize: () => {}
 });
 

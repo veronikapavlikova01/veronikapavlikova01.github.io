@@ -12,39 +12,60 @@
 
 body {
   line-height: 1.5;
+}
+
+.font-size-default{
   font-size:1rem;
 }
 
-.text-large{
-  font-size:2rem;
+.font-size-medium{
+  font-size:1.25rem;
+}
+
+.font-size-large{
+  font-size:1.5rem;
 }
 
 .text-medium{
-  font-size:1.5rem;
+  font-size:1.5em;
 }
 
-.text-small{
-  font-size:1rem;
-}
-
-button{
-  font-size:1.5rem;
-}
-
-h1{
+.text-header{
   font-size:3rem;
 }
 
-h1 span{
-  font-size:1.2rem;
+/*Dropdown menu*/
+.dropdown-wrapper{
+  position: relative;
+  display: inline-block;
 }
 
-h2{
-  font-size: 2rem;
-} 
+.dropdown-button{
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
 
-h3 {
-  font-size: 1.5rem;
+.dropdown{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-item{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-show{
+  display:block;
 }
 
 .opacity{
@@ -72,7 +93,6 @@ select{
   color:white;
   border: none;
   padding-right:1em;
-  font-size: 1.4rem;
 }
 
 .clear-background{
@@ -95,16 +115,6 @@ option{
 .cursor-primary{
   cursor:pointer;
 }
-
-
-/*FONT SIZE PRIMARY ON TEXT*/
-.text-medium {
-  font-size: 1.5rem;
-}
-
-/*FONT SIZE PRIMARY ON NAV LINKS AND */
-/*font-size: 1.5rem*/
-
 
 
 .color-primary {
@@ -257,7 +267,7 @@ option{
 
 .medieval-first-letter::first-letter{
   font-family: 'UnifrakturMaguntia', cursive;
-  font-size:1.5rem;
+  font-size:1.5em;
   line-height: 0;
 }
 
@@ -320,7 +330,6 @@ a{
 
 .navigation-link {
   text-decoration: none;
-  font-size: 1.5rem;
 }
 
 .navigation-link:hover{
@@ -472,12 +481,6 @@ a{
   text-align: start;
 }
 
-.card-title {
-  font-size:1.5rem;
-  line-height: 1;
-  margin-bottom: 0.5em;
-}
-
 .card-number{
   position: absolute;
   top:0px;
@@ -496,7 +499,7 @@ a{
 
 .card-title-number {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   margin: auto;
 }
 
@@ -513,8 +516,6 @@ a{
 
 /****Media****/
 @media (max-width:1200px) {
-
-
   .nav-active {
       color: #ff9301;
   }
@@ -539,6 +540,10 @@ a{
   .map-box {
       width: 100%;
   }
+
+  .text-header{
+    font-size:2rem;
+  }
 }
 
 @media(max-width:700px) {
@@ -561,20 +566,8 @@ a{
       gap: 1em;
   }
 
-  .text-medium {
-      font-size: 1rem;
-  }
-
-  .language-image {
-      max-width: 175px;
-  }
-
-  .font-size-third {
-      font-size: 1rem;
-  }
-  
-  h1{
-    font-size:2rem;
+  .text-header{
+    font-size:1.5rem;
   }
 }
 
@@ -589,9 +582,6 @@ a{
       white-space: normal;
   }
 
-  .language-image {
-      max-width: 100px;
-  }
   .grid-third{
       grid-template-columns: repeat(1, 1fr);
   }
@@ -603,14 +593,5 @@ a{
 
   .padding-primary {
       padding: 0.5rem;
-  }
-
-  h1{
-    font-size:1.5rem;
-  }
-
-  h2,
-  h3 {
-      font-size: 1.5rem;
   }
 }

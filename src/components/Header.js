@@ -46,7 +46,7 @@ function Header(props) {
     return (
         <>
             <header id="header" className="navigation stick z-index-nav flex-secondary align-items-primary">
-                <h1 id="headerLabel" className="font-weight-primary color-primary margin-right-primary">{props.header}</h1>
+                <h1 id="headerLabel" className="text-header font-weight-primary color-primary margin-right-primary text-large">{props.header}</h1>
                 <div className="flex-secondary align-items-secondary z-index-nav">
                     <Dropdown></Dropdown>
                     <div className="hamburger" onClick={showSidebar}>
@@ -58,11 +58,11 @@ function Header(props) {
             </header>
             <nav id="navbar">
                 <ul id="navlist" className={'navigation-list' + ' ' + navlistClasses()} onClick={showSidebar}>
-                    <li className="margin-top-secondary margin-bottom-primary"><NavLink className="navigation-link font-weight-primary color-primary cursor-primary" to="/">{navbar.home}</NavLink></li>
-                    <li className="margin-top-secondary margin-bottom-primary"><NavLink className="navigation-link font-weight-primary color-primary cursor-primary" to="/tours">{navbar.tours}</NavLink></li>
-                    <li className="margin-top-secondary margin-bottom-primary"><NavLink className="navigation-link font-weight-primary color-primary cursor-primary" to="/rooms_overview">{navbar.map}</NavLink></li>
-                    <li className="margin-top-secondary margin-bottom-primary"><NavLink className="navigation-link font-weight-primary color-primary cursor-primary" to="/history">{navbar.history}</NavLink></li>
-                    <li className="margin-top-secondary margin-bottom-primary"><NavLink className="navigation-link font-weight-primary color-primary cursor-primary" to="/other">{navbar.other}</NavLink></li>
+                    <li className="margin-top-secondary margin-bottom-primary"><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/">{navbar.home}</NavLink></li>
+                    <li className="margin-top-secondary margin-bottom-primary"><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/tours">{navbar.tours}</NavLink></li>
+                    <li className="margin-top-secondary margin-bottom-primary"><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/rooms_overview">{navbar.map}</NavLink></li>
+                    <li className="margin-top-secondary margin-bottom-primary"><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/history">{navbar.history}</NavLink></li>
+                    <li className="margin-top-secondary margin-bottom-primary"><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/other">{navbar.other}</NavLink></li>
                 </ul>
             </nav>
         </>

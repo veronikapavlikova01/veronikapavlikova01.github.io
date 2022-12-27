@@ -21,11 +21,11 @@ function Owners() {
                     {
                         owners.map((item) => (
                             <Link to="/owner" className="card box-shadow transition-primary hover-primary" key={item.number}>
-                                <article className="flex text-medium" onClick={() => context.changeOwner(item.number)}>
+                                <article className="flex" onClick={() => context.changeOwner(item.number)}>
                                     <div className="padding-bottom-primary position-relative">
                                         <img src={castle} alt="castle" className="card-image" />
                                     </div>
-                                    <h3 className="padding-primary card-title flex-secondary">{item.name}</h3>
+                                    <h2 className="padding-primary card-title flex-secondary">{item.name}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">Majitel hrad a zámku.</p>
                                     <div className="center-text">
                                         <button className="button align-self-primary margin-primary text-medium background-primary font-weight-primary color-primary">Navštívit</button>

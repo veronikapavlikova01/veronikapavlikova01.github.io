@@ -45,6 +45,29 @@
             "where_to_next":"Wohin als nächstes?"
         }
     ],
+    "settings":[
+        {
+            "language":"en",
+            "letter":"Font size",
+            "default":"Default",
+            "medium":"Medium",
+            "large":"Large"
+        },
+        {
+            "language":"de",
+            "letter":"Schriftgröße",
+            "default":"Original",
+            "medium":"Mittlere",
+            "large":"Groß"
+        },
+        {
+            "language":"pl",
+            "letter":"Rozmiar czcionki",
+            "default":"Oryginał",
+            "medium":"Średni",
+            "large":"Duży"
+        }
+    ],
     "other":[
         {
             "language":"en",
@@ -153,7 +176,7 @@
             "author_label":"Author",
             "author":"Veronika Pavlíková",
             "collaboration_label":"In collaboration with",
-            "collaboration":"Palacký Univerzity Olomouc",
+            "collaboration":"Palacký University Olomouc",
             "photos_label":"Photos by",
             "photos":"Lukáš Hübner",
             "logo_label":"Logo by",

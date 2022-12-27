@@ -22,7 +22,7 @@ function Map() {
                 {
                     !context.room ? (<p>{roomsOverview.tour_not_selected}</p>) :
                         (<>
-                            <h2>{tour.title}</h2>
+                            <h2 className="text-medium">{tour.title}</h2>
                             <p className="margin-bottom-primary">{roomsOverview.label}</p>
                             <h3 className="opacity">{roomsOverview.seen}</h3>
                             {

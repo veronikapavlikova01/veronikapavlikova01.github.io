@@ -24,11 +24,11 @@ function Tours() {
                         tours.map((item) => (
                             <Link to="/rooms" className="card box-shadow transition-primary hover-primary" key={item.title}>
                                 <article className="flex" onClick={() => context.changeTour(item.tour_id)}>
-                                    <img src={castle} alt="castle" className="card-image" />
-                                    <h2 className="padding-primary">{item.title}</h2>
+                                    <img src={castle} alt="castle" className="card-image padding-bottom-primary" />
+                                    <h2 className="text-medium padding-primary">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.description}</p>
                                     <div className="center-text  margin-primary ">
-                                        <button className="button align-self-primary background-primary font-weight-primary color-primary">{item.button}</button>
+                                        <button className="text-medium button align-self-primary background-primary font-weight-primary color-primary">{item.button}</button>
                                     </div>
                                 </article>
                             </Link>

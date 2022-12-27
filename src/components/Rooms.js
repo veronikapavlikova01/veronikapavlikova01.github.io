@@ -29,10 +29,10 @@ function Rooms() {
                                             <span className="card-title-number">{item.number}</span>
                                         </div>
                                     </div>
-                                    <h2 className="padding-primary card-title flex-secondary">{item.title}</h2>
+                                    <h2 className="text-medium padding-primary card-title flex-secondary">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">Malé hradní nádvoří seznámí návštěvníka s architekturou starého hradu.</p>
                                     <div className="center-text margin-primary ">
-                                        <button className="button align-self-primary background-primary font-weight-primary color-primary">{item.button}</button>
+                                        <button className="text-medium button align-self-primary background-primary font-weight-primary color-primary">{item.button}</button>
                                     </div>
                                 </article>
                             </Link>

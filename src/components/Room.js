@@ -70,7 +70,7 @@ function Room() {
                     <div className="flex-secondary">
                         <div className="margin-right-primary margin-left-primary">
                             <span className="font-style-primary margin-primary">{room.number}</span>
-                            <h2>{room.title}</h2>
+                            <h2 className="text-medium">{room.title}</h2>
                             <span className="font-style-primary margin-primary">{tour.title}</span>
                         </div>
                     </div>

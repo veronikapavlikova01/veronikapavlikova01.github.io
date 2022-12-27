@@ -27,10 +27,10 @@ function WhereToNext() {
                                     <div className="padding-bottom-primary position-relative">
                                         <img src={castle} alt="castle" className="card-image" />
                                     </div>
-                                    <h2 className="padding-primary card-title flex-secondary">{item.title}</h2>
+                                    <h2 className="padding-primary card-title flex-secondary text-medium">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.description}</p>
                                     <div className="center-text margin-primary">
-                                        <a href={item.url} className="button align-self-primary background-primary font-weight-primary color-primary text-medium">{where.button}</a>
+                                        <a href={item.url} className="text-medium button align-self-primary background-primary font-weight-primary color-primary text-medium">{where.button}</a>
                                     </div>
                                 </article>
                             </a>
