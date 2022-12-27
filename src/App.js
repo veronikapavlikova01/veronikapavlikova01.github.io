@@ -23,8 +23,8 @@ class App extends React.Component {
     super(props);
 
     this.changeLanguage = (e) => {
-      this.setState({ language: e.target.value });
-      localStorage.setItem("language", JSON.stringify(e.target.value));
+      this.setState({ language: e });
+      localStorage.setItem("language", JSON.stringify(e));
     }
 
     this.changeHouse = (e) => {
@@ -47,21 +47,21 @@ class App extends React.Component {
       localStorage.setItem("owner", JSON.stringify(e));
     }
 
-    this.changeFontSize =(e) =>{
+    this.changeFontSize = (e) => {
       var body = document.getElementById('body');
-      if(e=="d"){
-        body.classList.value='';
+      if (e === "d") {
+        body.classList.value = '';
         body.classList.add("font-size-default");
         localStorage.setItem("fontSize", JSON.stringify(e));
-      } else if(e=="m"){
-        body.classList.value='';
+      } else if (e === "m") {
+        body.classList.value = '';
         body.classList.add("font-size-medium");
         localStorage.setItem("fontSize", JSON.stringify(e));
-      } else if(e=="l"){
-        body.classList.value='';
+      } else if (e === "l") {
+        body.classList.value = '';
         body.classList.add("font-size-large");
         localStorage.setItem("fontSize", JSON.stringify(e));
-      } else{
+      } else {
         console.log("Wrong value of font size.")
       }
       //TODO
@@ -78,12 +78,12 @@ class App extends React.Component {
       changeHouse: this.changeHouse,
       owner: localStorage.getItem("language") !== null ? JSON.parse(localStorage.getItem("owner")) : "1",
       changeOwner: this.changeOwner,
-      fontSize:localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d",
-      changeFontSize:this.changeFontSize,
+      fontSize: localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d",
+      changeFontSize: this.changeFontSize,
     };
   }
 
-  componentDidMount(){
+  componentDidMount() {
     //nastaveni fontu
     var body = document.getElementById('body');
     var fontSize = localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d";
@@ -105,11 +105,11 @@ class App extends React.Component {
             <Route path="/houses" element={<Houses />} />
             <Route path="/owners" element={<Owners />} />
             <Route path="/owner" element={<Owner />} />
-            <Route path="/rooms_overview" element={<RoomsOverview/>}/>
-            <Route path="/settings" element={<Settings/>}/>
-            <Route path="/other" element={<Other/>}/>
-            <Route path="/about_app" element={<AboutApp/>}/>
-            <Route path="/where_to_next" element={<WhereToNext/>}/>
+            <Route path="/rooms_overview" element={<RoomsOverview />} />
+            <Route path="/settings" element={<Settings />} />
+            <Route path="/other" element={<Other />} />
+            <Route path="/about_app" element={<AboutApp />} />
+            <Route path="/where_to_next" element={<WhereToNext />} />
           </Routes>
         </Context.Provider>
       </HashRouter>

@@ -47,7 +47,7 @@ function Header(props) {
         <>
             <header id="header" className="navigation stick z-index-nav flex-secondary align-items-primary">
                 <h1 id="headerLabel" className="text-header font-weight-primary color-primary margin-right-primary text-large">{props.header}</h1>
-                <div className="flex-secondary align-items-secondary z-index-nav">
+                <div className="flex-secondary align-items-primary z-index-nav">
                     <Dropdown></Dropdown>
                     <div className="hamburger" onClick={showSidebar}>
                         <span className={sidebar ? 'bar hamburger1' : 'bar'}></span>
