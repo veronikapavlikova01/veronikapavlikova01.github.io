@@ -16,7 +16,8 @@
             "tours_label":"First, choose the tour for which you have purchased a ticket. Then wait at the place where the tour starts. Your guide will pick you up there.",
             "map" : "Map",
             "rooms_label":"Here you can see the list of rooms that are included in the tour you selected. The rooms are arranged sequentially according to how you will go through them during the tour. Therefore, start with room number 1. If you are not sure which room you are in, ask your guide.",
-            "where_to_next":"Where to next?"
+            "where_to_next":"Where to next?",
+            "gallery":"Gallery"
         },
         {
             "language": "pl",
@@ -29,7 +30,8 @@
             "tours_label":"Najpierw wybierz wycieczkę, na którą kupiłeś bilet. Następnie poczekaj w miejscu rozpoczęcia wycieczki. Twój przewodnik cię tam zabierze.",
             "map" : "Mapa",
             "rooms_label":"Tutaj możesz zobaczyć listę pokoi, które są objęte wybraną wycieczką. Pokoje są ułożone sekwencyjnie, zgodnie z tym, jak będziesz przez nie przechodzić podczas zwiedzania. Dlatego zacznij od pokoju numer 1. Jeśli nie jesteś pewien, w którym pokoju się znajdujesz, zapytaj przewodnika.",
-            "where_to_next":"Gdzie teraz?"
+            "where_to_next":"Gdzie teraz?",
+            "gallery":"Galeria"
         },
         {
             "language": "de",
@@ -42,7 +44,8 @@
             "tours_label":"Wählen Sie zunächst die Tour aus, für die Sie ein Ticket gekauft haben. Warten Sie dann an der Stelle, an der die Tour beginnt. Dort holt Sie Ihr Guide ab.",
             "map" : "Landkarte",
             "rooms_label":"Hier sehen Sie die Liste der Zimmer, die in der von Ihnen ausgewählten Tour enthalten sind. Die Räume sind der Reihe nach so angeordnet, wie Sie sie während der Tour durchlaufen werden. Beginnen Sie daher mit Raum Nummer 1. Wenn Sie sich nicht sicher sind, in welchem ​​Raum Sie sich befinden, fragen Sie Ihren Guide.",
-            "where_to_next":"Wohin als nächstes?"
+            "where_to_next":"Wohin als nächstes?",
+            "gallery":"Galeria"
         }
     ],
     "settings":[
