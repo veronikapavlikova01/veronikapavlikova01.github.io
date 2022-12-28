@@ -19,14 +19,14 @@ function Dropdown() {
 
     return (
         <div className="dropdown-box text-transform-primary">
-            <div  className="dropdown-button text-transform-primary text-medium cursor-primary flex-secondary align-items-primary padding-primary" onClick={showDropdown}>
-                <div className="padding-right-primary">{context.language}</div>
-                <IoIosArrowDown />
+            <div  className="dropdown-button text-transform-primary cursor-primary flex-secondary align-items-primary" onClick={showDropdown}>
+                <div className="dropdown-padding font-size-medium">{context.language}</div>
+                <IoIosArrowDown className="dropdown-icon"/>
             </div>
             <ul className={dropdown ? "dropdown dropdown-show" : "dropdown"}>
                 {
                     languages.map((item) =>
-                        <li className="dropdown-item text-medium cursor-primary" key={item} onClick={() => languageChange(item)}>{item}</li>
+                        <li className="dropdown-item cursor-primary font-size-medium" key={item} onClick={() => languageChange(item)}>{item}</li>
                     )
                 }
             </ul>

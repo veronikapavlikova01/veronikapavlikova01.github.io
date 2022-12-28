@@ -49,6 +49,7 @@
         {
             "language":"en",
             "letter":"Font size",
+            "language_label":"Language",
             "default":"Default",
             "medium":"Medium",
             "large":"Large"
@@ -56,6 +57,7 @@
         {
             "language":"de",
             "letter":"Schriftgröße",
+            "language_label":"Sprache",
             "default":"Original",
             "medium":"Mittlere",
             "large":"Groß"
@@ -63,6 +65,7 @@
         {
             "language":"pl",
             "letter":"Rozmiar czcionki",
+            "language_label":"Język",
             "default":"Oryginał",
             "medium":"Średni",
             "large":"Duży"

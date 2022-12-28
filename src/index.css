@@ -46,6 +46,11 @@ body {
   border: none;
 }
 
+.dropdown-padding{
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+}
+
 .dropdown{
   opacity:0;
   transition: 0.5s;
@@ -58,9 +63,9 @@ body {
 
 .dropdown-item{
   background-color: black;
-  padding: 1em;
   text-decoration: none;
   display: block;
+  padding:1em;
 }
 
 .dropdown-show{
