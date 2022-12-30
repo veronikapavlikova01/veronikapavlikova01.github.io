@@ -17,7 +17,8 @@
             "map" : "Map",
             "rooms_label":"Here you can see the list of rooms that are included in the tour you selected. The rooms are arranged sequentially according to how you will go through them during the tour. Therefore, start with room number 1. If you are not sure which room you are in, ask your guide.",
             "where_to_next":"Where to next?",
-            "gallery":"Gallery"
+            "gallery":"Gallery",
+            "install":"Install"
         },
         {
             "language": "pl",
@@ -31,7 +32,8 @@
             "map" : "Mapa",
             "rooms_label":"Tutaj możesz zobaczyć listę pokoi, które są objęte wybraną wycieczką. Pokoje są ułożone sekwencyjnie, zgodnie z tym, jak będziesz przez nie przechodzić podczas zwiedzania. Dlatego zacznij od pokoju numer 1. Jeśli nie jesteś pewien, w którym pokoju się znajdujesz, zapytaj przewodnika.",
             "where_to_next":"Gdzie teraz?",
-            "gallery":"Galeria"
+            "gallery":"Galeria",
+            "install":"Zainstalować"
         },
         {
             "language": "de",
@@ -45,7 +47,8 @@
             "map" : "Landkarte",
             "rooms_label":"Hier sehen Sie die Liste der Zimmer, die in der von Ihnen ausgewählten Tour enthalten sind. Die Räume sind der Reihe nach so angeordnet, wie Sie sie während der Tour durchlaufen werden. Beginnen Sie daher mit Raum Nummer 1. Wenn Sie sich nicht sicher sind, in welchem ​​Raum Sie sich befinden, fragen Sie Ihren Guide.",
             "where_to_next":"Wohin als nächstes?",
-            "gallery":"Galeria"
+            "gallery":"Galeria",
+            "install":"Installieren"
         }
     ],
     "settings":[

@@ -52,7 +52,7 @@ body {
 }
 
 .dropdown{
-  opacity:0;
+  display: none;
   transition: 0.5s;
   color:white;
   position: absolute;
@@ -69,7 +69,7 @@ body {
 }
 
 .dropdown-show{
-  opacity: 1;
+  display:block;
 }
 
 .opacity{
@@ -82,6 +82,10 @@ body {
 
 .visibility-hidden{
   visibility: hidden;
+}
+
+.display-none{
+  display:none;
 }
 
 a, button, select{
@@ -174,6 +178,9 @@ option{
   margin: 1rem;
 }
 
+.margin-secondary{
+  margin:auto;
+}
 
 .margin-bottom-primary {
   margin-bottom: 1rem;

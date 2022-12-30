@@ -1,17 +1,29 @@
 import { NavLink } from 'react-router-dom'
 import Dropdown from './Dropdown';
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Context } from "../Context";
 import DataAPI from '../DataAPI'
 
 
 function Header(props) {
     const language = useContext(Context);
-    const navbar = new DataAPI().getNavbar(language.language);
+    const dataAPI = new DataAPI();
+    const navbar = dataAPI.getNavbar(language.language);
     const [sidebar, setSidebar] = useState(false);
     const showSidebar = () => setSidebar(!sidebar);
-
     window.onscroll = function () { shrinkNavbar(); };
+
+      async function onClick(){
+        console.log("kliknuto");
+        if(window.deferredPrompt){
+            window.deferredPrompt.prompt();
+            const { outcome } = await window.deferredPrompt.userChoice;
+            if(outcome=='accepted'){
+                window.installButtonDisplayed=false;
+            }
+
+        }
+      }
 
     function shrinkNavbar() {
         var docHeight = document.documentElement.scrollTop;
@@ -58,6 +70,7 @@ function Header(props) {
             </header>
             <nav id="navbar">
                 <ul id="navlist" className={'navigation-list' + ' ' + navlistClasses()} onClick={showSidebar}>
+                    <li className={(window.deferredPrompt&&window.installButtonDisplayed)?"margin-top-secondary margin-bottom-primary margin-secondary":"display-none"}><button onClick={onClick} id="downloadButton" className="text-medium button background-primary color-primary text-transform-primary font-weight-primary">Install</button></li>
                     <li className="margin-top-secondary margin-bottom-primary"><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/">{navbar.home}</NavLink></li>
                     <li className="margin-top-secondary margin-bottom-primary"><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/tours">{navbar.tours}</NavLink></li>
                     <li className="margin-top-secondary margin-bottom-primary"><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/rooms_overview">{navbar.map}</NavLink></li>

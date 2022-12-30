@@ -6,6 +6,15 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+window.deferredPrompt = null;
+window.installButtonDisplayed=true;
+
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  window.deferredPrompt=e;
+});
+
+
 root.render(
   <React.StrictMode>
     <App />
