@@ -162,16 +162,19 @@ option{
   margin-top: 1rem;
 }
 
+.margin-top-third{
+  margin-top:2rem;
+}
+.margin-top-fourth{
+  margin-top:auto;
+}
+
 .hover-primary:hover{
   transform: scale(1.03);
 }
 
 .transition-primary{
   transition: transform 0.3s;
-}
-
-.margin-top-third{
-  margin-top:2rem;
 }
 
 .margin-primary {
@@ -394,13 +397,16 @@ a{
   border-radius:20px;
 }
 
+.border-radius-secondary{
+  border-radius: 20px 20px 0 0;
+}
+
 
 .card-image {
   margin: 0;
   overflow: hidden;
   max-width: 100%;
   height: auto;
-  border-radius: 20px 20px 0 0;
   display: block;
 }
 
@@ -487,6 +493,11 @@ a{
   left:1rem;
   background-color: white;
   margin-top:1rem;
+}
+
+.gallery-label{
+  position:absolute;
+  bottom:0px;
 }
 
 .round-number{

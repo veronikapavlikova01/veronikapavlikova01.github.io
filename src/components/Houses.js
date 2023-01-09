@@ -20,9 +20,9 @@ function Houses() {
                 <div className="grid">
                     {
                         houses.map((item) => (
-                            <Link to="/owners" className="card box-shadow transition-primary hover-primary" key={item.title}>
-                                <article className="flex" onClick={() => context.changeHouse(item.title)}>
-                                    <img src={castle} alt="castle" className="card-image padding-bottom-primary" />
+                            <Link to="/owners" className="card box-shadow transition-primary hover-primary" key={item.title} onClick={() => context.changeHouse(item.title)}>
+                                <article className="flex">
+                                    <img src={castle} alt="castle" className="card-image padding-bottom-primary border-radius-secondary" loading="lazy"/>
                                     <h2 className="text-medium padding-primary">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.description}</p>
                                     <div className="center-text">

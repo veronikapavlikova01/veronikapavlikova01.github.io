@@ -24,7 +24,7 @@ function Tours() {
                         tours.map((item) => (
                             <Link to="/rooms" className="card box-shadow transition-primary hover-primary" key={item.title}>
                                 <article className="flex" onClick={() => context.changeTour(item.tour_id)}>
-                                    <img src={castle} alt="castle" className="card-image padding-bottom-primary" />
+                                    <img src={castle} alt="castle" className="card-image padding-bottom-primary border-radius-secondary" loading="lazy"/>
                                     <h2 className="text-medium padding-primary">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.description}</p>
                                     <div className="center-text  margin-primary ">

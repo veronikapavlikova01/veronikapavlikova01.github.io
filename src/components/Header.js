@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import Dropdown from './Dropdown';
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import { Context } from "../Context";
 import DataAPI from '../DataAPI'
 
@@ -14,11 +14,10 @@ function Header(props) {
     window.onscroll = function () { shrinkNavbar(); };
 
       async function onClick(){
-        console.log("kliknuto");
         if(window.deferredPrompt){
             window.deferredPrompt.prompt();
             const { outcome } = await window.deferredPrompt.userChoice;
-            if(outcome=='accepted'){
+            if(outcome==='accepted'){
                 window.installButtonDisplayed=false;
             }
 

@@ -60,6 +60,8 @@ function Room() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
+        console.log(room.number);
+        console.log(context.room);
     })
 
     return (

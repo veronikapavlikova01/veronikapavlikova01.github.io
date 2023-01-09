@@ -21,10 +21,10 @@ function Rooms() {
                 <div className="grid">
                     {
                         rooms.map((item) => (
-                            <Link to="/room" className="card box-shadow transition-primary hover-primary" key={item.number}>
-                                <article className="flex" onClick={() => context.changeRoom(item.number)}>
+                            <Link to="/room" className="card box-shadow transition-primary hover-primary" key={item.number} onClick={() => context.changeRoom(item.number)}>
+                                <article className="flex">
                                     <div className="padding-bottom-primary position-relative">
-                                        <img src={require(`../img${item.img}`)} alt="castle" className="card-image" />
+                                        <img src={require(`../img${item.img}`)} alt="castle" className="card-image border-radius-secondary" loading="lazy"/>
                                         <div className="card-number flex round-number">
                                             <span className="card-title-number">{item.number}</span>
                                         </div>

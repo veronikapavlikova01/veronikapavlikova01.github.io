@@ -17,6 +17,7 @@ import Other from './components/Other';
 import AboutApp from './components/AboutApp';
 import WhereToNext from './components/WhereToNext';
 import Gallery from './components/Gallery';
+import GalleryRooms from './components/GalleryRooms';
 import { Context } from './Context'
 
 class App extends React.Component {
@@ -39,6 +40,7 @@ class App extends React.Component {
     }
 
     this.changeRoom = (e) => {
+      console.log(e);
       this.setState({ room: e });
       localStorage.setItem("room", JSON.stringify(e));
     }
@@ -85,8 +87,13 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    //nastaveni fontu
-    var body = document.getElementById('body');
+    var height = window.screen.height;
+    var width = window.screen.width;
+    if(width<height){
+      window.screen.orientation.lock("portrait");
+    }
+    console.log(height);
+    console.log(width);
     var fontSize = localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d";
     this.changeFontSize(fontSize);
   }
@@ -112,6 +119,7 @@ class App extends React.Component {
             <Route path="/about_app" element={<AboutApp />} />
             <Route path="/where_to_next" element={<WhereToNext />} />
             <Route path="/gallery" element={<Gallery/>}/>
+            <Route path="/gallery_rooms" element={<GalleryRooms/>}/>
           </Routes>
         </Context.Provider>
       </HashRouter>
