@@ -4,8 +4,8 @@ import { Context } from "../Context"
 import { useContext } from "react"
 import Header from "./Header"
 import DataAPI from '../DataAPI'
-import { BsFillArrowRightCircleFill, BsFillArrowLeftCircleFill } from 'react-icons/bs'
-
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 function prevRoomExists(number) {
     if ((number - 1) >= 1) {
@@ -40,9 +40,9 @@ function slide(x1, x2, y1, y2, number, length, context) {
     let distance = 100;
     console.log(distance);
     if (Math.abs(y1 - y2) < 50) {
-        if (x1 > (x2+distance)) {
+        if (x1 > (x2 + distance)) {
             next(number, length, context);
-        } else if ((x1+distance) < x2) {
+        } else if ((x1 + distance) < x2) {
             previous(number, length, context);
         }
     }
@@ -66,7 +66,7 @@ function Room() {
 
     return (
         <>
-            <Header header={tour.title}/>
+            <Header header={tour.title} />
             <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => { x1 = touchStartEvent.changedTouches[0].clientX; y1 = touchStartEvent.changedTouches[0].clientY }} onTouchEnd={touchEndEvent => { slide(x1, touchEndEvent.changedTouches[0].clientX, y1, touchEndEvent.changedTouches[0].clientY, room.number, tour.rooms.length, context) }}>
                 <article className="font-size-third">
                     <div className="flex-secondary">
@@ -82,8 +82,12 @@ function Room() {
                     </div>
                     <p className="start-text margin-top-secondary medieval-first-letter">{room.text}</p>
                     <div className="flex-secondary">
-                        <BsFillArrowLeftCircleFill className={`icon margin-right-primary margin-top-third cursor-primary ${isPrev ? '' : ' visibility-hidden'}`} onClick={() => { previous(room.number, tour.rooms.length, context) }}></BsFillArrowLeftCircleFill>
-                        <BsFillArrowRightCircleFill className={`icon margin-left-primary margin-top-third cursor-primary ${isNext ? '' : ' visibility-hidden'}`} onClick={() => { next(room.number, tour.rooms.length, context) }}></BsFillArrowRightCircleFill>
+                        <div className={`flex round-item background-fourth margin-right-primary ${isPrev ? '' : ' visibility-hidden'}`}>
+                            <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { previous(room.number, tour.rooms.length, context) }} />
+                        </div>
+                        <div className={`flex round-item background-fourth margin-left-primary ${isNext ? '' : ' visibility-hidden'}`}>
+                            <ArrowForwardIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { next(room.number, tour.rooms.length, context) }} />
+                        </div>
                     </div>
                 </article>
             </div>

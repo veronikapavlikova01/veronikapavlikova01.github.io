@@ -18,7 +18,11 @@
             "rooms_label":"Here you can see the list of rooms that are included in the tour you selected. The rooms are arranged sequentially according to how you will go through them during the tour. Therefore, start with room number 1. If you are not sure which room you are in, ask your guide.",
             "where_to_next":"Where to next?",
             "gallery":"Gallery",
-            "install":"Install"
+            "install_label":"Install the app for offline access.",
+            "install_button":"Install",
+            "install_step_1":"1. Open your browser’s settings.",
+            "install_step_2":"2. Find and tap Add to Home screen.",
+            "install_step_3":"3. Confirm by tapping Add."
         },
         {
             "language": "pl",
@@ -33,7 +37,12 @@
             "rooms_label":"Tutaj możesz zobaczyć listę pokoi, które są objęte wybraną wycieczką. Pokoje są ułożone sekwencyjnie, zgodnie z tym, jak będziesz przez nie przechodzić podczas zwiedzania. Dlatego zacznij od pokoju numer 1. Jeśli nie jesteś pewien, w którym pokoju się znajdujesz, zapytaj przewodnika.",
             "where_to_next":"Gdzie teraz?",
             "gallery":"Galeria",
-            "install":"Zainstalować"
+            "install":"Zainstalować",
+            "install_label":"Zainstaluj aplikację, aby uzyskać dostęp offline.",
+            "install_button":"Zainstalować",
+            "install_step_1":"1. Otwórz ustawienia przeglądarki.",
+            "install_step_2":"2. Znajdź i stuknij opcję Dodaj do ekranu głównego.",
+            "install_step_3":"3. Potwierdź, dotykając Dodaj."
         },
         {
             "language": "de",
@@ -48,7 +57,12 @@
             "rooms_label":"Hier sehen Sie die Liste der Zimmer, die in der von Ihnen ausgewählten Tour enthalten sind. Die Räume sind der Reihe nach so angeordnet, wie Sie sie während der Tour durchlaufen werden. Beginnen Sie daher mit Raum Nummer 1. Wenn Sie sich nicht sicher sind, in welchem ​​Raum Sie sich befinden, fragen Sie Ihren Guide.",
             "where_to_next":"Wohin als nächstes?",
             "gallery":"Galeria",
-            "install":"Installieren"
+            "install":"Installieren",
+            "install_label":"Installieren Sie die App für den Offline-Zugriff.",
+            "install_button":"Installieren",
+            "install_step_1":"1. Öffnen Sie die Einstellungen Ihres Browsers.",
+            "install_step_2":"2. Suchen und tippen Sie auf Zum Startbildschirm hinzufügen.",
+            "install_step_3":"3. Bestätigen Sie, indem Sie auf Installieren tippen."
         }
     ],
     "settings":[

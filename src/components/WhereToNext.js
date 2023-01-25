@@ -1,12 +1,8 @@
 import React from "react";
 import { Context } from "../Context";
 import { useContext } from "react";
-import { Link } from 'react-router-dom'
-import { AiOutlinePhone, AiOutlinePicture, AiOutlineQuestion, AiOutlineInfoCircle } from 'react-icons/ai'
-import { FiSettings } from 'react-icons/fi'
 import Header from "./Header";
 import DataAPI from '../DataAPI';
-import small_icon from '../img/icons/icon-256.png'
 import castle from '../img/castle/room1.jpg'
 
 
@@ -25,7 +21,7 @@ function WhereToNext() {
                             <a href={item.url} className="card box-shadow transition-primary hover-primary" key={item.title}>
                                 <article className="flex">
                                     <div className="padding-bottom-primary position-relative">
-                                        <img src={castle} alt="castle" className="card-image" />
+                                        <img src={castle} alt="castle" className="card-image border-radius-secondary" />
                                     </div>
                                     <h2 className="padding-primary card-title flex-secondary text-medium">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.description}</p>

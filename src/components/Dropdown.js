@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Context } from '../Context'
 import DataAPI from "../DataAPI";
-import { IoIosArrowDown } from 'react-icons/io'
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 
 
@@ -21,7 +21,7 @@ function Dropdown() {
         <div className="dropdown-box text-transform-primary">
             <div  className="dropdown-button text-transform-primary cursor-primary flex-secondary align-items-primary" onClick={showDropdown}>
                 <div className="dropdown-padding font-size-medium">{context.language}</div>
-                <IoIosArrowDown className="dropdown-icon"/>
+                <KeyboardArrowDownIcon className="dropdown-icon"/>
             </div>
             <ul className={dropdown ? "dropdown dropdown-show" : "dropdown"}>
                 {

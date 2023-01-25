@@ -87,13 +87,6 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    var height = window.screen.height;
-    var width = window.screen.width;
-    if(width<height){
-      window.screen.orientation.lock("portrait");
-    }
-    console.log(height);
-    console.log(width);
     var fontSize = localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d";
     this.changeFontSize(fontSize);
   }

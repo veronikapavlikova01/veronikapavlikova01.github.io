@@ -24,9 +24,9 @@ function Rooms() {
                             <Link to="/room" className="card box-shadow transition-primary hover-primary" key={item.number} onClick={() => context.changeRoom(item.number)}>
                                 <article className="flex">
                                     <div className="padding-bottom-primary position-relative">
-                                        <img src={require(`../img${item.img}`)} alt="castle" className="card-image border-radius-secondary" loading="lazy"/>
-                                        <div className="card-number flex round-number">
-                                            <span className="card-title-number">{item.number}</span>
+                                        <img src={require(`../img${item.img}`)} alt="castle" className="card-image border-radius-secondary"/>
+                                        <div className="card-number flex round-item">
+                                            <span className="round-item-content">{item.number}</span>
                                         </div>
                                     </div>
                                     <h2 className="text-medium padding-primary card-title flex-secondary">{item.title}</h2>

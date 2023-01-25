@@ -2,12 +2,11 @@ import React from "react"
 import {useEffect} from 'react'
 import { Context } from "../Context"
 import { useContext} from "react"
-import { Link } from 'react-router-dom'
 import Header from "./Header"
 import DataAPI from '../DataAPI'
 import castle from '../img/uvod.jpg'
-import { BsFillArrowRightCircleFill, BsFillArrowLeftCircleFill } from 'react-icons/bs'
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
+import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
+import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 
 
 function prevOwnerExists(number){
@@ -70,13 +69,12 @@ function Owner() {
                             <h2>{owner.name}</h2>
                             <span className="font-style-primary margin-primary">xxx-xxx</span>
                         </div>
-                        <AiOutlineArrowRight className="icon visibility-hidden" />
                     </div>
                     <img src={castle} alt="castle margin-top-secondary" className="page-image" />
                     <p className="start-text margin-top-secondary">{owner.text}</p>
                     <div className="flex-secondary">
-                        <BsFillArrowLeftCircleFill className={`icon margin-right-primary margin-top-third cursor-primary () ${isPrev? '' : ' visibility-hidden'}`} onClick={() => {previous(owner.number, house.owners.length, context)}}></BsFillArrowLeftCircleFill>
-                        <BsFillArrowRightCircleFill className={`icon margin-left-primary margin-top-third cursor-primary () ${isNext? '' : ' visibility-hidden'}`} onClick={() => {next(owner.number, house.owners.length, context)}}></BsFillArrowRightCircleFill>
+                        <ArrowCircleLeftIcon className={`icon margin-right-primary margin-top-third cursor-primary () ${isPrev? '' : ' visibility-hidden'}`} onClick={() => {previous(owner.number, house.owners.length, context)}}/>
+                        <ArrowCircleRightIcon className={`icon margin-left-primary margin-top-third cursor-primary () ${isNext? '' : ' visibility-hidden'}`} onClick={() => {next(owner.number, house.owners.length, context)}}/>
                     </div>
                 </article>
             </div>

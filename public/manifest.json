@@ -39,5 +39,6 @@
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff",
+    "orientation": "portrait-primary",
     "description":"Audio guide application for the state castle and chateau Frýdlant"
   }

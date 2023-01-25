@@ -1,11 +1,9 @@
 import React from "react"
 import { Context } from "../Context"
 import { useContext} from "react"
-import { Link } from 'react-router-dom'
 import Header from "./Header"
 import DataAPI from '../DataAPI'
 import castle from '../img/uvod.jpg'
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
 
 
 
@@ -27,7 +25,6 @@ function HistoryOverview() {
                             <h2>{historyOverview.title}</h2>
                             <span className="font-style-primary margin-primary">{historyOverview.label}</span>
                         </div>
-                        <AiOutlineArrowRight className="icon visibility-hidden" />
                     </div>
                     <div>
                         <img src={castle} alt="castle" className="page-image" />

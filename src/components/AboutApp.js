@@ -1,9 +1,6 @@
 import React from "react";
 import { Context } from "../Context";
 import { useContext } from "react";
-import { Link } from 'react-router-dom'
-import { AiOutlinePhone, AiOutlinePicture, AiOutlineQuestion, AiOutlineInfoCircle } from 'react-icons/ai'
-import { FiSettings } from 'react-icons/fi'
 import Header from "./Header";
 import DataAPI from '../DataAPI';
 import small_icon from '../img/icons/icon-256.png'

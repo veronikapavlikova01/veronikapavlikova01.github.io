@@ -28,8 +28,8 @@ function Map() {
                             {
                                 visited.map((item) => (
                                     <div className="card flex-secondary align-items-primary margin-bottom-primary box-shadow padding-third opacity">
-                                        <div className="flex round-number background-fourth margin-right-secondary">
-                                            <span className="card-title-number color-primary">{item.number}</span>
+                                        <div className="flex round-item background-fourth margin-right-secondary">
+                                            <span className="round-item-content color-primary">{item.number}</span>
                                         </div>
                                         <span>{item.title}</span>
                                     </div>
@@ -40,8 +40,8 @@ function Map() {
                                 unvisited.map((item) => (
                                     <Link to="/room" className="transition-primary hover-primary card margin-bottom-primary box-shadow padding-third" onClick={()=>context.changeRoom(item.number)}>
                                         <div className="flex-secondary align-items-primary">
-                                            <div className="flex round-number background-fourth margin-right-secondary">
-                                                <span className="card-title-number color-primary">{item.number}</span>
+                                            <div className="flex round-item background-fourth margin-right-secondary">
+                                                <span className="round-item-content color-primary">{item.number}</span>
                                             </div>
                                             <span>{item.title}</span>
                                         </div>

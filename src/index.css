@@ -319,8 +319,13 @@ option{
   background-color: black;
   width: 100%;
   transition: 0.5s;
+}
+
+.navigation-list li{
   padding-right:4vw;
   padding-left:4vw;
+  padding-top:1rem;
+  padding-bottom:1rem;
 }
 
 .navigation-list-active{
@@ -500,7 +505,7 @@ a{
   bottom:0px;
 }
 
-.round-number{
+.round-item{
   text-align: center;
   width:3rem;
   height:3rem;
@@ -508,7 +513,7 @@ a{
   vertical-align: middle;
 }
 
-.card-title-number {
+.round-item-content {
   font-weight: bold;
   font-size: 1.5em;
   margin: auto;
