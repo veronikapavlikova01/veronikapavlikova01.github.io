@@ -15,14 +15,14 @@ function Owners() {
 
     return (
         <>
-            <Header header={context.house}/>
+            <Header header={context.house} />
             <div className="content-container">
                 <div className="grid">
                     {
                         owners.map((item) => (
                             <Link to="/owner" className="card box-shadow transition-primary hover-primary" key={item.number} onClick={() => context.changeOwner(item.number)}>
                                 <article className="flex">
-                                    <img src={castle} alt="castle" className="card-image border-radius-secondary padding-bottom-primary"/>
+                                    <img src={castle} alt="castle" className="card-image border-radius-secondary padding-bottom-primary" />
                                     <h2 className="text-medium padding-primary card-title flex-secondary">{item.name}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">Majitel hrad a zámku.</p>
                                     <div className="center-text">

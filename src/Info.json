@@ -20,9 +20,11 @@
             "gallery":"Gallery",
             "install_label":"Install the app for offline access.",
             "install_button":"Install",
+            "install_download_label":"How to download?",
             "install_step_1":"1. Open your browser’s settings.",
             "install_step_2":"2. Find and tap Add to Home screen.",
-            "install_step_3":"3. Confirm by tapping Add."
+            "install_step_3":"3. Confirm by tapping Add.",
+            "history_label":"In this section, you can learn about the history of the castle and chateau. You can read a brief history or get to know the individual families that have owned the manor here over the years."
         },
         {
             "language": "pl",
@@ -40,9 +42,11 @@
             "install":"Zainstalować",
             "install_label":"Zainstaluj aplikację, aby uzyskać dostęp offline.",
             "install_button":"Zainstalować",
+            "install_download_label":"Jak pobrać?",
             "install_step_1":"1. Otwórz ustawienia przeglądarki.",
             "install_step_2":"2. Znajdź i stuknij opcję Dodaj do ekranu głównego.",
-            "install_step_3":"3. Potwierdź, dotykając Dodaj."
+            "install_step_3":"3. Potwierdź, dotykając Dodaj.",
+            "history_label":"W tym dziale można zapoznać się z historią zamku i zamku. Można zapoznać się z krótką historią lub poznać poszczególne rodziny, które na przestrzeni lat były właścicielami tutejszego dworu."
         },
         {
             "language": "de",
@@ -60,9 +64,11 @@
             "install":"Installieren",
             "install_label":"Installieren Sie die App für den Offline-Zugriff.",
             "install_button":"Installieren",
+            "install_download_label":"Wie downloadet man das?",
             "install_step_1":"1. Öffnen Sie die Einstellungen Ihres Browsers.",
             "install_step_2":"2. Suchen und tippen Sie auf Zum Startbildschirm hinzufügen.",
-            "install_step_3":"3. Bestätigen Sie, indem Sie auf Installieren tippen."
+            "install_step_3":"3. Bestätigen Sie, indem Sie auf Installieren tippen.",
+            "history_label":"In diesem Abschnitt können Sie sich über die Geschichte der Burg und des Schlosses informieren. Hier können Sie eine kurze Geschichte lesen oder die einzelnen Familien kennenlernen, die das Gut hier im Laufe der Jahre besessen haben."
         }
     ],
     "settings":[

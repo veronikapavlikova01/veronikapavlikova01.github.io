@@ -17,8 +17,7 @@ function Header(props) {
     const navbar = dataAPI.getNavbar(language.language);
     const labels = dataAPI.getLabels(language.language);
     const [sidebar, setSidebar] = useState(false);
-    const showSidebar = () => setSidebar(!sidebar);
-    window.onscroll = function () { shrinkNavbar(); };
+    const showSidebar = () => {setSidebar(!sidebar); console.log(sidebar);}
     const [dialogOpen, setDialogOpen] = useState(false);
 
     const openDialog = () => {
@@ -40,8 +39,9 @@ function Header(props) {
         } else {
             openDialog();
         }
-    }
+    } 
 
+    /*
     function shrinkNavbar() {
         var docHeight = document.documentElement.scrollTop;
         var header = document.getElementById("header");
@@ -71,11 +71,12 @@ function Header(props) {
             }
         }
     }
+    */
 
     return (
         <>
             <Dialog open={dialogOpen} onClose={closeDialog}>
-                <DialogTitle>{labels.install_button}</DialogTitle>
+                <DialogTitle>{labels.install_download_label}</DialogTitle>
                 <DialogContent>
                     <DialogContentText>
                         {labels.install_step_1}
@@ -105,7 +106,7 @@ function Header(props) {
                 </div>
             </header>
             <nav id="navbar">
-                <ul id="navlist" className={'navigation-list' + ' ' + navlistClasses()} onClick={showSidebar}>
+                <ul id="navlist" className={sidebar? "navigation-list  navigation-list-active":"navigation-list"} onClick={showSidebar}>
                     <li ><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/">{navbar.home}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/tours">{navbar.tours}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/rooms_overview">{navbar.map}</NavLink></li>

@@ -1,10 +1,11 @@
 import React from "react"
 import { Context } from "../Context"
-import { useContext} from "react"
+import { useContext } from "react"
 import { Link } from 'react-router-dom'
 import Header from "./Header"
 import DataAPI from '../DataAPI'
 import castle from '../img/uvod.jpg'
+import InfoIcon from "@mui/icons-material/Info"
 
 
 function History() {
@@ -15,8 +16,14 @@ function History() {
 
     return (
         <>
-            <Header header={labels.history}/>
+            <Header header={labels.history} />
             <div className="margin-primary content-container">
+                <div className="card box-shadow transition-primary padding-third margin-bottom-primary">
+                    <div className="flex-secondary align-items-primary">
+                        <InfoIcon className="icon margin-right-secondary" />
+                        <span>{labels.history_label}</span>
+                    </div>
+                </div>
                 <div className="grid-secondary">
                     {
                         history.map((item) => (

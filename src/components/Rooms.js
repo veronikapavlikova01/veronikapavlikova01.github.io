@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useContext } from "react";
 import Header from "./Header";
 import DataAPI from '../DataAPI'
+import InfoIcon from '@mui/icons-material/Info';
 
 
 function Rooms() {
@@ -15,16 +16,21 @@ function Rooms() {
 
     return (
         <>
-            <Header header={tour.title}/>
+            <Header header={tour.title} />
             <div className="content-container">
-                <p className="margin-bottom-primary font-weight-primary">{labels.rooms_label}</p>
+            <div className="card box-shadow transition-primary padding-third margin-bottom-primary">
+                    <div className="flex-secondary align-items-primary">
+                        <InfoIcon className="icon margin-right-secondary" />
+                        <span>{labels.rooms_label}</span>
+                    </div>
+                </div>
                 <div className="grid">
                     {
                         rooms.map((item) => (
                             <Link to="/room" className="card box-shadow transition-primary hover-primary" key={item.number} onClick={() => context.changeRoom(item.number)}>
                                 <article className="flex">
                                     <div className="padding-bottom-primary position-relative">
-                                        <img src={require(`../img${item.img}`)} alt="castle" className="card-image border-radius-secondary"/>
+                                        <img src={require(`../img${item.img}`)} alt="castle" className="card-image border-radius-secondary" />
                                         <div className="card-number flex round-item">
                                             <span className="round-item-content">{item.number}</span>
                                         </div>

@@ -329,11 +329,7 @@ option{
 }
 
 .navigation-list-active{
-  top: 100px;
-}
-
-.navigation-list-active-70{
-  top:70px;
+  top:100px;
 }
 
 a{
@@ -511,6 +507,7 @@ a{
   height:3rem;
   border-radius: 50%;
   vertical-align: middle;
+  flex-shrink:0;
 }
 
 .round-item-content {
@@ -580,6 +577,14 @@ a{
 
   .text-header{
     font-size:1.5rem;
+  }
+
+  .navigation{
+    height:70px;
+  }
+
+  .navigation-list-active{
+    top:70px;
   }
 }
 
