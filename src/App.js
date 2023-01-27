@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, HashRouter, Routes } from 'react-router-dom'
+import { Route, BrowserRouter, Routes } from 'react-router-dom'
 import './App.css';
 import Home from './components/Home';
 import Tours from './components/Tours'
@@ -18,6 +18,7 @@ import AboutApp from './components/AboutApp';
 import WhereToNext from './components/WhereToNext';
 import Gallery from './components/Gallery';
 import GalleryRooms from './components/GalleryRooms';
+import ScrollToTop from './components/ScrollToTop';
 import { Context } from './Context'
 
 class App extends React.Component {
@@ -93,8 +94,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter onUpdate={()=>console.log("updated")}>
         <Context.Provider value={this.state}>
+        <ScrollToTop/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/tours" element={<Tours />} />
@@ -115,7 +117,7 @@ class App extends React.Component {
             <Route path="/gallery_rooms" element={<GalleryRooms/>}/>
           </Routes>
         </Context.Provider>
-      </HashRouter>
+      </BrowserRouter>
     )
   }
 

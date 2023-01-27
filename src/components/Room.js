@@ -38,7 +38,6 @@ function next(number, length, context) {
 
 function slide(x1, x2, y1, y2, number, length, context) {
     let distance = 100;
-    console.log(distance);
     if (Math.abs(y1 - y2) < 50) {
         if (x1 > (x2 + distance)) {
             next(number, length, context);
@@ -46,6 +45,20 @@ function slide(x1, x2, y1, y2, number, length, context) {
             previous(number, length, context);
         }
     }
+}
+
+function initializeMedia(){
+    var videoPlayer = document.getElementById("player");
+    var canvas = document.getElementById("canvas");
+    var captureButton = document.getElementById("capture-btn");
+    console.log("im trying to take a picture");
+    navigator.mediaDevices.getUserMedia({video: true})
+    .then(function(stream){
+        videoPlayer.srcObject=stream;
+    })
+    .catch(function(err){
+        console.log("Camera acces denied");
+    });
 }
 
 function Room() {
@@ -57,12 +70,6 @@ function Room() {
     const isNext = nextRoomExists(room.number, tour.rooms.length);
     var x1 = 0;
     var y1 = 0;
-
-    useEffect(() => {
-        window.scrollTo(0, 0);
-        console.log(room.number);
-        console.log(context.room);
-    })
 
     return (
         <>
@@ -89,6 +96,9 @@ function Room() {
                             <ArrowForwardIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { next(room.number, tour.rooms.length, context) }} />
                         </div>
                     </div>
+                    <video id="player" autoPlay></video>
+                    <canvas id="canvas"></canvas>
+                    <button id="capture-button" onClick={()=>initializeMedia()}>Capture</button>
                 </article>
             </div>
         </>

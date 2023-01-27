@@ -17,7 +17,7 @@ function Header(props) {
     const navbar = dataAPI.getNavbar(language.language);
     const labels = dataAPI.getLabels(language.language);
     const [sidebar, setSidebar] = useState(false);
-    const showSidebar = () => {setSidebar(!sidebar); console.log(sidebar);}
+    const showSidebar = () => {setSidebar(!sidebar)}
     const [dialogOpen, setDialogOpen] = useState(false);
 
     const openDialog = () => {
