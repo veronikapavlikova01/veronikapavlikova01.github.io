@@ -237,12 +237,15 @@ option{
 .welcome-background {
   background: linear-gradient(rgba(56, 27, 27, 0.4), rgba(107, 91, 91, 0.5)), url('/src/img/uvod.jpg');
   background-color:black;
-  height: 100vh;
-  width: 100%;
   background-size: cover;
   background-position: center;
   justify-content: center;
   align-items: center;
+}
+
+.full-screen{
+  height: 100vh;
+  width: 100%;
 }
 
 .welcome-text {

@@ -1,12 +1,13 @@
-import React from "react"
-import {useEffect} from 'react'
+import {React, useEffect} from "react"
+import { Link } from "react-router-dom"
 import { Context } from "../Context"
 import { useContext} from "react"
 import Header from "./Header"
 import DataAPI from '../DataAPI'
 import castle from '../img/uvod.jpg'
-import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
-import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import QrCode2Icon from '@mui/icons-material/QrCode2';
 
 
 function prevOwnerExists(number){
@@ -72,11 +73,18 @@ function Owner() {
                     </div>
                     <img src={castle} alt="castle margin-top-secondary" className="page-image" />
                     <p className="start-text margin-top-secondary">{owner.text}</p>
-                    <div className="flex-secondary">
-                        <ArrowCircleLeftIcon className={`icon margin-right-primary margin-top-third cursor-primary () ${isPrev? '' : ' visibility-hidden'}`} onClick={() => {previous(owner.number, house.owners.length, context)}}/>
-                        <ArrowCircleRightIcon className={`icon margin-left-primary margin-top-third cursor-primary () ${isNext? '' : ' visibility-hidden'}`} onClick={() => {next(owner.number, house.owners.length, context)}}/>
-                    </div>
                 </article>
+                <div className="flex-secondary margin-top">
+                    <div className={`flex round-item background-fourth margin-right-primary ${isPrev ? '' : ' visibility-hidden'}`}>
+                        <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { previous(owner.number, house.owners.length, context) }} />
+                    </div>
+                    <Link to="/scan" className="flex round-item background-fourth">
+                        <QrCode2Icon className="round-item-content color-primary margin-top-third cursor-primary" />
+                    </Link>
+                    <div className={`flex round-item background-fourth margin-left-primary ${isNext ? '' : ' visibility-hidden'}`}>
+                        <ArrowForwardIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { next(owner.number, house.owners.length, context) }} />
+                    </div>
+                </div>
             </div>
         </>
     )

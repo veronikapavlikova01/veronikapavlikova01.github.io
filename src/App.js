@@ -19,6 +19,7 @@ import WhereToNext from './components/WhereToNext';
 import Gallery from './components/Gallery';
 import GalleryRooms from './components/GalleryRooms';
 import ScrollToTop from './components/ScrollToTop';
+import QRScanner from './components/QRScanner';
 import { Context } from './Context'
 
 class App extends React.Component {
@@ -115,6 +116,7 @@ class App extends React.Component {
             <Route path="/where_to_next" element={<WhereToNext />} />
             <Route path="/gallery" element={<Gallery/>}/>
             <Route path="/gallery_rooms" element={<GalleryRooms/>}/>
+            <Route path="/scan" element={<QRScanner/>}/>
           </Routes>
         </Context.Provider>
       </BrowserRouter>

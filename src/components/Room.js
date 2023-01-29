@@ -2,10 +2,12 @@ import React from "react"
 import { useEffect } from "react"
 import { Context } from "../Context"
 import { useContext } from "react"
+import { Link } from "react-router-dom"
 import Header from "./Header"
 import DataAPI from '../DataAPI'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import QrCode2Icon from '@mui/icons-material/QrCode2';
 
 function prevRoomExists(number) {
     if ((number - 1) >= 1) {
@@ -47,20 +49,6 @@ function slide(x1, x2, y1, y2, number, length, context) {
     }
 }
 
-function initializeMedia(){
-    var videoPlayer = document.getElementById("player");
-    var canvas = document.getElementById("canvas");
-    var captureButton = document.getElementById("capture-btn");
-    console.log("im trying to take a picture");
-    navigator.mediaDevices.getUserMedia({video: true})
-    .then(function(stream){
-        videoPlayer.srcObject=stream;
-    })
-    .catch(function(err){
-        console.log("Camera acces denied");
-    });
-}
-
 function Room() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
@@ -88,23 +76,29 @@ function Room() {
                         <audio controls src="/src/mp3/nachod.mp3" className="page-audio"> Your browser does not support the audio element.</audio>
                     </div>
                     <p className="start-text margin-top-secondary medieval-first-letter">{room.text}</p>
-                    <div className="flex-secondary">
-                        <div className={`flex round-item background-fourth margin-right-primary ${isPrev ? '' : ' visibility-hidden'}`}>
-                            <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { previous(room.number, tour.rooms.length, context) }} />
-                        </div>
-                        <div className={`flex round-item background-fourth margin-left-primary ${isNext ? '' : ' visibility-hidden'}`}>
-                            <ArrowForwardIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { next(room.number, tour.rooms.length, context) }} />
-                        </div>
-                    </div>
-                    <video id="player" autoPlay></video>
-                    <canvas id="canvas"></canvas>
-                    <button id="capture-button" onClick={()=>initializeMedia()}>Capture</button>
                 </article>
+                <div className="flex-secondary margin-top">
+                    <div className={`flex round-item background-fourth margin-right-primary ${isPrev ? '' : ' visibility-hidden'}`}>
+                        <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { previous(room.number, tour.rooms.length, context) }} />
+                    </div>
+                    <Link to="/scan" className="flex round-item background-fourth">
+                        <QrCode2Icon className="round-item-content color-primary margin-top-third cursor-primary" />
+                    </Link>
+                    <div className={`flex round-item background-fourth margin-left-primary ${isNext ? '' : ' visibility-hidden'}`}>
+                        <ArrowForwardIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { next(room.number, tour.rooms.length, context) }} />
+                    </div>
+                </div>
             </div>
         </>
     )
 
 }
+
+/*
+                    <video id="player" autoPlay></video>
+                    <canvas id="canvas"></canvas>
+                    <button id="capture-button" onClick={()=>initializeMedia()}>Capture</button>
+*/
 
 export default Room;
 

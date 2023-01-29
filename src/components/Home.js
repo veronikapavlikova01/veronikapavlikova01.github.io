@@ -11,7 +11,7 @@ function Home() {
     const home = new DataAPI().getHome(context.language);
 
     return (
-        <div className="welcome-background flex">
+        <div className="welcome-background full-screen flex">
             <Dropdown />
             <div className="flex welcome-box">
                 <h1 className="center-text welcome-text-large color-primary welcome-text">
