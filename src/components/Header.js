@@ -78,20 +78,12 @@ function Header(props) {
             <Dialog open={dialogOpen} onClose={closeDialog}>
                 <DialogTitle>{labels.install_download_label}</DialogTitle>
                 <DialogContent>
-                    <DialogContentText>
-                        {labels.install_step_1}
-                    </DialogContentText>
-                    <DialogContentText>
-                        {labels.install_step_2}
-                    </DialogContentText>
-                    <DialogContentText>
-                        {labels.install_step_3}
-                    </DialogContentText>
+                    <DialogContentText>{labels.install_step_1}</DialogContentText>
+                    <DialogContentText>{labels.install_step_2}</DialogContentText>
+                    <DialogContentText>{labels.install_step_3}</DialogContentText>
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={closeDialog}>
-                        Close
-                    </Button>
+                    <Button onClick={closeDialog}>{labels.close_label}</Button>
                 </DialogActions>
             </Dialog>
             <header id="header" className="navigation stick z-index-nav flex-secondary align-items-primary">
@@ -110,6 +102,7 @@ function Header(props) {
                     <li ><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/">{navbar.home}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/tours">{navbar.tours}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/rooms_overview">{navbar.map}</NavLink></li>
+                    <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/scan_room">{navbar.scan_room}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/history">{navbar.history}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/other">{navbar.other}</NavLink></li>
                     <li className={(window.installButtonDisplayed) ? "background-primary" : "display-none"}>

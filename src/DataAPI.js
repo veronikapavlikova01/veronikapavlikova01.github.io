@@ -44,6 +44,15 @@ class DataAPI {
         return resultTours;
     }
 
+    getTourIds(language){
+        let tours = this.getTours(language);
+        const resultIds = [];
+        for(let i=0;i<tours.length;i++){
+            resultIds.push([tours[i].tour_id]);
+        }
+        return resultIds;
+    }
+
     getTour(language, tour){
         const tours=Info.tours;
         for(let i=0;i<tours.length;i++){

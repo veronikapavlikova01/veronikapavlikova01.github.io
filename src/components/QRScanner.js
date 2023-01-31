@@ -1,47 +1,84 @@
 import { useState, useContext } from "react";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useZxing } from "react-zxing";
 import { Context } from "../Context"
+import DataAPI from '../DataAPI'
+import Dialog from "@material-ui/core/Dialog";
+import DialogContentText from "@material-ui/core/DialogContentText";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import DialogActions from "@material-ui/core/DialogActions";
+import DialogContent from "@material-ui/core/DialogContent";
+import Button from "@material-ui/core/Button";
 
 function QRScanner() {
-  const [result, setResult] = useState("");
-  const context = useContext(Context);
-  const navigate = useNavigate();
-  const { ref } = useZxing({
-    onResult(rslt) {
-      setResult(rslt.getText());
-      console.log(result);
-      splitScannedText();
-    },
-  });
+    const [result, setResult] = useState("");
+    const context = useContext(Context);
+    const dataAPI = new DataAPI();
+    const labels = dataAPI.getLabels(context.language);
+    const tourIds = dataAPI.getTourIds(context.language);
+    const rooms = dataAPI.getRooms(context.language, context.tour);
+    const navigate = useNavigate();
+    const [dialogOpen, setDialogOpen] = useState(false);
 
-  function splitScannedText(){
-    var tourAndRoom = result.split("\n");
-    var tour = tourAndRoom[0].split(":");
-    var tourId = tour[1];
-    console.log(tourId);
+    const { ref } = useZxing({
+        onResult(rslt) {
+            setResult(rslt.getText());
+            splitScannedText();
+        },
+    });
 
-    var room = tourAndRoom[1].split(":");
-    var roomId = room[1];
-    console.log(roomId);
+    const openDialog = () => {
+        setDialogOpen(true);
+    };
 
-    redirectToRoom(tourId,roomId);
-  }
+    const closeDialog = () => {
+        setDialogOpen(false);
+    };
 
-  function redirectToRoom(tour, room){
-    if(tour && room){
-        var roomNumber = parseInt(room);
+    function splitScannedText() {
+        let tourAndRoom = result.split(" ");
+        let tour = tourAndRoom[0].toLowerCase();
+        let room = parseInt(tourAndRoom[1]);
+
+        if (tourExists(tour)) {
+            if ((room >= 1) && (room <= rooms.length)) {
+                redirectToRoom(tour, room);
+            }
+        } else{
+            openDialog();
+        }
+    }
+
+    function tourExists(tour) {
+        for (let i = 0; i < tourIds.length; i++) {
+            if (tourIds[i] == tour) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    function redirectToRoom(tour, room) {
+        console.log("redirecting");
         context.changeTour(tour);
-        context.changeRoom(roomNumber);
+        context.changeRoom(room);
         navigate("/room");
     }
-  }
 
-  return (
-    <>
-      <video ref={ref} className="full-screen"/>
-    </>
-  );
+    return (
+        <>
+            <Dialog open={dialogOpen} onClose={closeDialog}>
+                <DialogTitle>{labels.error_label}</DialogTitle>
+                <DialogContent>
+                    <DialogContentText>{labels.invalid_scan_label}</DialogContentText>
+                </DialogContent>
+                <DialogActions>
+                    <Button onClick={closeDialog}>{labels.close_label}</Button>
+                </DialogActions>
+            </Dialog>
+            <video ref={ref} className="full-screen" />
+        </>
+    );
 }
 
 export default QRScanner;

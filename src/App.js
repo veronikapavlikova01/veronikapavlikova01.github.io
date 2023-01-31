@@ -116,7 +116,7 @@ class App extends React.Component {
             <Route path="/where_to_next" element={<WhereToNext />} />
             <Route path="/gallery" element={<Gallery/>}/>
             <Route path="/gallery_rooms" element={<GalleryRooms/>}/>
-            <Route path="/scan" element={<QRScanner/>}/>
+            <Route path="/scan_room" element={<QRScanner/>}/>
           </Routes>
         </Context.Provider>
       </BrowserRouter>

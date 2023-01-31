@@ -20,7 +20,10 @@
             "gallery":"Gallery",
             "install_label":"Install the app for offline access.",
             "install_button":"Install",
+            "error_label":"Something went wrong...",
+            "close_label":"Close",
             "install_download_label":"How to download?",
+            "invalid_scan_label":"We are sorry, but the given QR code could not be recognized.",
             "install_step_1":"1. Open your browser’s settings.",
             "install_step_2":"2. Find and tap Add to Home screen.",
             "install_step_3":"3. Confirm by tapping Add.",
@@ -43,6 +46,9 @@
             "install_label":"Zainstaluj aplikację, aby uzyskać dostęp offline.",
             "install_button":"Zainstalować",
             "install_download_label":"Jak pobrać?",
+            "error_label":"Coś poszło nie tak...",
+            "close_label":"Zamknąć",
+            "invalid_scan_label":"Przepraszamy, ale podany kod QR nie został rozpoznany.",
             "install_step_1":"1. Otwórz ustawienia przeglądarki.",
             "install_step_2":"2. Znajdź i stuknij opcję Dodaj do ekranu głównego.",
             "install_step_3":"3. Potwierdź, dotykając Dodaj.",
@@ -64,6 +70,9 @@
             "install":"Installieren",
             "install_label":"Installieren Sie die App für den Offline-Zugriff.",
             "install_button":"Installieren",
+            "error_label":"Etwas ist schief gelaufen...",
+            "close_label":"Schließen",
+            "invalid_scan_label":"Es tut uns leid, aber der angegebene QR-Code konnte nicht erkannt werden.",
             "install_download_label":"Wie downloadet man das?",
             "install_step_1":"1. Öffnen Sie die Einstellungen Ihres Browsers.",
             "install_step_2":"2. Suchen und tippen Sie auf Zum Startbildschirm hinzufügen.",
@@ -121,6 +130,61 @@
             "gallery":"Galeria",
             "settings":"Ustawienia",
             "about_app":"O aplikacji"
+        }
+    ],
+    "navbar": [
+        {
+            "language": "en",
+            "tours": "Tours",
+            "history": "History",
+            "map": "Rooms",
+            "scan_room":"Scan the room",
+            "settings":"Settings",
+            "home":"Home",
+            "other":"Other"
+        },
+        {
+            "language": "de",
+            "tours": "Führungen",
+            "history": "Historie",
+            "map": "Räume",
+            "scan_room":"Scannen Sie den Raum",
+            "settings":"Einstellung",
+            "home":"Startseite",
+            "other":"Sonstiges"
+        },
+        {
+            "language": "pl",
+            "tours": "Trasy zwiedzania",
+            "history": "Historia",
+            "map": "Pokoje",
+            "scan_room":"Zeskanuj pokój",
+            "settings":"Ustawienia",
+            "home":"Strona główna",
+            "other":"Inny"
+        }
+    ],
+        "home": [
+        {
+            "language": "en",
+            "label_1": "Welcome",
+            "label_2": "to the state castle",
+            "label_3": "and chateau Frýdlant",
+            "button_label": "Choose tour"
+        },
+        {
+            "language": "de",
+            "label_1": "Wilkommen",
+            "label_2": "auf der Burg und",
+            "label_3": "dem Schloss Friedland",
+            "button_label": "Führung auswählen"
+        },
+        {
+            "language": "pl",
+            "label_1": "Witamy",
+            "label_2": "w zamku i",
+            "label_3": "pałacu Frýdlant",
+            "button_label": "Wybierz wycieczkę"
         }
     ],
     "where_to_next":[
@@ -261,61 +325,7 @@
             "not_seen":"Pokoje jeszcze nie odwiedzone"
         }
     ],
-    "home": [
-        {
-            "language": "en",
-            "label_1": "Welcome",
-            "label_2": "to the state castle",
-            "label_3": "and chateau Frýdlant",
-            "button_label": "Choose tour"
-        },
-        {
-            "language": "de",
-            "label_1": "Wilkommen",
-            "label_2": "auf der Burg und",
-            "label_3": "dem Schloss Friedland",
-            "button_label": "Führung auswählen"
-        },
-        {
-            "language": "pl",
-            "label_1": "Witamy",
-            "label_2": "w zamku i",
-            "label_3": "pałacu Frýdlant",
-            "button_label": "Wybierz wycieczkę"
-        }
-    ],
-    "navbar": [
-        {
-            "language": "en",
-            "tours": "Tours",
-            "history": "History",
-            "map": "Rooms",
-            "contact": "Contact",
-            "settings":"Settings",
-            "home":"Home",
-            "other":"Other"
-        },
-        {
-            "language": "de",
-            "tours": "Führungen",
-            "history": "Historie",
-            "map": "Räume",
-            "contact": "Kontakt",
-            "settings":"Einstellung",
-            "home":"Startseite",
-            "other":"Sonstiges"
-        },
-        {
-            "language": "pl",
-            "tours": "Trasy zwiedzania",
-            "history": "Historia",
-            "map": "Pokoje",
-            "contact": "Kontakt",
-            "settings":"Ustawienia",
-            "home":"Strona główna",
-            "other":"Inny"
-        }
-    ],
+
     "contact": [
         {
             "language": "en",
