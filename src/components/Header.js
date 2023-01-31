@@ -33,7 +33,7 @@ function Header(props) {
             window.deferredPrompt.prompt();
             const { outcome } = await window.deferredPrompt.userChoice;
             if (outcome === 'accepted') {
-                window.installButtonDisplayed = false;
+                window.installBannerDisplayed = false;
             }
 
         } else {
@@ -105,7 +105,7 @@ function Header(props) {
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/scan_room">{navbar.scan_room}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/history">{navbar.history}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/other">{navbar.other}</NavLink></li>
-                    <li className={(window.installButtonDisplayed) ? "background-primary" : "display-none"}>
+                    <li className={(window.installBannerDisplayed) ? "background-primary" : "display-none"}>
                         <div className="flex">
                             <span className="text-medium color-primary margin-bottom-primary">{labels.install_label}</span>
                             <button onClick={onClick} id="downloadButton" className="margin-secondary background-secondary text-medium button background-primary color-secondary text-transform-primary font-weight-primary">{labels.install_button}</button>

@@ -7,7 +7,9 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 window.deferredPrompt = null;
-window.installButtonDisplayed=true;
+
+//if app is not running in standalone, installSection should be displayed
+window.installBannerDisplayed=!window.matchMedia('(display-mode: standalone)').matches;
 
 window.addEventListener("beforeinstallprompt", (e) => {
   e.preventDefault();
