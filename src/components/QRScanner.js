@@ -9,6 +9,7 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import Button from "@material-ui/core/Button";
+import InfoIcon from '@mui/icons-material/Info';
 
 function QRScanner() {
     const [result, setResult] = useState("");
@@ -51,7 +52,7 @@ function QRScanner() {
 
     function tourExists(tour) {
         for (let i = 0; i < tourIds.length; i++) {
-            if (tourIds[i] == tour) {
+            if (tourIds[i] === tour) {
                 return true;
             }
         }
@@ -76,7 +77,10 @@ function QRScanner() {
                     <Button onClick={closeDialog}>{labels.close_label}</Button>
                 </DialogActions>
             </Dialog>
-            <video ref={ref} className="full-screen" />
+            <video id="player" ref={ref} className="full-screen"/>
+            <div className="video-label margin-top text-medium color-primary font-weight-primary center-text">
+                <span>{labels.scan_label}</span>
+            </div>
         </>
     );
 }

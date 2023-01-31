@@ -59,6 +59,10 @@ function Room() {
     var x1 = 0;
     var y1 = 0;
 
+    useEffect(() => {
+        window.scrollTo(0,0);
+    });
+
     return (
         <>
             <Header header={tour.title} />

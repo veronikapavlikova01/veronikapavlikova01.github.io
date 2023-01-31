@@ -244,8 +244,17 @@ option{
 }
 
 .full-screen{
-  height: 100vh;
-  width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.video-label{
+  position:fixed;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .welcome-text {
