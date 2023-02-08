@@ -12,16 +12,16 @@ function HistoryOverview() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
     const historyOverview = dataAPI.getHistoryOverview(context.language);
-    const labels = dataAPI.getLabels(context.language);
+    const header = dataAPI.getHeader(context.language);
 
     return (
         <>
-            <Header header={labels.history}/>
+            <Header header={header.history}/>
             <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary">
                 <article className="font-size-third ">
                     <div className="flex-secondary">
                         <div className="margin-right-primary margin-left-primary">
-                            <span className="font-style-primary margin-primary">{labels.history}</span>
+                            <span className="font-style-primary margin-primary">{header.history}</span>
                             <h2>{historyOverview.title}</h2>
                             <span className="font-style-primary margin-primary">{historyOverview.label}</span>
                         </div>

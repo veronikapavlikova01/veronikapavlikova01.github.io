@@ -12,10 +12,11 @@ import Button from "@material-ui/core/Button";
 
 
 function Header(props) {
-    const language = useContext(Context);
+    const context = useContext(Context);
     const dataAPI = new DataAPI();
-    const navbar = dataAPI.getNavbar(language.language);
-    const labels = dataAPI.getLabels(language.language);
+    const navbar = dataAPI.getNavbar(context.language);
+    const install = dataAPI.getInstall(context.language);
+    const dialogs = dataAPI.getDialogs(context.language);
     const [sidebar, setSidebar] = useState(false);
     const showSidebar = () => {setSidebar(!sidebar)}
     const [dialogOpen, setDialogOpen] = useState(false);
@@ -41,49 +42,17 @@ function Header(props) {
         }
     } 
 
-    /*
-    function shrinkNavbar() {
-        var docHeight = document.documentElement.scrollTop;
-        var header = document.getElementById("header");
-        var navlist = document.getElementById("navlist");
-        if (docHeight > 100 && header.style.height !== "70px") {
-            header.style.height = "70px";
-            navlist.classList.remove("navigation-list-active");
-            if (sidebar) {
-                navlist.classList.add("navigation-list-active-70");
-            }
-        } else if (docHeight < 70 && header.style.height !== "100px") {
-            header.style.height = "100px";
-            navlist.classList.remove("navigation-list-active-70");
-            if (sidebar) {
-                navlist.classList.add("navigation-list-active");
-            }
-        }
-    }
-
-    function navlistClasses() {
-        if (sidebar) {
-            var height = document.getElementById("header").style.height;
-            if (height && height === "70px") {
-                return "navigation-list-active-70";
-            } else {
-                return "navigation-list-active";
-            }
-        }
-    }
-    */
-
     return (
         <>
             <Dialog open={dialogOpen} onClose={closeDialog}>
-                <DialogTitle>{labels.install_download_label}</DialogTitle>
+                <DialogTitle>{dialogs.install_download_label}</DialogTitle>
                 <DialogContent>
-                    <DialogContentText>{labels.install_step_1}</DialogContentText>
-                    <DialogContentText>{labels.install_step_2}</DialogContentText>
-                    <DialogContentText>{labels.install_step_3}</DialogContentText>
+                    <DialogContentText>{dialogs.install_step_1}</DialogContentText>
+                    <DialogContentText>{dialogs.install_step_2}</DialogContentText>
+                    <DialogContentText>{dialogs.install_step_3}</DialogContentText>
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={closeDialog}>{labels.close_label}</Button>
+                    <Button onClick={closeDialog}>{dialogs.close_label}</Button>
                 </DialogActions>
             </Dialog>
             <header id="header" className="navigation stick z-index-nav flex-secondary align-items-primary">
@@ -107,8 +76,8 @@ function Header(props) {
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/other">{navbar.other}</NavLink></li>
                     <li className={(window.installBannerDisplayed) ? "background-primary" : "display-none"}>
                         <div className="flex">
-                            <span className="text-medium color-primary margin-bottom-primary">{labels.install_label}</span>
-                            <button onClick={onClick} id="downloadButton" className="margin-secondary background-secondary text-medium button background-primary color-secondary text-transform-primary font-weight-primary">{labels.install_button}</button>
+                            <span className="text-medium color-primary margin-bottom-primary">{install.install_label}</span>
+                            <button onClick={onClick} id="downloadButton" className="margin-secondary background-secondary text-medium button background-primary color-secondary text-transform-primary font-weight-primary">{install.install}</button>
                         </div>
                     </li>
                 </ul>

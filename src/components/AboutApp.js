@@ -8,7 +8,7 @@ import small_icon from '../img/icons/icon-256.png'
 function AboutApp() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
-    const header = dataAPI.getOther(context.language);
+    const header = dataAPI.getHeader(context.language);
     const about = dataAPI.getAboutApp(context.language);
 
     return (

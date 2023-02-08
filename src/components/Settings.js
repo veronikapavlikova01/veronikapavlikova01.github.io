@@ -7,7 +7,7 @@ function Settings() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
     const languages = dataAPI.getLanguages();
-    const header = dataAPI.getOther(context.language);
+    const header = dataAPI.getHeader(context.language);
     const settings = dataAPI.getSettings(context.language);
     return (
         <>

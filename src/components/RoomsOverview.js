@@ -9,22 +9,26 @@ import InfoIcon from '@mui/icons-material/Info';
 function Map() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
-    const labels = dataAPI.getLabels(context.language);
+    const info = dataAPI.getInfo(context.language);
+    const header = dataAPI.getHeader(context.language);
     const roomsOverview = dataAPI.getRoomsOverview(context.language);
     const unvisited = dataAPI.getUnvisitedRooms(context.language, context.tour, context.room);
     const visited = dataAPI.getVisitedRooms(context.language, context.tour, context.room);
 
     return (
         <>
-            <Header header={labels.rooms} />
+            <Header header={header.rooms} />
             <div class="content-container background-secondary">
                 {
                     !context.room ? (<p>{roomsOverview.tour_not_selected}</p>) :
                         (<>
                             <div className="card box-shadow transition-primary padding-third margin-bottom-primary">
-                                <div className="flex-secondary align-items-primary">
-                                    <InfoIcon className="icon margin-right-secondary" />
-                                    <span>{roomsOverview.label}</span>
+                                <div className="flex">
+                                    <div className="flex-secondary align-items-primary">
+                                        <InfoIcon className="icon margin-right-secondary" />
+                                        <span className="font-weight-primary">{info.info}</span>
+                                    </div>
+                                    <span>{info.rooms_overview}</span>
                                 </div>
                             </div>
                             <h3 className="opacity">{roomsOverview.seen}</h3>

@@ -4,83 +4,140 @@
         "de",
         "pl"
     ],
-    "labels": [
+    "info":[
+        {
+            "language":"en",
+            "info":"Informations",
+            "tours_info":"First, choose the tour for which you have purchased a ticket. Then wait at the place where the tour starts. Your guide will pick you up there.",
+            "history_info":"In this section, you can learn about the history of the castle and chateau. You can read a brief history or get to know the individual families that have owned the manor here over the years.",
+            "where_to_info":"If you would like to make another trip, we recommend visiting following places in the nearby area.",
+            "rooms_overview":"Here you can see an overview of the rooms located in the sightseeing route you have chosen."
+        },
+        {
+            "language":"pl",
+            "info":"Informacje",
+            "tours_info":"Najpierw wybierz wycieczkę, na którą kupiłeś bilet. Następnie poczekaj w miejscu rozpoczęcia wycieczki. Twój przewodnik cię tam zabierze.",
+            "history_info":"W tym dziale można zapoznać się z historią zamku i zamku. Można zapoznać się z krótką historią lub poznać poszczególne rodziny, które na przestrzeni lat były właścicielami tutejszego dworu.",
+            "where_to_info":"Jeśli masz ochotę na kolejną wycieczkę, polecamy odwiedzenie następujących miejsc w najbliższej okolicy.",
+            "rooms_overview":"Tutaj możesz zobaczyć przegląd pokoi znajdujących się na wybranej trasie zwiedzania."
+        },
+        {
+            "language":"de",
+            "info":"Informationen",
+            "tours_info":"Wählen Sie zunächst die Tour aus, für die Sie ein Ticket gekauft haben. Warten Sie dann an der Stelle, an der die Tour beginnt. Dort holt Sie Ihr Guide ab.",
+            "history_info":"In diesem Abschnitt können Sie sich über die Geschichte der Burg und des Schlosses informieren. Hier können Sie eine kurze Geschichte lesen oder die einzelnen Familien kennenlernen, die das Gut hier im Laufe der Jahre besessen haben.",
+            "where_to_info":"Wenn Sie einen weiteren Ausflug machen möchten, empflehlen wir Ihnen, die folgenden Orte in der näheren Umgebung zu besuchen.",
+            "rooms_overview":"Hier sehen Sie eine Übersicht der Zimmer, die sich in der von Ihnen gewählten Führung befinden."
+        }
+    ],
+    "dialogs":[
+        {
+            "language":"en",
+            "install_download_label":"How to download?",
+            "invalid_scan_label":"We are sorry, but the given QR code could not be recognized.",
+            "install_step_1":"1. Open your browser’s settings.",
+            "install_step_2":"2. Find and tap Add to Home screen.",
+            "install_step_3":"3. Confirm by tapping Add.",
+            "error_label":"Something went wrong...",
+            "close_label":"Close"
+        },
+        {
+            "language":"pl",
+            "install_download_label":"Jak pobrać?",
+            "error_label":"Coś poszło nie tak...",
+            "close_label":"Zamknąć",
+            "invalid_scan_label":"Przepraszamy, ale podany kod QR nie został rozpoznany.",
+            "install_step_1":"1. Otwórz ustawienia przeglądarki.",
+            "install_step_2":"2. Znajdź i stuknij opcję Dodaj do ekranu głównego.",
+            "install_step_3":"3. Potwierdź, dotykając Dodaj."
+        },
+        {
+            "language":"de",
+            "error_label":"Etwas ist schief gelaufen...",
+            "close_label":"Schließen",
+            "invalid_scan_label":"Es tut uns leid, aber der angegebene QR-Code konnte nicht erkannt werden.",
+            "install_download_label":"Wie downloadet man das?",
+            "install_step_1":"1. Öffnen Sie die Einstellungen Ihres Browsers.",
+            "install_step_2":"2. Suchen und tippen Sie auf Zum Startbildschirm hinzufügen.",
+            "install_step_3":"3. Bestätigen Sie, indem Sie auf Installieren tippen."
+        }
+    ],
+    "install": [
         {
             "language": "en",
+            "install":"Install",
+            "install_label":"Install the app for offline access."
+        },
+        {
+            "language": "pl",
+            "install":"Zainstalować",
+            "install_label":"Zainstaluj aplikację, aby uzyskać dostęp offline."
+        },
+        {
+            "language": "de",
+            "install":"Installieren",
+            "install_label":"Installieren Sie die App für den Offline-Zugriff."
+        }
+    ],
+    "scan":[
+        {
+            "language": "en",
+            "scan_label":"Scan the QR code"
+        },
+        {
+            "language": "pl",
+            "scan_label":"Zeskanuj kod QR"
+        },
+        {
+            "language": "de",
+            "scan_label":"Scannen Sie den QR-Code"
+        }
+    ],
+    "header":[
+        {
+            "language":"en",
             "rooms": "Rooms",
             "other":"Other",
             "history": "History",
             "houses": "Houses",
             "owners": "Owners",
             "tours":"Tours",
-            "tours_label":"First, choose the tour for which you have purchased a ticket. Then wait at the place where the tour starts. Your guide will pick you up there.",
             "map" : "Map",
-            "rooms_label":"Here you can see the list of rooms that are included in the tour you selected. The rooms are arranged sequentially according to how you will go through them during the tour. Therefore, start with room number 1. If you are not sure which room you are in, ask your guide.",
             "where_to_next":"Where to next?",
             "gallery":"Gallery",
-            "install_label":"Install the app for offline access.",
-            "install_button":"Install",
-            "error_label":"Something went wrong...",
-            "scan_label":"Scan the QR code",
-            "close_label":"Close",
-            "install_download_label":"How to download?",
-            "invalid_scan_label":"We are sorry, but the given QR code could not be recognized.",
-            "install_step_1":"1. Open your browser’s settings.",
-            "install_step_2":"2. Find and tap Add to Home screen.",
-            "install_step_3":"3. Confirm by tapping Add.",
-            "history_label":"In this section, you can learn about the history of the castle and chateau. You can read a brief history or get to know the individual families that have owned the manor here over the years."
+            "about_app":"About app",
+            "settings":"Settings",
+            "contact":"Contact"
         },
         {
-            "language": "pl",
+            "language":"pl",
             "rooms": "Pokoje",
             "other":"Inny",
             "history": "Historia",
             "houses": "Rody",
             "owners": "Właściciele",
             "tours":"Wycieczki",
-            "tours_label":"Najpierw wybierz wycieczkę, na którą kupiłeś bilet. Następnie poczekaj w miejscu rozpoczęcia wycieczki. Twój przewodnik cię tam zabierze.",
             "map" : "Mapa",
-            "rooms_label":"Tutaj możesz zobaczyć listę pokoi, które są objęte wybraną wycieczką. Pokoje są ułożone sekwencyjnie, zgodnie z tym, jak będziesz przez nie przechodzić podczas zwiedzania. Dlatego zacznij od pokoju numer 1. Jeśli nie jesteś pewien, w którym pokoju się znajdujesz, zapytaj przewodnika.",
             "where_to_next":"Gdzie teraz?",
             "gallery":"Galeria",
-            "install":"Zainstalować",
-            "install_label":"Zainstaluj aplikację, aby uzyskać dostęp offline.",
-            "install_button":"Zainstalować",
-            "install_download_label":"Jak pobrać?",
-            "error_label":"Coś poszło nie tak...",
-            "scan_label":"Zeskanuj kod QR",
-            "close_label":"Zamknąć",
-            "invalid_scan_label":"Przepraszamy, ale podany kod QR nie został rozpoznany.",
-            "install_step_1":"1. Otwórz ustawienia przeglądarki.",
-            "install_step_2":"2. Znajdź i stuknij opcję Dodaj do ekranu głównego.",
-            "install_step_3":"3. Potwierdź, dotykając Dodaj.",
-            "history_label":"W tym dziale można zapoznać się z historią zamku i zamku. Można zapoznać się z krótką historią lub poznać poszczególne rodziny, które na przestrzeni lat były właścicielami tutejszego dworu."
+            "about_app":"O aplikacji",
+            "settings":"Ustawienia",
+            "contact":"Kontakt"
         },
         {
-            "language": "de",
+            "language":"de",
             "rooms": "Räume",
             "other":"Sonstiges",
             "history": "Historie",
             "houses": "Häuser",
             "owners": "Besitzer",
             "tours":"Führungen",
-            "tours_label":"Wählen Sie zunächst die Tour aus, für die Sie ein Ticket gekauft haben. Warten Sie dann an der Stelle, an der die Tour beginnt. Dort holt Sie Ihr Guide ab.",
             "map" : "Landkarte",
-            "rooms_label":"Hier sehen Sie die Liste der Zimmer, die in der von Ihnen ausgewählten Tour enthalten sind. Die Räume sind der Reihe nach so angeordnet, wie Sie sie während der Tour durchlaufen werden. Beginnen Sie daher mit Raum Nummer 1. Wenn Sie sich nicht sicher sind, in welchem ​​Raum Sie sich befinden, fragen Sie Ihren Guide.",
             "where_to_next":"Wohin als nächstes?",
-            "gallery":"Galeria",
-            "install":"Installieren",
-            "install_label":"Installieren Sie die App für den Offline-Zugriff.",
-            "install_button":"Installieren",
-            "error_label":"Etwas ist schief gelaufen...",
-            "scan_label":"Scannen Sie den QR-Code",
-            "close_label":"Schließen",
-            "invalid_scan_label":"Es tut uns leid, aber der angegebene QR-Code konnte nicht erkannt werden.",
-            "install_download_label":"Wie downloadet man das?",
-            "install_step_1":"1. Öffnen Sie die Einstellungen Ihres Browsers.",
-            "install_step_2":"2. Suchen und tippen Sie auf Zum Startbildschirm hinzufügen.",
-            "install_step_3":"3. Bestätigen Sie, indem Sie auf Installieren tippen.",
-            "history_label":"In diesem Abschnitt können Sie sich über die Geschichte der Burg und des Schlosses informieren. Hier können Sie eine kurze Geschichte lesen oder die einzelnen Familien kennenlernen, die das Gut hier im Laufe der Jahre besessen haben."
+            "gallery":"Galerie",
+            "about_app":"Über App",
+            "settings":"Einstellung",
+            "contact":"Kontakt"
         }
     ],
     "settings":[
@@ -285,7 +342,7 @@
             "author_label":"Author",
             "author":"Veronika Pavlíková",
             "collaboration_label":"In Zusammenarbeit mit",
-            "collaboration":"Palacký Univerzität Olmütz",
+            "collaboration":"Palacký Universität Olmütz",
             "photos_label":"Fotos von",
             "photos":"Lukáš Hübner",
             "logo_label":"Logo von",
@@ -309,21 +366,18 @@
         {
             "language":"en",
             "tour_not_selected":"First, please choose the sightseeing route you want to take.",
-            "label":"Here you can see an overview of the rooms located in the sightseeing route you have chosen.",
             "seen":"Already visited rooms",
             "not_seen":"Rooms not yet visited"
         },
         {
             "language": "de",
             "tour_not_selected":"Bitte wählen Sie zunächst die Führung aus, die Sie nehmen möchten.",
-            "label":"Hier sehen Sie eine Übersicht der Zimmer, die sich in der von Ihnen gewählten Führung befinden.",
             "seen":"Bereits besuchte Räume",
             "not_seen":"Noch nicht besuchte Räume"
         },
         {
             "language": "pl",
             "tour_not_selected":"Najpierw wybierz trasę zwiedzania, którą chcesz obrać.",
-            "label":"Tutaj możesz zobaczyć przegląd pokoi znajdujących się na wybranej trasie zwiedzania.",
             "seen":"Odwiedzone już pokoje",
             "not_seen":"Pokoje jeszcze nie odwiedzone"
         }

@@ -52,6 +52,11 @@ class App extends React.Component {
       localStorage.setItem("owner", JSON.stringify(e));
     }
 
+    this.changeGalleryTour = (e) => {
+      this.setState({ gallery_tour: e });
+      localStorage.setItem("gallery_tour", JSON.stringify(e));
+    }
+
     this.changeFontSize = (e) => {
       var body = document.getElementById('body');
       if (e === "d") {
@@ -85,6 +90,8 @@ class App extends React.Component {
       changeOwner: this.changeOwner,
       fontSize: localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d",
       changeFontSize: this.changeFontSize,
+      gallery_tour: localStorage.getItem("gallery_tour") !== null ? JSON.parse(localStorage.getItem("gallery_tour")) : "castle",
+      changeGalleryTour: this.changeGalleryTour,
     };
   }
 

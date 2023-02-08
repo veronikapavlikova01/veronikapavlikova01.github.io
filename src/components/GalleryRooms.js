@@ -9,8 +9,8 @@ import DataAPI from '../DataAPI'
 function GalleryRooms() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
-    const rooms = dataAPI.getRooms(context.language, context.tour);
-    const tour = dataAPI.getTour(context.language, context.tour);
+    const rooms = dataAPI.getRooms(context.language, context.gallery_tour);
+    const tour = dataAPI.getTour(context.language, context.gallery_tour);
 
     return (
         <>

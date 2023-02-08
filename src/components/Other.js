@@ -14,7 +14,7 @@ import InfoIcon from '@mui/icons-material/Info';
 function Other() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
-    const header = dataAPI.getLabels(context.language);
+    const header = dataAPI.getHeader(context.language);
     const other = dataAPI.getOther(context.language);
 
     return (

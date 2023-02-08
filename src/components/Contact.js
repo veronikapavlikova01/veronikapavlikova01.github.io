@@ -7,11 +7,13 @@ import DataAPI from '../DataAPI'
 
 function Contact() {
     const context = useContext(Context);
-    const contact = new DataAPI().getContact(context.language);
+    const dataAPI = new DataAPI();
+    const contact = dataAPI.getContact(context.language);
+    const header = dataAPI.getHeader(context.language);
 
     return (
         <>
-            <Header header={contact.title}/>
+            <Header header={header.contact}/>
             {
                 <section class="content-container background-secondary padding-secondary box-shadow border-radius-primary">
                     <div class="contact-box">

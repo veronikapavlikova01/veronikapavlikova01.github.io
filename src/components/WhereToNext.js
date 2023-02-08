@@ -3,18 +3,29 @@ import { Context } from "../Context";
 import { useContext } from "react";
 import Header from "./Header";
 import DataAPI from '../DataAPI';
+import InfoIcon from '@mui/icons-material/Info';
 import castle from '../img/castle/room1.jpg'
 
 
 function WhereToNext() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
-    const header = dataAPI.getLabels(context.language);
+    const header = dataAPI.getHeader(context.language);
+    const info = dataAPI.getInfo(context.language);
     const where = dataAPI.getWhereToNext(context.language);
     return (
         <>
             <Header header={header.where_to_next} />
             <div className="content-container">
+                <div className="card box-shadow transition-primary padding-third margin-bottom-primary">
+                    <div className="flex">
+                        <div className="flex-secondary align-items-primary">
+                            <InfoIcon className="icon margin-right-secondary" />
+                            <span className="font-weight-primary">{info.info}</span>
+                        </div>
+                        <span>{info.where_to_info}</span>
+                    </div>
+                </div>
                 <div className="grid">
                     {
                         where.places.map((item) => (

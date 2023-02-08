@@ -12,6 +12,8 @@ export const Context = React.createContext({
   owner:"1",
   changeOwner: () => {},
   "font-size":"d",
-  changeFontSize: () => {}
+  changeFontSize: () => {},
+  "gallery_tour":"castle",
+  changeGalleryTour:() => {}
 });
 

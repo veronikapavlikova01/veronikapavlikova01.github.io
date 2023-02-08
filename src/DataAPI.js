@@ -10,12 +10,56 @@ class DataAPI {
         return Info.languages;
     }
 
-    //labels
-    getLabels(language){
-        const labels = Info.labels;
-        for (let i=0; i<labels.length;i++){
-            if(labels[i].language===language){
-                return labels[i];
+    //install
+    getInstall(language){
+        const install = Info.install;
+        for (let i=0; i<install.length;i++){
+            if(install[i].language===language){
+                return install[i];
+            }
+        }
+        return null;
+    }
+
+    //scan
+    getScan(language){
+        const scan = Info.scan;
+        for (let i=0; i<scan.length;i++){
+            if(scan[i].language===language){
+                return scan[i];
+            }
+        }
+        return null;
+    }
+
+    //info
+    getInfo(language){
+        const info = Info.info;
+        for (let i=0; i<info.length;i++){
+            if(info[i].language===language){
+                return info[i];
+            }
+        }
+        return null;
+    }
+
+    //dialogs
+    getDialogs(language){
+        const dialogs = Info.dialogs;
+        for (let i=0; i<dialogs.length;i++){
+            if(dialogs[i].language===language){
+                return dialogs[i];
+            }
+        }
+        return null;
+    }
+
+    //header
+    getHeader(language){
+        const header = Info.header;
+        for (let i=0; i<header.length;i++){
+            if(header[i].language===language){
+                return header[i];
             }
         }
         return null;
