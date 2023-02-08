@@ -14,11 +14,13 @@ function QRScanner() {
     const [result, setResult] = useState("");
     const context = useContext(Context);
     const dataAPI = new DataAPI();
-    const labels = dataAPI.getLabels(context.language);
+    const scan = dataAPI.getScan(context.language);
+    const dialogs = dataAPI.getDialogs(context.language)
     const tourIds = dataAPI.getTourIds(context.language);
     const rooms = dataAPI.getRooms(context.language, context.tour);
     const navigate = useNavigate();
     const [dialogOpen, setDialogOpen] = useState(false);
+    const [read,setRead] = useState("");
 
     const { ref } = useZxing({
         onResult(rslt) {
@@ -45,6 +47,7 @@ function QRScanner() {
                 redirectToRoom(tour, room);
             }
         } else{
+            setRead(tour);
             openDialog();
         }
     }
@@ -68,17 +71,17 @@ function QRScanner() {
     return (
         <>
             <Dialog open={dialogOpen} onClose={closeDialog}>
-                <DialogTitle>{labels.error_label}</DialogTitle>
+                <DialogTitle>{dialogs.error_label}</DialogTitle>
                 <DialogContent>
-                    <DialogContentText>{labels.invalid_scan_label}</DialogContentText>
+                    <DialogContentText>{read}</DialogContentText>
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={closeDialog}>{labels.close_label}</Button>
+                    <Button onClick={closeDialog}>{dialogs.close_label}</Button>
                 </DialogActions>
             </Dialog>
             <video id="video" ref={ref} className="full-screen"/>
             <div className="video-label margin-top text-medium color-primary font-weight-primary center-text">
-                <span>{labels.scan_label}</span>
+                <span>{scan.scan_label}</span>
             </div>
         </>
     );
