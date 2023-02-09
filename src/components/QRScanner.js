@@ -19,7 +19,6 @@ function QRScanner() {
     const tourIds = dataAPI.getTourIds(context.language);
     const rooms = dataAPI.getRooms(context.language, context.tour);
     const navigate = useNavigate();
-    const [dialogOpen, setDialogOpen] = useState(false);
 
     const { ref } = useZxing({
         onResult(rslt) {
@@ -27,14 +26,6 @@ function QRScanner() {
             splitScannedText();
         },
     });
-
-    const openDialog = () => {
-        setDialogOpen(true);
-    };
-
-    const closeDialog = () => {
-        setDialogOpen(false);
-    };
 
     function splitScannedText() {
         let tourAndRoom = result.split(" ");
@@ -45,8 +36,6 @@ function QRScanner() {
             if ((room >= 1) && (room <= rooms.length)) {
                 redirectToRoom(tour, room);
             }
-        } else{
-            openDialog();
         }
     }
 
@@ -68,15 +57,6 @@ function QRScanner() {
 
     return (
         <>
-            <Dialog open={dialogOpen} onClose={closeDialog}>
-                <DialogTitle>{dialogs.error_label}</DialogTitle>
-                <DialogContent>
-                    <DialogContentText>{dialogs.invalid_scan_label}</DialogContentText>
-                </DialogContent>
-                <DialogActions>
-                    <Button onClick={closeDialog}>{dialogs.close_label}</Button>
-                </DialogActions>
-            </Dialog>
             <video id="video" ref={ref} className="full-screen"/>
             <div className="video-label margin-top text-medium color-primary font-weight-primary center-text">
                 <span>{scan.scan_label}</span>
