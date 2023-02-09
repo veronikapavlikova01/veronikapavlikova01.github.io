@@ -20,8 +20,11 @@ function History() {
             <Header header={header.history} />
             <div className="margin-primary content-container">
                 <div className="card box-shadow transition-primary padding-third margin-bottom-primary">
-                    <div className="flex-secondary align-items-primary">
-                        <InfoIcon className="icon margin-right-secondary" />
+                    <div className="flex">
+                        <div className="flex-secondary align-items-primary">
+                            <InfoIcon className="icon margin-right-secondary" />
+                            <span className="font-weight-primary">{info.info}</span>
+                        </div>
                         <span>{info.history_info}</span>
                     </div>
                 </div>
