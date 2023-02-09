@@ -55,7 +55,7 @@ function Other() {
                         <span>{other.settings}</span>
                     </div>
                 </Link>
-                <Link to="/settings" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                <Link to="/scan_room" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
                     <div className="flex-secondary align-items-primary">
                         <div className="flex round-item background-fourth margin-right-secondary">
                             <QrCode2Icon className="round-item-content color-primary"/>
