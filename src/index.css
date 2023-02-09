@@ -104,6 +104,10 @@ a{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.border-top{
+  border-top: 2px solid black;
+}
+
 option{
   background-color: #000;
 }
@@ -135,7 +139,7 @@ option{
 }
 
 .background-third {
-  background-color: #ebbe84;
+  background-color: #c8dbda;
 }
 
 .background-color-fourth{
@@ -303,10 +307,20 @@ option{
   height:100px;
 }
 
-.stick{
+.stick-top{
   position: -webkit-sticky;
   position:sticky;
   top:0;
+}
+
+.stick-bottom{
+  position: -webkit-sticky;
+  position:sticky;
+  bottom:0;
+}
+
+.padding-zero{
+  padding:0;
 }
 
 .nav-visible{

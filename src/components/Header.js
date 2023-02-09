@@ -78,7 +78,7 @@ function Header(props) {
                     <Button onClick={closeDialog}>{dialogs.close_label}</Button>
                 </DialogActions>
             </Dialog>
-            <header id="header" className="navigation background-primary stick z-index-nav flex-secondary align-items-primary">
+            <header id="header" className="navigation background-primary stick-top z-index-nav flex-secondary align-items-primary">
                 <h1 id="headerLabel" className="text-header font-weight-primary color-primary margin-right-primary text-large">{props.header}</h1>
                 <div className="flex-secondary align-items-primary z-index-nav">
                     <Dropdown></Dropdown>

@@ -74,7 +74,7 @@ function Owner() {
                     <img src={castle} alt="castle margin-top-secondary" className="page-image" />
                     <p className="start-text margin-top-secondary">{owner.text}</p>
                 </article>
-                <div className="flex-secondary margin-top">
+                <div className="flex-secondary margin-top stick-bottom padding-bottom-primary padding-top-primary background-secondary border-top">
                     <div className={`flex round-item background-fourth margin-right-primary ${isPrev ? '' : ' visibility-hidden'}`}>
                         <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { previous(owner.number, house.owners.length, context) }} />
                     </div>
