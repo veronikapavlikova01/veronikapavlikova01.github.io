@@ -319,15 +319,10 @@ option{
 }
 
 .navigation-list {
-  display: flex;
   list-style: none;
   position:fixed;
   z-index:1;
-  top: -100%;
-  right:0;
-  gap: 0;
-  font-weight: bold;
-  flex-direction: column;
+  top: -200%;
   background-color: black;
   width: 100%;
   transition: 0.5s;
@@ -622,5 +617,11 @@ a{
 
   .padding-primary {
       padding: 0.5rem;
+  }
+}
+
+@media (orientation: landscape) and (max-width:1024px) {
+  body {
+    transform: rotate(-90deg);
   }
 }

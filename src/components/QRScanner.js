@@ -15,12 +15,11 @@ function QRScanner() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
     const scan = dataAPI.getScan(context.language);
-    const dialogs = dataAPI.getDialogs(context.language)
+    const dialogs = dataAPI.getDialogs(context.language);
     const tourIds = dataAPI.getTourIds(context.language);
     const rooms = dataAPI.getRooms(context.language, context.tour);
     const navigate = useNavigate();
     const [dialogOpen, setDialogOpen] = useState(false);
-    const [read,setRead] = useState("");
 
     const { ref } = useZxing({
         onResult(rslt) {
@@ -47,7 +46,6 @@ function QRScanner() {
                 redirectToRoom(tour, room);
             }
         } else{
-            setRead(tour);
             openDialog();
         }
     }
@@ -73,7 +71,7 @@ function QRScanner() {
             <Dialog open={dialogOpen} onClose={closeDialog}>
                 <DialogTitle>{dialogs.error_label}</DialogTitle>
                 <DialogContent>
-                    <DialogContentText>{read}</DialogContentText>
+                    <DialogContentText>{dialogs.invalid_scan_label}</DialogContentText>
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={closeDialog}>{dialogs.close_label}</Button>

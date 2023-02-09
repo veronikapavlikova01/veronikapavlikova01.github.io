@@ -1,6 +1,6 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import Dropdown from './Dropdown';
-import { useContext, useState } from "react";
+import { useContext, useState} from "react";
 import { Context } from "../Context";
 import DataAPI from '../DataAPI';
 import Dialog from "@material-ui/core/Dialog";
@@ -20,6 +20,28 @@ function Header(props) {
     const [sidebar, setSidebar] = useState(false);
     const showSidebar = () => {setSidebar(!sidebar)}
     const [dialogOpen, setDialogOpen] = useState(false);
+    const isSafariUsed = isSafari();
+    const isIOSUsed = isIOS();
+    const navigate = useNavigate();
+
+
+    function isIOS(){
+        const expression = /(Mac|iPhone|iPod|iPad)/i;
+        if(expression.test(navigator.platform)){
+            return true
+        }
+        return false
+    }
+
+    function isSafari(){
+        const userAgent = navigator.userAgent;
+        if(userAgent.includes("Safari")){
+            if(!(userAgent.includes("Chrome") || userAgent.includes("Chromium"))){
+                return true
+            }
+        }
+        return false
+    }
 
     const openDialog = () => {
         setDialogOpen(true);
@@ -48,14 +70,15 @@ function Header(props) {
                 <DialogTitle>{dialogs.install_download_label}</DialogTitle>
                 <DialogContent>
                     <DialogContentText>{dialogs.install_step_1}</DialogContentText>
-                    <DialogContentText>{dialogs.install_step_2}</DialogContentText>
+                    <DialogContentText>{isSafariUsed? dialogs.install_step_2_safari : dialogs.install_step_2}</DialogContentText>
                     <DialogContentText>{dialogs.install_step_3}</DialogContentText>
+                    <DialogContentText className='font-weight-primary'>{(!isIOSUsed && !isSafariUsed)? dialogs.install_use_safari : ""}</DialogContentText>
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={closeDialog}>{dialogs.close_label}</Button>
                 </DialogActions>
             </Dialog>
-            <header id="header" className="navigation stick z-index-nav flex-secondary align-items-primary">
+            <header id="header" className="navigation background-primary stick z-index-nav flex-secondary align-items-primary">
                 <h1 id="headerLabel" className="text-header font-weight-primary color-primary margin-right-primary text-large">{props.header}</h1>
                 <div className="flex-secondary align-items-primary z-index-nav">
                     <Dropdown></Dropdown>
@@ -67,12 +90,11 @@ function Header(props) {
                 </div>
             </header>
             <nav id="navbar">
-                <ul id="navlist" className={sidebar? "navigation-list  navigation-list-active":"navigation-list"} onClick={showSidebar}>
+                <ul id="navlist" className={sidebar? "navigation-list font-weight-primary flex navigation-list-active":"navigation-list flex font-weight-primary"} onClick={showSidebar}>
                     <li ><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/">{navbar.home}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/tours">{navbar.tours}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/rooms_overview">{navbar.map}</NavLink></li>
-                    <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/scan_room">{navbar.scan_room}</NavLink></li>
-                    <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/history">{navbar.history}</NavLink></li>
+                    <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" onClick={()=> navigate(-1)}>{navbar.back}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/other">{navbar.other}</NavLink></li>
                     <li className={(window.installBannerDisplayed) ? "background-primary" : "display-none"}>
                         <div className="flex">

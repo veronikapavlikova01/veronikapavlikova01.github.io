@@ -92,7 +92,7 @@ class DataAPI {
         let tours = this.getTours(language);
         const resultIds = [];
         for(let i=0;i<tours.length;i++){
-            resultIds.push([tours[i].tour_id]);
+            resultIds.push(tours[i].tour_id);
         }
         return resultIds;
     }

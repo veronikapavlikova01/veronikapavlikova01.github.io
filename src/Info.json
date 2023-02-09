@@ -34,32 +34,41 @@
         {
             "language":"en",
             "install_download_label":"How to download?",
-            "invalid_scan_label":"We are sorry, but the given QR code could not be recognized.",
             "install_step_1":"1. Open your browser’s settings.",
             "install_step_2":"2. Find and tap Add to Home screen.",
+            "install_step_2_safari":"2. Find and tap Share.",
             "install_step_3":"3. Confirm by tapping Add.",
+            "warning":"Warning",
+            "install_use_safari":"You must use the Safari browser to install the application.",
             "error_label":"Something went wrong...",
+            "invalid_scan_label":"We are sorry, but the given QR code could not be recognized.",
             "close_label":"Close"
         },
         {
             "language":"pl",
             "install_download_label":"Jak pobrać?",
-            "error_label":"Coś poszło nie tak...",
-            "close_label":"Zamknąć",
-            "invalid_scan_label":"Przepraszamy, ale podany kod QR nie został rozpoznany.",
             "install_step_1":"1. Otwórz ustawienia przeglądarki.",
             "install_step_2":"2. Znajdź i stuknij opcję Dodaj do ekranu głównego.",
-            "install_step_3":"3. Potwierdź, dotykając Dodaj."
+            "install_step_2_safari":"2. Znajdź i stuknij opcję Share.",
+            "install_step_3":"3. Potwierdź, dotykając Dodaj.",
+            "warning":"ostrzeżenie",
+            "install_use_safari":"Aby zainstalować aplikację, musisz użyć przeglądarki Safari.",
+            "close_label":"Zamknąć",
+            "invalid_scan_label":"Przepraszamy, ale podany kod QR nie został rozpoznany.",
+            "error_label":"Coś poszło nie tak..."
         },
         {
             "language":"de",
-            "error_label":"Etwas ist schief gelaufen...",
-            "close_label":"Schließen",
-            "invalid_scan_label":"Es tut uns leid, aber der angegebene QR-Code konnte nicht erkannt werden.",
             "install_download_label":"Wie downloadet man das?",
             "install_step_1":"1. Öffnen Sie die Einstellungen Ihres Browsers.",
             "install_step_2":"2. Suchen und tippen Sie auf Zum Startbildschirm hinzufügen.",
-            "install_step_3":"3. Bestätigen Sie, indem Sie auf Installieren tippen."
+            "install_step_2_safari":"2. Suchen und tippen Sie auf Share.",
+            "install_step_3":"3. Bestätigen Sie, indem Sie auf Installieren tippen.",
+            "warning":"Warnung",
+            "install_step_4_safari":"Sie müssen den Safari-Browser verwenden, um die Applikation zu installieren.",
+            "close_label":"Schließen",
+            "invalid_scan_label":"Es tut uns leid, aber der angegebene QR-Code konnte nicht erkannt werden.",
+            "error_label":"Etwas ist schief gelaufen..."
         }
     ],
     "install": [
@@ -170,25 +179,31 @@
         {
             "language":"en",
             "contact":"Contact",
+            "history": "History",
             "where_to_next":"Where to next?",
             "gallery":"Gallery",
             "settings":"Settings",
+            "scan_room":"Scan the room",
             "about_app":"About app"
         },
         {
             "language":"de",
             "contact":"Kontakt",
+            "history": "Historie",
             "where_to_next":"Wohin als nächstes?",
             "gallery":"Galerie",
             "settings":"Einstellung",
+            "scan_room":"Scannen Sie den Raum",
             "about_app":"Über App"
         },
         {
             "language":"pl",
             "contact":"Kontakt",
+            "history": "Historia",
             "where_to_next":"Gdzie teraz?",
             "gallery":"Galeria",
             "settings":"Ustawienia",
+            "scan_room":"Zeskanuj pokój",
             "about_app":"O aplikacji"
         }
     ],
@@ -196,32 +211,29 @@
         {
             "language": "en",
             "tours": "Tours",
-            "history": "History",
             "map": "Rooms",
-            "scan_room":"Scan the room",
             "settings":"Settings",
             "home":"Home",
-            "other":"Other"
+            "other":"Other",
+            "back":"Go back"
         },
         {
             "language": "de",
             "tours": "Führungen",
-            "history": "Historie",
             "map": "Räume",
-            "scan_room":"Scannen Sie den Raum",
             "settings":"Einstellung",
             "home":"Startseite",
-            "other":"Sonstiges"
+            "other":"Sonstiges",
+            "back":"Zurückgehen"
         },
         {
             "language": "pl",
             "tours": "Trasy zwiedzania",
-            "history": "Historia",
             "map": "Pokoje",
-            "scan_room":"Zeskanuj pokój",
             "settings":"Ustawienia",
             "home":"Strona główna",
-            "other":"Inny"
+            "other":"Inny",
+            "back":"Wracać"
         }
     ],
         "home": [
