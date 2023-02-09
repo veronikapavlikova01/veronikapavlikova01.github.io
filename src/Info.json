@@ -4,6 +4,20 @@
         "de",
         "pl"
     ],
+    "rotate":[
+        {
+            "language":"en",
+            "rotate":"Please rotate your device!"
+        },
+        {
+            "language":"de",
+            "rotate":"Bitte drehen Sie Ihr Gerät!"
+        },
+        {
+            "language":"pl",
+            "rotate":"Proszę obrócić urządzenie!"
+        }
+    ],
     "info":[
         {
             "language":"en",

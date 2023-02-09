@@ -1,6 +1,6 @@
 import React from 'react';
+import DataAPI from './DataAPI';
 import { Route, BrowserRouter, Routes } from 'react-router-dom'
-import './App.css';
 import Home from './components/Home';
 import Tours from './components/Tours'
 import Rooms from './components/Rooms'
@@ -74,7 +74,6 @@ class App extends React.Component {
       } else {
         console.log("Wrong value of font size.")
       }
-      //TODO
     }
 
     this.state = {
@@ -100,33 +99,40 @@ class App extends React.Component {
     this.changeFontSize(fontSize);
   }
 
+
   render() {
+    const rotate = new DataAPI().getRotateLabel(this.state.language);
     return (
-      <BrowserRouter onUpdate={()=>console.log("updated")}>
-        <Context.Provider value={this.state}>
-        <ScrollToTop/>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/tours" element={<Tours />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/rooms" element={<Rooms />} />
-            <Route path="/room" element={<Room />} />
-            <Route path="/history" element={<History />} />
-            <Route path="/history_overview" element={<HistoryOverview />} />
-            <Route path="/houses" element={<Houses />} />
-            <Route path="/owners" element={<Owners />} />
-            <Route path="/owner" element={<Owner />} />
-            <Route path="/rooms_overview" element={<RoomsOverview />} />
-            <Route path="/settings" element={<Settings />} />
-            <Route path="/other" element={<Other />} />
-            <Route path="/about_app" element={<AboutApp />} />
-            <Route path="/where_to_next" element={<WhereToNext />} />
-            <Route path="/gallery" element={<Gallery/>}/>
-            <Route path="/gallery_rooms" element={<GalleryRooms/>}/>
-            <Route path="/scan_room" element={<QRScanner/>}/>
-          </Routes>
-        </Context.Provider>
-      </BrowserRouter>
+      <>
+        <span id="rotate_message" className="font-weight-primary text-medium">{rotate.rotate}</span>
+        <div id="content">
+          <BrowserRouter onUpdate={() => console.log("updated")}>
+            <Context.Provider value={this.state}>
+              <ScrollToTop />
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/tours" element={<Tours />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/rooms" element={<Rooms />} />
+                <Route path="/room" element={<Room />} />
+                <Route path="/history" element={<History />} />
+                <Route path="/history_overview" element={<HistoryOverview />} />
+                <Route path="/houses" element={<Houses />} />
+                <Route path="/owners" element={<Owners />} />
+                <Route path="/owner" element={<Owner />} />
+                <Route path="/rooms_overview" element={<RoomsOverview />} />
+                <Route path="/settings" element={<Settings />} />
+                <Route path="/other" element={<Other />} />
+                <Route path="/about_app" element={<AboutApp />} />
+                <Route path="/where_to_next" element={<WhereToNext />} />
+                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/gallery_rooms" element={<GalleryRooms />} />
+                <Route path="/scan_room" element={<QRScanner />} />
+              </Routes>
+            </Context.Provider>
+          </BrowserRouter>
+        </div>
+      </>
     )
   }
 

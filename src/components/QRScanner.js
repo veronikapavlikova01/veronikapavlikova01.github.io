@@ -3,19 +3,12 @@ import { useNavigate } from "react-router-dom";
 import { useZxing } from "react-zxing";
 import { Context } from "../Context"
 import DataAPI from '../DataAPI'
-import Dialog from "@material-ui/core/Dialog";
-import DialogContentText from "@material-ui/core/DialogContentText";
-import DialogTitle from "@material-ui/core/DialogTitle";
-import DialogActions from "@material-ui/core/DialogActions";
-import DialogContent from "@material-ui/core/DialogContent";
-import Button from "@material-ui/core/Button";
 
 function QRScanner() {
     const [result, setResult] = useState("");
     const context = useContext(Context);
     const dataAPI = new DataAPI();
     const scan = dataAPI.getScan(context.language);
-    const dialogs = dataAPI.getDialogs(context.language);
     const tourIds = dataAPI.getTourIds(context.language);
     const rooms = dataAPI.getRooms(context.language, context.tour);
     const navigate = useNavigate();

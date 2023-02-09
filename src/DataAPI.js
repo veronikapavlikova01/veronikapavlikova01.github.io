@@ -65,6 +65,17 @@ class DataAPI {
         return null;
     }
 
+    //rotate
+    getRotateLabel(language) {
+        const rotateLabel = Info.rotate;
+        for (let i = 0; i < rotateLabel.length; i++) {
+            if (rotateLabel[i].language === language) {
+                return rotateLabel[i];
+            }
+        }
+        return null;
+    }
+
     //home
     getHome(language) {
         const homeLabel = Info.home;
