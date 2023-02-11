@@ -95,6 +95,7 @@ function Header(props) {
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/tours">{navbar.tours}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/rooms_overview">{navbar.map}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" onClick={()=> navigate(-1)}>{navbar.back}</NavLink></li>
+                    <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/face_recognition">Testing face recognition</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/other">{navbar.other}</NavLink></li>
                     <li className={(window.installBannerDisplayed) ? "background-primary" : "display-none"}>
                         <div className="flex">
