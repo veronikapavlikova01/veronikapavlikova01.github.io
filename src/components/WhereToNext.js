@@ -26,7 +26,7 @@ function WhereToNext() {
                         <span>{info.where_to_info}</span>
                     </div>
                 </div>
-                <div className="grid">
+                <div className="grid padding-top-primary">
                     {
                         where.places.map((item) => (
                             <a href={item.url} className="card box-shadow transition-primary hover-primary" key={item.title}>
@@ -37,7 +37,7 @@ function WhereToNext() {
                                     <h2 className="padding-primary card-title flex-secondary text-medium">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.description}</p>
                                     <div className="center-text margin-primary">
-                                        <a href={item.url} className="text-medium button align-self-primary background-primary font-weight-primary color-primary text-medium">{where.button}</a>
+                                        <a href={item.url} className="text-medium button align-self-primary background-primary font-weight-primary color-primary">{where.button}</a>
                                     </div>
                                 </article>
                             </a>

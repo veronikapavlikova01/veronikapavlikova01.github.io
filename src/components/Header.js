@@ -69,10 +69,10 @@ function Header(props) {
             <Dialog open={dialogOpen} onClose={closeDialog}>
                 <DialogTitle>{dialogs.install_download_label}</DialogTitle>
                 <DialogContent>
-                    <DialogContentText>{dialogs.install_step_1}</DialogContentText>
-                    <DialogContentText>{isSafariUsed? dialogs.install_step_2_safari : dialogs.install_step_2}</DialogContentText>
+                    <DialogContentText>{isSafariUsed? dialogs.install_step_1_safari : dialogs.install_step_1}</DialogContentText>
+                    <DialogContentText>{dialogs.install_step_2}</DialogContentText>
                     <DialogContentText>{dialogs.install_step_3}</DialogContentText>
-                    <DialogContentText className='font-weight-primary'>{(!isIOSUsed && !isSafariUsed)? dialogs.install_use_safari : ""}</DialogContentText>
+                    <DialogContentText className='font-weight-primary'>{(isIOSUsed && !isSafariUsed)? dialogs.install_use_safari : ""}</DialogContentText>
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={closeDialog}>{dialogs.close_label}</Button>
@@ -94,9 +94,9 @@ function Header(props) {
                     <li ><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/">{navbar.home}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/tours">{navbar.tours}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/rooms_overview">{navbar.map}</NavLink></li>
-                    <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" onClick={()=> navigate(-1)}>{navbar.back}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/face_recognition">Testing face recognition</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/other">{navbar.other}</NavLink></li>
+                    <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" onClick={()=> navigate(-1)}>{navbar.back}</NavLink></li>
                     <li className={(window.installBannerDisplayed) ? "background-primary" : "display-none"}>
                         <div className="flex">
                             <span className="text-medium color-primary margin-bottom-primary">{install.install_label}</span>

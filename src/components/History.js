@@ -28,7 +28,7 @@ function History() {
                         <span>{info.history_info}</span>
                     </div>
                 </div>
-                <div className="grid-secondary">
+                <div className="grid-secondary padding-top-primary">
                     {
                         history.map((item) => (
                             <Link to={item.path} className="card box-shadow transition-primary hover-primary" key={item.title}>

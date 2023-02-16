@@ -81,7 +81,7 @@ function Room() {
                     </div>
                     <p className="start-text margin-top-secondary medieval-first-letter">{room.text}</p>
                 </article>
-                <div className="flex-secondary margin-top stick-bottom padding-bottom-primary padding-top-primary background-secondary border-top">
+                <div className="flex-secondary stick-bottom padding-bottom-primary padding-top-primary background-gradient">
                     <div className={`flex round-item background-fourth margin-right-primary ${isPrev ? '' : ' visibility-hidden'}`}>
                         <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { previous(room.number, tour.rooms.length, context) }} />
                     </div>
@@ -97,12 +97,6 @@ function Room() {
     )
 
 }
-
-/*
-                    <video id="player" autoPlay></video>
-                    <canvas id="canvas"></canvas>
-                    <button id="capture-button" onClick={()=>initializeMedia()}>Capture</button>
-*/
 
 export default Room;
 

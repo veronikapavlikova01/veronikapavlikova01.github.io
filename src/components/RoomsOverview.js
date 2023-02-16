@@ -31,7 +31,7 @@ function Map() {
                                     <span>{info.rooms_overview}</span>
                                 </div>
                             </div>
-                            <h3 className="opacity">{roomsOverview.seen}</h3>
+                            <h3 className="opacity padding-top-primary padding-bottom-primary">{roomsOverview.seen}</h3>
                             {
                                 visited.map((item) => (
                                     <div className="card flex-secondary align-items-primary margin-bottom-primary box-shadow padding-third opacity">
@@ -42,7 +42,7 @@ function Map() {
                                     </div>
                                 ))
                             }
-                            <h3>{roomsOverview.not_seen}</h3>
+                            <h3 className="padding-top-primary padding-bottom-primary">{roomsOverview.not_seen}</h3>
                             {
                                 unvisited.map((item) => (
                                     <Link to="/room" className="transition-primary hover-primary card margin-bottom-primary box-shadow padding-third" onClick={() => context.changeRoom(item.number)}>

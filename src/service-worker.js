@@ -25,10 +25,7 @@ precacheAndRoute(self.__WB_MANIFEST);
 //precache UnifrakturaMagunti font
 precacheAndRoute([
   {
-    url:'https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap'
-  },
-  {
-    url:'https://fonts.gstatic.com/s/unifrakturmaguntia/v16/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVemGZM.woff2'
+    url:'https://dummyjson.com/products/1'
   }
 ]);
 

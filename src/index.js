@@ -16,6 +16,8 @@ window.addEventListener("beforeinstallprompt", (e) => {
   window.deferredPrompt=e;
 });
 
+window.lastVisited = "Home";
+
 
 root.render(
   <React.StrictMode>

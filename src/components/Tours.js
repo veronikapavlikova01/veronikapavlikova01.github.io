@@ -18,7 +18,7 @@ function Tours() {
 
     return (
         <>
-            <Header header={header.tours} />
+            <Header header={header.tours} lastVisited={window.lastVisited}/>
             <div className="content-container">
                 <div className="card box-shadow transition-primary padding-third margin-bottom-primary">
                     <div className="flex">
@@ -29,15 +29,17 @@ function Tours() {
                         <span>{info.tours_info}</span>
                     </div>
                 </div>
-                <div className="grid-secondary">
+                <div className="grid-secondary padding-top-primary">
                     {
                         tours.map((item) => (
-                            <Link to="/rooms" className="card box-shadow transition-primary hover-primary" key={item.title}>
-                                <article className="flex" onClick={() => context.changeTour(item.tour_id)}>
+                            <Link to="/rooms" className="card box-shadow transition-primary hover-primary" key={item.title} onClick={window.lastVisited=header.tours}>
+                                <article className="flex" onClick={() => {
+                                    context.changeTour(item.tour_id);
+                                    window.lastVisited=header.tours}}>
                                     <img src={castle} alt="castle" className="card-image padding-bottom-primary border-radius-secondary" />
                                     <h2 className="text-medium padding-primary padding-bottom-primary">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.description}</p>
-                                    <div className="center-text  margin-primary ">
+                                    <div className="center-text margin-primary ">
                                         <button className="text-medium button align-self-primary background-primary font-weight-primary color-primary">{item.button}</button>
                                     </div>
                                 </article>

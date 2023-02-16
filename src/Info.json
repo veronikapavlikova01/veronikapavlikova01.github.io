@@ -50,7 +50,7 @@
             "install_download_label":"How to download?",
             "install_step_1":"1. Open your browser’s settings.",
             "install_step_2":"2. Find and tap Add to Home screen.",
-            "install_step_2_safari":"2. Find and tap Share.",
+            "install_step_1_safari":"2. Find and tap Share.",
             "install_step_3":"3. Confirm by tapping Add.",
             "warning":"Warning",
             "install_use_safari":"You must use the Safari browser to install the application.",
@@ -63,7 +63,7 @@
             "install_download_label":"Jak pobrać?",
             "install_step_1":"1. Otwórz ustawienia przeglądarki.",
             "install_step_2":"2. Znajdź i stuknij opcję Dodaj do ekranu głównego.",
-            "install_step_2_safari":"2. Znajdź i stuknij opcję Share.",
+            "install_step_1_safari":"2. Znajdź i stuknij opcję Share.",
             "install_step_3":"3. Potwierdź, dotykając Dodaj.",
             "warning":"ostrzeżenie",
             "install_use_safari":"Aby zainstalować aplikację, musisz użyć przeglądarki Safari.",
@@ -76,7 +76,7 @@
             "install_download_label":"Wie downloadet man das?",
             "install_step_1":"1. Öffnen Sie die Einstellungen Ihres Browsers.",
             "install_step_2":"2. Suchen und tippen Sie auf Zum Startbildschirm hinzufügen.",
-            "install_step_2_safari":"2. Suchen und tippen Sie auf Share.",
+            "install_step_1_safari":"2. Suchen und tippen Sie auf Share.",
             "install_step_3":"3. Bestätigen Sie, indem Sie auf Installieren tippen.",
             "warning":"Warnung",
             "install_step_4_safari":"Sie müssen den Safari-Browser verwenden, um die Applikation zu installieren.",
@@ -229,7 +229,7 @@
             "settings":"Settings",
             "home":"Home",
             "other":"Other",
-            "back":"Go back"
+            "back":"Back to previous"
         },
         {
             "language": "de",
@@ -238,7 +238,7 @@
             "settings":"Einstellung",
             "home":"Startseite",
             "other":"Sonstiges",
-            "back":"Zurückgehen"
+            "back":"Zurück zum vorherigen"
         },
         {
             "language": "pl",
@@ -247,7 +247,7 @@
             "settings":"Ustawienia",
             "home":"Strona główna",
             "other":"Inny",
-            "back":"Wracać"
+            "back":"Powrót do poprzedniego"
         }
     ],
         "home": [

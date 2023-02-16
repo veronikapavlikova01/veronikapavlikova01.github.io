@@ -1,6 +1,6 @@
 import Dropdown from "./Dropdown";
 import { Context } from "../Context";
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import { Link } from 'react-router-dom'
 import DataAPI from '../DataAPI'
 import Dialog from "@material-ui/core/Dialog";
@@ -19,6 +19,7 @@ function Home() {
     const dialogs = dataAPI.getDialogs(context.language)
     const isIOSNotSafari = isIOS() && !isSafari()
     const [dialogOpen, setDialogOpen] = useState(isIOSNotSafari);
+    const navbar = dataAPI.getNavbar(context.language);
 
     function isIOS(){
         const expression = /(Mac|iPhone|iPod|iPad)/i;
@@ -42,6 +43,13 @@ function Home() {
         setDialogOpen(false);
     };
 
+    useEffect(() => {
+        fetch('http://localhost:3001/api')
+        .then(res => res.json())
+        .then(json => console.log(json))
+
+    }, []);
+
     return (
         <div className="welcome-background full-screen flex">
             <Dialog open={dialogOpen} onClose={closeDialog}>
@@ -59,7 +67,7 @@ function Home() {
                     {home.label_1}<br />{home.label_2}<br />{home.label_3}
                 </h1>
                 <Link to="/tours">
-                    <button className="button margin-top-primary background-primary color-primary welcome-text-button font-weight-primary text-transform-primary">
+                    <button className="button margin-top-primary background-primary color-primary welcome-text-button font-weight-primary text-transform-primary" onClick={() => window.lastVisited}>
                         {home.button_label}
                     </button>
                 </Link>
