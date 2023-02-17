@@ -2,12 +2,12 @@
 .demo-container {
   background-color: black;
 }
-#image1, #image2 {
+.image {
   position: absolute;
   left: -1000px;
   top: -1000px;
 }
-#canvas {
+.canvas {
   position: absolute;
   left: 50%;
   top: 50%;
