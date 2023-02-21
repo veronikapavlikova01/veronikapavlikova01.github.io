@@ -4,7 +4,6 @@ import { Context } from "../Context"
 import { useContext} from "react"
 import Header from "./Header"
 import DataAPI from '../DataAPI'
-import castle from '../img/uvod.jpg'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import QrCode2Icon from '@mui/icons-material/QrCode2';
@@ -71,10 +70,10 @@ function Owner() {
                             <span className="font-style-primary margin-primary">xxx-xxx</span>
                         </div>
                     </div>
-                    <img src={castle} alt="castle margin-top-secondary" className="page-image" />
+                    <img src={require(`../img${owner.img}`)} alt="castle margin-top-secondary" className="page-image" />
                     <p className="start-text margin-top-secondary">{owner.text}</p>
                 </article>
-                <div className="flex-secondary margin-top stick-bottom padding-bottom-primary padding-top-primary background-secondary border-top">
+                <div className="flex-secondary stick-bottom padding-bottom-primary padding-top-primary background-gradient">
                     <div className={`flex round-item background-fourth margin-right-primary ${isPrev ? '' : ' visibility-hidden'}`}>
                         <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { previous(owner.number, house.owners.length, context) }} />
                     </div>

@@ -43,12 +43,14 @@ function Home() {
         setDialogOpen(false);
     };
 
+    /*
     useEffect(() => {
         fetch('http://localhost:3001/api')
         .then(res => res.json())
         .then(json => console.log(json))
 
     }, []);
+    */
 
     return (
         <div className="welcome-background full-screen flex">

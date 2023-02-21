@@ -450,7 +450,7 @@
             "button": "Learn more",
             "houses": [
                 {
-                    "title": "Ronovci",
+                    "title": "Ronowitzer",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
@@ -460,36 +460,13 @@
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 2,
-                            "name": "Majitel číslo 2",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 3,
-                            "name": "Majitel číslo 3",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 4,
-                            "name": "Majitel číslo 4",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Biberštejnové",
+                    "title": "Biberstein",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
@@ -499,163 +476,180 @@
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 2,
-                            "name": "Majitel číslo 2",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 3,
-                            "name": "Majitel číslo 3",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 4,
-                            "name": "Majitel číslo 4",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Redernové",
+                    "title": "Rödern",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
+                            "name": "Fridrich von Rödern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         },
                         {
                             "number": 2,
-                            "name": "Majitel číslo 2",
+                            "name": "Melchior von Rödern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/melchior_redern.jpg"
                         },
                         {
                             "number": 3,
-                            "name": "Majitel číslo 3",
+                            "name": "Katharina von Rödern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         },
                         {
                             "number": 4,
-                            "name": "Majitel číslo 4",
+                            "name": "Christoph von R§odern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Albrecht z Valdštejna",
+                    "title": "Albrecht von Wallenstein",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
+                            "name": "Albrecht von Wallenstein",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/albrecht_valdstejn.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Gallasové",
+                    "title": "Gallas",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
+                            "name": "Mathyas von Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/matyas_gallas.jpg"
                         },
                         {
                             "number": 2,
-                            "name": "Majitel číslo 2",
+                            "name": "Antonius von Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/antonin_pankrac_gallas.jpg"
                         },
                         {
                             "number": 3,
-                            "name": "Majitel číslo 3",
+                            "name": "Franz Ferdinand von Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/frantisek_ferdinand_gallas.jpg"
                         },
                         {
                             "number": 4,
-                            "name": "Majitel číslo 4",
+                            "name": "Johann Wenzeslaus von Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/jan_vaclav_gallas.jpg"
+                        },
+                        {
+                            "number": 5,
+                            "name": "Filip Josef von Gallas",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/filip_josef_gallas.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Clam-Gallasové",
+                    "title": "Clam-Gallas",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
+                            "name": "Christian Philip von Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/kristian_filip_clamgallas.jpg"
                         },
                         {
                             "number": 2,
-                            "name": "Majitel číslo 2",
+                            "name": "Christian Christoph von Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/kristian_krystof_clamgallas.jpg"
                         },
                         {
                             "number": 3,
-                            "name": "Majitel číslo 3",
+                            "name": "Wilhelm von Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/vilem_clamgallas.jpg"
                         },
                         {
                             "number": 4,
-                            "name": "Majitel číslo 4",
+                            "name": "Eduard von Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/eduard_clamgallas.jpg"
+                        },
+                        {
+                            "number": 5,
+                            "name": "Franz von Clam-Gallas",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
+                        },
+                        {
+                            "number": 6,
+                            "name": "Clotilde von Clam-Gallas",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         }
                     ]
                 }
@@ -678,7 +672,7 @@
             "button": "Learn more",
             "houses": [
                 {
-                    "title": "Ronovci",
+                    "title": "Ronowitzer",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
@@ -688,36 +682,13 @@
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 2,
-                            "name": "Majitel číslo 2",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 3,
-                            "name": "Majitel číslo 3",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 4,
-                            "name": "Majitel číslo 4",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Biberštejnové",
+                    "title": "Biberstein",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
@@ -727,163 +698,180 @@
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 2,
-                            "name": "Majitel číslo 2",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 3,
-                            "name": "Majitel číslo 3",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 4,
-                            "name": "Majitel číslo 4",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Redernové",
+                    "title": "Rödern",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
+                            "name": "Fridrich von Rödern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         },
                         {
                             "number": 2,
-                            "name": "Majitel číslo 2",
+                            "name": "Melchior von Rödern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/melchior_redern.jpg"
                         },
                         {
                             "number": 3,
-                            "name": "Majitel číslo 3",
+                            "name": "Katharina von Rödern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         },
                         {
                             "number": 4,
-                            "name": "Majitel číslo 4",
+                            "name": "Christoph von R§odern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Albrecht z Valdštejna",
+                    "title": "Albrecht von Wallenstein",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
+                            "name": "Albrecht von Wallenstein",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/albrecht_valdstejn.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Gallasové",
+                    "title": "Gallas",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
+                            "name": "Mathyas von Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/matyas_gallas.jpg"
                         },
                         {
                             "number": 2,
-                            "name": "Majitel číslo 2",
+                            "name": "Antonius von Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/antonin_pankrac_gallas.jpg"
                         },
                         {
                             "number": 3,
-                            "name": "Majitel číslo 3",
+                            "name": "Franz Ferdinand von Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/frantisek_ferdinand_gallas.jpg"
                         },
                         {
                             "number": 4,
-                            "name": "Majitel číslo 4",
+                            "name": "Johann Wenzeslaus von Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/jan_vaclav_gallas.jpg"
+                        },
+                        {
+                            "number": 5,
+                            "name": "Filip Josef von Gallas",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/filip_josef_gallas.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Clam-Gallasové",
+                    "title": "Clam-Gallas",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
+                            "name": "Christian Philip von Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/kristian_filip_clamgallas.jpg"
                         },
                         {
                             "number": 2,
-                            "name": "Majitel číslo 2",
+                            "name": "Christian Christoph von Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/kristian_krystof_clamgallas.jpg"
                         },
                         {
                             "number": 3,
-                            "name": "Majitel číslo 3",
+                            "name": "Wilhelm von Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/vilem_clamgallas.jpg"
                         },
                         {
                             "number": 4,
-                            "name": "Majitel číslo 4",
+                            "name": "Eduard von Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/eduard_clamgallas.jpg"
+                        },
+                        {
+                            "number": 5,
+                            "name": "Franz von Clam-Gallas",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
+                        },
+                        {
+                            "number": 6,
+                            "name": "Clotilde von Clam-Gallas",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         }
                     ]
                 }
@@ -906,7 +894,7 @@
             "button": "Learn more",
             "houses": [
                 {
-                    "title": "Ronovci",
+                    "title": "Ronowitzer",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
@@ -916,36 +904,13 @@
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 2,
-                            "name": "Majitel číslo 2",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 3,
-                            "name": "Majitel číslo 3",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 4,
-                            "name": "Majitel číslo 4",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Biberštejnové",
+                    "title": "Biberstein",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
@@ -955,163 +920,180 @@
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 2,
-                            "name": "Majitel číslo 2",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 3,
-                            "name": "Majitel číslo 3",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
-                        },
-                        {
-                            "number": 4,
-                            "name": "Majitel číslo 4",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Redernové",
+                    "title": "Rödern",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
+                            "name": "Fridrich von Rödern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         },
                         {
                             "number": 2,
-                            "name": "Majitel číslo 2",
+                            "name": "Melchior von Rödern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/melchior_redern.jpg"
                         },
                         {
                             "number": 3,
-                            "name": "Majitel číslo 3",
+                            "name": "Katharina von Rödern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         },
                         {
                             "number": 4,
-                            "name": "Majitel číslo 4",
+                            "name": "Christoph von R§odern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Albrecht z Valdštejna",
+                    "title": "Albrecht von Wallenstein",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
+                            "name": "Albrecht von Wallenstein",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/albrecht_valdstejn.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Gallasové",
+                    "title": "Gallas",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
+                            "name": "Mathyas von Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/matyas_gallas.jpg"
                         },
                         {
                             "number": 2,
-                            "name": "Majitel číslo 2",
+                            "name": "Antonius von Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/antonin_pankrac_gallas.jpg"
                         },
                         {
                             "number": 3,
-                            "name": "Majitel číslo 3",
+                            "name": "Franz Ferdinand von Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/frantisek_ferdinand_gallas.jpg"
                         },
                         {
                             "number": 4,
-                            "name": "Majitel číslo 4",
+                            "name": "Johann Wenzeslaus von Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/jan_vaclav_gallas.jpg"
+                        },
+                        {
+                            "number": 5,
+                            "name": "Filip Josef von Gallas",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/filip_josef_gallas.jpg"
                         }
                     ]
                 },
                 {
-                    "title": "Clam-Gallasové",
+                    "title": "Clam-Gallas",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
+                            "name": "Christian Philip von Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/kristian_filip_clamgallas.jpg"
                         },
                         {
                             "number": 2,
-                            "name": "Majitel číslo 2",
+                            "name": "Christian Christoph von Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/kristian_krystof_clamgallas.jpg"
                         },
                         {
                             "number": 3,
-                            "name": "Majitel číslo 3",
+                            "name": "Wilhelm von Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/vilem_clamgallas.jpg"
                         },
                         {
                             "number": 4,
-                            "name": "Majitel číslo 4",
+                            "name": "Eduard von Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu"
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/eduard_clamgallas.jpg"
+                        },
+                        {
+                            "number": 5,
+                            "name": "Franz von Clam-Gallas",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
+                        },
+                        {
+                            "number": 6,
+                            "name": "Clotilde von Clam-Gallas",
+                            "years": "xxxx-xxxx",
+                            "label": "Prvni majitel frydlantu",
+                            "button": "Navštívit",
+                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "img":"/owners/katerina_redern.jpg"
                         }
                     ]
                 }

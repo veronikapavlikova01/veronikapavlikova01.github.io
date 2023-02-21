@@ -4,7 +4,6 @@ import { useContext } from "react";
 import { Link } from 'react-router-dom'
 import Header from "./Header";
 import DataAPI from '../DataAPI';
-import castle from '../img/uvod.jpg'
 
 
 function Owners() {
@@ -22,7 +21,7 @@ function Owners() {
                         owners.map((item) => (
                             <Link to="/owner" className="card box-shadow transition-primary hover-primary" key={item.number} onClick={() => context.changeOwner(item.number)}>
                                 <article className="flex">
-                                    <img src={castle} alt="castle" className="card-image border-radius-secondary padding-bottom-primary" />
+                                    <img src={require(`../img${item.img}`)} alt="castle" className="card-image border-radius-secondary padding-bottom-primary" />
                                     <h2 className="text-medium padding-primary card-title flex-secondary padding-bottom-primary">{item.name}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">Majitel hrad a zámku.</p>
                                     <div className="center-text">

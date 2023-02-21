@@ -3,10 +3,9 @@
   background-color: black;
 }
 .image {
-  position: absolute;
-  left: -1000px;
-  top: -1000px;
+  visibility:hidden;
 }
+
 .canvas {
   position: absolute;
   left: 50%;
@@ -274,6 +273,13 @@ option{
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+}
+
+.full-screen-image{
+  display:block;
+  width:100%; 
+  height:100%;
+  object-fit: cover
 }
 
 .video-label{

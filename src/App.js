@@ -21,7 +21,7 @@ import GalleryRooms from './components/GalleryRooms';
 import ScrollToTop from './components/ScrollToTop';
 import QRScanner from './components/QRScanner';
 import { Context } from './Context'
-import NewFaceRecognition from './components/NewFaceRecognition';
+import FaceRecognition from './components/FaceRecognition';
 
 class App extends React.Component {
   constructor(props) {
@@ -129,7 +129,7 @@ class App extends React.Component {
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/gallery_rooms" element={<GalleryRooms />} />
                 <Route path="/scan_room" element={<QRScanner />} />
-                <Route path="face_recognition" element={<NewFaceRecognition />} />
+                <Route path="/face_recognition" element={<FaceRecognition/>}/>
               </Routes>
             </Context.Provider>
           </BrowserRouter>
