@@ -1,115 +1,74 @@
 import * as faceapi from 'face-api.js';
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
+import DataAPI from '../DataAPI';
+import { Context } from "../Context"
+import CameraIcon from '@mui/icons-material/Camera';
+import Dialog from "@material-ui/core/Dialog";
+import DialogContentText from "@material-ui/core/DialogContentText";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import DialogActions from "@material-ui/core/DialogActions";
+import DialogContent from "@material-ui/core/DialogContent";
+import Button from "@material-ui/core/Button";
 
-function App() {
-    const [loaded, setLoaded] = useState(false);
+function FaceRecognition() {
+    const context = useContext(Context);
+    const dataAPI = new DataAPI();
+    const faceRecognitionLabels = dataAPI.getFaceRecognition(context.language);
+    const [who, setWho] = useState("");
+    const [errorLabel, setErrorLabel] = useState("Error");
     const videoRef = React.useRef(null);
-    const canvasRef = React.useRef(null);
-    const videoHeight = 480;
-    const videoWidth = 640;
+    const dialogs = dataAPI.getDialogs(context.language);
+    const [dialogOpen, setDialogOpen] = useState(false);
+    const [modelsLoaded, setModelsLoaded] = useState(false);
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        //playVideo();
-
+        //nacitani modelu pro face-api, obvykle trva trochu dele nez se nacte
         const MODEL_URL = process.env.PUBLIC_URL + '/models';
-        let img = null;
-        let fullFaceDescriptions = null;
-        let canvas = null;
-
         Promise.all([
             faceapi.nets.ssdMobilenetv1.loadFromUri(MODEL_URL),
             faceapi.nets.faceLandmark68Net.loadFromUri(MODEL_URL),
             faceapi.nets.faceRecognitionNet.loadFromUri(MODEL_URL)
         ]).then(
-            setLoaded(true)
+            setModelsLoaded(true),
+            setIsLoading(false),
+            getVideo()
         );
-
     }, []);
 
-    const playVideo = () => {
-        navigator.mediaDevices
-            .getUserMedia({ video: true })
-            .then(str => {
-                let video = videoRef.current;
-                video.srcObject = str;
-                video.play();
-            })
-            .catch(err => {
-                console.log("Cannot get video");
-            });
+    const closeDialog = () => {
+        setDialogOpen(false);
+    };
+
+    const getVideo = () => {
+        navigator.mediaDevices.getUserMedia({
+            audio: false,
+            video: { facingMode: 'environment' }
+        }).then(str => {
+            videoRef.current.srcObject = str;
+            videoRef.current.play();
+        }).catch(err => {
+            console.log("Not able to access webcam");
+        });
     }
 
-
-    const handleVideoOnPlay = () => {
-        setInterval(async () => {
-            if (true) {
-                canvasRef.current.innerHTML = faceapi.createCanvasFromMedia(videoRef.current);
-                const displaySize = {
-                    width: videoWidth,
-                    height: videoHeight
-                }
-
-                faceapi.matchDimensions(canvasRef.current, displaySize);
-
-                const detections = await faceapi.detectAllFaces(videoRef.current).withFaceLandmarks().withFaceDescriptors();
-
-                const resizedDetections = faceapi.resizeResults(detections, displaySize);
-
-                canvasRef && canvasRef.current && canvasRef.current.getContext('2d').clearRect(0, 0, videoWidth, videoHeight);
-                canvasRef && canvasRef.current && faceapi.draw.drawDetections(canvasRef.current, resizedDetections);
-                canvasRef && canvasRef.current && faceapi.draw.drawFaceLandmarks(canvasRef.current, resizedDetections);
-
-                const labels = ['verunka', 'misanek']
-
-                const labeledFaceDescriptors = await Promise.all(
-                    labels.map(async label => {
-                        const img = document.createElement('img');
-                        img.src = require(`../img/owners/${label}.jpg`);
-
-                        const fullFaceDescription = await faceapi.detectSingleFace(img).withFaceLandmarks().withFaceDescriptor();
-
-                        if (!fullFaceDescription) {
-                        }
-
-                        const faceDescriptors = [fullFaceDescription.descriptor];
-                        return new faceapi.LabeledFaceDescriptors(label, faceDescriptors);
-                    })
-                );
-
-
-                const maxDescriptorDistance = 0.6
-                const faceMatcher = new faceapi.FaceMatcher(labeledFaceDescriptors, maxDescriptorDistance)
-
-
-                const results = detections.map(fd => faceMatcher.findBestMatch(fd.descriptor))
-
-                results.forEach((bestMatch, i) => {
-                    const box = detections[i].detection.box
-                    const text = bestMatch.toString()
-                    const drawBox = new faceapi.draw.DrawBox(box, { label: text })
-                    drawBox.draw(canvasRef.current)
-                })
-
-            }
-        }, 100)
+    const drawImage = () => {
+        console.log("trying to detect face!");
+        videoRef.current.pause();
+        setIsLoading(true);
+        handleImg();
     }
 
     const handleImg = async () => {
-        if (loaded) {
-            console.log("handling image");
-            const img = document.getElementById('test')
+        if (modelsLoaded) {
+            let fullFaceDescriptions = await faceapi.detectAllFaces(videoRef.current).withFaceLandmarks().withFaceDescriptors()
 
-            canvasRef.current.innerHTML = faceapi.createCanvas(img);
-
-            let fullFaceDescriptions = await faceapi.detectAllFaces(img).withFaceLandmarks().withFaceDescriptors()
-            //const canvas = document.getElementById('canvas')
-            faceapi.matchDimensions(canvasRef.current, img)
-
-            fullFaceDescriptions = faceapi.resizeResults(fullFaceDescriptions, img)
-
-            faceapi.draw.drawDetections(canvasRef.current, fullFaceDescriptions)
-            faceapi.draw.drawFaceLandmarks(canvasRef.current, fullFaceDescriptions)
+            if (fullFaceDescriptions.length === 0) {
+                setErrorLabel(dialogs.no_face_detected);
+                setIsLoading(false);
+                setDialogOpen(true);
+            }
 
             const labels = ['albrecht_valdstejn', 'antonin_pankrac_gallas', 'eduard_clamgallas', 'filip_josef_gallas', 'frantisek_ferdinand_gallas', 'jan_vaclav_gallas', 'katerina_redern', 'kristian_filip_clamgallas', 'kristian_krystof_clamgallas', 'matyas_gallas', 'melchior_redern', 'vilem_clamgallas']
 
@@ -119,48 +78,66 @@ function App() {
                     const imgUrl = require(`../img/owners/${label}.jpg`);
                     const img = document.createElement('img');
                     img.src = imgUrl;
-    
-                    // detect the face with the highest score in the image and compute it's landmarks and face descriptor
+
                     const fullFaceDescription = await faceapi.detectSingleFace(img).withFaceLandmarks().withFaceDescriptor()
-    
-                    if (!fullFaceDescription) {
-                        throw new Error(`no faces detected for ${label}`)
-                    }
-    
+
                     const faceDescriptors = [fullFaceDescription.descriptor]
                     return new faceapi.LabeledFaceDescriptors(label, faceDescriptors)
                 })
             ).catch(err => {
-                console.log("Not able to recognize any faces!");
+                setErrorLabel(dialogs.no_face_detected);
+                setIsLoading(false);
+                setDialogOpen(true);
             });
-    
-    
+
+
             const maxDescriptorDistance = 0.6
             const faceMatcher = new faceapi.FaceMatcher(labeledFaceDescriptors, maxDescriptorDistance)
-    
-            const results = fullFaceDescriptions.map(fd => faceMatcher.findBestMatch(fd.descriptor))
-    
-            results.forEach((bestMatch, i) => {
-                const box = fullFaceDescriptions[i].detection.box
-                const text = bestMatch.toString()
-                const drawBox = new faceapi.draw.DrawBox(box, { label: text })
-                drawBox.draw(canvasRef.current)
-            })
-            
 
-            console.log("done testing!");
+            const results = fullFaceDescriptions.map(fd => faceMatcher.findBestMatch(fd.descriptor))
+
+            if (results[0].label === 'unknown') {
+                setErrorLabel(dialogs.no_known_face_detected);
+                setIsLoading(false);
+                setDialogOpen(true);
+            }
+
+            setIsLoading(false);
+            setWho(results[0].label)
         }
     }
 
-
-
     return (
-        <div>
-            <img id="test" src={require(`../img/owners/filip_josef_gallas.jpg`)} className="full-screen-image" />
-            <button className="button" onClick={() => handleImg()}>Click me!!</button>
-            <canvas id="canvas" ref={canvasRef} height="800" width="600" />
-        </div>
+        <>
+            { isLoading?
+                <div className="spinner-container full-screen">
+                    <div className="spinner" />
+                </div>
+                : <span/>
+            }
+            <Dialog open={dialogOpen} onClose={closeDialog}>
+                <DialogTitle>{errorLabel}</DialogTitle>
+                <DialogContent>
+                    <DialogContentText>{dialogs.try_again_label}</DialogContentText>
+                </DialogContent>
+                <DialogActions>
+                    <Button onClick={closeDialog}>{dialogs.close_label}</Button>
+                </DialogActions>
+            </Dialog>
+            <div className="full-screen">
+                <video id="video" ref={videoRef} className="full-screen" />
+                <div className="flex video-label margin-top text-medium color-primary font-weight-primary center-text">
+                    <span>{faceRecognitionLabels.photo_label}</span>
+                    <span>{who}</span>
+                </div>
+                <div className=" video-button padding-third">
+                    <div className="flex round-item background-fourth bottom-label margin-auto cursor-primary">
+                        <CameraIcon className="round-item-content color-primary" onClick={() => drawImage()} />
+                    </div>
+                </div>
+            </div>
+        </>
     );
 }
 
-export default App;
+export default FaceRecognition;

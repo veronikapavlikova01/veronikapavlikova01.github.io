@@ -9,55 +9,60 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import QrCode2Icon from '@mui/icons-material/QrCode2';
 
-function prevRoomExists(number) {
-    if ((number - 1) >= 1) {
-        return true;
-    }
-    return false;
-}
-
-function nextRoomExists(number, length) {
-    if ((number + 1) <= length) {
-        return true;
-    }
-    return false;
-
-}
-
-function previous(number, length, context) {
-    let newNumber = number - 1;
-    if (prevRoomExists(number)) {
-        context.changeRoom(newNumber);
-    }
-}
-
-function next(number, length, context) {
-    let newNumber = number + 1;
-    if (nextRoomExists(number, length)) {
-        context.changeRoom(newNumber);
-    }
-}
-
-function slide(x1, x2, y1, y2, number, length, context) {
-    let distance = 100;
-    if (Math.abs(y1 - y2) < 50) {
-        if (x1 > (x2 + distance)) {
-            next(number, length, context);
-        } else if ((x1 + distance) < x2) {
-            previous(number, length, context);
-        }
-    }
-}
 
 function Room() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
     const room = dataAPI.getRoom(context.language, context.tour, context.room);
     const tour = dataAPI.getTour(context.language, context.tour);
+
+    const prevRoomExists = (number) => {
+        if ((number - 1) >= 1) {
+            return true;
+        }
+        return false;
+    }
+
+    const nextRoomExists = (number, length) => {
+        if ((number + 1) <= length) {
+            return true;
+        }
+        return false;
+    
+    }
+
     const isPrev = prevRoomExists(room.number);
     const isNext = nextRoomExists(room.number, tour.rooms.length);
     var x1 = 0;
     var y1 = 0;
+
+
+    const previous = (number, length, context) => {
+        let newNumber = number - 1;
+        if (prevRoomExists(number)) {
+            context.changeRoom(newNumber);
+        }
+    }
+    
+    const next = (number, length, context) => {
+        let newNumber = number + 1;
+        if (nextRoomExists(number, length)) {
+            context.changeRoom(newNumber);
+        }
+    }
+    
+    const slide = (x1, x2, y1, y2, number, length, context) => {
+        let distance = 100;
+        if (Math.abs(y1 - y2) < 50) {
+            if (x1 > (x2 + distance)) {
+                next(number, length, context);
+            } else if ((x1 + distance) < x2) {
+                previous(number, length, context);
+            }
+        }
+    }
+
+
 
     useEffect(() => {
         window.scrollTo(0,0);

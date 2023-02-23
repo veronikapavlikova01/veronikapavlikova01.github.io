@@ -14,6 +14,6 @@ export const Context = React.createContext({
   "font-size":"d",
   changeFontSize: () => {},
   "gallery_tour":"castle",
-  changeGalleryTour:() => {}
+  changeGalleryTour:() => {},
 });
 

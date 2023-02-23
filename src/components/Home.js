@@ -19,7 +19,6 @@ function Home() {
     const dialogs = dataAPI.getDialogs(context.language)
     const isIOSNotSafari = isIOS() && !isSafari()
     const [dialogOpen, setDialogOpen] = useState(isIOSNotSafari);
-    const navbar = dataAPI.getNavbar(context.language);
 
     function isIOS(){
         const expression = /(Mac|iPhone|iPod|iPad)/i;

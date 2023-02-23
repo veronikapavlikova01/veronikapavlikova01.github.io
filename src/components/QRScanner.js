@@ -49,12 +49,12 @@ function QRScanner() {
     }
 
     return (
-        <>
+        <div>
             <video id="video" ref={ref} className="full-screen"/>
             <div className="video-label margin-top text-medium color-primary font-weight-primary center-text">
                 <span>{scan.scan_label}</span>
             </div>
-        </>
+        </div>
     );
 }
 

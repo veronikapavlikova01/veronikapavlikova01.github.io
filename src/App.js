@@ -22,6 +22,7 @@ import ScrollToTop from './components/ScrollToTop';
 import QRScanner from './components/QRScanner';
 import { Context } from './Context'
 import FaceRecognition from './components/FaceRecognition';
+import * as faceapi from 'face-api.js';
 
 class App extends React.Component {
   constructor(props) {
