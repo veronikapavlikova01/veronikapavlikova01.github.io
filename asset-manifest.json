@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1562c20c.css",
-    "main.js": "/static/js/main.ee1a212a.js",
+    "main.js": "/static/js/main.d45e2168.js",
     "static/js/787.8b87e823.chunk.js": "/static/js/787.8b87e823.chunk.js",
     "static/media/katerina_redern.jpg": "/static/media/katerina_redern.4a84b70def994618476f.jpg",
     "static/media/hrad-3.jpg": "/static/media/hrad-3.a4177431580707beff9c.jpg",
@@ -66,11 +66,11 @@
     "static/media/icon-128.png": "/static/media/icon-128.987b6916ad8cabc59e8a.png",
     "index.html": "/index.html",
     "main.1562c20c.css.map": "/static/css/main.1562c20c.css.map",
-    "main.ee1a212a.js.map": "/static/js/main.ee1a212a.js.map",
+    "main.d45e2168.js.map": "/static/js/main.d45e2168.js.map",
     "787.8b87e823.chunk.js.map": "/static/js/787.8b87e823.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1562c20c.css",
-    "static/js/main.ee1a212a.js"
+    "static/js/main.d45e2168.js"
   ]
 }
