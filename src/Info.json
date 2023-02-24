@@ -59,7 +59,9 @@
             "close_label":"Close",
             "no_face_detected":"We are sorry, but no face could be recognized.",
             "no_known_face_detected":"We are sorry, but it was not possible to recognize any owner of the castle in the photo.",
-            "try_again_label":"Please try again. Zoom in on the face and take a photo."
+            "try_again_label":"Please try again. Zoom in on the face and take a photo.",
+            "recognition_done":"Recognition complete",
+            "recognized_person_label":"The following person was recognized in the photo you took:"
         },
         {
             "language":"pl",
@@ -75,7 +77,9 @@
             "error_label":"Coś poszło nie tak...",
             "no_face_detected":"Przepraszamy, ale nie można rozpoznać żadnej twarzy.",
             "no_known_face_detected":"Przepraszamy, ale na zdjęciu nie udało się rozpoznać żadnego właściciela zamku.",
-            "try_again_label":"Proszę spróbuj ponownie. Przybliż twarz i zrób zdjęcie."
+            "try_again_label":"Proszę spróbuj ponownie. Przybliż twarz i zrób zdjęcie.",
+            "recognition_done":"Rozpoznanie zakończone",
+            "recognized_person_label":"Poniższa osoba została rozpoznana na zrobionym przez Ciebie zdjęciu:"
         },
         {
             "language":"de",
@@ -91,7 +95,9 @@
             "error_label":"Etwas ist schief gelaufen...",
             "no_face_detected":"Entschuldigung, aber es konnte kein Gesicht erkannt werden.",
             "no_known_face_detected":"Entschuldigung, aber auf dem Foto war kein Besitzer des Schlosses zu erkennen.",
-            "try_again_label":"Bitte versuchen Sie es nochmal. Vergrößern Sie das Gesicht und machen Sie ein Foto."
+            "try_again_label":"Bitte versuchen Sie es nochmal. Vergrößern Sie das Gesicht und machen Sie ein Foto.",
+            "recognition_done":"Anerkennung abgeschlossen",
+            "recognized_person_label":"Auf dem von Ihnen aufgenommenen Foto wurde folgende Person erkannt:"
         }
     ],
     "install": [
@@ -128,15 +134,45 @@
     "face_recognition":[
         {
             "language": "en",
-            "photo_label":"Take a picture"
+            "face_recognition":"Image recognition",
+            "title":"Don't know who is in the picture?",
+            "label":"If you've come across an image on the sightseeing tour and you're not sure who's in it, you can either ask the tourguide or use this feature, which recognizes who's in the image from the photo. Just follow the instructions below.",
+            "step_1":"Press the „Take a picture” button.",
+            "step_2":"Zoom in so that the face in the image you want to recognize is clearly visible.",
+            "step_3":"Now take a picture and then press OK.",
+            "step_4":"Wait a moment. When the image is recognized, a dialog box will appear with information about who is in the image.",
+            "button":"Take a picture",
+            "people":[
+
+            ]
         },
         {
             "language": "pl",
-            "photo_label":"Zrobić zdjęcie"
+            "face_recognition":"Rozpoznawanie obrazu",
+            "title":"Nie wiecie, kto jest na zdjęciu?",
+            "label":"Jeśli natknąłeś się na zdjęcie podczas zwiedzania i nie masz pewności, kto się na nim znajduje, możesz zapytać twórcę lub skorzystać z tej funkcji, aby rozpoznać, kto jest na obrazie ze zdjęcia. Po prostu postępuj zgodnie z poniższymi instrukcjami.",
+            "step_1":"Naciśnij przycisk „Zróbić zdjęcie”.",
+            "step_2":"Powiększ, aby twarz na zdjęciu, którą chcesz rozpoznać, była wyraźnie widoczna.",
+            "step_3":"Teraz zrób zdjęcie, a następnie naciśnij OK.",
+            "step_4":"Poczekaj chwilę. Po rozpoznaniu obrazu pojawi się okno dialogowe z informacją, kto jest na obrazie.",
+            "button":"Zrobić zdjęcie",
+            "people":[
+                
+            ]
         },
         {
             "language": "de",
-            "photo_label":"Machen Sie ein Foto"
+            "face_recognition":"Bilderkennung",
+            "title":"Sie wissen nicht, wer auf dem Bild ist?",
+            "label":"Wenn Sie bei der Führung auf ein Bild gestoßen sind und sich nicht sicher sind, wer darauf abgebildet ist, können Sie entweder den Begleiter fragen oder diese Funktion verwenden, die anhand des Fotos erkennt, wer auf dem Bild zu sehen ist. Befolgen Sie einfach die nachstehenden Anweisungen.",
+            "step_1":"Drücken Sie die Schaltfläche „Bild aufnehmen”.",
+            "step_2":"Vergrößern Sie die Kamera so, dass das Gesicht im Bild, das Sie erkennen möchten, deutlich sichtbar ist.",
+            "step_3":"Machen Sie jetzt ein Foto und drücken Sie dann OK.",
+            "step_4":"Moment mal. Wenn das Bild erkannt wird, erscheint ein Dialogfeld mit Informationen darüber, wer sich auf dem Bild befindet.",
+            "button":"Bild aufnehmen",
+            "people":[
+                
+            ]
         }
     ],
     "header":[
