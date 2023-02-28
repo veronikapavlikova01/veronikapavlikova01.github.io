@@ -136,7 +136,7 @@
             "language": "en",
             "face_recognition":"Image recognition",
             "title":"Don't know who is in the picture?",
-            "label":"If you've come across an image on the sightseeing tour and you're not sure who's in it, you can either ask the tourguide or use this feature, which recognizes who's in the image from the photo. Just follow the instructions below.",
+            "label":"If you've come across an image on the tour and you're not sure who's in it, you can either ask the tourguide or use this feature, which recognizes who's in the image from the photo. Just follow the instructions below.",
             "step_1":"Press the „Take a picture” button.",
             "step_2":"Zoom in so that the face in the image you want to recognize is clearly visible.",
             "step_3":"Now take a picture and then press OK.",
@@ -338,19 +338,19 @@
             "button":"Visit",
             "places":[
                 {
-                    "title":"Hrad Grabštejn",
+                    "title":"Castle Grabštejn",
                     "description":"Hrad Grabštejn je původně gotický hrad ze 13.století, který byl později přestavěn na renesanční zámek. V 18.století jej koupili Clam-Gallasové, se kterými jste se mohli seznámit na frýdlantském zámku.",
                     "url":"https://hrad-grabstejn.cz/en",
                     "img":""
                 },
                 {
-                    "title":"Zámek Grabštejn",
+                    "title":"Chateau Grabštejn",
                     "description":"Lemberk je hrad přestavený na zámek u Jablonného v Podještědí. Mimo jiné zde pobývala Zdislava z Lemberka, který byla roku 1995 prohlášena za svatou.",
                     "url":"https://www.zamek-lemberk.cz/en",
                     "img":""
                 },
                 {
-                    "title":"Pivovar Albrecht",
+                    "title":"Brewery Albrecht",
                     "description":"Pivovar Albrecht je úzce spjat s historií frýdlantského panství. Postaven byl v 16.století rodem Redernů a od roku 2013 je opět v provozu.",
                     "url":"https://pivovar-albrecht.com/",
                     "img":""
@@ -362,19 +362,19 @@
             "button":"Besuchen",
             "places":[
                 {
-                    "title":"Hrad Grabštejn",
+                    "title":"Burg Grabštejn",
                     "description":"Hrad Grabštejn je původně gotický hrad ze 13.století, který byl později přestavěn na renesanční zámek. V 18.století jej koupili Clam-Gallasové, se kterými jste se mohli seznámit na frýdlantském zámku.",
                     "url":"https://hrad-grabstejn.cz/de",
                     "img":""
                 },
                 {
-                    "title":"Zámek Grabštejn",
+                    "title":"Schloss Lemberk",
                     "description":"Lemberk je hrad přestavený na zámek u Jablonného v Podještědí. Mimo jiné zde pobývala Zdislava z Lemberka, který byla roku 1995 prohlášena za svatou.",
                     "url":"https://www.zamek-lemberk.cz/en",
                     "img":""
                 },
                 {
-                    "title":"Pivovar Albrecht",
+                    "title":"Brauerei Albrecht",
                     "description":"Pivovar Albrecht je úzce spjat s historií frýdlantského panství. Postaven byl v 16.století rodem Redernů a od roku 2013 je opět v provozu.",
                     "url":"https://pivovar-albrecht.com/",
                     "img":""
@@ -491,6 +491,215 @@
             "phone": "Numer telefonu"
         }
     ],
+    "face_recognition_people":[
+        {
+            "language":"en",
+            "people":[
+                {
+                    "name":"Fridrich of Redern",
+                    "img":"/owners/katerina_redern.jpg"
+                },
+                {
+                    "name":"Melchior of Redern",
+                    "img":"/owners/melchior_redern.jpg"
+                },
+                {
+                    "name":"Catherine of Redern",
+                    "img":"/owners/katerina_redern.jpg"
+                },
+                {
+                    "name":"Christopher of Redern",
+                    "img":"/owners/katerina_redern.jpg"
+                },
+                {
+                    "name":"Albrecht of Waldstein",
+                    "img":"/owners/albrecht_valdstejn.jpg"
+                },
+                {
+                    "name":"Matthias of Gallas",
+                    "img":"/owners/matyas_gallas.jpg"
+                },
+                {
+                    "name":"Antonius of Gallas",
+                    "img":"/owners/antonin_pankrac_gallas.jpg"
+                },
+                {
+                    "name":"Francis Ferdinand of Gallas",
+                    "img":"/owners/frantisek_ferdinand_gallas.jpg"
+                },
+                {
+                    "name":"John Wenceslas of Gallas",
+                    "img":"/owners/jan_vaclav_gallas.jpg"
+                },
+                {
+                    "name":"Philip Joseph of Gallas",
+                    "img":"/owners/filip_josef_gallas.jpg"
+                },
+                {
+                    "name":"Christian Philip of Clam-Gallas",
+                    "img":"/owners/kristian_filip_clamgallas.jpg"
+                },
+                {
+                    "name":"Christian Christopher of Clam-Gallas",
+                    "img":"/owners/kristian_krystof_clamgallas.jpg"
+                },
+                {
+                    "name":"William of Clam-Gallas",
+                    "img":"/owners/vilem_clamgallas.jpg"
+                },
+                {
+                    "name":"Edward of Clam-Gallas",
+                    "img":"/owners/eduard_clamgallas.jpg"
+                },
+                {
+                    "name":"Francis of Clam-Gallas",
+                    "img":"/owners/frantisek_ferdinand_gallas.jpg"
+                },
+                {
+                    "name":"Clotilde of Clam-Gallas",
+                    "img":"/owners/katerina_redern.jpg"
+                }
+            ]
+        },
+        {
+            "language":"de",
+            "people":[
+                {
+                    "name":"Fridrich von Rödern",
+                    "img":"/owners/katerina_redern.jpg"
+                },
+                {
+                    "name":"Melchior von Rödern",
+                    "img":"/owners/melchior_redern.jpg"
+                },
+                {
+                    "name":"Katharina von Rödern",
+                    "img":"/owners/katerina_redern.jpg"
+                },
+                {
+                    "name":"Christoph von Röodern",
+                    "img":"/owners/katerina_redern.jpg"
+                },
+                {
+                    "name":"Albrecht von Wallenstein",
+                    "img":"/owners/albrecht_valdstejn.jpg"
+                },
+                {
+                    "name":"Mathyas von Gallas",
+                    "img":"/owners/matyas_gallas.jpg"
+                },
+                {
+                    "name":"Antonius von Gallas",
+                    "img":"/owners/antonin_pankrac_gallas.jpg"
+                },
+                {
+                    "name":"Franz Ferdinand von Gallas",
+                    "img":"/owners/frantisek_ferdinand_gallas.jpg"
+                },
+                {
+                    "name":"Johann Wenzeslaus von Gallas",
+                    "img":"/owners/jan_vaclav_gallas.jpg"
+                },
+                {
+                    "name":"Philip Joseph von Gallas",
+                    "img":"/owners/filip_josef_gallas.jpg"
+                },
+                {
+                    "name":"Christian Philip von Clam-Gallas",
+                    "img":"/owners/kristian_filip_clamgallas.jpg"
+                },
+                {
+                    "name":"Christian Christoph von Clam-Gallas",
+                    "img":"/owners/kristian_krystof_clamgallas.jpg"
+                },
+                {
+                    "name":"Wilhelm von Clam-Gallas",
+                    "img":"/owners/vilem_clamgallas.jpg"
+                },
+                {
+                    "name":"Eduard von Clam-Gallas",
+                    "img":"/owners/eduard_clamgallas.jpg"
+                },
+                {
+                    "name":"Franz von Clam-Gallas",
+                    "img":"/owners/frantisek_ferdinand_gallas.jpg"
+                },
+                {
+                    "name":"Clotilde von Clam-Gallas",
+                    "img":"/owners/katerina_redern.jpg"
+                }
+            ]
+        },
+        {
+            "language":"pl",
+            "people":[
+                {
+                    "name":"Fridrich of Redern",
+                    "img":"/owners/katerina_redern.jpg"
+                },
+                {
+                    "name":"Melchior of Redern",
+                    "img":"/owners/melchior_redern.jpg"
+                },
+                {
+                    "name":"Catherine of Redern",
+                    "img":"/owners/katerina_redern.jpg"
+                },
+                {
+                    "name":"Christopher of Redern",
+                    "img":"/owners/katerina_redern.jpg"
+                },
+                {
+                    "name":"Albrecht of Waldstein",
+                    "img":"/owners/albrecht_valdstejn.jpg"
+                },
+                {
+                    "name":"Matthias of Gallas",
+                    "img":"/owners/matyas_gallas.jpg"
+                },
+                {
+                    "name":"Antonius of Gallas",
+                    "img":"/owners/antonin_pankrac_gallas.jpg"
+                },
+                {
+                    "name":"Francis Ferdinand of Gallas",
+                    "img":"/owners/frantisek_ferdinand_gallas.jpg"
+                },
+                {
+                    "name":"John Wenceslas of Gallas",
+                    "img":"/owners/jan_vaclav_gallas.jpg"
+                },
+                {
+                    "name":"Philip Joseph of Gallas",
+                    "img":"/owners/filip_josef_gallas.jpg"
+                },
+                {
+                    "name":"Christian Philip of Clam-Gallas",
+                    "img":"/owners/kristian_filip_clamgallas.jpg"
+                },
+                {
+                    "name":"Christian Christopher of Clam-Gallas",
+                    "img":"/owners/kristian_krystof_clamgallas.jpg"
+                },
+                {
+                    "name":"William of Clam-Gallas",
+                    "img":"/owners/vilem_clamgallas.jpg"
+                },
+                {
+                    "name":"Edward of Clam-Gallas",
+                    "img":"/owners/eduard_clamgallas.jpg"
+                },
+                {
+                    "name":"Francis of Clam-Gallas",
+                    "img":"/owners/frantisek_ferdinand_gallas.jpg"
+                },
+                {
+                    "name":"Clotilde of Clam-Gallas",
+                    "img":"/owners/katerina_redern.jpg"
+                }
+            ]
+        }
+    ],
     "history": [
         {
             "language": "en",
@@ -541,13 +750,13 @@
                     ]
                 },
                 {
-                    "title": "Rödern",
+                    "title": "Redern",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Fridrich von Rödern",
+                            "name": "Friedrich of Redern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -556,7 +765,7 @@
                         },
                         {
                             "number": 2,
-                            "name": "Melchior von Rödern",
+                            "name": "Melchior of Redern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -565,7 +774,7 @@
                         },
                         {
                             "number": 3,
-                            "name": "Katharina von Rödern",
+                            "name": "Catherine of Redern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -574,7 +783,7 @@
                         },
                         {
                             "number": 4,
-                            "name": "Christoph von R§odern",
+                            "name": "Christopher of Redern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -584,7 +793,7 @@
                     ]
                 },
                 {
-                    "title": "Albrecht von Wallenstein",
+                    "title": "Albrecht of Waldstein",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
                     "button": "Learn",
                     "owners": [
@@ -606,7 +815,7 @@
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Mathyas von Gallas",
+                            "name": "Matthias of Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -615,7 +824,7 @@
                         },
                         {
                             "number": 2,
-                            "name": "Antonius von Gallas",
+                            "name": "Antonius of Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -624,7 +833,7 @@
                         },
                         {
                             "number": 3,
-                            "name": "Franz Ferdinand von Gallas",
+                            "name": "Francis Ferdinand of Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -633,7 +842,7 @@
                         },
                         {
                             "number": 4,
-                            "name": "Johann Wenzeslaus von Gallas",
+                            "name": "John Wenceslas of Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -642,7 +851,7 @@
                         },
                         {
                             "number": 5,
-                            "name": "Filip Josef von Gallas",
+                            "name": "Philip Joseph of Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -658,7 +867,7 @@
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Christian Philip von Clam-Gallas",
+                            "name": "Christian Philip of Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -667,7 +876,7 @@
                         },
                         {
                             "number": 2,
-                            "name": "Christian Christoph von Clam-Gallas",
+                            "name": "Christian Christopher of Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -676,7 +885,7 @@
                         },
                         {
                             "number": 3,
-                            "name": "Wilhelm von Clam-Gallas",
+                            "name": "William of Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -685,7 +894,7 @@
                         },
                         {
                             "number": 4,
-                            "name": "Eduard von Clam-Gallas",
+                            "name": "Edward of Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -694,7 +903,7 @@
                         },
                         {
                             "number": 5,
-                            "name": "Franz von Clam-Gallas",
+                            "name": "Francis of Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -703,7 +912,7 @@
                         },
                         {
                             "number": 6,
-                            "name": "Clotilde von Clam-Gallas",
+                            "name": "Clotilde of Clam-Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -796,7 +1005,7 @@
                         },
                         {
                             "number": 4,
-                            "name": "Christoph von R§odern",
+                            "name": "Christoph von Röodern",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -864,7 +1073,7 @@
                         },
                         {
                             "number": 5,
-                            "name": "Filip Josef von Gallas",
+                            "name": "Philip Joseph von Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
@@ -1086,7 +1295,7 @@
                         },
                         {
                             "number": 5,
-                            "name": "Filip Josef von Gallas",
+                            "name": "Philip Joseph von Gallas",
                             "years": "xxxx-xxxx",
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",

@@ -15,6 +15,7 @@ function FaceRecognition() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
     const faceRecognitionLabels = dataAPI.getFaceRecognition(context.language);
+    const people = dataAPI.getFaceRecognitionPeople(context.language);
     const [who, setWho] = useState("");
     const [errorLabel, setErrorLabel] = useState("");
     const dialogs = dataAPI.getDialogs(context.language);
@@ -71,21 +72,21 @@ function FaceRecognition() {
                 setErrorLabel(dialogs.no_face_detected);
                 setIsLoading(false);
                 setDialogOpen(true);
+                return
             }
 
-            const labels = ['albrecht_valdstejn', 'antonin_pankrac_gallas', 'eduard_clamgallas', 'filip_josef_gallas', 'frantisek_ferdinand_gallas', 'jan_vaclav_gallas', 'katerina_redern', 'kristian_filip_clamgallas', 'kristian_krystof_clamgallas', 'matyas_gallas', 'melchior_redern', 'vilem_clamgallas']
-
             const labeledFaceDescriptors = await Promise.all(
-                labels.map(async label => {
-                    // fetch image data from urls and convert blob to HTMLImage element
-                    const imgUrl = require(`../img/owners/${label}.jpg`);
-                    const img = document.createElement('img');
+                people.map(async human => {
+                    console.log(human)
+                    const imgUrl = require(`../img${human.img}`);
+                    //face api takes only html element
+                    const img = document.createElement('img');          
                     img.src = imgUrl;
 
                     const fullFaceDescription = await faceapi.detectSingleFace(img).withFaceLandmarks().withFaceDescriptor()
 
                     const faceDescriptors = [fullFaceDescription.descriptor]
-                    return new faceapi.LabeledFaceDescriptors(label, faceDescriptors)
+                    return new faceapi.LabeledFaceDescriptors(human.name, faceDescriptors)
                 })
             ).catch(err => {
                 setErrorLabel(dialogs.no_face_detected);
@@ -103,6 +104,7 @@ function FaceRecognition() {
                 setErrorLabel(dialogs.no_known_face_detected);
                 setIsLoading(false);
                 setDialogOpen(true);
+                return
             }
 
             setIsLoading(false);

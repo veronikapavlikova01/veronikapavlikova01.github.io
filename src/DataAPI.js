@@ -43,6 +43,17 @@ class DataAPI {
         return null;
     }
 
+    //face_recognition_people
+    getFaceRecognitionPeople(language){
+        const scan = Info.face_recognition_people;
+        for (let i=0; i<scan.length;i++){
+            if(scan[i].language===language){
+                return scan[i].people;
+            }
+        }
+        return null;
+    }
+
     //info
     getInfo(language){
         const info = Info.info;
