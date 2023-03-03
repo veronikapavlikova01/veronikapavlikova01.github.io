@@ -93,9 +93,8 @@ function Header(props) {
                 <ul id="navlist" className={sidebar? "navigation-list font-weight-primary flex navigation-list-active":"navigation-list flex font-weight-primary"} onClick={showSidebar}>
                     <li ><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/">{navbar.home}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/tours">{navbar.tours}</NavLink></li>
-                    <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/rooms_overview">{navbar.map}</NavLink></li>
-                    <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/face_recognition">Testing face recognition</NavLink></li>
-                    <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/other">{navbar.other}</NavLink></li>
+                    <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/rooms_overview">{navbar.rooms}</NavLink></li>
+                    <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" to="/other">{navbar.menu}</NavLink></li>
                     <li><NavLink className="navigation-link text-medium font-weight-primary color-primary cursor-primary" onClick={()=> navigate(-1)}>{navbar.back}</NavLink></li>
                     <li className={(window.installBannerDisplayed) ? "background-primary" : "display-none"}>
                         <div className="flex">

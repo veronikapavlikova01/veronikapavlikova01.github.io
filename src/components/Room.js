@@ -40,14 +40,14 @@ function Room() {
     const previous = (number, length, context) => {
         let newNumber = number - 1;
         if (prevRoomExists(number)) {
-            context.changeRoom(newNumber);
+            context.setRoom(newNumber);
         }
     }
     
     const next = (number, length, context) => {
         let newNumber = number + 1;
         if (nextRoomExists(number, length)) {
-            context.changeRoom(newNumber);
+            context.setRoom(newNumber);
         }
     }
     
@@ -71,7 +71,7 @@ function Room() {
     return (
         <>
             <Header header={tour.title} />
-            <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => { x1 = touchStartEvent.changedTouches[0].clientX; y1 = touchStartEvent.changedTouches[0].clientY }} onTouchEnd={touchEndEvent => { slide(x1, touchEndEvent.changedTouches[0].clientX, y1, touchEndEvent.changedTouches[0].clientY, room.number, tour.rooms.length, context) }}>
+            <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => { x1 = touchStartEvent.setdTouches[0].clientX; y1 = touchStartEvent.setdTouches[0].clientY }} onTouchEnd={touchEndEvent => { slide(x1, touchEndEvent.setdTouches[0].clientX, y1, touchEndEvent.setdTouches[0].clientY, room.number, tour.rooms.length, context) }}>
                 <article>
                     <div className="flex-secondary">
                         <div className="margin-right-primary margin-left-primary">

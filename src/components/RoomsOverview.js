@@ -45,7 +45,7 @@ function Map() {
                             <h3 className="padding-top-primary padding-bottom-primary">{roomsOverview.not_seen}</h3>
                             {
                                 unvisited.map((item) => (
-                                    <Link to="/room" className="transition-primary hover-primary card margin-bottom-primary box-shadow padding-third" onClick={() => context.changeRoom(item.number)}>
+                                    <Link to="/room" className="transition-primary hover-primary card margin-bottom-primary box-shadow padding-third" onClick={() => context.setRoom(item.number)}>
                                         <div className="flex-secondary align-items-primary">
                                             <div className="flex round-item background-fourth margin-right-secondary">
                                                 <span className="round-item-content color-primary">{item.number}</span>

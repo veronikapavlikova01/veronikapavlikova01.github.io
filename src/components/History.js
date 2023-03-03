@@ -33,7 +33,7 @@ function History() {
                         history.map((item) => (
                             <Link to={item.path} className="card box-shadow transition-primary hover-primary" key={item.title}>
                                 <article className="flex">
-                                    <img src={castle} alt="castle" className="card-image padding-bottom-primary border-radius-secondary" />
+                                    <img src={require(`../img${item.img}`)} alt="history_image" className="card-image padding-bottom-primary border-radius-secondary"/>
                                     <h2 className="padding-primary padding-bottom-primary">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.card_label}</p>
                                     <div className="center-text">

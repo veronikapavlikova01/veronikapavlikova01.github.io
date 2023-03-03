@@ -1,6 +1,7 @@
 import * as faceapi from 'face-api.js';
 import React from 'react';
 import { useState, useEffect, useContext } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Header from "./Header";
 import DataAPI from '../DataAPI';
 import { Context } from "../Context"
@@ -10,18 +11,18 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import Button from "@material-ui/core/Button";
+import { CircularProgress } from '@mui/material';
+import { Navigate } from 'react-router-dom';
 
 function FaceRecognition() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
     const faceRecognitionLabels = dataAPI.getFaceRecognition(context.language);
     const people = dataAPI.getFaceRecognitionPeople(context.language);
-    const [who, setWho] = useState("");
-    const [errorLabel, setErrorLabel] = useState("");
     const dialogs = dataAPI.getDialogs(context.language);
     const [dialogOpen, setDialogOpen] = useState(false);
-    const [recognitionDialogOpen, setRecognitionDialogOpen] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
+    const navigate = useNavigate();
     let isModelsLoaded = false;
 
 
@@ -51,25 +52,17 @@ function FaceRecognition() {
         setDialogOpen(false);
     };
 
-    const closeRecognitionDialog = () => {
-        setRecognitionDialogOpen(false);
-    };
-
 
     //funkce na detekovani a rozpoznani obliceje
     //detekce může trvat i několik sekund - proto byl zaveden spinner
     //prvni rozpoznavani trva i kolem 10s, dalsi uz jsou rychlejsi. Funguje rychleji, pokud je aplikace stažena
     const handleImg = async () => {
-        console.log(isModelsLoaded);
         if(isModelsLoaded){
-            console.log("handling img");
             let img = document.getElementById('person_picture');
             let fullFaceDescriptions = await faceapi.detectAllFaces(img).withFaceLandmarks().withFaceDescriptors()
 
-            console.log(fullFaceDescriptions);
 
             if (fullFaceDescriptions.length === 0) {
-                setErrorLabel(dialogs.no_face_detected);
                 setIsLoading(false);
                 setDialogOpen(true);
                 return
@@ -77,7 +70,6 @@ function FaceRecognition() {
 
             const labeledFaceDescriptors = await Promise.all(
                 people.map(async human => {
-                    console.log(human)
                     const imgUrl = require(`../img${human.img}`);
                     //face api takes only html element
                     const img = document.createElement('img');          
@@ -89,7 +81,6 @@ function FaceRecognition() {
                     return new faceapi.LabeledFaceDescriptors(human.name, faceDescriptors)
                 })
             ).catch(err => {
-                setErrorLabel(dialogs.no_face_detected);
                 setIsLoading(false);
                 setDialogOpen(true);
             });
@@ -101,47 +92,42 @@ function FaceRecognition() {
             const results = fullFaceDescriptions.map(fd => faceMatcher.findBestMatch(fd.descriptor))
 
             if (results[0].label === 'unknown') {
-                setErrorLabel(dialogs.no_known_face_detected);
                 setIsLoading(false);
                 setDialogOpen(true);
                 return
             }
 
             setIsLoading(false);
-            setWho(results[0].label);
-            setRecognitionDialogOpen(true);
-            console.log("done recognizing");
+            var peopleImg = getPeopleImg(results[0].label);
+            context.setImageRecognitionName(results[0].label)
+            context.setImageRecognitionImg(peopleImg)
+            
+            navigate('/image_recognition_result')
+        }
+    }
+
+    //return image url
+    const getPeopleImg = (name) =>{
+        for(let i =0; i< people.length;i++){
+            if(people[i].name===name){
+                return people[i].img;
+            }
         }
     }
 
     return (
         <>
             <Header header={faceRecognitionLabels.face_recognition} />
-            {isLoading ?
-                <div className="spinner-container full-screen">
-                    <div className="spinner" />
-                </div>
-                : <span />
-            }
+            <div className={isLoading? "spinner-container full-screen" : "display-none"}>
+                <CircularProgress/>
+            </div>
             <Dialog open={dialogOpen} onClose={closeDialog}>
-                <DialogTitle>{errorLabel}</DialogTitle>
+                <DialogTitle>{dialogs.no_face_detected}</DialogTitle>
                 <DialogContent>
                     <DialogContentText>{dialogs.try_again_label}</DialogContentText>
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={closeDialog}>{dialogs.close_label}</Button>
-                </DialogActions>
-            </Dialog>
-            <Dialog open={recognitionDialogOpen} onClose={closeRecognitionDialog}>
-                <DialogTitle>{dialogs.recognition_done}</DialogTitle>
-                <DialogContent>
-                    <DialogContentText>{dialogs.recognized_person_label}</DialogContentText>
-                </DialogContent>
-                <DialogContent>
-                    <DialogContentText>{who}</DialogContentText>
-                </DialogContent>
-                <DialogActions>
-                    <Button onClick={closeRecognitionDialog}>{dialogs.close_label}</Button>
                 </DialogActions>
             </Dialog>
             <div className="flex content-container background-secondary padding-secondary border-radius-primary box-shadow">
@@ -165,7 +151,7 @@ function FaceRecognition() {
                 </div>
                 <div className="center-text margin-primary ">
                     <label htmlFor="native_camera" className="text-medium button align-self-primary background-primary font-weight-primary color-primary cursor-primary">{faceRecognitionLabels.button}</label>
-                    <input id="native_camera" type="file" accept="image/*" capture="environment" className="display-none" />
+                    <input id="native_camera" type="file" accept="image/*" capture="environment" className="display-none"/>
                 </div>
                 <img id="person_picture" src="" className="display-none" alt="person_picture" />
             </div>

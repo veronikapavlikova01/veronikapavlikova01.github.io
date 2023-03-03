@@ -43,8 +43,8 @@ function QRScanner() {
 
     function redirectToRoom(tour, room) {
         console.log("redirecting");
-        context.changeTour(tour);
-        context.changeRoom(room);
+        context.setTour(tour);
+        context.setRoom(room);
         navigate("/room");
     }
 

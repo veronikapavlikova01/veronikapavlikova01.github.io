@@ -16,7 +16,7 @@ window.addEventListener("beforeinstallprompt", (e) => {
   window.deferredPrompt=e;
 });
 
-window.lastVisited = "Home";
+window.json_response=null;
 
 
 root.render(

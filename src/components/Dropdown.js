@@ -14,7 +14,7 @@ function Dropdown() {
 
     const languageChange = (e) => {
         setDropdown(!dropdown);
-        context.changeLanguage(e);
+        context.setLanguage(e);
     }
 
     return (

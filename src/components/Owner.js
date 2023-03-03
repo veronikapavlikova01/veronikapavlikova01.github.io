@@ -25,14 +25,14 @@ function nextOwnerExists(number, length){
 function previous(number, length, context){
     let newNumber = number-1;
     if(prevOwnerExists(number)){
-        context.changeOwner(newNumber);
+        context.setOwner(newNumber);
     }
 }
 
 function next(number, length, context){
     let newNumber=number+1;
     if(nextOwnerExists(number,length)){
-        context.changeOwner(newNumber);
+        context.setOwner(newNumber);
     }
 }
 
@@ -61,7 +61,7 @@ function Owner() {
     return (
         <>
             <Header header={context.house}/>
-            <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary" onTouchStart={touchStartEvent => {x1 = touchStartEvent.changedTouches[0].clientX; y1=touchStartEvent.changedTouches[0].clientY}} onTouchEnd={touchEndEvent => {slide(x1, touchEndEvent.changedTouches[0].clientX, y1, touchEndEvent.changedTouches[0].clientY, owner.number, house.owners.length, context)}}>
+            <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary" onTouchStart={touchStartEvent => {x1 = touchStartEvent.setdTouches[0].clientX; y1=touchStartEvent.setdTouches[0].clientY}} onTouchEnd={touchEndEvent => {slide(x1, touchEndEvent.setdTouches[0].clientX, y1, touchEndEvent.setdTouches[0].clientY, owner.number, house.owners.length, context)}}>
                 <article className="font-size-third medieval-first-letter">
                     <div className="flex-secondary">
                         <div className="margin-right-primary margin-left-primary">
@@ -70,7 +70,9 @@ function Owner() {
                             <span className="font-style-primary margin-primary">xxx-xxx</span>
                         </div>
                     </div>
-                    <img src={require(`../img${owner.img}`)} alt="castle margin-top-secondary" className="page-image" />
+                    <div className="margin-top-secondary">
+                        <img src={require(`../img${owner.img}`)} alt="castle" className="page-image" />
+                    </div>
                     <p className="start-text margin-top-secondary">{owner.text}</p>
                 </article>
                 <div className="flex-secondary stick-bottom padding-bottom-primary padding-top-primary background-gradient">

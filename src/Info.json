@@ -1,8 +1,7 @@
 {
     "languages": [
         "en",
-        "de",
-        "pl"
+        "de"
     ],
     "rotate":[
         {
@@ -12,10 +11,6 @@
         {
             "language":"de",
             "rotate":"Bitte drehen Sie Ihr Gerät!"
-        },
-        {
-            "language":"pl",
-            "rotate":"Proszę obrócić urządzenie!"
         }
     ],
     "info":[
@@ -26,14 +21,6 @@
             "history_info":"In this section, you can learn about the history of the castle and chateau. You can read a brief history or get to know the individual families that have owned the manor here over the years.",
             "where_to_info":"If you would like to make another trip, we recommend visiting following places in the nearby area.",
             "rooms_overview":"Here you can see an overview of the rooms located in the sightseeing route you have chosen."
-        },
-        {
-            "language":"pl",
-            "info":"Informacje",
-            "tours_info":"Najpierw wybierz wycieczkę, na którą kupiłeś bilet. Następnie poczekaj w miejscu rozpoczęcia wycieczki. Twój przewodnik cię tam zabierze.",
-            "history_info":"W tym dziale można zapoznać się z historią zamku i zamku. Można zapoznać się z krótką historią lub poznać poszczególne rodziny, które na przestrzeni lat były właścicielami tutejszego dworu.",
-            "where_to_info":"Jeśli masz ochotę na kolejną wycieczkę, polecamy odwiedzenie następujących miejsc w najbliższej okolicy.",
-            "rooms_overview":"Tutaj możesz zobaczyć przegląd pokoi znajdujących się na wybranej trasie zwiedzania."
         },
         {
             "language":"de",
@@ -57,29 +44,10 @@
             "error_label":"Something went wrong...",
             "invalid_scan_label":"We are sorry, but the given QR code could not be recognized.",
             "close_label":"Close",
-            "no_face_detected":"We are sorry, but no face could be recognized.",
-            "no_known_face_detected":"We are sorry, but it was not possible to recognize any owner of the castle in the photo.",
+            "no_face_detected":"We are sorry, but it was not possible to recognize anyone from the photo you took.",
             "try_again_label":"Please try again. Zoom in on the face and take a photo.",
             "recognition_done":"Recognition complete",
             "recognized_person_label":"The following person was recognized in the photo you took:"
-        },
-        {
-            "language":"pl",
-            "install_download_label":"Jak pobrać?",
-            "install_step_1":"1. Otwórz ustawienia przeglądarki.",
-            "install_step_2":"2. Znajdź i stuknij opcję Dodaj do ekranu głównego.",
-            "install_step_1_safari":"2. Znajdź i stuknij opcję Share.",
-            "install_step_3":"3. Potwierdź, dotykając Dodaj.",
-            "warning":"ostrzeżenie",
-            "install_use_safari":"Aby zainstalować aplikację, musisz użyć przeglądarki Safari.",
-            "close_label":"Zamknąć",
-            "invalid_scan_label":"Przepraszamy, ale podany kod QR nie został rozpoznany.",
-            "error_label":"Coś poszło nie tak...",
-            "no_face_detected":"Przepraszamy, ale nie można rozpoznać żadnej twarzy.",
-            "no_known_face_detected":"Przepraszamy, ale na zdjęciu nie udało się rozpoznać żadnego właściciela zamku.",
-            "try_again_label":"Proszę spróbuj ponownie. Przybliż twarz i zrób zdjęcie.",
-            "recognition_done":"Rozpoznanie zakończone",
-            "recognized_person_label":"Poniższa osoba została rozpoznana na zrobionym przez Ciebie zdjęciu:"
         },
         {
             "language":"de",
@@ -93,8 +61,7 @@
             "close_label":"Schließen",
             "invalid_scan_label":"Es tut uns leid, aber der angegebene QR-Code konnte nicht erkannt werden.",
             "error_label":"Etwas ist schief gelaufen...",
-            "no_face_detected":"Entschuldigung, aber es konnte kein Gesicht erkannt werden.",
-            "no_known_face_detected":"Entschuldigung, aber auf dem Foto war kein Besitzer des Schlosses zu erkennen.",
+            "no_face_detected":"Wir entschuldigen uns, aber auf dem von Ihnen aufgenommenen Foto war niemand zu erkennen.",
             "try_again_label":"Bitte versuchen Sie es nochmal. Vergrößern Sie das Gesicht und machen Sie ein Foto.",
             "recognition_done":"Anerkennung abgeschlossen",
             "recognized_person_label":"Auf dem von Ihnen aufgenommenen Foto wurde folgende Person erkannt:"
@@ -107,11 +74,6 @@
             "install_label":"Install the app for offline access."
         },
         {
-            "language": "pl",
-            "install":"Zainstalować",
-            "install_label":"Zainstaluj aplikację, aby uzyskać dostęp offline."
-        },
-        {
             "language": "de",
             "install":"Installieren",
             "install_label":"Installieren Sie die App für den Offline-Zugriff."
@@ -121,10 +83,6 @@
         {
             "language": "en",
             "scan_label":"Scan the QR code"
-        },
-        {
-            "language": "pl",
-            "scan_label":"Zeskanuj kod QR"
         },
         {
             "language": "de",
@@ -142,23 +100,7 @@
             "step_3":"Now take a picture and then press OK.",
             "step_4":"Wait a moment. When the image is recognized, a dialog box will appear with information about who is in the image.",
             "button":"Take a picture",
-            "people":[
-
-            ]
-        },
-        {
-            "language": "pl",
-            "face_recognition":"Rozpoznawanie obrazu",
-            "title":"Nie wiecie, kto jest na zdjęciu?",
-            "label":"Jeśli natknąłeś się na zdjęcie podczas zwiedzania i nie masz pewności, kto się na nim znajduje, możesz zapytać twórcę lub skorzystać z tej funkcji, aby rozpoznać, kto jest na obrazie ze zdjęcia. Po prostu postępuj zgodnie z poniższymi instrukcjami.",
-            "step_1":"Naciśnij przycisk „Zróbić zdjęcie”.",
-            "step_2":"Powiększ, aby twarz na zdjęciu, którą chcesz rozpoznać, była wyraźnie widoczna.",
-            "step_3":"Teraz zrób zdjęcie, a następnie naciśnij OK.",
-            "step_4":"Poczekaj chwilę. Po rozpoznaniu obrazu pojawi się okno dialogowe z informacją, kto jest na obrazie.",
-            "button":"Zrobić zdjęcie",
-            "people":[
-                
-            ]
+            "button_back":"Back"
         },
         {
             "language": "de",
@@ -170,16 +112,14 @@
             "step_3":"Machen Sie jetzt ein Foto und drücken Sie dann OK.",
             "step_4":"Moment mal. Wenn das Bild erkannt wird, erscheint ein Dialogfeld mit Informationen darüber, wer sich auf dem Bild befindet.",
             "button":"Bild aufnehmen",
-            "people":[
-                
-            ]
+            "button_back":"Zurück"
         }
     ],
     "header":[
         {
             "language":"en",
             "rooms": "Rooms",
-            "other":"Other",
+            "menu":"Menu",
             "history": "History",
             "houses": "Houses",
             "owners": "Owners",
@@ -192,24 +132,9 @@
             "contact":"Contact"
         },
         {
-            "language":"pl",
-            "rooms": "Pokoje",
-            "other":"Inny",
-            "history": "Historia",
-            "houses": "Rody",
-            "owners": "Właściciele",
-            "tours":"Wycieczki",
-            "map" : "Mapa",
-            "where_to_next":"Gdzie teraz?",
-            "gallery":"Galeria",
-            "about_app":"O aplikacji",
-            "settings":"Ustawienia",
-            "contact":"Kontakt"
-        },
-        {
             "language":"de",
             "rooms": "Räume",
-            "other":"Sonstiges",
+            "menu":"Menü",
             "history": "Historie",
             "houses": "Häuser",
             "owners": "Besitzer",
@@ -238,75 +163,48 @@
             "default":"Original",
             "medium":"Mittlere",
             "large":"Groß"
-        },
-        {
-            "language":"pl",
-            "letter":"Rozmiar czcionki",
-            "language_label":"Język",
-            "default":"Oryginał",
-            "medium":"Średni",
-            "large":"Duży"
         }
     ],
     "other":[
         {
             "language":"en",
-            "contact":"Contact",
             "history": "History",
-            "where_to_next":"Where to next?",
             "gallery":"Gallery",
-            "settings":"Settings",
+            "image_recognition":"Image recognition",
             "scan_room":"Scan the room",
+            "where_to_next":"Where to next?",
+            "contact":"Contact",
+            "settings":"Settings",
             "about_app":"About app"
         },
         {
             "language":"de",
-            "contact":"Kontakt",
             "history": "Historie",
-            "where_to_next":"Wohin als nächstes?",
             "gallery":"Galerie",
-            "settings":"Einstellung",
+            "image_recognition":"Bilderkennung",
             "scan_room":"Scannen Sie den Raum",
-            "about_app":"Über App"
-        },
-        {
-            "language":"pl",
+            "where_to_next":"Wohin als nächstes?",
             "contact":"Kontakt",
-            "history": "Historia",
-            "where_to_next":"Gdzie teraz?",
-            "gallery":"Galeria",
-            "settings":"Ustawienia",
-            "scan_room":"Zeskanuj pokój",
-            "about_app":"O aplikacji"
+            "settings":"Einstellung",
+            "about_app":"Über App"
         }
     ],
     "navbar": [
         {
             "language": "en",
-            "tours": "Tours",
-            "map": "Rooms",
-            "settings":"Settings",
             "home":"Home",
-            "other":"Other",
+            "tours": "Tours",
+            "rooms": "Overview of rooms",
+            "menu":"Menu",
             "back":"Back to previous"
         },
         {
             "language": "de",
-            "tours": "Führungen",
-            "map": "Räume",
-            "settings":"Einstellung",
             "home":"Startseite",
-            "other":"Sonstiges",
+            "tours": "Führungen",
+            "rooms": "Übersicht der Zimmer",
+            "menu":"Menü",
             "back":"Zurück zum vorherigen"
-        },
-        {
-            "language": "pl",
-            "tours": "Trasy zwiedzania",
-            "map": "Pokoje",
-            "settings":"Ustawienia",
-            "home":"Strona główna",
-            "other":"Inny",
-            "back":"Powrót do poprzedniego"
         }
     ],
         "home": [
@@ -323,13 +221,6 @@
             "label_2": "auf der Burg und",
             "label_3": "dem Schloss Friedland",
             "button_label": "Führung auswählen"
-        },
-        {
-            "language": "pl",
-            "label_1": "Witamy",
-            "label_2": "w zamku i",
-            "label_3": "pałacu Frýdlant",
-            "button_label": "Wybierz wycieczkę"
         }
     ],
     "where_to_next":[
@@ -380,30 +271,6 @@
                     "img":""
                 }
             ]
-        },
-        {
-            "language":"pl",
-            "button":"Wizyta",
-            "places":[
-                {
-                    "title":"Hrad Grabštejn",
-                    "description":"Hrad Grabštejn je původně gotický hrad ze 13.století, který byl později přestavěn na renesanční zámek. V 18.století jej koupili Clam-Gallasové, se kterými jste se mohli seznámit na frýdlantském zámku.",
-                    "url":"https://hrad-grabstejn.cz/pl",
-                    "img":""
-                },
-                {
-                    "title":"Zámek Grabštejn",
-                    "description":"Lemberk je hrad přestavený na zámek u Jablonného v Podještědí. Mimo jiné zde pobývala Zdislava z Lemberka, který byla roku 1995 prohlášena za svatou.",
-                    "url":"https://www.zamek-lemberk.cz/pl",
-                    "img":""
-                },
-                {
-                    "title":"Pivovar Albrecht",
-                    "description":"Pivovar Albrecht je úzce spjat s historií frýdlantského panství. Postaven byl v 16.století rodem Redernů a od roku 2013 je opět v provozu.",
-                    "url":"https://pivovar-albrecht.com/",
-                    "img":""
-                }
-            ]
         }
     ],
     "about_app":[
@@ -432,19 +299,6 @@
             "photos":"Lukáš Hübner",
             "logo_label":"Logo von",
             "logo":"Lucie Pavlíková"
-        },
-        {
-            "language":"pl",
-            "for_label":"Oficjalna aplikacja dla",
-            "for":"Kasztela i Pałacu Frýdlant",
-            "author_label":"Autor",
-            "author":"Veronika Pavlíková",
-            "collaboration_label":"We współpracy z",
-            "collaboration":"Uniwersytet Palackiego w Ołomuńcu",
-            "photos_label":"zdjęcia",
-            "photos":"Lukáš Hübner",
-            "logo_label":"Logo",
-            "logo":"Lucie Pavlíková"
         }
     ],
     "rooms_overview":[
@@ -459,12 +313,6 @@
             "tour_not_selected":"Bitte wählen Sie zunächst die Führung aus, die Sie nehmen möchten.",
             "seen":"Bereits besuchte Räume",
             "not_seen":"Noch nicht besuchte Räume"
-        },
-        {
-            "language": "pl",
-            "tour_not_selected":"Najpierw wybierz trasę zwiedzania, którą chcesz obrać.",
-            "seen":"Odwiedzone już pokoje",
-            "not_seen":"Pokoje jeszcze nie odwiedzone"
         }
     ],
 
@@ -482,13 +330,6 @@
             "address": "Addresse",
             "reservation": "Ticketbuchung",
             "phone": "Telefonnummer"
-        },
-        {
-            "language": "pl",
-            "title": "Kontakt",
-            "address": "Adres",
-            "reservation": "rezerwacje wycieczek",
-            "phone": "Numer telefonu"
         }
     ],
     "face_recognition_people":[
@@ -497,67 +338,67 @@
             "people":[
                 {
                     "name":"Fridrich of Redern",
-                    "img":"/owners/katerina_redern.jpg"
+                    "img":"/people/katerina_redern.jpg"
                 },
                 {
                     "name":"Melchior of Redern",
-                    "img":"/owners/melchior_redern.jpg"
+                    "img":"/people/melchior_redern.jpg"
                 },
                 {
                     "name":"Catherine of Redern",
-                    "img":"/owners/katerina_redern.jpg"
+                    "img":"/people/katerina_redern.jpg"
                 },
                 {
                     "name":"Christopher of Redern",
-                    "img":"/owners/katerina_redern.jpg"
+                    "img":"/people/katerina_redern.jpg"
                 },
                 {
                     "name":"Albrecht of Waldstein",
-                    "img":"/owners/albrecht_valdstejn.jpg"
+                    "img":"/people/albrecht_valdstejn.jpg"
                 },
                 {
                     "name":"Matthias of Gallas",
-                    "img":"/owners/matyas_gallas.jpg"
+                    "img":"/people/matyas_gallas.jpg"
                 },
                 {
                     "name":"Antonius of Gallas",
-                    "img":"/owners/antonin_pankrac_gallas.jpg"
+                    "img":"/people/antonin_pankrac_gallas.jpg"
                 },
                 {
                     "name":"Francis Ferdinand of Gallas",
-                    "img":"/owners/frantisek_ferdinand_gallas.jpg"
+                    "img":"/people/frantisek_ferdinand_gallas.jpg"
                 },
                 {
                     "name":"John Wenceslas of Gallas",
-                    "img":"/owners/jan_vaclav_gallas.jpg"
+                    "img":"/people/jan_vaclav_gallas.jpg"
                 },
                 {
                     "name":"Philip Joseph of Gallas",
-                    "img":"/owners/filip_josef_gallas.jpg"
+                    "img":"/people/filip_josef_gallas.jpg"
                 },
                 {
                     "name":"Christian Philip of Clam-Gallas",
-                    "img":"/owners/kristian_filip_clamgallas.jpg"
+                    "img":"/people/kristian_filip_clamgallas.jpg"
                 },
                 {
                     "name":"Christian Christopher of Clam-Gallas",
-                    "img":"/owners/kristian_krystof_clamgallas.jpg"
+                    "img":"/people/kristian_krystof_clamgallas.jpg"
                 },
                 {
                     "name":"William of Clam-Gallas",
-                    "img":"/owners/vilem_clamgallas.jpg"
+                    "img":"/people/vilem_clamgallas.jpg"
                 },
                 {
                     "name":"Edward of Clam-Gallas",
-                    "img":"/owners/eduard_clamgallas.jpg"
+                    "img":"/people/eduard_clamgallas.jpg"
                 },
                 {
                     "name":"Francis of Clam-Gallas",
-                    "img":"/owners/frantisek_ferdinand_gallas.jpg"
+                    "img":"/people/frantisek_ferdinand_gallas.jpg"
                 },
                 {
                     "name":"Clotilde of Clam-Gallas",
-                    "img":"/owners/katerina_redern.jpg"
+                    "img":"/people/katerina_redern.jpg"
                 }
             ]
         },
@@ -566,136 +407,67 @@
             "people":[
                 {
                     "name":"Fridrich von Rödern",
-                    "img":"/owners/katerina_redern.jpg"
+                    "img":"/people/katerina_redern.jpg"
                 },
                 {
                     "name":"Melchior von Rödern",
-                    "img":"/owners/melchior_redern.jpg"
+                    "img":"/people/melchior_redern.jpg"
                 },
                 {
                     "name":"Katharina von Rödern",
-                    "img":"/owners/katerina_redern.jpg"
+                    "img":"/people/katerina_redern.jpg"
                 },
                 {
                     "name":"Christoph von Röodern",
-                    "img":"/owners/katerina_redern.jpg"
+                    "img":"/people/katerina_redern.jpg"
                 },
                 {
                     "name":"Albrecht von Wallenstein",
-                    "img":"/owners/albrecht_valdstejn.jpg"
+                    "img":"/people/albrecht_valdstejn.jpg"
                 },
                 {
                     "name":"Mathyas von Gallas",
-                    "img":"/owners/matyas_gallas.jpg"
+                    "img":"/people/matyas_gallas.jpg"
                 },
                 {
                     "name":"Antonius von Gallas",
-                    "img":"/owners/antonin_pankrac_gallas.jpg"
+                    "img":"/people/antonin_pankrac_gallas.jpg"
                 },
                 {
                     "name":"Franz Ferdinand von Gallas",
-                    "img":"/owners/frantisek_ferdinand_gallas.jpg"
+                    "img":"/people/frantisek_ferdinand_gallas.jpg"
                 },
                 {
                     "name":"Johann Wenzeslaus von Gallas",
-                    "img":"/owners/jan_vaclav_gallas.jpg"
+                    "img":"/people/jan_vaclav_gallas.jpg"
                 },
                 {
                     "name":"Philip Joseph von Gallas",
-                    "img":"/owners/filip_josef_gallas.jpg"
+                    "img":"/people/filip_josef_gallas.jpg"
                 },
                 {
                     "name":"Christian Philip von Clam-Gallas",
-                    "img":"/owners/kristian_filip_clamgallas.jpg"
+                    "img":"/people/kristian_filip_clamgallas.jpg"
                 },
                 {
                     "name":"Christian Christoph von Clam-Gallas",
-                    "img":"/owners/kristian_krystof_clamgallas.jpg"
+                    "img":"/people/kristian_krystof_clamgallas.jpg"
                 },
                 {
                     "name":"Wilhelm von Clam-Gallas",
-                    "img":"/owners/vilem_clamgallas.jpg"
+                    "img":"/people/vilem_clamgallas.jpg"
                 },
                 {
                     "name":"Eduard von Clam-Gallas",
-                    "img":"/owners/eduard_clamgallas.jpg"
+                    "img":"/people/eduard_clamgallas.jpg"
                 },
                 {
                     "name":"Franz von Clam-Gallas",
-                    "img":"/owners/frantisek_ferdinand_gallas.jpg"
+                    "img":"/people/frantisek_ferdinand_gallas.jpg"
                 },
                 {
                     "name":"Clotilde von Clam-Gallas",
-                    "img":"/owners/katerina_redern.jpg"
-                }
-            ]
-        },
-        {
-            "language":"pl",
-            "people":[
-                {
-                    "name":"Fridrich of Redern",
-                    "img":"/owners/katerina_redern.jpg"
-                },
-                {
-                    "name":"Melchior of Redern",
-                    "img":"/owners/melchior_redern.jpg"
-                },
-                {
-                    "name":"Catherine of Redern",
-                    "img":"/owners/katerina_redern.jpg"
-                },
-                {
-                    "name":"Christopher of Redern",
-                    "img":"/owners/katerina_redern.jpg"
-                },
-                {
-                    "name":"Albrecht of Waldstein",
-                    "img":"/owners/albrecht_valdstejn.jpg"
-                },
-                {
-                    "name":"Matthias of Gallas",
-                    "img":"/owners/matyas_gallas.jpg"
-                },
-                {
-                    "name":"Antonius of Gallas",
-                    "img":"/owners/antonin_pankrac_gallas.jpg"
-                },
-                {
-                    "name":"Francis Ferdinand of Gallas",
-                    "img":"/owners/frantisek_ferdinand_gallas.jpg"
-                },
-                {
-                    "name":"John Wenceslas of Gallas",
-                    "img":"/owners/jan_vaclav_gallas.jpg"
-                },
-                {
-                    "name":"Philip Joseph of Gallas",
-                    "img":"/owners/filip_josef_gallas.jpg"
-                },
-                {
-                    "name":"Christian Philip of Clam-Gallas",
-                    "img":"/owners/kristian_filip_clamgallas.jpg"
-                },
-                {
-                    "name":"Christian Christopher of Clam-Gallas",
-                    "img":"/owners/kristian_krystof_clamgallas.jpg"
-                },
-                {
-                    "name":"William of Clam-Gallas",
-                    "img":"/owners/vilem_clamgallas.jpg"
-                },
-                {
-                    "name":"Edward of Clam-Gallas",
-                    "img":"/owners/eduard_clamgallas.jpg"
-                },
-                {
-                    "name":"Francis of Clam-Gallas",
-                    "img":"/owners/frantisek_ferdinand_gallas.jpg"
-                },
-                {
-                    "name":"Clotilde of Clam-Gallas",
-                    "img":"/owners/katerina_redern.jpg"
+                    "img":"/people/katerina_redern.jpg"
                 }
             ]
         }
@@ -706,6 +478,7 @@
             "path": "/history_overview",
             "title": "History overview",
             "button": "Learn more",
+            "img": "/history/history.jpg",
             "card_label": "Seznamte se s historií frýdlantského panství od založení až po současnost.",
             "description": "Seznamte se se stručnou historií frýdlanstkého hradu a zámku. Od jeho založení až po současnost.",
             "label": "Seznamte se s historií hradu a zámku"
@@ -714,12 +487,14 @@
             "language": "en",
             "path": "/houses",
             "title": "Houses",
+            "img": "/history/coat_of_arms.jpg",
             "card_label": "Seznamte se s jednotlivými majiteli frýdlanstkého panství",
             "button": "Learn more",
             "houses": [
                 {
                     "title": "Ronowitzer",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "img": "/coat_of_arms/ronovci.png",
                     "button": "Learn",
                     "owners": [
                         {
@@ -729,13 +504,14 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
+                            "img": "/coat_of_arms/ronovci.png"
                         }
                     ]
                 },
                 {
                     "title": "Biberstein",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "img": "/coat_of_arms/biberstejnove.png",
                     "button": "Learn",
                     "owners": [
                         {
@@ -745,13 +521,14 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
+                            "img": "/coat_of_arms/biberstejnove.png"
                         }
                     ]
                 },
                 {
                     "title": "Redern",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "img": "/coat_of_arms/redernove.png",
                     "button": "Learn",
                     "owners": [
                         {
@@ -761,7 +538,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
+                            "img": "/coat_of_arms/redernove.png"
                         },
                         {
                             "number": 2,
@@ -770,7 +547,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/melchior_redern.jpg"
+                            "img":"/people/melchior_redern.jpg"
                         },
                         {
                             "number": 3,
@@ -779,7 +556,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
+                            "img":"/people/katerina_redern.jpg"
                         },
                         {
                             "number": 4,
@@ -788,13 +565,14 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
+                            "img": "/coat_of_arms/redernove.png"
                         }
                     ]
                 },
                 {
                     "title": "Albrecht of Waldstein",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "img": "/coat_of_arms/albrecht.png",
                     "button": "Learn",
                     "owners": [
                         {
@@ -804,13 +582,14 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/albrecht_valdstejn.jpg"
+                            "img":"/people/albrecht_valdstejn.jpg"
                         }
                     ]
                 },
                 {
                     "title": "Gallas",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "img": "/coat_of_arms/gallasove.png",
                     "button": "Learn",
                     "owners": [
                         {
@@ -820,7 +599,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/matyas_gallas.jpg"
+                            "img":"/people/matyas_gallas.jpg"
                         },
                         {
                             "number": 2,
@@ -829,7 +608,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/antonin_pankrac_gallas.jpg"
+                            "img":"/people/antonin_pankrac_gallas.jpg"
                         },
                         {
                             "number": 3,
@@ -838,7 +617,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/frantisek_ferdinand_gallas.jpg"
+                            "img":"/people/frantisek_ferdinand_gallas.jpg"
                         },
                         {
                             "number": 4,
@@ -847,7 +626,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/jan_vaclav_gallas.jpg"
+                            "img":"/people/jan_vaclav_gallas.jpg"
                         },
                         {
                             "number": 5,
@@ -856,13 +635,14 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/filip_josef_gallas.jpg"
+                            "img":"/people/filip_josef_gallas.jpg"
                         }
                     ]
                 },
                 {
                     "title": "Clam-Gallas",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "img": "/coat_of_arms/clamgallasove.png",
                     "button": "Learn",
                     "owners": [
                         {
@@ -872,7 +652,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/kristian_filip_clamgallas.jpg"
+                            "img":"/people/kristian_filip_clamgallas.jpg"
                         },
                         {
                             "number": 2,
@@ -881,7 +661,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/kristian_krystof_clamgallas.jpg"
+                            "img":"/people/kristian_krystof_clamgallas.jpg"
                         },
                         {
                             "number": 3,
@@ -890,7 +670,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/vilem_clamgallas.jpg"
+                            "img":"/people/vilem_clamgallas.jpg"
                         },
                         {
                             "number": 4,
@@ -899,7 +679,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/eduard_clamgallas.jpg"
+                            "img":"/people/eduard_clamgallas.jpg"
                         },
                         {
                             "number": 5,
@@ -908,7 +688,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
+                            "img": "/coat_of_arms/clamgallasove.png"
                         },
                         {
                             "number": 6,
@@ -917,31 +697,34 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
+                            "img": "/coat_of_arms/clamgallasove.png"
                         }
                     ]
                 }
             ]
         },
         {
-            "language": "pl",
+            "language": "de",
             "path": "/history_overview",
             "title": "History overview",
             "button": "Learn more",
+            "img": "/history/history.jpg",
             "card_label": "Seznamte se s historií frýdlantského panství od založení až po současnost.",
             "description": "Seznamte se se stručnou historií frýdlanstkého hradu a zámku. Od jeho založení až po současnost.",
             "label": "Seznamte se s historií hradu a zámku"
         },
         {
-            "language": "pl",
+            "language": "de",
             "path": "/houses",
             "title": "Houses",
+            "img": "/history/coat_of_arms.jpg",
             "card_label": "Seznamte se s jednotlivými majiteli frýdlanstkého panství",
             "button": "Learn more",
             "houses": [
                 {
                     "title": "Ronowitzer",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "img": "/coat_of_arms/ronovci.png",
                     "button": "Learn",
                     "owners": [
                         {
@@ -951,13 +734,14 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
+                            "img": "/coat_of_arms/ronovci.png"
                         }
                     ]
                 },
                 {
                     "title": "Biberstein",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "img": "/coat_of_arms/biberstejnove.png",
                     "button": "Learn",
                     "owners": [
                         {
@@ -967,13 +751,14 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
+                            "img": "/coat_of_arms/biberstejnove.png"
                         }
                     ]
                 },
                 {
                     "title": "Rödern",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "img": "/coat_of_arms/redernove.png",
                     "button": "Learn",
                     "owners": [
                         {
@@ -983,7 +768,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
+                            "img": "/coat_of_arms/redernove.png"
                         },
                         {
                             "number": 2,
@@ -992,7 +777,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/melchior_redern.jpg"
+                            "img":"/people/melchior_redern.jpg"
                         },
                         {
                             "number": 3,
@@ -1001,7 +786,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
+                            "img":"/people/katerina_redern.jpg"
                         },
                         {
                             "number": 4,
@@ -1010,13 +795,14 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
+                            "img": "/coat_of_arms/redernove.png"
                         }
                     ]
                 },
                 {
                     "title": "Albrecht von Wallenstein",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "img": "/coat_of_arms/albrecht.png",
                     "button": "Learn",
                     "owners": [
                         {
@@ -1026,13 +812,14 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/albrecht_valdstejn.jpg"
+                            "img":"/people/albrecht_valdstejn.jpg"
                         }
                     ]
                 },
                 {
                     "title": "Gallas",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "img": "/coat_of_arms/gallasove.png",
                     "button": "Learn",
                     "owners": [
                         {
@@ -1042,7 +829,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/matyas_gallas.jpg"
+                            "img":"/people/matyas_gallas.jpg"
                         },
                         {
                             "number": 2,
@@ -1051,7 +838,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/antonin_pankrac_gallas.jpg"
+                            "img":"/people/antonin_pankrac_gallas.jpg"
                         },
                         {
                             "number": 3,
@@ -1060,7 +847,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/frantisek_ferdinand_gallas.jpg"
+                            "img":"/people/frantisek_ferdinand_gallas.jpg"
                         },
                         {
                             "number": 4,
@@ -1069,7 +856,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/jan_vaclav_gallas.jpg"
+                            "img":"/people/jan_vaclav_gallas.jpg"
                         },
                         {
                             "number": 5,
@@ -1078,13 +865,14 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/filip_josef_gallas.jpg"
+                            "img":"/people/filip_josef_gallas.jpg"
                         }
                     ]
                 },
                 {
                     "title": "Clam-Gallas",
                     "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "img": "/coat_of_arms/clamgallasove.png",
                     "button": "Learn",
                     "owners": [
                         {
@@ -1094,7 +882,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/kristian_filip_clamgallas.jpg"
+                            "img":"/people/kristian_filip_clamgallas.jpg"
                         },
                         {
                             "number": 2,
@@ -1103,7 +891,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/kristian_krystof_clamgallas.jpg"
+                            "img":"/people/kristian_krystof_clamgallas.jpg"
                         },
                         {
                             "number": 3,
@@ -1112,7 +900,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/vilem_clamgallas.jpg"
+                            "img":"/people/vilem_clamgallas.jpg"
                         },
                         {
                             "number": 4,
@@ -1121,7 +909,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/eduard_clamgallas.jpg"
+                            "img":"/people/eduard_clamgallas.jpg"
                         },
                         {
                             "number": 5,
@@ -1130,7 +918,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
+                            "img": "/coat_of_arms/clamgallasove.png"
                         },
                         {
                             "number": 6,
@@ -1139,229 +927,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Navštívit",
                             "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "language": "de",
-            "path": "/history_overview",
-            "title": "History overview",
-            "button": "Learn more",
-            "card_label": "Seznamte se s historií frýdlantského panství od založení až po současnost.",
-            "description": "Seznamte se se stručnou historií frýdlanstkého hradu a zámku. Od jeho založení až po současnost.",
-            "label": "Seznamte se s historií hradu a zámku"
-        },
-        {
-            "language": "de",
-            "path": "/houses",
-            "title": "Houses",
-            "card_label": "Seznamte se s jednotlivými majiteli frýdlanstkého panství",
-            "button": "Learn more",
-            "houses": [
-                {
-                    "title": "Ronowitzer",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
-                    "button": "Learn",
-                    "owners": [
-                        {
-                            "number": 1,
-                            "name": "Majitel číslo 1",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
-                        }
-                    ]
-                },
-                {
-                    "title": "Biberstein",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
-                    "button": "Learn",
-                    "owners": [
-                        {
-                            "number": 1,
-                            "name": "Majitel číslo 1",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
-                        }
-                    ]
-                },
-                {
-                    "title": "Rödern",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
-                    "button": "Learn",
-                    "owners": [
-                        {
-                            "number": 1,
-                            "name": "Fridrich von Rödern",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
-                        },
-                        {
-                            "number": 2,
-                            "name": "Melchior von Rödern",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/melchior_redern.jpg"
-                        },
-                        {
-                            "number": 3,
-                            "name": "Katharina von Rödern",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
-                        },
-                        {
-                            "number": 4,
-                            "name": "Christoph von R§odern",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
-                        }
-                    ]
-                },
-                {
-                    "title": "Albrecht von Wallenstein",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
-                    "button": "Learn",
-                    "owners": [
-                        {
-                            "number": 1,
-                            "name": "Albrecht von Wallenstein",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/albrecht_valdstejn.jpg"
-                        }
-                    ]
-                },
-                {
-                    "title": "Gallas",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
-                    "button": "Learn",
-                    "owners": [
-                        {
-                            "number": 1,
-                            "name": "Mathyas von Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/matyas_gallas.jpg"
-                        },
-                        {
-                            "number": 2,
-                            "name": "Antonius von Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/antonin_pankrac_gallas.jpg"
-                        },
-                        {
-                            "number": 3,
-                            "name": "Franz Ferdinand von Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/frantisek_ferdinand_gallas.jpg"
-                        },
-                        {
-                            "number": 4,
-                            "name": "Johann Wenzeslaus von Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/jan_vaclav_gallas.jpg"
-                        },
-                        {
-                            "number": 5,
-                            "name": "Philip Joseph von Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/filip_josef_gallas.jpg"
-                        }
-                    ]
-                },
-                {
-                    "title": "Clam-Gallas",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
-                    "button": "Learn",
-                    "owners": [
-                        {
-                            "number": 1,
-                            "name": "Christian Philip von Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/kristian_filip_clamgallas.jpg"
-                        },
-                        {
-                            "number": 2,
-                            "name": "Christian Christoph von Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/kristian_krystof_clamgallas.jpg"
-                        },
-                        {
-                            "number": 3,
-                            "name": "Wilhelm von Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/vilem_clamgallas.jpg"
-                        },
-                        {
-                            "number": 4,
-                            "name": "Eduard von Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/eduard_clamgallas.jpg"
-                        },
-                        {
-                            "number": 5,
-                            "name": "Franz von Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
-                        },
-                        {
-                            "number": 6,
-                            "name": "Clotilde von Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
-                            "img":"/owners/katerina_redern.jpg"
+                            "img": "/coat_of_arms/clamgallasove.png"
                         }
                     ]
                 }
@@ -1373,6 +939,7 @@
             "tour_id": "castle",
             "language": "en",
             "title": "Castle",
+            "img": "/castle/castle.jpg",
             "description": "This tour takes the visitor through the Upper Castle, which is the oldest part of the Frýdlant area. The entire route is dominated by a large knight's hall with an ancestral gallery, armory, banquet hall or a large collection of employee uniforms.",
             "button": "Start tour",
             "rooms": [
@@ -1517,152 +1084,9 @@
             "tour_id": "castle",
             "language": "de",
             "title": "Die Burg",
+            "img": "/castle/castle.jpg",
             "description": "Die Führung führt den Besucher durch die Obere Burg, den ältesten Teil des Frýdlant-Gebiets. Der gesamte Weg wird dominiert von einem großen Rittersaal mit Ahnenempore, einer Rüstkammer, einem Festsaal oder einer großen Sammlung von Dienstkleidung.",
             "button": "Führung beginnen",
-            "rooms": [
-                {
-                    "number": 1,
-                    "img":"/castle/room1.jpg",
-                    "title": "Nádvoří",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 2,
-                    "img":"/castle/room2.jpg",
-                    "title": "Biberštejnové a Redernové",
-                    "card_label": "V první hradní místnosti bude návštěvník seznámen s prvními majitely hradu, konkrétně tedy Biberštejny a Rederny.",
-                    "label": "První místnost poskytne přehled majitelů hradu do poloviny 17.století",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 3,
-                    "img":"/castle/room3.jpg",
-                    "title": "Albrecht z Valdštejna",
-                    "card_label": "Tato místnost prohlídkového okruhu je věnována dalšímu majiteli hradu, jedné z nejvýznamějších osob české historie, a to Albrechtovi z Valdštejna.",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 4,
-                    "img":"/castle/room4.jpg",
-                    "title": "Rytířský sál",
-                    "card_label": "Rytířský sál, později využívaný jako rodová galerie, seznámí návštevníka s rodem Gallasů a jeho působením na hradu a v okolí.",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 5,
-                    "img":"/castle/room5.jpg",
-                    "title": "U piána",
-                    "card_label": "Ve čtvrté hradní místnosti bude návštěvníkovi představen rod Clam-Gallasů. Zároveň ",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 6,
-                    "img":"/castle/room6.jpg",
-                    "title": "Pracovna Eduarda z Gallasu",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 7,
-                    "img":"/castle/room7.jpg",
-                    "title": "Uniformy",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 8,
-                    "img":"/castle/room8.jpg",
-                    "title": "Nosítka",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 9,
-                    "img":"/castle/room9.jpg",
-                    "title": "Lovecký salonek",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 10,
-                    "img":"/castle/room10.jpg",
-                    "title": "Hradní kuchyně",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 11,
-                    "img":"/castle/room11.jpg",
-                    "title": "U vězení",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 12,
-                    "img":"/castle/room12.jpg",
-                    "title": "Hradní zbrojnice",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 13,
-                    "img":"/castle/room13.jpg",
-                    "title": "Koňské postroje",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 14,
-                    "img":"/castle/room14.jpg",
-                    "title": "Hradní galerie",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 15,
-                    "img":"/castle/room15.jpg",
-                    "title": "Vrchnostenská kancelář",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                }
-            ]
-        },
-        {
-            "tour_id": "castle",
-            "language": "pl",
-            "title": "Kasztel",
-            "description": "Trasa zwiedzania prowadzi przez Górny Zamek, który jest najstarszą częścią ziemi frydlantskiej. Na całej trasie dominuje duża sala rycerska z rodową galerią, zbrojownia, sala bankietowa czy też duża kolekcja mundurów pracowniczych.",
-            "button": "Rozpocząć wycieczkę",
             "rooms": [
                 {
                     "number": 1,
@@ -1805,6 +1229,7 @@
             "tour_id": "chateau",
             "language": "en",
             "title": "Chateau",
+            "img": "/chateau/chateau.jpg",
             "description": "This tour takes the visitor through the richly furnished castle and the history of the last owners of Clam Gallas. A fully equipped tour route maps the castle and its 24 accessible rooms on all its floors.",
             "button": "Start tour",
             "rooms": [
@@ -1985,188 +1410,9 @@
             "tour_id": "chateau",
             "language": "de",
             "title": "Das Schloß",
+            "img": "/chateau/chateau.jpg",
             "description": "Die Führung führt den Besucher durch das reich ausgestattete Schloss und die Geschichte der letzten Besitzer von Clam Gallas. Ein komplett ausgestatteter Rundgang zeigt das Schloss und seine 24 barrierefreien Räume auf allen Etagen.",
             "button": "Führung beginnen",
-            "rooms": [
-                {
-                    "number": 1,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Kuchyně",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 2,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Chodba",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 3,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Herna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 4,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Jídelna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 5,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Modrý salon",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 6,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Předpokoj",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 7,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Přijímací salonek",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 8,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Pracovna hraběte",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 9,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Ložnice",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 10,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Nad schody",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 11,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Květinový salon",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 12,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Ložnice",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 13,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Ranní salon",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 14,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Malá jídelna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 15,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Převlekárna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 16,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Královská chodba",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 17,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Podkroví",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 18,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Lokajna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                },
-                {
-                    "number": 19,
-                    "img":"/chateau/room1.jpg",
-                    "title": "Kaple sv. Anny",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
-                }
-            ]
-        },
-        {
-            "tour_id": "chateau",
-            "language": "pl",
-            "title": "Pałac",
-            "description": "Trasa zwiedzania prowadzi przez bogato wyposażony zamek i historię ostatnich właścicieli Clam Gallas. W pełni wyposażona trasa zwiedzania przedstawia zamek i 24 dostępne pokoje na wszystkich jego piętrach.",
-            "button": "Rozpocząć wycieczkę",
             "rooms": [
                 {
                     "number": 1,

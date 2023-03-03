@@ -22,44 +22,56 @@ import ScrollToTop from './components/ScrollToTop';
 import QRScanner from './components/QRScanner';
 import { Context } from './Context'
 import FaceRecognition from './components/FaceRecognition';
-import * as faceapi from 'face-api.js';
+import FaceRecognitionResult from './components/FaceRecognitionResult';
+
 
 class App extends React.Component {
   constructor(props) {
     super(props);
 
-    this.changeLanguage = (e) => {
+    this.setLanguage = (e) => {
       this.setState({ language: e });
       localStorage.setItem("language", JSON.stringify(e));
     }
 
-    this.changeHouse = (e) => {
+    this.setHouse = (e) => {
       this.setState({ house: e });
       localStorage.setItem("house", JSON.stringify(e));
     }
 
-    this.changeTour = (e) => {
+    this.setTour = (e) => {
       this.setState({ tour: e });
       localStorage.setItem("tour", JSON.stringify(e));
     }
 
-    this.changeRoom = (e) => {
+    this.setRoom = (e) => {
       console.log(e);
       this.setState({ room: e });
       localStorage.setItem("room", JSON.stringify(e));
     }
 
-    this.changeOwner = (e) => {
+    this.setOwner = (e) => {
       this.setState({ owner: e });
       localStorage.setItem("owner", JSON.stringify(e));
     }
 
-    this.changeGalleryTour = (e) => {
+    this.setGalleryTour = (e) => {
       this.setState({ gallery_tour: e });
       localStorage.setItem("gallery_tour", JSON.stringify(e));
     }
 
-    this.changeFontSize = (e) => {
+    this.setImageRecognitionName = (e) => {
+      this.setState({ image_name: e });
+      localStorage.setItem("image_name", JSON.stringify(e));
+    }
+
+    this.setImageRecognitionImg = (e) => {
+      this.setState({ image_img: e });
+      localStorage.setItem("image_img", JSON.stringify(e));
+    }
+
+
+    this.setFontSize = (e) => {
       var body = document.getElementById('body');
       if (e === "d") {
         body.classList.value = '';
@@ -80,25 +92,29 @@ class App extends React.Component {
 
     this.state = {
       language: localStorage.getItem("language") !== null ? JSON.parse(localStorage.getItem("language")) : "en",
-      changeLanguage: this.changeLanguage,
+      setLanguage: this.setLanguage,
       tour: localStorage.getItem("tour") !== null ? JSON.parse(localStorage.getItem("tour")) : "castle",
-      changeTour: this.changeTour,
+      setTour: this.setTour,
       room: localStorage.getItem("room") !== null ? JSON.parse(localStorage.getItem("room")) : "1",
-      changeRoom: this.changeRoom,
+      setRoom: this.setRoom,
       house: localStorage.getItem("house") !== null ? JSON.parse(localStorage.getItem("house")) : "Redernové",
-      changeHouse: this.changeHouse,
+      setHouse: this.setHouse,
       owner: localStorage.getItem("language") !== null ? JSON.parse(localStorage.getItem("owner")) : "1",
-      changeOwner: this.changeOwner,
+      setOwner: this.setOwner,
       fontSize: localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d",
-      changeFontSize: this.changeFontSize,
-      gallery_tour: localStorage.getItem("gallery_tour") !== null ? JSON.parse(localStorage.getItem("gallery_tour")) : "castle",
-      changeGalleryTour: this.changeGalleryTour,
+      setFontSize: this.setFontSize,
+      gallery_tour: localStorage.getItem("gallery_tour") !== null ? JSON.parse(localStorage.getItem("gallery_tour")) : "",
+      setGalleryTour: this.setGalleryTour,
+      image_name: localStorage.getItem("image_name") !== null ? JSON.parse(localStorage.getItem("image_name")) : "",
+      setImageRecognitionName: this.setImageRecognitionName,
+      image_img: localStorage.getItem("image_img") !== null ? JSON.parse(localStorage.getItem("image_img")) : "",
+      setImageRecognitionImg: this.setImageRecognitionImg
     };
   }
 
   componentDidMount() {
     var fontSize = localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d";
-    this.changeFontSize(fontSize);
+    this.setFontSize(fontSize);
   }
 
 
@@ -130,7 +146,8 @@ class App extends React.Component {
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/gallery_rooms" element={<GalleryRooms />} />
                 <Route path="/scan_room" element={<QRScanner />} />
-                <Route path="/face_recognition" element={<FaceRecognition/>}/>
+                <Route path="/image_recognition" element={<FaceRecognition/>}/>
+                <Route path="/image_recognition_result" element={<FaceRecognitionResult/>}/>
               </Routes>
             </Context.Provider>
           </BrowserRouter>

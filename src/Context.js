@@ -2,18 +2,22 @@ import React from "react";
 
 export const Context = React.createContext({
   language: "en",
-  changeLanguage: () => {},
+  setLanguage: () => {},
   tour: "castle",
-  changeTour: () => {},
+  setTour: () => {},
   room: "1",
-  changeRoom: () => {},
+  setRoom: () => {},
   house: "rederns",
-  changeHouse: () => {},
+  setHouse: () => {},
   owner:"1",
-  changeOwner: () => {},
+  setOwner: () => {},
   "font-size":"d",
-  changeFontSize: () => {},
+  setFontSize: () => {},
   "gallery_tour":"castle",
-  changeGalleryTour:() => {},
+  setGalleryTour:() => {},
+  "image_recognition_name":"",
+  setImageRecognitionName:()=>{},
+  "image_recognition_img":"",
+  setImageRecognitionImg:()=>{}
 });
 
