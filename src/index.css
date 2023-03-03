@@ -30,6 +30,14 @@ body {
   line-height: 1.5;
 }
 
+article{
+  width:100%;
+}
+
+p{
+  white-space: pre-line;
+}
+
 .font-size-default{
   font-size:1rem;
 }

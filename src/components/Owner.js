@@ -73,7 +73,7 @@ function Owner() {
                     <div className="margin-top-secondary">
                         <img src={require(`../img${owner.img}`)} alt="castle" className="page-image" />
                     </div>
-                    <p className="start-text margin-top-secondary">{owner.text}</p>
+                    <p className="start-text margin-top-secondary medieval-first-letter">{owner.text}</p>
                 </article>
                 <div className="flex-secondary stick-bottom padding-bottom-primary padding-top-primary background-gradient">
                     <div className={`flex round-item background-fourth margin-right-primary ${isPrev ? '' : ' visibility-hidden'}`}>

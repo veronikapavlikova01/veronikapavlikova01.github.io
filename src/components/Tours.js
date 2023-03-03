@@ -4,7 +4,7 @@ import { useContext, useEffect } from "react";
 import { Link } from 'react-router-dom'
 import Header from "./Header";
 import DataAPI from '../DataAPI';
-import castle from '../img/uvod.jpg'
+import castle from '../img/castle/castle.jpg'
 import InfoIcon from '@mui/icons-material/Info';
 
 
@@ -32,7 +32,7 @@ function Tours() {
                 <div className="grid-secondary padding-top-primary">
                     {
                         tours.map((item) => (
-                            <Link to="/rooms" className="card box-shadow transition-primary hover-primary" key={item.title} onClick={window.lastVisited=header.tours}>
+                            <Link to="/rooms" className="card box-shadow transition-primary hover-primary" key={item.title}>
                                 <article className="flex" onClick={() => context.setTour(item.tour_id)}>
                                     <img src={require(`../img${item.img}`)} alt="castle" className="card-image padding-bottom-primary border-radius-secondary" />
                                     <h2 className="text-medium padding-primary padding-bottom-primary">{item.title}</h2>

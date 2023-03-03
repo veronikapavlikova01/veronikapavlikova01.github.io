@@ -23,9 +23,9 @@ function Owners() {
                                 <article className="flex">
                                     <img src={require(`../img${item.img}`)} alt="castle" className="card-image border-radius-secondary padding-bottom-primary" />
                                     <h2 className="text-medium padding-primary card-title flex-secondary padding-bottom-primary">{item.name}</h2>
-                                    <p className="margin-bottom padding-primary medieval-first-letter">Majitel hrad a zámku.</p>
+                                    <p className="margin-bottom padding-primary medieval-first-letter">{item.label}</p>
                                     <div className="center-text">
-                                        <button className="button align-self-primary margin-primary text-medium background-primary font-weight-primary color-primary">Navštívit</button>
+                                        <button className="button align-self-primary margin-primary text-medium background-primary font-weight-primary color-primary">{item.button}</button>
                                     </div>
                                 </article>
                             </Link>

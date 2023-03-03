@@ -22,7 +22,7 @@ function Houses() {
                         houses.map((item) => (
                             <Link to="/owners" className="card box-shadow transition-primary hover-primary" key={item.title} onClick={() => context.setHouse(item.title)}>
                                 <article className="flex">
-                                    <img src={require(`../img${item.img}`)} alt="castle" className="card-image padding-bottom-primary border-radius-secondary" />
+                                    <img src={require(`../img${item.img}`)} alt="castle" className="card-image padding-bottom-primary border-radius-secondary padding-top-primary" />
                                     <h2 className="text-medium padding-primary padding-bottom-primary">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.description}</p>
                                     <div className="center-text">

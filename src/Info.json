@@ -276,7 +276,7 @@
     "about_app":[
         {
             "language":"en",
-            "for_label":"Oficial app for",
+            "for_label":"Official app for",
             "for":"Castle and chateau Frýdlant",
             "author_label":"Author",
             "author":"Veronika Pavlíková",
@@ -418,7 +418,7 @@
                     "img":"/people/katerina_redern.jpg"
                 },
                 {
-                    "name":"Christoph von Röodern",
+                    "name":"Christoph von Rödern",
                     "img":"/people/katerina_redern.jpg"
                 },
                 {
@@ -426,7 +426,7 @@
                     "img":"/people/albrecht_valdstejn.jpg"
                 },
                 {
-                    "name":"Mathyas von Gallas",
+                    "name":"Matthias von Gallas",
                     "img":"/people/matyas_gallas.jpg"
                 },
                 {
@@ -493,210 +493,210 @@
             "houses": [
                 {
                     "title": "Ronowitzer",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "description": "Founders of Frýdlant Castle.",
                     "img": "/coat_of_arms/ronovci.png",
-                    "button": "Learn",
+                    "button": "More",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "name": "Ronowitzer",
+                            "years": "????-1278",
+                            "label": "The oldest history of the Frýdlant castle is connected with the Ronowitzer family, who had it built in the 13th century.",
+                            "button": "More",
+                            "text": "The oldest history of the Frýdlant castle is connected with the Ronowitzer family, who had it built in the 13th century. We don't know much about their activities in the northern part of Bohemia. The first known member of this family was Smil, who was a member of the retinue of King Přemysl Otakar I. His sons Henry and Častolov still use the epithet 'of Zittau' in 1238, but in 1257 we already find a mention of 'Častolov of Frýdlant'. The expansion of this family was limited in 1278 by King Přemysl Otakar II., when he took the estate from the Ronowitzer family and sold it to the Biberstein family.",
                             "img": "/coat_of_arms/ronovci.png"
                         }
                     ]
                 },
                 {
                     "title": "Biberstein",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "description": "The longest ruling house, which was responsible for the expansion of the castle.",
                     "img": "/coat_of_arms/biberstejnove.png",
-                    "button": "Learn",
+                    "button": "More",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "name": "Biberstein",
+                            "years": "1278-1551",
+                            "label": "Representatives of the Biberstein family became the owners of the Frýdlant castle for the next almost 300 years, and their reign is mainly connected with the construction expansion of the castle and the further growth of Frýdlant manor.",
+                            "button": "More",
+                            "text": "Representatives of the Biberstein family became the owners of the Frýdlant castle for the next almost 300 years, and their reign is mainly connected with the construction expansion of the castle and the further growth of Frýdlant manor. Due to this family's efforts for further territorial gains, there have been several conflicts with neighboring ones nobles (e.g. the burning of Nymburk in 1326) and even clash with the royal army of Wenceslaus IV. \n\nDuring the Hussite Wars, Frýdlant became the center of the anti-Hussite opposition, and the Frýdlant manor was attacked several times between 1420 and 1433. The town of Frýdlant and other villages in the vicinity were several times burned out. The Biberstein family then remained in opposition even against King Charles of Poděbrady and were involved in other military conflicts. During the rule of the last Biberstein, the Frýdlant manor became completely Protestant, which was followed by family of Redern. The last male descendant, Christoph, died in 1551 without an heir and thus the manor fell to the Czech royal chamber.",
                             "img": "/coat_of_arms/biberstejnove.png"
                         }
                     ]
                 },
                 {
                     "title": "Redern",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "description": "The Silesian house, which contributed to the growth of Protestantism and the construction of the chateau.",
                     "img": "/coat_of_arms/redernove.png",
-                    "button": "Learn",
+                    "button": "More",
                     "owners": [
                         {
                             "number": 1,
                             "name": "Friedrich of Redern",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "????-1564",
+                            "label": "Friedrich of Redern was a member of the Silesian knightly family.",
+                            "button": "More",
+                            "text": "Friedrich of Redern was a member of the Silesian knightly family. During his lifetime, he held the position of president of the Silesian Land Chamber and was a member of the royal commission to record the state of the Frýdlant manor after death of the last owner. In 1558 it was Friedrich, who bought the North Bohemian estates of Liberec, Frýdlant and Zawidow. After buying them, he reached elevation to nobility. He and his wife Salomena of Schönaich had a total of 10 children. He died in 1564 while staying in Wroclaw, Poland.",
                             "img": "/coat_of_arms/redernove.png"
                         },
                         {
                             "number": 2,
                             "name": "Melchior of Redern",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1555-1600",
+                            "label": "He was the ninth of a total of ten children of Friedrich of Redern.",
+                            "button": "More",
+                            "text": "He was the ninth of a total of ten children of Friedrich of Redern. He studied law at a protestant university in Heidelberg and then together with his brother Christopher went on a cavalier trip to France, where in 1572 he witnessed the murder of the Huguenots during the so-called Bartholomew's Night. In addition to France, he also visited the Italian cities of Rome, Padua or Naples. Melchior eventually joined the service in the army. In the 1570s and 1580s, he took part in the siege of Gdańsk, the anti-Hungarian campaign, the war in the Netherlands or the Siege of Pskov. \n\nAfter death of his brother Christopher in 1591 he became the owner of the Frýdlant manor. He married Catherine of Šlik, the sister of one of the most influential Protestant noblemen, Jáchym Ondřej of Šlik, who was the owner of the neighboring estate. During his lifetime, construction modifications were made in the castle area. He added one castle wing, the of the castle, the Renaissance wing of thechateau was created, and eventually also the chateau chapel. In the 1590s, Melchior returned to the Hungarian battlefields several times as an officer. As early as the spring of 1600, he participated in a meeting in Vienna about the next military advance against the Turks, during the autumn however, he interrupts his military campaign due to health reasons and died in September of this year.",
                             "img":"/people/melchior_redern.jpg"
                         },
                         {
                             "number": 3,
                             "name": "Catherine of Redern",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1553-1617",
+                            "label": "Catherine of Redern, born Šlik, was the sister of Jáchym Ondřej of Šlik, one of those executed at Old Town Square in 1621.",
+                            "button": "More",
+                            "text": "Catherine of Redern, born Šlik, was the sister of Jáchym Ondřej of Šlik, one of those executed at Old Town Square in 1621. Between 1600 and 1611 she managed the Frýdlant manor for her underaged son Christopher. Her work on the Frýdlant estate is mainly connected with disputes with the local townspeople regarding the right to brew beer. Bad relations with the locals eventually resulted in her staying primarily at castle in Liberec. \n\nDuring her tenure, the chateau chapels in Frýdlant and Liberec were completed, and other churches were built in the entire Frýdlant manor. She died in 1617 in Liberec, she was to be buried in the family tomb in Frýdlant, but that never happened and the place of burial is still unknown.",
                             "img":"/people/katerina_redern.jpg"
                         },
                         {
                             "number": 4,
                             "name": "Christopher of Redern",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1591-1641",
+                            "label": "Christopher took over the administration of the estate in 1611.",
+                            "button": "More",
+                            "text": "Christopher took over the administration of the estate in 1611. He continued the dispute with the townspeople of Frýdlant, which began during his mother's reign. After the outbreak of Bohemian uprising, together with his uncle Jáchym Ondřej of Šlik, he was involved on the side of Protestant union where he became the commander of a cavalry division. He was already suffering from health problems at this time. \n\nAfter defeat in 1620, his manor was confiscated and he lived in exile on the Zawidow estate. In 1627, the Zawidow estate was also confiscated from him. He then lived in the residence of his wife Magdalena of Hundt in Poland. During the raid Swedes to Bohemia between 1639-1640, he returned to Frýdlant, but in the same year he had to leave Frýdlant manor to Waldstein. He dies in exile sometime after 1641.",
                             "img": "/coat_of_arms/redernove.png"
                         }
                     ]
                 },
                 {
                     "title": "Albrecht of Waldstein",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "description": "Albrecht of Waldstein was a Czech military leader, politician and one of the most important figures in the Czech history.",
                     "img": "/coat_of_arms/albrecht.png",
-                    "button": "Learn",
+                    "button": "More",
                     "owners": [
                         {
                             "number": 1,
                             "name": "Albrecht von Wallenstein",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1591-1641",
+                            "label": "Albrecht of Waldstein was born into a not very wealthy and influential Protestant family and eventually became one of the most powerful men of European importance.",
+                            "button": "More",
+                            "text": "Albrecht of Waldstein was born into a not very wealthy and influential Protestant family and eventually became one of the most powerful men of European importance. His tenure at Frýdlant was not long, it lasted only 12 years, even so, this is the time that made this place and the manor the most famous and it was even raised to a dukedom.\n\n The life of Albrecht of Waldstein was connected with service in the army from a young age. He soon defected from the Protestant camp to the imperial service and on the battlefields of the Thirty Years' War he attained the highest rank in military command, i.e. Generalissimo of the Imperial Army. His possessions, which included the manor of Frýdlant were then more or less spared from major war conflicts and that is why they were referred to as 'the happy land - terra felix'.\n\n As for the Frýdlant manor, during Waldstein's reign, we can talk about an economic rise, primarily in industries that were associated with the needs of the time – mining and metal processing or gunpowder production. The castle and chateau were uninhabited and only minor structural modifications took place. Waldstein stayed here only for a few days in 1627, 1628 and 1630. The end of Waldstein's life was heralded by the loss of trust from the emperor, who felt threatened by Walstein, which is why Waldstein was murdered by his officers at the beginning of 1634.",
                             "img":"/people/albrecht_valdstejn.jpg"
                         }
                     ]
                 },
                 {
                     "title": "Gallas",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "description": "House from northern Italy, which contributed to the expansion of the Frýdlant manor to include Lemberk Castle and its surroundings.",
                     "img": "/coat_of_arms/gallasove.png",
-                    "button": "Learn",
+                    "button": "More",
                     "owners": [
                         {
                             "number": 1,
                             "name": "Matthias of Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1588-1647",
+                            "label": "The life of Matthias of Gallas and his social rise were, as in the case of Waldstein, tightly connected with the period of the Thirty Years' War.",
+                            "button": "More",
+                            "text": "The life of Matthias of Gallas and his social rise were, as in the case of Waldstein, tightly connected with the period of the Thirty Years' War. Matthias joined the army as a young man and became famous for the first time in the wars for the Mantuan inheritance on the side of the Catholic League. In 1628 he entered the service of Albrecht of Waldstein and became one of his generals. In 1632 he attained the rank of earl. After the betrayal of Waldstein, he became the heir to the Frydlant manor and later the commander-in-chief of the Imperial army, where he worked until the end of the Thirty Years' War. For Frýdlant, his reign meant the period between 1640-1649 when the castle and town were occupied by Swedish crew. Matthias died in Vienna in 1647.",
                             "img":"/people/matyas_gallas.jpg"
                         },
                         {
                             "number": 2,
                             "name": "Antonius of Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1638-1695",
+                            "label": "Antonius is the younger of the sons of Matthias of Gallas.",
+                            "button": "More",
+                            "text": "Antonius is the younger of the sons of Matthias of Gallas. He lost his father at the age of 9. After studies and a cavalier journey after France and Benelux, together with his brother Francis Ferdinand, he took over the administration of inherited manors. During his lifetime, he worked as a chamberlain in the service of the Elector of Bavaria and inherited from his father the command of military regiments. His economic situation worsened to the point that he was forced to sell his share to manor and to gave up military regiments as well. In the end, he fell into debt and lived in Kladsk on estates of his son Philip Francis.",
                             "img":"/people/antonin_pankrac_gallas.jpg"
                         },
                         {
                             "number": 3,
                             "name": "Francis Ferdinand of Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1635-1697",
+                            "label": "Francis is the elder of the sons of Matthias of Gallas.",
+                            "button": "More",
+                            "text": "Francis is the elder of the sons of Matthias of Gallas. After completing his studies and cavalier journey, he took over the administration of the inherited manors. The only court title he received was the titular court chamberlain. During his life he stayed mainly on his manors in Bohemia, mostly in Prague and at the castle in Hoříněves. His life in Frýdlant is mainly connected with the rebellion of the subjects led by the blacksmith Ondřej of Stelzig, which was suppressed in 1680. He died in 1697 and his remains are kept in the ancestral tomb in Hejnice.",
                             "img":"/people/frantisek_ferdinand_gallas.jpg"
                         },
                         {
                             "number": 4,
-                            "name": "John Wenceslas of Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "name": "John Wenceslaus of Gallas",
+                            "years": "1671-1719",
+                            "label": "The most important member of this family together with Matthias of Gallas.",
+                            "button": "More",
+                            "text": "The most important member of this family together with Matthias of Gallas. He worked in the service of emperors Joseph I. and Charles VI. as an imperial chamberlain, a true privy councilor and diplomat. He worked in the diplomatic service in London, The Hague and Rome. He was eventually appointed viceroy in Naples, where he died in 1719. He is the founder of the later Clam-Gallas Palace in Prague's Old Town.",
                             "img":"/people/jan_vaclav_gallas.jpg"
                         },
                         {
                             "number": 5,
                             "name": "Philip Joseph of Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1703-1757",
+                            "label": "The last member of the Gallas family, thanks to whom the Frýdlant estate was expanded to include the area around Lemberk.",
+                            "button": "More",
+                            "text": "The last member of the Gallas family, thanks to whom the Frýdlant estate was expanded to include the area around Lemberk. During his life he held the official positions of the highest regional hofmeister of the Kingdom of Bohemia and the highest court judge. After the Habsburg army suffered a defeat by the Prussians in the Battle of Liberec, the Frýdlant region was plundered by the Prussians. \n\nHe died in 1757 without a male heir, the estate was then managed by his wife Marie Anna. After her death the estate was passed to his nephew Christian Philip of Clam. The condition for this was the merging coats of arms and the addition of the name Gallas. This gave rise to the house Clam-Gallas.",
                             "img":"/people/filip_josef_gallas.jpg"
                         }
                     ]
                 },
                 {
                     "title": "Clam-Gallas",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "description": "The last family living in the Frýdlant castle. During her tenure, a major reconstruction of the Renaissance wing of the chateau and the construction of a new wing took place.",
                     "img": "/coat_of_arms/clamgallasove.png",
                     "button": "Learn",
                     "owners": [
                         {
                             "number": 1,
                             "name": "Christian Philip of Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1748-1805",
+                            "label": "The first of the Clam-Gallas line, who also held offices at the Habsburg court during his lifetime.",
+                            "button": "More",
+                            "text": "The first of the Clam-Gallas line, who also held offices at the Habsburg court during his lifetime. He became royal chamberlain of three emperors and was promoted to knight of the order of St. Stephen. He expanded the family estates by another territory. \n\nHe was a great lover and patron of the arts. In his Prague residence he hosted, for example, Mozart or Beethoven. In the Frýdlant region, he is primarily associated with the founding of the spa town of Libverda, in Prague then with the Klamovka estate.",
                             "img":"/people/kristian_filip_clamgallas.jpg"
                         },
                         {
                             "number": 2,
                             "name": "Christian Christopher of Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1771-1838",
+                            "label": "Christian Christopher of Clam-Gallas continued his father's legacy in terms of career and patronage.",
+                            "button": "More",
+                            "text": "Christian Christopher of Clam-Gallas continued his father's legacy in terms of career and patronage. He had the rank of Supreme Marshal of the Czech Kingdom. He married Josefina Caroline Clary-Aldringen, also a great lover of art. Together they maintained contact with, for example, Ludwig van Beethoven. \n\nHe contributed to further construction activity in Libverda, where new spa pavilions were built. Around Klamovka,he established gardens with sculptural decoration.",
                             "img":"/people/kristian_krystof_clamgallas.jpg"
                         },
                         {
                             "number": 3,
                             "name": "William of Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1801-1822",
+                            "label": "The elder of Christian Christopher's sons.",
+                            "button": "More",
+                            "text": "The elder of Christian Christopher's sons. He died very young at the age of 21. He is buried in the ancestral tomb in Hejnice.",
                             "img":"/people/vilem_clamgallas.jpg"
                         },
                         {
                             "number": 4,
                             "name": "Edward of Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1805-1891",
+                            "label": "Edward was the younger of Christian Christopher's sons and also the most prominent member of the Clam-Gallas family.",
+                            "button": "More",
+                            "text": "Edward was the younger of Christian Christopher's sons and also the most prominent member of the Clam-Gallas family. In 1823 he entered the army as a young man, where he reached the rank of general. He fought under the command of Marshal Radecký in Northern Italy during the First Italian War of Independence, then fought in Hungary and returned to the Second War in Northern Italy. The most significant of the battles in which he participated are the battles of Magenta and Solferin. \n\nDuring the Prussian-Austrian War, he suffered a defeat at the Battle of Jičín, for which he was judged by a court-martial. Even though he was acquitted, he never returned to the army and lived out his life in Frýdlant and Liberec. \n\nDuring his stay in Frýdlant, he had the local chateau undergo extensive reconstruction and building modifications, during which the newest wing of the chateau was created. He died in 1891 at the age of 86.",
                             "img":"/people/eduard_clamgallas.jpg"
                         },
                         {
                             "number": 5,
                             "name": "Francis of Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1854-1930",
+                            "label": "The last male descendant of the Clam-Gallas family.",
+                            "button": "More",
+                            "text": "The last male descendant of the Clam-Gallas family. He too continued his civil service career, was chamberlain and privy councilor, but above all he devoted himself to the management of the family estates Liberec, Frýdlant, Grabštejn and Lemberk. \n\nThe First World War, the creation of the Czechoslovak Republic and also the land reform intervened in his life. In addition to farming, he also devoted his whole life to volunteer work and charity, to which he actively contributed. \n\nHe died in Frýdlanta in 1930 and left behind 7 daughters. The youngest of them, Clotilde, lived in Frýdlant until the end of World War II.",
                             "img": "/coat_of_arms/clamgallasove.png"
                         },
                         {
                             "number": 6,
                             "name": "Clotilde of Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1898-1975",
+                            "label": "Clotilda of Clam-Gallas was the youngest daughter of Francis Clam-Gallas and Maria Hoyos-Sprinzenstein.",
+                            "button": "More",
+                            "text": "Clotilda of Clam-Gallas was the youngest daughter of Francis Clam-Gallas and Maria Hoyos-Sprinzenstein. During Francis' lifetime, his properties were divided between his daughters. Clotilde then received the Frýdlant Castle. She remained single after her father's death, she took care of her widowed mother. After 1945, she had to move abroad and the castle was nationalized.",
                             "img": "/coat_of_arms/clamgallasove.png"
                         }
                     ]
@@ -707,7 +707,7 @@
             "language": "de",
             "path": "/history_overview",
             "title": "History overview",
-            "button": "Learn more",
+            "button": "Mehr",
             "img": "/history/history.jpg",
             "card_label": "Seznamte se s historií frýdlantského panství od založení až po současnost.",
             "description": "Seznamte se se stručnou historií frýdlanstkého hradu a zámku. Od jeho založení až po současnost.",
@@ -719,214 +719,214 @@
             "title": "Houses",
             "img": "/history/coat_of_arms.jpg",
             "card_label": "Seznamte se s jednotlivými majiteli frýdlanstkého panství",
-            "button": "Learn more",
+            "button": "Mehr",
             "houses": [
                 {
                     "title": "Ronowitzer",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "description": "Gründer der Burg Frýdlant.",
                     "img": "/coat_of_arms/ronovci.png",
-                    "button": "Learn",
+                    "button": "Mehr",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "name": "Ronowitzer",
+                            "years": "????-1278",
+                            "label": "Die älteste Geschichte der Burg Frýdlant ist mit der Familie Ronowitzer verbunden, die sie offenbar im 13. Jahrhundert in den 1340er Jahren erbauen ließ.",
+                            "button": "Mehr",
+                            "text": "Die älteste Geschichte der Burg Frýdlant ist mit der Familie Ronowitzer verbunden, die sie offenbar im 13. Jahrhundert in den 1340er Jahren erbauen ließ. Wir wissen nicht viel über ihre Aktivitäten in Nordböhmen. Das erste bekannte Mitglied aus dieser Familie war Smil, der zum Gefolge von König Přemysl Otakar I. gehörte. Seine Söhne Jindřich und Častolov verwenden noch 1238 den Beinamen 'von Zittau', aber schon 1257 finden wir eine Erwähnung 'Der Vogel von Frýdlant'. Die Expansion dieser Familie wurde 1278 von König Přemysl Otakar II. begrenzt, als er den Besitz von der Familie Ronowitzer übernahm und an die benachbarte Familie Biberstein verkaufte.",
                             "img": "/coat_of_arms/ronovci.png"
                         }
                     ]
                 },
                 {
                     "title": "Biberstein",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "description": "Das längste Herrscherhaus, das für den Ausbau des Schlosses verantwortlich war.",
                     "img": "/coat_of_arms/biberstejnove.png",
-                    "button": "Learn",
+                    "button": "Mehr",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Majitel číslo 1",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "name": "Biberstein",
+                            "years": "1278-1551",
+                            "label": "Die Vertreter der Familie Biberstein wurden für die nächsten 300 Jahre Eigentümer der Herrschaft Frýdlant, und ihre Tätigkeit ist hauptsächlich mit dem Ausbau der Burg und dem weiteren Wachstum der Herrschaft Frýdlant verbunden.",
+                            "button": "Mehr",
+                            "text": "Die Vertreter der Familie Biberstein wurden für die nächsten 300 Jahre Eigentümer der Herrschaft Frýdlant, und ihre Tätigkeit ist hauptsächlich mit dem Ausbau der Burg und dem weiteren Wachstum der Herrschaft Frýdlant verbunden. Dank der Bemühungen dieser Familie um weitere Gebietsgewinne kam es zu mehreren Konflikten mit benachbarten Adligen (z. B. dem Brand von Nymburk im Jahr 1326) und schließlich zu einem Zusammenstoß mit der königlichen Armee von Wenzel IV. \n\nWährend der Hussitenkriege wurde Frýdlant zum Zentrum der antihussitischen Opposition, und die Herrschaft Frýdlant wurde zwischen 1420 und 1433 mehrmals angegriffen. Die Stadt Frýdlant und andere Dörfer in der Nähe waren mehrmals ausgebrannt. Die Familie Biberstein blieb dann in Opposition zu König Jiří von Poděbrady und nahm an anderen kriegerischen Auseinandersetzungen teil. Während der Herrschaft der letzten Mitglieder det Familie Biberstein wurde die Herrschaft Frýdlant vollständig protestantisch, worauf die aufstrebende Familie Redern folgte. Der letzte männliche Nachkomme, Kryštof, starb 1551 ohne Erben und somit fiel die Herrschaft an die böhmische Königskammer.",
                             "img": "/coat_of_arms/biberstejnove.png"
                         }
                     ]
                 },
                 {
                     "title": "Rödern",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "description": "Das Schlesische Haus, das zum Wachstum des Protestantismus und zum Bau des Schlosses beitrug.",
                     "img": "/coat_of_arms/redernove.png",
-                    "button": "Learn",
+                    "button": "Mehr",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Fridrich von Rödern",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "name": "Friedrich von Rödern",
+                            "years": "????-1564",
+                            "label": "Friedrich von Rödern war ein Mitglied des schlesischen Rittergeschlechts.",
+                            "button": "Mehr",
+                            "text": "Friedrich von Rödern war ein Mitglied des schlesischen Rittergeschlechts. Zu seinen Lebzeiten bekleidete er das Amt des Präsidenten der Schlesischen Länderkammer und war Mitglied der königlichen Kommission zur Erfassung des Zustandes des Guts nach dem Tod des letzten Besitzers des Gutshofes Frýdlant. In 1558 kaufte Friedrich die nordböhmischen Güter Liberec, Frýdlant und Zawidow. Nach dem Kauf wurde er in den Adelsstand erhoben. Er und seine Frau Salomena aus Schönaich hatten insgesamt 10 Kinder. Er starb 1564 während eines Aufenthalts in Wroclaw, Polen.",
                             "img": "/coat_of_arms/redernove.png"
                         },
                         {
                             "number": 2,
                             "name": "Melchior von Rödern",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1555-1600",
+                            "label": "Er war das neunte von insgesamt zehn Kindern von Friedrich von Rödern.",
+                            "button": "Mehr",
+                            "text": "Er war das neunte von insgesamt zehn Kindern von Friedrich von Rödern. In seiner Jugend studierte er der Rechtswissenschaften an einer evangelischen Universität in Heidelberg und begab sich anschließend zusammen mit seinem Bruder Christoph auf eine Kavaliersreise nach Frankreich, wo er 1572 Zeuge des Massakers an den Hugenotten in der sogenannten Bartholomäusnacht wurde. Neben Frankreich besuchte er auch die italienischen Städte Rom, Padua und Neapel. Alle männlichen Nachkommen wurden an der Verwaltung des Frydlant-Anwesens beteiligt, und Melchior trat schließlich der Armee bei. In den 1570er und 1580er Jahren nahm er an der Belagerung von Danzig, dem Feldzug gegen Ungarn, dem Krieg in den Niederlanden oder der Belagerung von Pskow teil.\n\nErst 1581 verwaltete er das Gut nur mit seinem Bruder Kryštof, und nach seinem Tod 1591 wurde er alleiniger Eigentümer. Er heiratete Katharina von Šlik, die Schwester eines der einflussreichsten protestantischen Adligen, Jáchym Ondřej von Šlik. Zu seinen Lebzeiten wurden im Burgbereich bauliche Veränderungen vorgenommen. Ein Burgflügel wurde angebaut, ein Renaissanceflügel des Schlosses wurde in der Nähe der Burg errichtet und schließlich auch eine Schlosskapelle. In den 1590er Jahren kehrte Melchior mehrmals als Offizier auf die ungarischen Schlachtfelder zurück. Bereits im Frühjahr 1600 nahm er an einer Versammlung in Wien über das weitere militärische Vorgehen gegen die Türken teil, unterbrach jedoch im Herbst aus gesundheitlichen Gründen seinen Feldzug und starb im September dieses Jahres.",
                             "img":"/people/melchior_redern.jpg"
                         },
                         {
                             "number": 3,
                             "name": "Katharina von Rödern",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1553-1617",
+                            "label": "Katharina von Rödern, geborene Šlik, war die Schwester von Jáchym Ondřej von Šlik, einem von denen, die 1621 auf dem Altstädter Ring hingerichtet wurden.",
+                            "button": "Mehr",
+                            "text": "Katharina von Rödern, geborene Šlik, war die Schwester von Jáchym Ondřej von Šlik, einem von denen, die 1621 auf dem Altstädter Ring hingerichtet wurden. Zwischen 1600 und 1611 verwaltete sie das Gut für ihren minderjährigen Sohn Christoph. Ihre Arbeit auf dem Gut Frýdlant ist vor allem mit Streitigkeiten mit den Bürgern der Stadt um das Bierbraurecht verbunden. Schlechte Beziehungen zu den Einheimischen führten schließlich dazu, dass sie hauptsächlich auf dem Schloss in Liberec blieb, und führten zu lokalem Aberglauben über den bösen Adel. \n\nWährend ihrer Amtszeit wurde die Schlosskapelle in Frýdlant und Liberec fertig gestellt, und weitere Kirchen wurden im gesamten Gut Frýdlant gebaut. Sie starb 1617 in Liberec, sie sollte in der Familiengruft in Frýdlant beerdigt werden, aber das geschah nie und der Bestattungsort ist bis heute unbekannt.",
                             "img":"/people/katerina_redern.jpg"
                         },
                         {
                             "number": 4,
-                            "name": "Christoph von Röodern",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "name": "Christoph von Rödern",
+                            "years": "1591-1641",
+                            "label": "Christoph übernahm nach Volljährigkeit im Jahre 1611 die Herrschafr Frýdlant.",
+                            "button": "Mehr",
+                            "text": "Christoph übernahm nach Volljährigkeit im Jahre 1611 die Herrschafr Frýdlant. Er setzte den Streit mit den Bürgern von Frydlant fort, der bereits während der Regentschaft seiner Mutter begonnen hatte. Nach dem Ausbruch des Ständeaufstandes engagierte er sich zusammen mit seinem Onkel Jáchym Ondřej von Šlik auf der Seite des Protestantischen Bundes, als er Kommandeur einer Kavallerieeinheit wurde. Er litt zu diesem Zeitpunkt bereits unter gesundheitlichen Problemen. \n\nNach der Niederlage der böhmischen Staaten 1620 wurde sein Vermögen beschlagnahmt und er lebte im Exil auf dem Gut Zawidow. Er trat in den Dienst von König Christian von Dänemark und setzte seinen Kampf gegen den Kaiser fort. Er unterhielt auch Beziehungen zu anderen Exilanten, z.B. Jindřich Matyáš Thurn. 1627 wurde ihm auch das Gut Zawidow entzogen. Anschließend residierte er in der Residenz seiner Frau Magdalena von Hundt im heutigen Polen. Als die Schweden zwischen 1639 und 1640 in Böhmen einfielen, kehrte er nach Frýdlant zurück, musste es aber im selben Jahr wieder nach Wallenstein verlassen. Er starb irgendwann nach 1641 im Exil.",
                             "img": "/coat_of_arms/redernove.png"
                         }
                     ]
                 },
                 {
                     "title": "Albrecht von Wallenstein",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "description": "Albrecht von Wallenstein war ein tschechischer Heerführer, Politiker und eine der bedeutendsten Persönlichkeiten der tschechischen Geschichte.",
                     "img": "/coat_of_arms/albrecht.png",
-                    "button": "Learn",
+                    "button": "Mehr",
                     "owners": [
                         {
                             "number": 1,
                             "name": "Albrecht von Wallenstein",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1591-1641",
+                            "label": "Albrecht von Wallenstein wurde in eine nicht sehr wohlhabende und einflussreiche protestantische Familie hineingeboren und wurde schließlich einer der mächtigsten Männer von gesamteuropäischer Bedeutung.",
+                            "button": "Mehr",
+                            "text": "Albrecht von Wallenstein wurde in eine nicht sehr wohlhabende und einflussreiche protestantische Familie hineingeboren und wurde schließlich einer der mächtigsten Männer von gesamteuropäischer Bedeutung. Seine Amtszeit bei Frýdlant war nicht lang, es dauerte nur 12 Jahre, dennoch ist dies die Zeit, die diesen Ort am berühmtesten machte und das Anwesen zum Herzogtum erhoben wurde. \n\nDas Leben von Albrecht von Wallenstein war schon in jungen Jahren mit dem Militärdienst verbunden. Er trat bald aus dem protestantischen Lager in den kaiserlichen Dienst über und erreichte auf den Schlachtfeldern des Dreißigjährigen Krieges die höchste Position in der Heeresleitung, d.h. Generalissimus der kaiserlichen Armee. Seine Besitzungen, zu denen auch das Herzogtum Frýdlant gehörte, blieben damals von größeren kriegerischen Auseinandersetzungen mehr oder weniger verschont und wurden daher als „das glückliche Land – terra felix“ bezeichnet. \n\nWas das Gut Frýdlan betrifft, können wir während der Herrschaft von Wallenstein von wirtschaftlichem Wachstum sprechen, insbesondere in Industriezweigen, die mit den Bedürfnissen der Zeit verbunden waren - Metallabbau und -verarbeitung oder Schießpulverherstellung. Die Burg und das Schloss waren unbewohnt und es wurden nur geringfügige bauliche Veränderungen vorgenommen. Wallenstein hielt sich hier nur wenige Tage in den Jahren 1627, 1628 und 1630 auf. Das Ende von Wallensteins Leben kündigte der Vertrauensverlust des Kaisers an, der sich durch seine Persönlichkeit bedroht fühlte, und so wurde Wallenstein Anfang 1634 von seinen Offizieren entfernt . Damit endete eine Zeit ohne größere Kriegsnöte und Veränderungen auch für seinen Nachlass.",
                             "img":"/people/albrecht_valdstejn.jpg"
                         }
                     ]
                 },
                 {
                     "title": "Gallas",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "description": "Herrscherhaus aus Norditalien, das zur Erweiterung des Gutshofs Frýdlant um das Schloss Lemberk und seine Umgebung beitrug.",
                     "img": "/coat_of_arms/gallasove.png",
-                    "button": "Learn",
+                    "button": "Mehr",
                     "owners": [
                         {
                             "number": 1,
-                            "name": "Mathyas von Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "name": "Matthias von Gallas",
+                            "years": "1588-1647",
+                            "label": "Das Leben des Matthias von Gallas und sein gesellschaftlicher Aufstieg waren wie im Falle Wallensteins fest mit der Zeit des Dreißigjährigen Krieges verbunden.",
+                            "button": "Mehr",
+                            "text": "Das Leben des Matthias von Gallas und sein gesellschaftlicher Aufstieg waren wie im Falle Wallensteins fest mit der Zeit des Dreißigjährigen Krieges verbunden. Matthias trat als junger Mann in die Armee ein und wurde zum ersten Mal in den Kriegen berühmt für das mantuanische Erbe auf der Seite der Katholischen Liga. 1628 trat er in die Dienste von Albrecht von Wallenstein und wurde einer seiner Feldherren. 1632 erlangte er den Rang eines Earls. Nach dem Verrat an Wallenstein wurde er Erbe des Gutshofes Frýdlant und später Oberbefehlshaber der kaiserlichen Armee, wo er bis zum Ende des Dreißigjährigen Krieges diente. Für Frýdlant bedeutete seine Regierungszeit die Zeit zwischen 1640 und 1649, als das Schloss und die Stadt von einer schwedischen Garnison besetzt waren. Matthias starb 1647 in Wien.",
                             "img":"/people/matyas_gallas.jpg"
                         },
                         {
                             "number": 2,
                             "name": "Antonius von Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1638-1695",
+                            "label": "Der jüngere der Söhne des Matthias von Gallas.",
+                            "button": "Mehr",
+                            "text": "Der jüngere der Söhne des Matthias von Gallas. Er verlor seinen Vater im Alter von 9 Jahren. Nach seinem Studium und einer Kavaliersreise durch Frankreich und die Benelux-Länder übernahm er zusammen mit seinem Bruder Franz Ferdinand die Führung der Familiengüter. Zu Lebzeiten arbeitete er als Kammerherr im Dienst des Kurfürsten von Bayern und erbte von seinem Vater die Führung von Militärregimentern. Seine wirtschaftliche Situation verschlechterte sich derart, dass er gezwungen war, seinen Anteil an den Gütern zu verkaufen und seine Militärregimenter aufzugeben. Schließlich verschuldete er sich und lebte in Kladsk auf den Gütern seines Sohnes Filip Franz.",
                             "img":"/people/antonin_pankrac_gallas.jpg"
                         },
                         {
                             "number": 3,
                             "name": "Franz Ferdinand von Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1635-1697",
+                            "label": "Ältester der Söhne des Matthias von Gallas.",
+                            "button": "Mehr",
+                            "text": "Ältester der Söhne des Matthias von Gallas. Nach Abschluss seiner Ritterlehre übernahm er die Verwaltung der ererbten Ländereien. Der einzige Gerichtstitel, den er erhielt, war der Titulargerichtskämmerer. Zu seinen Lebzeiten lebte er hauptsächlich auf seinen Gütern in Böhmen, hauptsächlich in Prag und auf der Burg in Hořínevs. Sein Leben in Frýdlant ist vor allem mit dem Aufstand der Untertanen unter Führung des Peitschenschmieds Ondřej von Stelzig verbunden, der 1680 niedergeschlagen wurde. Er starb 1697 und seine sterblichen Überreste werden in der Ahnengruft in Hejnice aufbewahrt.",
                             "img":"/people/frantisek_ferdinand_gallas.jpg"
                         },
                         {
                             "number": 4,
                             "name": "Johann Wenzeslaus von Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1671-1719",
+                            "label": "Das wichtigste Mitglied dieser Familie zusammen mit Matthias von Gallas.",
+                            "button": "Mehr",
+                            "text": "Das wichtigste Mitglied dieser Familie zusammen mit Matthias von Gallas. Er arbeitete im Dienst der Kaiser Joseph I. und Karl VI. als kaiserlicher Kämmerer, echter Geheimrat und Diplomat. Er diente im diplomatischen Dienst in London, Den Haag und Rom. Er wurde schließlich zum Vizekönig in Neapel ernannt, wo er 1719 starb. Er ist der Gründer des späteren Clam-Gallas-Palais in der Prager Altstadt.",
                             "img":"/people/jan_vaclav_gallas.jpg"
                         },
                         {
                             "number": 5,
                             "name": "Philip Joseph von Gallas",
-                            "years": "xxxx-xxxx",
+                            "years": "1703-1757",
                             "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "button": "Mehr",
+                            "text": "Das letzte Mitglied der Familie Gallas, dank dessen das Gut Frýdlant auf das Gebiet um Lemberk ausgedehnt wurde. Zu seinen Lebzeiten bekleidete er die Ämter des höchsten Landeshofmeisters des Königreichs Böhmen und des obersten Gerichtsrichters. Nachdem die habsburgische Armee in der Schlacht bei Liberec eine Niederlage gegen die Preußen erlitten hatte, wurde ganz Friedland von den Preußen geplündert. \n\nEr starb 1757 ohne männlichen Erben, das Gut wurde dann von seiner Frau Marie Anna verwaltet. Nach ihren Tod musste das Gut an seinen Neffen Christian Philip von Clam übergehen. Voraussetzung dafür war die Zusammenlegung der Wappen und die Hinzufügung des Namens Gallas.",
                             "img":"/people/filip_josef_gallas.jpg"
                         }
                     ]
                 },
                 {
                     "title": "Clam-Gallas",
-                    "description": "Seznamte se s prvními majiteli frýdlantského panství",
+                    "description": "Die letzte Familie, die im Schloss Frýdlant lebte. Während ihrer Amtszeit fand eine umfassende Rekonstruktion des Renaissanceflügels des Schlosses und der Bau eines neuen Flügels statt.",
                     "img": "/coat_of_arms/clamgallasove.png",
-                    "button": "Learn",
+                    "button": "Mehr",
                     "owners": [
                         {
                             "number": 1,
                             "name": "Christian Philip von Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1748-1805",
+                            "label": "Der erste aus der Clam-Gallas-Linie, der zu Lebzeiten auch Ämter am habsburgischen Hof bekleidete.",
+                            "button": "Mehr",
+                            "text": "Der erste aus der Clam-Gallas-Linie, der zu Lebzeiten auch Ämter am habsburgischen Hof bekleidete. Er wurde königlicher Kammerherr von drei Kaisern und wurde in den Rang eines Ritters des St.-Stephans-Ordens erhoben. Er erweiterte die Familiengüter mit zusätzlichem Territorium. \n\nEr war ein großer Liebhaber und Mäzen der Künste. Er beherbergte zum Beispiel Mozart oder Beethoven in seiner Prager Residenz. In der Region Frydlant ist es vor allem mit der Gründung der Kurstadt Libverda und in Prag mit dem Gut Klamovka verbunden.",
                             "img":"/people/kristian_filip_clamgallas.jpg"
                         },
                         {
                             "number": 2,
                             "name": "Christian Christoph von Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1771-1838",
+                            "label": "Christian Christoph setzte das Erbe seines Vaters in Bezug auf Karriere und Mäzenatentum fort.",
+                            "button": "Mehr",
+                            "text": "Christian Christoph setzte das Erbe seines Vaters in Bezug auf Karriere und Mäzenatentum fort. Er bekleidete den Rang eines Obersten Marschalls des böhmischen Königreichs. Er heiratete Josefina Caroline von Clary-Aldringen, ebenfalls eine große Kunstliebhaberin. Gemeinsam pflegten sie den Kontakt zum Beispiel zu Ludwig van Beethoven. \n\nEr trug zur weiteren Bautätigkeit in Libverda bei, wo neue Spa-Pavillons gebaut wurden. Rund um das Gehöft Klamovka ließ er Gärten mit Skulpturenschmuck anlegen.",
                             "img":"/people/kristian_krystof_clamgallas.jpg"
                         },
                         {
                             "number": 3,
                             "name": "Wilhelm von Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1801-1822",
+                            "label": "Der ältere der Söhne von Christian Christoph.",
+                            "button": "Mehr",
+                            "text": "Der ältere der Söhne von Christian Christoph. Er starb sehr jung im Alter von 21 Jahren. Er ist in der Familiengruft in Hejnice begraben.",
                             "img":"/people/vilem_clamgallas.jpg"
                         },
                         {
                             "number": 4,
                             "name": "Eduard von Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1805-1891",
+                            "label": "Der jüngere Sohn von Christian Christoph.",
+                            "button": "Mehr",
+                            "text": "Der jüngere Sohn von Christian Christoph. Das prominenteste Mitglied der Clam-Gallas-Familie. Bereits als junger Mann trat er 1823 in die Armee ein, wo er den Rang eines Generals erreichte. Unter dem Kommando von Marschall Radecký kämpfte er während des Ersten Italienischen Unabhängigkeitskrieges in Norditalien, schloss sich dann den Kämpfen in Ungarn an und kehrte in den Zweiten Krieg nach Norditalien zurück. Die wichtigsten der Schlachten, an denen er teilnahm, sind die Schlachten von Magenta und Solferino. \n\nWährend des Preußisch-Österreichischen Krieges erlitt er in der Schlacht bei Jičín eine Niederlage, für die er vor ein Kriegsgericht gestellt wurde. Dieser sprach ihn frei, aber er kehrte nie zur Armee zurück und verbrachte sein Leben in Frýdlant und Liberec. \n\nWährend seines Aufenthaltes in Frýdlant ließ er das Renaissanceschloss umfassend umbauen, wobei der neueste Flügel des Schlosses entstand. Er starb 1891 im Alter von 86 Jahren.",
                             "img":"/people/eduard_clamgallas.jpg"
                         },
                         {
                             "number": 5,
                             "name": "Franz von Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1854-1930",
+                            "label": "Der letzte männliche Nachkomme der Familie Clam-Gallas.",
+                            "button": "Mehr",
+                            "text": "Der letzte männliche Nachkomme der Familie Clam-Gallas. Auch er setzte seine Beamtenlaufbahn fort, war Kammerherr und Geheimrat, widmete sich aber vor allem der Verwaltung der Familiengüter Liberec, Frýdlant, Grabštejn und Lemberk. \n\nDer Erste Weltkrieg, die Gründung der Tschechoslowakischen Republik und auch die Bodenreform griffen in sein Leben ein. Neben der Landwirtschaft widmete er sein ganzes Leben der Freiwilligenarbeit und der Wohltätigkeit, zu der er aktiv beitrug. \n\nEr starb 1930 in Frýdlant und hinterließ 7 Töchter. Die jüngste von ihnen, Klotilda, lebte bis zum Ende des Zweiten Weltkriegs in Frýdlant.",
                             "img": "/coat_of_arms/clamgallasove.png"
                         },
                         {
                             "number": 6,
                             "name": "Clotilde von Clam-Gallas",
-                            "years": "xxxx-xxxx",
-                            "label": "Prvni majitel frydlantu",
-                            "button": "Navštívit",
-                            "text": "Zde se nachazi text o prvnim majiteli hradu",
+                            "years": "1898-1975",
+                            "label": "Klotilde von Clam-Gallas war die jüngste Tochter von Franz Clam-Gallas und Maria Hoyos-Sprinzenstein.",
+                            "button": "Mehr",
+                            "text": "Klotilde von Clam-Gallas war die jüngste Tochter von Franz Clam-Gallas und Maria Hoyos-Sprinzenstein. Zu Franz Lebzeiten wurde sein Vermögen zwischen seinen Töchtern aufgeteilt. Klotylda erhielt dann die Burg Frýdlant. Nach Franzs Tod kümmerte sie sich um ihre verwitwete Mutter und blieb ledig. Nach 1945 musste sie ins Ausland umziehen und das Schloss wurde verstaatlicht.",
                             "img": "/coat_of_arms/clamgallasove.png"
                         }
                     ]

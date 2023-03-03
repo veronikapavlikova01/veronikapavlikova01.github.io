@@ -1,14 +1,15 @@
-import React from "react"
-import { Context } from "../Context"
-import { useContext } from "react"
+import React from "react";
+import { Context } from "../Context";
+import { useContext, useEffect } from "react";
 import { Link } from 'react-router-dom'
-import Header from "./Header"
-import DataAPI from '../DataAPI'
-import castle from '../img/uvod.jpg'
-import InfoIcon from "@mui/icons-material/Info"
+import Header from "./Header";
+import DataAPI from '../DataAPI';
+import castle from '../img/castle/castle.jpg'
+import InfoIcon from '@mui/icons-material/Info';
 
 
-function History() {
+
+function Tours() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
     const history = dataAPI.getHistory(context.language);
@@ -17,8 +18,8 @@ function History() {
 
     return (
         <>
-            <Header header={header.history} />
-            <div className="margin-primary content-container">
+            <Header header={header.history}/>
+            <div className="content-container">
                 <div className="card box-shadow transition-primary padding-third margin-bottom-primary">
                     <div className="flex">
                         <div className="flex-secondary align-items-primary">
@@ -33,11 +34,11 @@ function History() {
                         history.map((item) => (
                             <Link to={item.path} className="card box-shadow transition-primary hover-primary" key={item.title}>
                                 <article className="flex">
-                                    <img src={require(`../img${item.img}`)} alt="history_image" className="card-image padding-bottom-primary border-radius-secondary"/>
-                                    <h2 className="padding-primary padding-bottom-primary">{item.title}</h2>
+                                    <img src={require(`../img${item.img}`)} alt="castle" className="card-image padding-bottom-primary border-radius-secondary" />
+                                    <h2 className="text-medium padding-primary padding-bottom-primary">{item.title}</h2>
                                     <p className="margin-bottom padding-primary medieval-first-letter">{item.card_label}</p>
-                                    <div className="center-text">
-                                        <button className="button align-self-primary margin-primary text-medium background-primary font-weight-primary color-primary">{item.button}</button>
+                                    <div className="center-text margin-primary">
+                                        <button className="text-medium button align-self-primary background-primary font-weight-primary color-primary">{item.button}</button>
                                     </div>
                                 </article>
                             </Link>
@@ -51,4 +52,4 @@ function History() {
 
 }
 
-export default History;
+export default Tours;
