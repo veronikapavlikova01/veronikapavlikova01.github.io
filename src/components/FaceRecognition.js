@@ -12,7 +12,7 @@ import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import Button from "@material-ui/core/Button";
 import { CircularProgress } from '@mui/material';
-import { Navigate } from 'react-router-dom';
+import loading from '../img/loading.gif'
 
 function FaceRecognition() {
     const context = useContext(Context);
@@ -119,7 +119,7 @@ function FaceRecognition() {
         <>
             <Header header={faceRecognitionLabels.face_recognition} />
             <div className={isLoading? "spinner-container full-screen" : "display-none"}>
-                <CircularProgress/>
+                <img src={loading} className="icon"/>
             </div>
             <Dialog open={dialogOpen} onClose={closeDialog}>
                 <DialogTitle>{dialogs.no_face_detected}</DialogTitle>
