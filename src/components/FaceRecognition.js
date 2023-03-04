@@ -11,8 +11,7 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import Button from "@material-ui/core/Button";
-import { CircularProgress } from '@mui/material';
-import loading from '../img/loading.gif'
+import loading from '../img/other/loading.gif'
 
 function FaceRecognition() {
     const context = useContext(Context);
