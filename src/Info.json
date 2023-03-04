@@ -98,7 +98,7 @@
             "step_1":"Press the „Take a picture” button.",
             "step_2":"Zoom in so that the face in the image you want to recognize is clearly visible.",
             "step_3":"Now take a picture and then press OK.",
-            "step_4":"Wait a moment. When the image is recognized, a dialog box will appear with information about who is in the image.",
+            "step_4":"Wait a moment. When the image is recognized, you will be redirected to a new page with the depicted person.",
             "button":"Take a picture",
             "button_back":"Back"
         },
@@ -110,7 +110,7 @@
             "step_1":"Drücken Sie die Schaltfläche „Bild aufnehmen”.",
             "step_2":"Vergrößern Sie die Kamera so, dass das Gesicht im Bild, das Sie erkennen möchten, deutlich sichtbar ist.",
             "step_3":"Machen Sie jetzt ein Foto und drücken Sie dann OK.",
-            "step_4":"Moment mal. Wenn das Bild erkannt wird, erscheint ein Dialogfeld mit Informationen darüber, wer sich auf dem Bild befindet.",
+            "step_4":"Moment mal. Wenn das Bild erkannt wird, werden Sie auf eine neue Seite mit der abgebildeten Person weitergeleitet.",
             "button":"Bild aufnehmen",
             "button_back":"Zurück"
         }
@@ -135,7 +135,7 @@
             "language":"de",
             "rooms": "Räume",
             "menu":"Menü",
-            "history": "Historie",
+            "history": "Geschichte",
             "houses": "Häuser",
             "owners": "Besitzer",
             "tours":"Führungen",
@@ -179,7 +179,7 @@
         },
         {
             "language":"de",
-            "history": "Historie",
+            "history": "Geschichte",
             "gallery":"Galerie",
             "image_recognition":"Bilderkennung",
             "scan_room":"Scannen Sie den Raum",
@@ -194,7 +194,7 @@
             "language": "en",
             "home":"Home",
             "tours": "Tours",
-            "rooms": "Overview of rooms",
+            "rooms": "Rooms in tour",
             "menu":"Menu",
             "back":"Back to previous"
         },
@@ -202,7 +202,7 @@
             "language": "de",
             "home":"Startseite",
             "tours": "Führungen",
-            "rooms": "Übersicht der Zimmer",
+            "rooms": "Zimmer in der Führung",
             "menu":"Menü",
             "back":"Zurück zum vorherigen"
         }
@@ -229,20 +229,20 @@
             "button":"Visit",
             "places":[
                 {
-                    "title":"Castle Grabštejn",
-                    "description":"Hrad Grabštejn je původně gotický hrad ze 13.století, který byl později přestavěn na renesanční zámek. V 18.století jej koupili Clam-Gallasové, se kterými jste se mohli seznámit na frýdlantském zámku.",
+                    "title":"Grabštejn castle",
+                    "description":"Grabštejn was originally a Gothic castle, built in the middle of the thirteenth century, which stands near the Tri-Border Area where the Czech Republic, Germany and Poland meet. It was remodelled in the sixteenth century as a Renaissance castle, and now offers visitors several guided tours.",
                     "url":"https://hrad-grabstejn.cz/en",
                     "img":""
                 },
                 {
-                    "title":"Chateau Grabštejn",
-                    "description":"Lemberk je hrad přestavený na zámek u Jablonného v Podještědí. Mimo jiné zde pobývala Zdislava z Lemberka, který byla roku 1995 prohlášena za svatou.",
+                    "title":"Lemberk castle",
+                    "description":"The predecessor of today's Baroque castle was the medieval castle of Lemberk, founded in the 1340s by Havel of Markvartic, husband of St. Zdislava. In the second half of the 16th century it was rebuilt into a Renaissance chateau and it acquired its present appearance after the mid-17th century under the the lords of Breda. The last owners were the Clam-Gallas family, until 1945.",
                     "url":"https://www.zamek-lemberk.cz/en",
                     "img":""
                 },
                 {
                     "title":"Brewery Albrecht",
-                    "description":"Pivovar Albrecht je úzce spjat s historií frýdlantského panství. Postaven byl v 16.století rodem Redernů a od roku 2013 je opět v provozu.",
+                    "description":"Manor beer production in Frýdlant is first documented in 1381, beer was apparently brewed right at the castle. In the 16th century, a new independent brewery was built under the Redern family near the Smědá river, on the site where the current operation is still located. The half-timbered storey building of the Renaissance brewery is depicted on the so-called Glaubic map.",
                     "url":"https://pivovar-albrecht.com/",
                     "img":""
                 }
@@ -254,19 +254,19 @@
             "places":[
                 {
                     "title":"Burg Grabštejn",
-                    "description":"Hrad Grabštejn je původně gotický hrad ze 13.století, který byl později přestavěn na renesanční zámek. V 18.století jej koupili Clam-Gallasové, se kterými jste se mohli seznámit na frýdlantském zámku.",
+                    "description":"Grabštejn (Grafenstein), ursprünglich eine gotische Burg aus dem 13. Jahrhundert, die im 16. Jahrhundert in ein Renaissancesschloss umgebaut wurde, liegt nahe dem Dreiländereck zwischen der Tschechischen Republik, Deutschland und Polen und stellt ein nationales Kulturdenkmal mit einer reichen Geschichte dar. Heutzutage bietet die Burg mehrere Touristenführungen an, einschließlich der St. Barbara Kapelle, eines Renaissancejuwel aus der 2. Hälfte des 16. Jahrhunderts.",
                     "url":"https://hrad-grabstejn.cz/de",
                     "img":""
                 },
                 {
                     "title":"Schloss Lemberk",
-                    "description":"Lemberk je hrad přestavený na zámek u Jablonného v Podještědí. Mimo jiné zde pobývala Zdislava z Lemberka, který byla roku 1995 prohlášena za svatou.",
+                    "description":"Der Vorgänger des heutigen Barockschlosses war die mittelalterliche Burg Lemberk, das in den 1340er Jahren von Havel von Markvartic, dem Ehemann von St. Zdislava, gegründet wurde. In der zweiten Hälfte des 16. Jahrhunderts wurde es zu einem Renaissanceschloss umgebaut und erhielt sein heutiges Aussehen nach der Mitte des 17. Jahrhunderts unter den Herren von Breda. Die letzten Eigentümer waren bis 1945 die Familie Clam-Gallas.",
                     "url":"https://www.zamek-lemberk.cz/en",
                     "img":""
                 },
                 {
                     "title":"Brauerei Albrecht",
-                    "description":"Pivovar Albrecht je úzce spjat s historií frýdlantského panství. Postaven byl v 16.století rodem Redernů a od roku 2013 je opět v provozu.",
+                    "description":"Die Herstellung von Bier in Frýdlant wird erstmals 1381 erwähnt, Bier wurde angeblich direkt auf der Burg gebraut. Im 16. Jahrhundert wurde unter der Familie Redern in der Nähe des Flusses Smědá an der Stelle, an der sich noch heute der Betrieb befindet, eine neue unabhängige Brauerei gebaut. Der Fachwerkgeschossbau der Renaissance-Brauerei ist auf der sogenannten Glaubic-Karte abgebildet.",
                     "url":"https://pivovar-albrecht.com/",
                     "img":""
                 }
@@ -353,7 +353,7 @@
                     "img":"/people/katerina_redern.jpg"
                 },
                 {
-                    "name":"Albrecht of Waldstein",
+                    "name":"Albrecht of Wallenstein",
                     "img":"/people/albrecht_valdstejn.jpg"
                 },
                 {
@@ -479,16 +479,16 @@
             "title": "History overview",
             "button": "Learn more",
             "img": "/history/history.jpg",
-            "card_label": "Seznamte se s historií frýdlantského panství od založení až po současnost.",
-            "description": "Seznamte se se stručnou historií frýdlanstkého hradu a zámku. Od jeho založení až po současnost.",
-            "label": "Seznamte se s historií hradu a zámku"
+            "card_label": "Get to know the history of the Frýdlant castle and chateau.",
+            "description": "Frýdlant is one of largest and most important heritage sites in Northern Bohemia. It consists of two architectural complexes: a medieval castle and a renaissance chateau. The castle was built around the mid-13th century. In 1278, the domain became property of the Biberstein house who took major part in building the large castle palace. Between 1558 and 1620, Frýdlant was owned by the Redern house that continued to upgrade the domain. The Rederns were good managers and warriors, but also builders and art supporters. They built the new renaissance chateau and the chapel. \n\nBetween 1622 and 1634, the castle belonged to Albrecht of Wallenstein. He bought it for 150,000 guldens and gradually built a large domain. His estates flourished greatly during the Thirty Years War as they supplied his army. The Frýdlant region was called Terra felix – the happy country. \n\nAfter Albrecht’s murder in 1634, the emperor gave Frýdlant to the Gallas house, and since 1759 the domain was owned by the Clam-Gallases, an important aristocratic house active in diplomatic and military circles at the imperial court. They remained until 1945 when Frýdlant became property of the state. \n\nThe original gothic castle hasn’t been preserved in its entirety. Nowadays, the castle is a large two-floor building around the small, irregularly shaped courtyard, with the predominant cylindrical tower – a bergfrit. The castle was growing over time, and underwent two renaissance reconstructions in the 16th century. The chapel and the renaissance chateau were built at the turn of the 16th and 17th century by Marco Spazzio di Lancio. The last big reconstruction took place in the 1860s, when the castle warden wing was rebuilt. \n\nIn 1801, the Clam-Gallases enabled public access to a part of the castle with exhibitions, making it the first castle museum in the Central Europe. The current exhibition includes this museum, the chapel with valuable items, and two chateau wings.",
+            "label": "History of castle Frýdlant"
         },
         {
             "language": "en",
             "path": "/houses",
             "title": "Houses",
             "img": "/history/coat_of_arms.jpg",
-            "card_label": "Seznamte se s jednotlivými majiteli frýdlanstkého panství",
+            "card_label": "Get to know the individual owners of the Frýdlant manor.",
             "button": "Learn more",
             "houses": [
                 {
@@ -564,14 +564,14 @@
                             "years": "1591-1641",
                             "label": "Christopher took over the administration of the estate in 1611.",
                             "button": "More",
-                            "text": "Christopher took over the administration of the estate in 1611. He continued the dispute with the townspeople of Frýdlant, which began during his mother's reign. After the outbreak of Bohemian uprising, together with his uncle Jáchym Ondřej of Šlik, he was involved on the side of Protestant union where he became the commander of a cavalry division. He was already suffering from health problems at this time. \n\nAfter defeat in 1620, his manor was confiscated and he lived in exile on the Zawidow estate. In 1627, the Zawidow estate was also confiscated from him. He then lived in the residence of his wife Magdalena of Hundt in Poland. During the raid Swedes to Bohemia between 1639-1640, he returned to Frýdlant, but in the same year he had to leave Frýdlant manor to Waldstein. He dies in exile sometime after 1641.",
+                            "text": "Christopher took over the administration of the estate in 1611. He continued the dispute with the townspeople of Frýdlant, which began during his mother's reign. After the outbreak of Bohemian uprising, together with his uncle Jáchym Ondřej of Šlik, he was involved on the side of Protestant union where he became the commander of a cavalry division. He was already suffering from health problems at this time. \n\nAfter defeat in 1620, his manor was confiscated and he lived in exile on the Zawidow estate. In 1627, the Zawidow estate was also confiscated from him. He then lived in the residence of his wife Magdalena of Hundt in Poland. During the raid Swedes to Bohemia between 1639-1640, he returned to Frýdlant, but in the same year he had to leave Frýdlant manor to Wallenstein. He dies in exile sometime after 1641.",
                             "img": "/coat_of_arms/redernove.png"
                         }
                     ]
                 },
                 {
-                    "title": "Albrecht of Waldstein",
-                    "description": "Albrecht of Waldstein was a Czech military leader, politician and one of the most important figures in the Czech history.",
+                    "title": "Albrecht of Wallenstein",
+                    "description": "Albrecht of Wallenstein was a Czech military leader, politician and one of the most important figures in the Czech history.",
                     "img": "/coat_of_arms/albrecht.png",
                     "button": "More",
                     "owners": [
@@ -579,9 +579,9 @@
                             "number": 1,
                             "name": "Albrecht von Wallenstein",
                             "years": "1591-1641",
-                            "label": "Albrecht of Waldstein was born into a not very wealthy and influential Protestant family and eventually became one of the most powerful men of European importance.",
+                            "label": "Albrecht of Wallenstein was born into a not very wealthy and influential Protestant family and eventually became one of the most powerful men of European importance.",
                             "button": "More",
-                            "text": "Albrecht of Waldstein was born into a not very wealthy and influential Protestant family and eventually became one of the most powerful men of European importance. His tenure at Frýdlant was not long, it lasted only 12 years, even so, this is the time that made this place and the manor the most famous and it was even raised to a dukedom.\n\n The life of Albrecht of Waldstein was connected with service in the army from a young age. He soon defected from the Protestant camp to the imperial service and on the battlefields of the Thirty Years' War he attained the highest rank in military command, i.e. Generalissimo of the Imperial Army. His possessions, which included the manor of Frýdlant were then more or less spared from major war conflicts and that is why they were referred to as 'the happy land - terra felix'.\n\n As for the Frýdlant manor, during Waldstein's reign, we can talk about an economic rise, primarily in industries that were associated with the needs of the time – mining and metal processing or gunpowder production. The castle and chateau were uninhabited and only minor structural modifications took place. Waldstein stayed here only for a few days in 1627, 1628 and 1630. The end of Waldstein's life was heralded by the loss of trust from the emperor, who felt threatened by Walstein, which is why Waldstein was murdered by his officers at the beginning of 1634.",
+                            "text": "Albrecht of Wallenstein was born into a not very wealthy and influential Protestant family and eventually became one of the most powerful men of European importance. His tenure at Frýdlant was not long, it lasted only 12 years, even so, this is the time that made this place and the manor the most famous and it was even raised to a dukedom.\n\n The life of Albrecht of Wallenstein was connected with service in the army from a young age. He soon defected from the Protestant camp to the imperial service and on the battlefields of the Thirty Years' War he attained the highest rank in military command, i.e. Generalissimo of the Imperial Army. His possessions, which included the manor of Frýdlant were then more or less spared from major war conflicts and that is why they were referred to as 'the happy land - terra felix'.\n\n As for the Frýdlant manor, during Wallenstein's reign, we can talk about an economic rise, primarily in industries that were associated with the needs of the time – mining and metal processing or gunpowder production. The castle and chateau were uninhabited and only minor structural modifications took place. Wallenstein stayed here only for a few days in 1627, 1628 and 1630. The end of Wallenstein's life was heralded by the loss of trust from the emperor, who felt threatened by Walstein, which is why Wallenstein was murdered by his officers at the beginning of 1634.",
                             "img":"/people/albrecht_valdstejn.jpg"
                         }
                     ]
@@ -596,9 +596,9 @@
                             "number": 1,
                             "name": "Matthias of Gallas",
                             "years": "1588-1647",
-                            "label": "The life of Matthias of Gallas and his social rise were, as in the case of Waldstein, tightly connected with the period of the Thirty Years' War.",
+                            "label": "The life of Matthias of Gallas and his social rise were, as in the case of Wallenstein, tightly connected with the period of the Thirty Years' War.",
                             "button": "More",
-                            "text": "The life of Matthias of Gallas and his social rise were, as in the case of Waldstein, tightly connected with the period of the Thirty Years' War. Matthias joined the army as a young man and became famous for the first time in the wars for the Mantuan inheritance on the side of the Catholic League. In 1628 he entered the service of Albrecht of Waldstein and became one of his generals. In 1632 he attained the rank of earl. After the betrayal of Waldstein, he became the heir to the Frydlant manor and later the commander-in-chief of the Imperial army, where he worked until the end of the Thirty Years' War. For Frýdlant, his reign meant the period between 1640-1649 when the castle and town were occupied by Swedish crew. Matthias died in Vienna in 1647.",
+                            "text": "The life of Matthias of Gallas and his social rise were, as in the case of Wallenstein, tightly connected with the period of the Thirty Years' War. Matthias joined the army as a young man and became famous for the first time in the wars for the Mantuan inheritance on the side of the Catholic League. In 1628 he entered the service of Albrecht of Wallenstein and became one of his generals. In 1632 he attained the rank of earl. After the betrayal of Wallenstein, he became the heir to the Frydlant manor and later the commander-in-chief of the Imperial army, where he worked until the end of the Thirty Years' War. For Frýdlant, his reign meant the period between 1640-1649 when the castle and town were occupied by Swedish crew. Matthias died in Vienna in 1647.",
                             "img":"/people/matyas_gallas.jpg"
                         },
                         {
@@ -706,19 +706,19 @@
         {
             "language": "de",
             "path": "/history_overview",
-            "title": "History overview",
+            "title": "Geschichte Übersicht",
             "button": "Mehr",
             "img": "/history/history.jpg",
-            "card_label": "Seznamte se s historií frýdlantského panství od založení až po současnost.",
-            "description": "Seznamte se se stručnou historií frýdlanstkého hradu a zámku. Od jeho založení až po současnost.",
-            "label": "Seznamte se s historií hradu a zámku"
+            "card_label": "Lernen Sie die Geschichte der Burg und des Schlosses Frýdlant kennen.",
+            "description": "Frýdlant ist eine der größten und bedeutendsten Denkmäler in Nordböhmen. Es besteht aus zwei architektonischen Komplexen: einer mittelalterlichen Burg und einem Renaissanceschloss. Die Burg wurde um die Mitte des 13. Jahrhunderts erbaut. 1278 ging die Domäne in den Besitz des Hauses Biberstein über, das maßgeblich am Bau des großen Burgschlosses beteiligt war. Zwischen 1558 und 1620 war Frýdlant im Besitz des Hauses Redern, das die Herrschaft weiter ausbaute. Die Rederns waren gute Manager und Krieger, aber auch Baumeister und Kunstförderer. Sie bauten das Neurenaissanceschloss und die Kapelle. \n\nZwischen 1622 und 1634 gehörte die Burg Albrecht von Wallenstein. Er kaufte es für 150.000 Gulden und baute nach und nach eine große Domäne auf. Seine Ländereien blühten während des Dreißigjährigen Krieges sehr auf, als sie seine Armee versorgten. Die Region Frýdlant wurde Terra felix – das glückliche Land – genannt. \n\nNach der Ermordung Albrechts im Jahre 1634 schenkte der Kaiser Frýdlant dem Haus Gallas, und seit 1759 gehörte die Domäne den Clam-Gallas, einem wichtigen Adelshaus, das in diplomatischen und militärischen Kreisen am kaiserlichen Hof aktiv war. Sie blieben bis 1945, als Frýdlant Staatseigentum wurde. \n\nDie ursprüngliche gotische Burg ist nicht vollständig erhalten. Heutzutage ist die Burg ein großes zweistöckiges Gebäude um den kleinen, unregelmäßig geformten Innenhof mit dem vorherrschenden zylindrischen Turm – einem Bergfrit. Die Burg wuchs im Laufe der Zeit und wurde im 16. Jahrhundert zweimal im Renaissancestil umgebaut. Die Kapelle und das Renaissanceschloss wurden um die Wende vom 16. zum 17. Jahrhundert von Marco Spazzio di Lancio erbaut. Der letzte große Umbau fand in den 1860er Jahren statt, als der Burgwärterflügel wieder aufgebaut wurde. \n\nIn 1801 machten die Clam-Gallases einen Teil der Burgs mit Ausstellungen öffentlich zugänglich und machten es zum ersten Schlossmuseum in Mitteleuropa. Die aktuelle Ausstellung umfasst dieses Museum, die Kapelle mit wertvollen Gegenständen und zwei Schlossflügel.",
+            "label": "Geschichte der Burg Frýdlant"
         },
         {
             "language": "de",
             "path": "/houses",
             "title": "Houses",
             "img": "/history/coat_of_arms.jpg",
-            "card_label": "Seznamte se s jednotlivými majiteli frýdlanstkého panství",
+            "card_label": "Lernen Sie die einzelnen Besitzer der Herrschaft Frýdlant kennen",
             "button": "Mehr",
             "houses": [
                 {
@@ -965,7 +965,7 @@
                     "number": 3,
                     "img":"/castle/room3.jpg",
                     "title": "Albrecht z Valdštejna",
-                    "card_label": "Tato místnost prohlídkového okruhu je věnována dalšímu majiteli hradu, jedné z nejvýznamějších osob české historie, a to Albrechtovi z Valdštejna.",
+                    "card_label": "Tato místnost prohlídkového okruhu je věnována dalšímu majiteli hradu, jedné z nejvýznamějších osob české Geschichte, a to Albrechtovi z Valdštejna.",
                     "label": "Kratky popisek mistnosti",
                     "button": "Navštívit",
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
@@ -1110,7 +1110,7 @@
                     "number": 3,
                     "img":"/castle/room3.jpg",
                     "title": "Albrecht z Valdštejna",
-                    "card_label": "Tato místnost prohlídkového okruhu je věnována dalšímu majiteli hradu, jedné z nejvýznamějších osob české historie, a to Albrechtovi z Valdštejna.",
+                    "card_label": "Tato místnost prohlídkového okruhu je věnována dalšímu majiteli hradu, jedné z nejvýznamějších osob české Geschichte, a to Albrechtovi z Valdštejna.",
                     "label": "Kratky popisek mistnosti",
                     "button": "Navštívit",
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."

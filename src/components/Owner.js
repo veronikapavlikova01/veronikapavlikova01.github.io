@@ -67,7 +67,7 @@ function Owner() {
                         <div className="margin-right-primary margin-left-primary">
                             <span className="font-style-primary margin-primary">{house.title}</span>
                             <h2>{owner.name}</h2>
-                            <span className="font-style-primary margin-primary">xxx-xxx</span>
+                            <span className="font-style-primary margin-primary">{owner.years}</span>
                         </div>
                     </div>
                     <div className="margin-top-secondary">
