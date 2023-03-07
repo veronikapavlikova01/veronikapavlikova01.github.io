@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d5f71838.css",
-    "main.js": "/static/js/main.e256294c.js",
+    "main.js": "/static/js/main.6f76ad1f.js",
     "static/js/787.8b87e823.chunk.js": "/static/js/787.8b87e823.chunk.js",
     "static/media/hrad-3.jpg": "/static/media/hrad-3.a4177431580707beff9c.jpg",
     "static/media/hrad-38.jpg": "/static/media/hrad-38.fa79ca865aff7f135a36.jpg",
@@ -77,11 +77,11 @@
     "static/media/icon-128.png": "/static/media/icon-128.987b6916ad8cabc59e8a.png",
     "index.html": "/index.html",
     "main.d5f71838.css.map": "/static/css/main.d5f71838.css.map",
-    "main.e256294c.js.map": "/static/js/main.e256294c.js.map",
+    "main.6f76ad1f.js.map": "/static/js/main.6f76ad1f.js.map",
     "787.8b87e823.chunk.js.map": "/static/js/787.8b87e823.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5f71838.css",
-    "static/js/main.e256294c.js"
+    "static/js/main.6f76ad1f.js"
   ]
 }
