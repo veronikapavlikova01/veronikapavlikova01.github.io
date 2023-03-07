@@ -45,7 +45,6 @@ class App extends React.Component {
     }
 
     this.setRoom = (e) => {
-      console.log(e);
       this.setState({ room: e });
       localStorage.setItem("room", JSON.stringify(e));
     }
@@ -99,7 +98,7 @@ class App extends React.Component {
       setRoom: this.setRoom,
       house: localStorage.getItem("house") !== null ? JSON.parse(localStorage.getItem("house")) : "Redernové",
       setHouse: this.setHouse,
-      owner: localStorage.getItem("language") !== null ? JSON.parse(localStorage.getItem("owner")) : "1",
+      owner: localStorage.getItem("owner") !== null ? JSON.parse(localStorage.getItem("owner")) : "1",
       setOwner: this.setOwner,
       fontSize: localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d",
       setFontSize: this.setFontSize,

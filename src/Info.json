@@ -46,8 +46,7 @@
             "close_label":"Close",
             "no_face_detected":"We are sorry, but it was not possible to recognize anyone from the photo you took.",
             "try_again_label":"Please try again. Zoom in on the face and take a photo.",
-            "recognition_done":"Recognition complete",
-            "recognized_person_label":"The following person was recognized in the photo you took:"
+            "recognition_wait_label":"Please wait. The picture you took is currently being processed."
         },
         {
             "language":"de",
@@ -63,8 +62,7 @@
             "error_label":"Etwas ist schief gelaufen...",
             "no_face_detected":"Wir entschuldigen uns, aber auf dem von Ihnen aufgenommenen Foto war niemand zu erkennen.",
             "try_again_label":"Bitte versuchen Sie es nochmal. Vergrößern Sie das Gesicht und machen Sie ein Foto.",
-            "recognition_done":"Anerkennung abgeschlossen",
-            "recognized_person_label":"Auf dem von Ihnen aufgenommenen Foto wurde folgende Person erkannt:"
+            "recognition_wait_label":"Warten Sie mal. Das von Ihnen aufgenommene Bild wird gerade bearbeitet."
         }
     ],
     "install": [
@@ -77,16 +75,6 @@
             "language": "de",
             "install":"Installieren",
             "install_label":"Installieren Sie die App für den Offline-Zugriff."
-        }
-    ],
-    "scan":[
-        {
-            "language": "en",
-            "scan_label":"Scan the QR code"
-        },
-        {
-            "language": "de",
-            "scan_label":"Scannen Sie den QR-Code"
         }
     ],
     "face_recognition":[
@@ -113,6 +101,30 @@
             "step_4":"Moment mal. Wenn das Bild erkannt wird, werden Sie auf eine neue Seite mit der abgebildeten Person weitergeleitet.",
             "button":"Bild aufnehmen",
             "button_back":"Zurück"
+        }
+    ],
+    "qr_scanner":[
+        {
+            "language": "en",
+            "qr_scanner":"QR code Scanner",
+            "title":"Don't know where you are right now?",
+            "label":"If you are not sure where exactly you are, you can ask your guide or use this feature to help you find where you are. Find the stand with QR code and follow the instructions below.",
+            "step_1":"Press the „Scan QR code” button.",
+            "step_2":"Zoom in so that the QR code is clearly visible.",
+            "step_3":"Now take a picture and then press OK.",
+            "step_4":"Wait a moment. When the QR code is detected, you will be redirected to the correct location.",
+            "button":"Scan QR code"
+        },
+        {
+            "language": "de",
+            "qr_scanner":"QR Code Scanner",
+            "title":"Sie wissen nicht, wo Sie gerade sind?",
+            "label":"Wenn Sie sich nicht sicher sind, wo genau Sie sich befinden, können Sie Ihren Reiseleiter fragen oder diese Funktion nutzen, um Ihnen dabei zu helfen, Ihren Standort zu finden. Finden Sie den Stand mit QR-Code und folgen Sie den Anweisungen unten.",
+            "step_1":"Drücken Sie die Schaltfläche „QR Code scannen“.",
+            "step_2":"Vergrößern Sie die Kamera so, dass das QR-Code, deutlich sichtbar ist.",
+            "step_3":"Machen Sie jetzt ein Foto und drücken Sie dann OK.",
+            "step_4":"Moment mal. Wenn der QR-Code erkannt wird, werden Sie an die richtige Stelle weitergeleitet.",
+            "button":"QR Code scannen"
         }
     ],
     "header":[
@@ -940,6 +952,8 @@
             "language": "en",
             "title": "Castle",
             "img": "/castle/castle.jpg",
+            "rooms_label":"rooms",
+            "time":"60 minutes",
             "description": "This tour takes the visitor through the Upper Castle, which is the oldest part of the Frýdlant area. The entire route is dominated by a large knight's hall with an ancestral gallery, armory, banquet hall or a large collection of employee uniforms.",
             "button": "Start tour",
             "rooms": [
@@ -954,6 +968,24 @@
                 },
                 {
                     "number": 2,
+                    "img":"/castle/room1.jpg",
+                    "title": "Nádvoří",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number": 3,
+                    "img":"/castle/room1.jpg",
+                    "title": "Nádvoří",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number": 4,
                     "img":"/castle/room2.jpg",
                     "title": "Biberštejnové a Redernové",
                     "card_label": "V první hradní místnosti bude návštěvník seznámen s prvními majitely hradu, konkrétně tedy Biberštejny a Rederny.",
@@ -962,7 +994,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 3,
+                    "number": 5,
                     "img":"/castle/room3.jpg",
                     "title": "Albrecht z Valdštejna",
                     "card_label": "Tato místnost prohlídkového okruhu je věnována dalšímu majiteli hradu, jedné z nejvýznamějších osob české Geschichte, a to Albrechtovi z Valdštejna.",
@@ -971,7 +1003,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 4,
+                    "number": 6,
                     "img":"/castle/room4.jpg",
                     "title": "Rytířský sál",
                     "card_label": "Rytířský sál, později využívaný jako rodová galerie, seznámí návštevníka s rodem Gallasů a jeho působením na hradu a v okolí.",
@@ -980,7 +1012,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 5,
+                    "number": 7,
                     "img":"/castle/room5.jpg",
                     "title": "U piána",
                     "card_label": "Ve čtvrté hradní místnosti bude návštěvníkovi představen rod Clam-Gallasů. Zároveň ",
@@ -989,7 +1021,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 6,
+                    "number": 8,
                     "img":"/castle/room6.jpg",
                     "title": "Pracovna Eduarda z Gallasu",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -998,7 +1030,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 7,
+                    "number": 9,
                     "img":"/castle/room7.jpg",
                     "title": "Uniformy",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1007,7 +1039,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 8,
+                    "number": 10,
                     "img":"/castle/room8.jpg",
                     "title": "Nosítka",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1016,7 +1048,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 9,
+                    "number": 11,
                     "img":"/castle/room9.jpg",
                     "title": "Lovecký salonek",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1025,7 +1057,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 10,
+                    "number": 12,
                     "img":"/castle/room10.jpg",
                     "title": "Hradní kuchyně",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1034,7 +1066,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 11,
+                    "number": 13,
                     "img":"/castle/room11.jpg",
                     "title": "U vězení",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1043,7 +1075,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 12,
+                    "number": 14,
                     "img":"/castle/room12.jpg",
                     "title": "Hradní zbrojnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1052,7 +1084,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 13,
+                    "number": 15,
                     "img":"/castle/room13.jpg",
                     "title": "Koňské postroje",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1061,7 +1093,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 14,
+                    "number": 16,
                     "img":"/castle/room14.jpg",
                     "title": "Hradní galerie",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1070,7 +1102,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 15,
+                    "number": 17,
                     "img":"/castle/room15.jpg",
                     "title": "Vrchnostenská kancelář",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1085,6 +1117,8 @@
             "language": "de",
             "title": "Die Burg",
             "img": "/castle/castle.jpg",
+            "rooms_label":"Räume",
+            "time":"60 Minuten",
             "description": "Die Führung führt den Besucher durch die Obere Burg, den ältesten Teil des Frýdlant-Gebiets. Der gesamte Weg wird dominiert von einem großen Rittersaal mit Ahnenempore, einer Rüstkammer, einem Festsaal oder einer großen Sammlung von Dienstkleidung.",
             "button": "Führung beginnen",
             "rooms": [
@@ -1099,6 +1133,24 @@
                 },
                 {
                     "number": 2,
+                    "img":"/castle/room1.jpg",
+                    "title": "Nádvoří",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number": 3,
+                    "img":"/castle/room1.jpg",
+                    "title": "Nádvoří",
+                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
+                    "label": "Kratky popisek mistnosti",
+                    "button": "Navštívit",
+                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                },
+                {
+                    "number": 4,
                     "img":"/castle/room2.jpg",
                     "title": "Biberštejnové a Redernové",
                     "card_label": "V první hradní místnosti bude návštěvník seznámen s prvními majitely hradu, konkrétně tedy Biberštejny a Rederny.",
@@ -1107,7 +1159,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 3,
+                    "number": 5,
                     "img":"/castle/room3.jpg",
                     "title": "Albrecht z Valdštejna",
                     "card_label": "Tato místnost prohlídkového okruhu je věnována dalšímu majiteli hradu, jedné z nejvýznamějších osob české Geschichte, a to Albrechtovi z Valdštejna.",
@@ -1116,7 +1168,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 4,
+                    "number": 6,
                     "img":"/castle/room4.jpg",
                     "title": "Rytířský sál",
                     "card_label": "Rytířský sál, později využívaný jako rodová galerie, seznámí návštevníka s rodem Gallasů a jeho působením na hradu a v okolí.",
@@ -1125,7 +1177,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 5,
+                    "number": 7,
                     "img":"/castle/room5.jpg",
                     "title": "U piána",
                     "card_label": "Ve čtvrté hradní místnosti bude návštěvníkovi představen rod Clam-Gallasů. Zároveň ",
@@ -1134,7 +1186,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 6,
+                    "number": 8,
                     "img":"/castle/room6.jpg",
                     "title": "Pracovna Eduarda z Gallasu",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1143,7 +1195,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 7,
+                    "number": 9,
                     "img":"/castle/room7.jpg",
                     "title": "Uniformy",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1152,7 +1204,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 8,
+                    "number": 10,
                     "img":"/castle/room8.jpg",
                     "title": "Nosítka",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1161,7 +1213,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 9,
+                    "number": 11,
                     "img":"/castle/room9.jpg",
                     "title": "Lovecký salonek",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1170,7 +1222,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 10,
+                    "number": 12,
                     "img":"/castle/room10.jpg",
                     "title": "Hradní kuchyně",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1179,7 +1231,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 11,
+                    "number": 13,
                     "img":"/castle/room11.jpg",
                     "title": "U vězení",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1188,7 +1240,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 12,
+                    "number": 14,
                     "img":"/castle/room12.jpg",
                     "title": "Hradní zbrojnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1197,7 +1249,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 13,
+                    "number": 15,
                     "img":"/castle/room13.jpg",
                     "title": "Koňské postroje",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1206,7 +1258,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 14,
+                    "number": 16,
                     "img":"/castle/room14.jpg",
                     "title": "Hradní galerie",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1215,7 +1267,7 @@
                     "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
                 },
                 {
-                    "number": 15,
+                    "number": 17,
                     "img":"/castle/room15.jpg",
                     "title": "Vrchnostenská kancelář",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
@@ -1230,12 +1282,14 @@
             "language": "en",
             "title": "Chateau",
             "img": "/chateau/chateau.jpg",
+            "rooms_label":"rooms",
+            "time":"60 minutes",
             "description": "This tour takes the visitor through the richly furnished castle and the history of the last owners of Clam Gallas. A fully equipped tour route maps the castle and its 24 accessible rooms on all its floors.",
             "button": "Start tour",
             "rooms": [
                 {
                     "number": 1,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Kuchyně",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1244,7 +1298,7 @@
                 },
                 {
                     "number": 2,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Chodba",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1253,7 +1307,7 @@
                 },
                 {
                     "number": 3,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Herna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1262,7 +1316,7 @@
                 },
                 {
                     "number": 4,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Jídelna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1271,7 +1325,7 @@
                 },
                 {
                     "number": 5,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Modrý salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1280,7 +1334,7 @@
                 },
                 {
                     "number": 6,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Předpokoj",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1289,7 +1343,7 @@
                 },
                 {
                     "number": 7,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Přijímací salonek",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1298,7 +1352,7 @@
                 },
                 {
                     "number": 8,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Pracovna hraběte",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1307,7 +1361,7 @@
                 },
                 {
                     "number": 9,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Ložnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1316,7 +1370,7 @@
                 },
                 {
                     "number": 10,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Nad schody",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1325,7 +1379,7 @@
                 },
                 {
                     "number": 11,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Květinový salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1334,7 +1388,7 @@
                 },
                 {
                     "number": 12,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Ložnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1343,7 +1397,7 @@
                 },
                 {
                     "number": 13,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Ranní salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1352,7 +1406,7 @@
                 },
                 {
                     "number": 14,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Malá jídelna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1361,7 +1415,7 @@
                 },
                 {
                     "number": 15,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Převlekárna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1370,7 +1424,7 @@
                 },
                 {
                     "number": 16,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Královská chodba",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1379,7 +1433,7 @@
                 },
                 {
                     "number": 17,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Podkroví",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1388,7 +1442,7 @@
                 },
                 {
                     "number": 18,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Lokajna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1397,7 +1451,7 @@
                 },
                 {
                     "number": 19,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Kaple sv. Anny",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1411,12 +1465,14 @@
             "language": "de",
             "title": "Das Schloß",
             "img": "/chateau/chateau.jpg",
+            "rooms_label":"Räume",
+            "time":"60 Minuten",
             "description": "Die Führung führt den Besucher durch das reich ausgestattete Schloss und die Geschichte der letzten Besitzer von Clam Gallas. Ein komplett ausgestatteter Rundgang zeigt das Schloss und seine 24 barrierefreien Räume auf allen Etagen.",
             "button": "Führung beginnen",
             "rooms": [
                 {
                     "number": 1,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Kuchyně",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1425,7 +1481,7 @@
                 },
                 {
                     "number": 2,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Chodba",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1434,7 +1490,7 @@
                 },
                 {
                     "number": 3,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Herna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1443,7 +1499,7 @@
                 },
                 {
                     "number": 4,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Jídelna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1452,7 +1508,7 @@
                 },
                 {
                     "number": 5,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Modrý salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1461,7 +1517,7 @@
                 },
                 {
                     "number": 6,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Předpokoj",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1470,7 +1526,7 @@
                 },
                 {
                     "number": 7,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Přijímací salonek",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1479,7 +1535,7 @@
                 },
                 {
                     "number": 8,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Pracovna hraběte",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1488,7 +1544,7 @@
                 },
                 {
                     "number": 9,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Ložnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1497,7 +1553,7 @@
                 },
                 {
                     "number": 10,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Nad schody",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1506,7 +1562,7 @@
                 },
                 {
                     "number": 11,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Květinový salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1515,7 +1571,7 @@
                 },
                 {
                     "number": 12,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Ložnice",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1524,7 +1580,7 @@
                 },
                 {
                     "number": 13,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Ranní salon",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1533,7 +1589,7 @@
                 },
                 {
                     "number": 14,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Malá jídelna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1542,7 +1598,7 @@
                 },
                 {
                     "number": 15,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Převlekárna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1551,7 +1607,7 @@
                 },
                 {
                     "number": 16,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Královská chodba",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1560,7 +1616,7 @@
                 },
                 {
                     "number": 17,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Podkroví",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1569,7 +1625,7 @@
                 },
                 {
                     "number": 18,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Lokajna",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",
@@ -1578,7 +1634,7 @@
                 },
                 {
                     "number": 19,
-                    "img":"/chateau/room1.jpg",
+                    "img":" /chateau/chateau.jpg",
                     "title": "Kaple sv. Anny",
                     "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
                     "label": "Kratky popisek mistnosti",

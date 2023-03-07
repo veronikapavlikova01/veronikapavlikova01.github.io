@@ -6,7 +6,7 @@ import DataAPI from '../DataAPI'
 import { Link } from 'react-router-dom';
 import InfoIcon from '@mui/icons-material/Info';
 
-function Map() {
+function RoomsOverview() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
     const info = dataAPI.getInfo(context.language);
@@ -64,4 +64,4 @@ function Map() {
 }
 
 
-export default Map;
+export default RoomsOverview;

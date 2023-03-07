@@ -4,8 +4,7 @@ import { useContext, useEffect } from "react";
 import { Link } from 'react-router-dom'
 import Header from "./Header";
 import DataAPI from '../DataAPI';
-import castle from '../img/castle/castle.jpg'
-import InfoIcon from '@mui/icons-material/Info';
+import Information from "./Information";
 
 
 
@@ -20,15 +19,7 @@ function Tours() {
         <>
             <Header header={header.history}/>
             <div className="content-container">
-                <div className="card box-shadow transition-primary padding-third margin-bottom-primary">
-                    <div className="flex">
-                        <div className="flex-secondary align-items-primary">
-                            <InfoIcon className="icon margin-right-secondary" />
-                            <span className="font-weight-primary">{info.info}</span>
-                        </div>
-                        <span>{info.history_info}</span>
-                    </div>
-                </div>
+                <Information info={info.info} content={info.history_info}/>
                 <div className="grid-secondary padding-top-primary">
                     {
                         history.map((item) => (

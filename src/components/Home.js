@@ -50,7 +50,7 @@ function Home() {
                     <DialogContentText>{dialogs.install_use_safari}</DialogContentText>
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={closeDialog}>{dialogs.close_label}</Button>
+                    <Button className="color-secondary" onClick={closeDialog}>{dialogs.close_label}</Button>
                 </DialogActions>
             </Dialog>
             <Dropdown />

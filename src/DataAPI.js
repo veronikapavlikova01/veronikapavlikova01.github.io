@@ -21,9 +21,9 @@ class DataAPI {
         return null;
     }
 
-    //scan
-    getScan(language){
-        const scan = Info.scan;
+    //qr_scanner
+    getQRScanner(language){
+        const scan = Info.qr_scanner;
         for (let i=0; i<scan.length;i++){
             if(scan[i].language===language){
                 return scan[i];
@@ -34,10 +34,10 @@ class DataAPI {
 
     //face_recognition
     getFaceRecognition(language){
-        const scan = Info.face_recognition;
-        for (let i=0; i<scan.length;i++){
-            if(scan[i].language===language){
-                return scan[i];
+        const recognition = Info.face_recognition;
+        for (let i=0; i<recognition.length;i++){
+            if(recognition[i].language===language){
+                return recognition[i];
             }
         }
         return null;
@@ -45,10 +45,10 @@ class DataAPI {
 
     //face_recognition_people
     getFaceRecognitionPeople(language){
-        const scan = Info.face_recognition_people;
-        for (let i=0; i<scan.length;i++){
-            if(scan[i].language===language){
-                return scan[i].people;
+        const recognition = Info.face_recognition_people;
+        for (let i=0; i<recognition.length;i++){
+            if(recognition[i].language===language){
+                return recognition[i].people;
             }
         }
         return null;

@@ -15,49 +15,31 @@ function Room() {
     const dataAPI = new DataAPI();
     const room = dataAPI.getRoom(context.language, context.tour, context.room);
     const tour = dataAPI.getTour(context.language, context.tour);
-
-    const prevRoomExists = (number) => {
-        if ((number - 1) >= 1) {
-            return true;
-        }
-        return false;
-    }
-
-    const nextRoomExists = (number, length) => {
-        if ((number + 1) <= length) {
-            return true;
-        }
-        return false;
-    
-    }
-
-    const isPrev = prevRoomExists(room.number);
-    const isNext = nextRoomExists(room.number, tour.rooms.length);
+    const isPrev = (room.number - 1) >= 1? true : false;
+    const isNext = (room.number + 1) <= tour.rooms.length? true : false
     var x1 = 0;
     var y1 = 0;
 
 
-    const previous = (number, length, context) => {
-        let newNumber = number - 1;
-        if (prevRoomExists(number)) {
-            context.setRoom(newNumber);
+    const previous = () => {
+        if ((room.number - 1) >= 1) {
+            context.setRoom(room.number-1);
         }
     }
     
-    const next = (number, length, context) => {
-        let newNumber = number + 1;
-        if (nextRoomExists(number, length)) {
-            context.setRoom(newNumber);
+    const next = () => {
+        if ((room.number + 1) <= tour.rooms.length) {
+            context.setRoom(room.number+1);
         }
     }
     
-    const slide = (x1, x2, y1, y2, number, length, context) => {
+    const slide = (x1, x2, y1, y2) => {
         let distance = 100;
         if (Math.abs(y1 - y2) < 50) {
             if (x1 > (x2 + distance)) {
-                next(number, length, context);
+                next();
             } else if ((x1 + distance) < x2) {
-                previous(number, length, context);
+                previous();
             }
         }
     }
@@ -71,7 +53,7 @@ function Room() {
     return (
         <>
             <Header header={tour.title} />
-            <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => { x1 = touchStartEvent.setdTouches[0].clientX; y1 = touchStartEvent.setdTouches[0].clientY }} onTouchEnd={touchEndEvent => { slide(x1, touchEndEvent.setdTouches[0].clientX, y1, touchEndEvent.setdTouches[0].clientY, room.number, tour.rooms.length, context) }}>
+            <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => { x1 = touchStartEvent.setdTouches[0].clientX; y1 = touchStartEvent.setdTouches[0].clientY }} onTouchEnd={touchEndEvent => { slide(x1, touchEndEvent.setdTouches[0].clientX, y1, touchEndEvent.setdTouches[0].clientY) }}>
                 <article>
                     <div className="flex-secondary">
                         <div className="margin-right-primary margin-left-primary">
@@ -88,13 +70,13 @@ function Room() {
                 </article>
                 <div className="flex-secondary stick-bottom padding-bottom-primary padding-top-primary background-gradient">
                     <div className={`flex round-item background-fourth margin-right-primary ${isPrev ? '' : ' visibility-hidden'}`}>
-                        <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { previous(room.number, tour.rooms.length, context) }} />
+                        <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { previous() }} />
                     </div>
                     <Link to="/scan_room" className="flex round-item background-fourth">
                         <QrCode2Icon className="round-item-content color-primary margin-top-third cursor-primary" />
                     </Link>
                     <div className={`flex round-item background-fourth margin-left-primary ${isNext ? '' : ' visibility-hidden'}`}>
-                        <ArrowForwardIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { next(room.number, tour.rooms.length, context) }} />
+                        <ArrowForwardIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { next() }} />
                     </div>
                 </div>
             </div>
@@ -104,6 +86,3 @@ function Room() {
 }
 
 export default Room;
-
-
-

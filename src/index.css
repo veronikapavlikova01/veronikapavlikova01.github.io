@@ -391,13 +391,6 @@ option{
   transition: 0.5s;
 }
 
-.navigation-list li{
-  padding-right:4vw;
-  padding-left:4vw;
-  padding-top:1rem;
-  padding-bottom:1rem;
-}
-
 .navigation-list-active{
   top:100px;
 }
@@ -406,8 +399,15 @@ a{
   text-decoration: none;
 }
 
+.navigation-link-padding{
+  padding-right:4vw;
+  padding-left:4vw;
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
+
 .navigation-link {
-  text-decoration: none;
+  display:block;
 }
 
 .navigation-link:hover{

@@ -11,7 +11,7 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import Button from "@material-ui/core/Button";
-import loading from '../img/other/loading.gif'
+import HourglassTopIcon from '@mui/icons-material/HourglassTop';
 
 function FaceRecognition() {
     const context = useContext(Context);
@@ -20,7 +20,7 @@ function FaceRecognition() {
     const people = dataAPI.getFaceRecognitionPeople(context.language);
     const dialogs = dataAPI.getDialogs(context.language);
     const [dialogOpen, setDialogOpen] = useState(false);
-    const [isLoading, setIsLoading] = useState(true);
+    const [waitDialogOpen, setWaitDialogOpen] = useState(false);
     const navigate = useNavigate();
     let isModelsLoaded = false;
 
@@ -33,7 +33,6 @@ function FaceRecognition() {
             faceapi.nets.faceLandmark68Net.loadFromUri(MODEL_URL),
             faceapi.nets.faceRecognitionNet.loadFromUri(MODEL_URL)
         ]).then(
-            setIsLoading(false),
             isModelsLoaded = true
         );
         document
@@ -42,13 +41,16 @@ function FaceRecognition() {
                 let file = document.getElementById('native_camera').files[0];
                 let url = window.URL.createObjectURL(file);
                 document.getElementById('person_picture').src = url;
-                setIsLoading(true);
                 handleImg();
             })
     }, []);
 
-    const closeDialog = () => {
+    const dialogClose = () => {
         setDialogOpen(false);
+    };
+
+    const waitDialogClose = () => {
+        setWaitDialogOpen(false);
     };
 
 
@@ -56,13 +58,13 @@ function FaceRecognition() {
     //detekce může trvat i několik sekund - proto byl zaveden spinner
     //prvni rozpoznavani trva i kolem 10s, dalsi uz jsou rychlejsi. Funguje rychleji, pokud je aplikace stažena
     const handleImg = async () => {
-        if(isModelsLoaded){
+        if (isModelsLoaded) {
             let img = document.getElementById('person_picture');
             let fullFaceDescriptions = await faceapi.detectAllFaces(img).withFaceLandmarks().withFaceDescriptors()
 
 
             if (fullFaceDescriptions.length === 0) {
-                setIsLoading(false);
+                waitDialogClose();
                 setDialogOpen(true);
                 return
             }
@@ -71,7 +73,7 @@ function FaceRecognition() {
                 people.map(async human => {
                     const imgUrl = require(`../img${human.img}`);
                     //face api takes only html element
-                    const img = document.createElement('img');          
+                    const img = document.createElement('img');
                     img.src = imgUrl;
 
                     const fullFaceDescription = await faceapi.detectSingleFace(img).withFaceLandmarks().withFaceDescriptor()
@@ -80,7 +82,7 @@ function FaceRecognition() {
                     return new faceapi.LabeledFaceDescriptors(human.name, faceDescriptors)
                 })
             ).catch(err => {
-                setIsLoading(false);
+                waitDialogClose();
                 setDialogOpen(true);
             });
 
@@ -91,24 +93,23 @@ function FaceRecognition() {
             const results = fullFaceDescriptions.map(fd => faceMatcher.findBestMatch(fd.descriptor))
 
             if (results[0].label === 'unknown') {
-                setIsLoading(false);
+                waitDialogClose();
                 setDialogOpen(true);
                 return
             }
 
-            setIsLoading(false);
             var peopleImg = getPeopleImg(results[0].label);
             context.setImageRecognitionName(results[0].label)
             context.setImageRecognitionImg(peopleImg)
-            
+
             navigate('/image_recognition_result')
         }
     }
 
     //return image url
-    const getPeopleImg = (name) =>{
-        for(let i =0; i< people.length;i++){
-            if(people[i].name===name){
+    const getPeopleImg = (name) => {
+        for (let i = 0; i < people.length; i++) {
+            if (people[i].name === name) {
                 return people[i].img;
             }
         }
@@ -117,16 +118,22 @@ function FaceRecognition() {
     return (
         <>
             <Header header={faceRecognitionLabels.face_recognition} />
-            <div className={isLoading? "spinner-container full-screen" : "display-none"}>
-                <img src={loading} className="icon"/>
-            </div>
-            <Dialog open={dialogOpen} onClose={closeDialog}>
+            <Dialog open={waitDialogOpen} onClose={waitDialogClose} disableTypography>
+                <DialogTitle className="flex align-items-primary">
+                    <HourglassTopIcon className="color-secondary" />
+                    <h3>{dialogs.wait}</h3>
+                </DialogTitle>
+                <DialogContent>
+                    <DialogContentText>{dialogs.recognition_wait_label}</DialogContentText>
+                </DialogContent>
+            </Dialog>
+            <Dialog disableTypography open={dialogOpen} onClose={dialogClose}>
                 <DialogTitle>{dialogs.no_face_detected}</DialogTitle>
                 <DialogContent>
                     <DialogContentText>{dialogs.try_again_label}</DialogContentText>
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={closeDialog}>{dialogs.close_label}</Button>
+                    <Button className="color-secondary" onClick={dialogClose}>{dialogs.close_label}</Button>
                 </DialogActions>
             </Dialog>
             <div className="flex content-container background-secondary padding-secondary border-radius-primary box-shadow">
@@ -150,7 +157,7 @@ function FaceRecognition() {
                 </div>
                 <div className="center-text margin-primary ">
                     <label htmlFor="native_camera" className="text-medium button align-self-primary background-primary font-weight-primary color-primary cursor-primary">{faceRecognitionLabels.button}</label>
-                    <input id="native_camera" type="file" accept="image/*" capture="environment" className="display-none"/>
+                    <input id="native_camera" type="file" accept="image/*" capture="environment" className="display-none" onClick={() => setWaitDialogOpen(true)} />
                 </div>
                 <img id="person_picture" src="" className="display-none" alt="person_picture" />
             </div>

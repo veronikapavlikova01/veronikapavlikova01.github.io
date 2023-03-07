@@ -8,51 +8,38 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import QrCode2Icon from '@mui/icons-material/QrCode2';
 
-
-function prevOwnerExists(number){
-    if((number-1)>=1){
-        return true;
-    }
-    return false;
-}
-function nextOwnerExists(number, length){
-    if((number+1)<=length){
-        return true;
-    }
-    return false;
-}
-
-function previous(number, length, context){
-    let newNumber = number-1;
-    if(prevOwnerExists(number)){
-        context.setOwner(newNumber);
-    }
-}
-
-function next(number, length, context){
-    let newNumber=number+1;
-    if(nextOwnerExists(number,length)){
-        context.setOwner(newNumber);
-    }
-}
-
-function slide(x1, x2, y1, y2, number, length, context){
-    if(x1>x2){
-        next(number, length, context);
-    } else if(x1<x2){
-        previous(number, length, context);
-    }
-}
-
 function Owner() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
     const owner = dataAPI.getOwner(context.language, context.house, context.owner);
     const house = dataAPI.getHouse(context.language, context.house);
-    const isPrev = prevOwnerExists(owner.number);
-    const isNext = nextOwnerExists(owner.number, house.owners.length);
+    const isPrev = (owner.number-1)>=1? true : false;
+    const isNext = (owner.number+1)<=house.owners.length? true: false;
     var x1 = 0;
     var y1 = 0;
+    
+    const previous = () => {
+        if((owner.number-1)>=1){
+            context.setOwner(owner.number-1);
+        }
+    }
+    
+    const next = () => {
+        if((owner.number+1)<=house.owners.length){
+            context.setOwner(owner.number+1);
+        }
+    }
+    
+    const slide = (x1, x2, y1, y2) => {
+        let distance = 100;
+        if (Math.abs(y1 - y2) < 50) {
+            if (x1 > (x2 + distance)) {
+                next();
+            } else if ((x1 + distance) < x2) {
+                previous();
+            }
+        }
+    }
 
     useEffect(()=>{
         window.scrollTo(0,0);
@@ -61,7 +48,7 @@ function Owner() {
     return (
         <>
             <Header header={context.house}/>
-            <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary" onTouchStart={touchStartEvent => {x1 = touchStartEvent.setdTouches[0].clientX; y1=touchStartEvent.setdTouches[0].clientY}} onTouchEnd={touchEndEvent => {slide(x1, touchEndEvent.setdTouches[0].clientX, y1, touchEndEvent.setdTouches[0].clientY, owner.number, house.owners.length, context)}}>
+            <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary" onTouchStart={touchStartEvent => { x1 = touchStartEvent.setdTouches[0].clientX; y1 = touchStartEvent.setdTouches[0].clientY }} onTouchEnd={touchEndEvent => { slide(x1, touchEndEvent.setdTouches[0].clientX, y1, touchEndEvent.setdTouches[0].clientY) }}>
                 <article className="font-size-third medieval-first-letter">
                     <div className="flex-secondary">
                         <div className="margin-right-primary margin-left-primary">
@@ -77,10 +64,10 @@ function Owner() {
                 </article>
                 <div className="flex-secondary stick-bottom padding-bottom-primary padding-top-primary background-gradient">
                     <div className={`flex round-item background-fourth margin-right-primary ${isPrev ? '' : ' visibility-hidden'}`}>
-                        <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { previous(owner.number, house.owners.length, context) }} />
+                        <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { previous() }} />
                     </div>
                     <div className={`flex round-item background-fourth margin-left-primary ${isNext ? '' : ' visibility-hidden'}`}>
-                        <ArrowForwardIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { next(owner.number, house.owners.length, context) }} />
+                        <ArrowForwardIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { next() }} />
                     </div>
                 </div>
             </div>
@@ -90,6 +77,3 @@ function Owner() {
 }
 
 export default Owner;
-
-
-
