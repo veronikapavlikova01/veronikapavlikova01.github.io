@@ -27,6 +27,10 @@ function Contact() {
                                     <span class="font-weight-primary text-transform-primary">{contact.reservation}</span>
                                     <address>zamek.rezervace@seznam.cz</address>
                                 </li>
+                                <li class="margin-bottom-primary flex">
+                                    <span class="font-weight-primary text-transform-primary">{contact.web}</span>
+                                    <a href="https://www.zamek-frydlant.cz/cs">www.zamek-frydlant.cz</a>
+                                </li>
                                 <li class="margin-bottom-primary">
                                     <span class="font-weight-primary text-transform-primary">{contact.phone}</span>
                                     <address>+420 771 270 150</address>

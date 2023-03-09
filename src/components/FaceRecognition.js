@@ -5,13 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import Header from "./Header";
 import DataAPI from '../DataAPI';
 import { Context } from "../Context"
-import Dialog from "@material-ui/core/Dialog";
-import DialogContentText from "@material-ui/core/DialogContentText";
-import DialogTitle from "@material-ui/core/DialogTitle";
-import DialogActions from "@material-ui/core/DialogActions";
-import DialogContent from "@material-ui/core/DialogContent";
-import Button from "@material-ui/core/Button";
-import HourglassTopIcon from '@mui/icons-material/HourglassTop';
+import CustomDialog from './CustomDialog';
+import WaitDialog from './WaitDialog';
 
 function FaceRecognition() {
     const context = useContext(Context);
@@ -118,24 +113,8 @@ function FaceRecognition() {
     return (
         <>
             <Header header={faceRecognitionLabels.face_recognition} />
-            <Dialog open={waitDialogOpen} onClose={waitDialogClose} disableTypography>
-                <DialogTitle className="flex align-items-primary">
-                    <HourglassTopIcon className="color-secondary" />
-                    <h3>{dialogs.wait}</h3>
-                </DialogTitle>
-                <DialogContent>
-                    <DialogContentText>{dialogs.recognition_wait_label}</DialogContentText>
-                </DialogContent>
-            </Dialog>
-            <Dialog disableTypography open={dialogOpen} onClose={dialogClose}>
-                <DialogTitle>{dialogs.no_face_detected}</DialogTitle>
-                <DialogContent>
-                    <DialogContentText>{dialogs.try_again_label}</DialogContentText>
-                </DialogContent>
-                <DialogActions>
-                    <Button className="color-secondary" onClick={dialogClose}>{dialogs.close_label}</Button>
-                </DialogActions>
-            </Dialog>
+            <WaitDialog isOpen={waitDialogOpen} isClosed={waitDialogClose} />
+            <CustomDialog isOpen={dialogOpen} closeDialog={dialogClose} title={dialogs.no_face_detected} content={dialogs.try_again_label} />
             <div className="flex content-container background-secondary padding-secondary border-radius-primary box-shadow">
                 <h2 className="text-medium">{faceRecognitionLabels.title}</h2>
                 <p className="margin-top-secondary margin-bottom-primary">{faceRecognitionLabels.label}</p>

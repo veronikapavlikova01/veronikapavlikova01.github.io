@@ -28,7 +28,7 @@ function Rooms() {
                                         </div>
                                     </div>
                                     <h2 className="text-medium padding-primary card-title flex-secondary ">{item.title}</h2>
-                                    <p className="margin-bottom padding-primary medieval-first-letter">Malé hradní nádvoří seznámí návštěvníka s architekturou starého hradu.</p>
+                                    <p className="margin-bottom padding-primary medieval-first-letter">{item.card_label}</p>
                                     <div className="center-text margin-primary ">
                                         <button className="text-medium button align-self-primary background-primary font-weight-primary color-primary">{item.button}</button>
                                     </div>

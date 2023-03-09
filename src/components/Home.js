@@ -1,14 +1,9 @@
 import Dropdown from "./Dropdown";
 import { Context } from "../Context";
-import { useContext, useState, useEffect } from "react";
+import { useContext, useState } from "react";
 import { Link } from 'react-router-dom'
 import DataAPI from '../DataAPI'
-import Dialog from "@material-ui/core/Dialog";
-import DialogContentText from "@material-ui/core/DialogContentText";
-import DialogTitle from "@material-ui/core/DialogTitle";
-import DialogActions from "@material-ui/core/DialogActions";
-import DialogContent from "@material-ui/core/DialogContent";
-import Button from "@material-ui/core/Button";
+import CustomDialog from "./CustomDialog";
 
 
 
@@ -38,21 +33,13 @@ function Home() {
         return false
     }
 
-    const closeDialog = () => {
+    const dialogClose = () => {
         setDialogOpen(false);
     };
     
     return (
         <div className="welcome-background full-screen flex">
-            <Dialog open={dialogOpen} onClose={closeDialog}>
-                <DialogTitle>{dialogs.warning}</DialogTitle>
-                <DialogContent>
-                    <DialogContentText>{dialogs.install_use_safari}</DialogContentText>
-                </DialogContent>
-                <DialogActions>
-                    <Button className="color-secondary" onClick={closeDialog}>{dialogs.close_label}</Button>
-                </DialogActions>
-            </Dialog>
+            <CustomDialog isOpen={dialogOpen} closeDialog={dialogClose} title={dialogs.warning} content={dialogs.install_use_safari}/>
             <Dropdown />
             <div className="flex welcome-box">
                 <h1 className="center-text welcome-text-large color-primary welcome-text">

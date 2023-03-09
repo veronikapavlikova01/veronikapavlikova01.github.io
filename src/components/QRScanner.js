@@ -4,35 +4,34 @@ import { Context } from "../Context"
 import DataAPI from '../DataAPI'
 import Header from "./Header";
 import { Html5Qrcode } from "html5-qrcode";
-import Dialog from "@material-ui/core/Dialog";
-import DialogContentText from "@material-ui/core/DialogContentText";
-import DialogTitle from "@material-ui/core/DialogTitle";
-import DialogActions from "@material-ui/core/DialogActions";
-import DialogContent from "@material-ui/core/DialogContent";
-import Button from "@material-ui/core/Button";
+import CustomDialog from "./CustomDialog";
+import WaitDialog from "./WaitDialog";
 
 function QRScanner() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
     const scan = dataAPI.getQRScanner(context.language);
     const tourIds = dataAPI.getTourIds(context.language);
-    const rooms = dataAPI.getRooms(context.language, context.tour);
     const dialogs = dataAPI.getDialogs(context.language);
     const [dialogOpen, setDialogOpen] = useState(false);
+    const [waitDialogOpen, setWaitDialogOpen] = useState(false);
     const navigate = useNavigate();
 
     useEffect(() => {
         document
             .getElementById("native_camera")
             .addEventListener("change", function () {
+                setWaitDialogOpen(true);
                 let file = document.getElementById('native_camera').files[0];
                 let html5QrCode = new Html5Qrcode("reader");
                 console.log(file);
                 html5QrCode.scanFile(file, false)
                     .then(text => {
+                        console.log("start splitting");
                         splitScannedText(text);
                     })
                     .catch(err => {
+                        setWaitDialogOpen(false);
                         setDialogOpen(true);
                     });
             })
@@ -42,15 +41,25 @@ function QRScanner() {
         setDialogOpen(false);
     };
 
+    const waitDialogClose = () => {
+        setWaitDialogOpen(false);
+    };
+
     const splitScannedText = (text) => {
         let tourAndRoom = text.split(" ");
         let tour = tourAndRoom[0].toLowerCase();
         let room = parseInt(tourAndRoom[1]);
 
         if (tourExists(tour)) {
-            if ((room >= 1) && (room <= rooms.length)) {
+            if ((room >= 1) && (room <= dataAPI.getRooms(context.language, tour).length)) {
                 redirectToRoom(tour, room);
+            } else{
+                setWaitDialogOpen(false);
+                setDialogOpen(true);
             }
+        } else{
+            setWaitDialogOpen(false);
+            setDialogOpen(true);
         }
     }
 
@@ -64,7 +73,6 @@ function QRScanner() {
     }
 
     function redirectToRoom(tour, room) {
-        console.log("redirecting");
         context.setTour(tour);
         context.setRoom(room);
         navigate("/room");
@@ -72,15 +80,8 @@ function QRScanner() {
 
     return (
         <>
-            <Dialog disableTypography open={dialogOpen} onClose={dialogClose}>
-                <DialogTitle>{dialogs.error_label}</DialogTitle>
-                <DialogContent>
-                    <DialogContentText>{dialogs.invalid_scan_label}</DialogContentText>
-                </DialogContent>
-                <DialogActions>
-                    <Button className="color-secondary" onClick={dialogClose}>{dialogs.close_label}</Button>
-                </DialogActions>
-            </Dialog>
+            <WaitDialog isOpen={waitDialogOpen} isClosed={waitDialogClose}/>
+            <CustomDialog isOpen={dialogOpen} closeDialog={dialogClose} title={dialogs.error_label} content={dialogs.invalid_scan_label}/>
             <Header header={scan.qr_scanner} />
             <div className="flex content-container background-secondary padding-secondary border-radius-primary box-shadow">
                 <h2 className="text-medium">{scan.title}</h2>

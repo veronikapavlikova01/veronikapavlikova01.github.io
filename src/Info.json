@@ -3,223 +3,223 @@
         "en",
         "de"
     ],
-    "rotate":[
+    "rotate": [
         {
-            "language":"en",
-            "rotate":"Please rotate your device!"
+            "language": "en",
+            "rotate": "Please rotate your device!"
         },
         {
-            "language":"de",
-            "rotate":"Bitte drehen Sie Ihr Gerät!"
+            "language": "de",
+            "rotate": "Bitte drehen Sie Ihr Gerät!"
         }
     ],
-    "info":[
+    "info": [
         {
-            "language":"en",
-            "info":"Information",
-            "tours_info":"First, choose the tour for which you have purchased a ticket. Then wait at the place where the tour starts. Your guide will pick you up there.",
-            "history_info":"In this section, you can learn about the history of the castle and chateau. You can read a brief history or get to know the individual families that have owned the manor here over the years.",
-            "where_to_info":"If you would like to make another trip, we recommend visiting following places in the nearby area.",
-            "rooms_overview":"Here you can see an overview of the rooms located in the sightseeing route you have chosen."
+            "language": "en",
+            "info": "Information",
+            "tours_info": "First, choose the tour for which you have purchased a ticket. Then wait at the place where the tour starts. Your guide will pick you up there.",
+            "history_info": "In this section, you can learn about the history of the castle and chateau. You can read a brief history or get to know the individual families that have owned the manor here over the years.",
+            "where_to_info": "If you would like to make another trip, we recommend visiting following places in the nearby area.",
+            "rooms_overview": "Here you can see an overview of the rooms located in the sightseeing route you have chosen."
         },
         {
-            "language":"de",
-            "info":"Informationen",
-            "tours_info":"Wählen Sie zunächst die Tour aus, für die Sie ein Ticket gekauft haben. Warten Sie dann an der Stelle, an der die Tour beginnt. Dort holt Sie Ihr Guide ab.",
-            "history_info":"In diesem Abschnitt können Sie sich über die Geschichte der Burg und des Schlosses informieren. Hier können Sie eine kurze Geschichte lesen oder die einzelnen Familien kennenlernen, die das Gut hier im Laufe der Jahre besessen haben.",
-            "where_to_info":"Wenn Sie einen weiteren Ausflug machen möchten, empflehlen wir Ihnen, die folgenden Orte in der näheren Umgebung zu besuchen.",
-            "rooms_overview":"Hier sehen Sie eine Übersicht der Zimmer, die sich in der von Ihnen gewählten Führung befinden."
+            "language": "de",
+            "info": "Informationen",
+            "tours_info": "Wählen Sie zunächst die Tour aus, für die Sie ein Ticket gekauft haben. Warten Sie dann an der Stelle, an der die Tour beginnt. Dort holt Sie Ihr Guide ab.",
+            "history_info": "In diesem Abschnitt können Sie sich über die Geschichte der Burg und des Schlosses informieren. Hier können Sie eine kurze Geschichte lesen oder die einzelnen Familien kennenlernen, die das Gut hier im Laufe der Jahre besessen haben.",
+            "where_to_info": "Wenn Sie einen weiteren Ausflug machen möchten, empflehlen wir Ihnen, die folgenden Orte in der näheren Umgebung zu besuchen.",
+            "rooms_overview": "Hier sehen Sie eine Übersicht der Zimmer, die sich in der von Ihnen gewählten Führung befinden."
         }
     ],
-    "dialogs":[
+    "dialogs": [
         {
-            "language":"en",
-            "install_download_label":"How to download?",
-            "install_step_1":"1. Open your browser’s settings.",
-            "install_step_2":"2. Find and tap Add to Home screen.",
-            "install_step_1_safari":"2. Find and tap Share.",
-            "install_step_3":"3. Confirm by tapping Add.",
-            "warning":"Warning",
-            "install_use_safari":"You must use the Safari browser to install the application.",
-            "error_label":"Something went wrong...",
-            "invalid_scan_label":"We are sorry, but the given QR code could not be recognized.",
-            "close_label":"Close",
-            "no_face_detected":"We are sorry, but it was not possible to recognize anyone from the photo you took.",
-            "try_again_label":"Please try again. Zoom in on the face and take a photo.",
-            "recognition_wait_label":"Please wait. The picture you took is currently being processed."
+            "language": "en",
+            "install_download_label": "How to download?",
+            "install_step_1": "1. Open your browser’s settings.",
+            "install_step_2": "2. Find and tap Add to Home screen.",
+            "install_step_1_safari": "2. Find and tap Share.",
+            "install_step_3": "3. Confirm by tapping Add.",
+            "warning": "Warning",
+            "install_use_safari": "You must use the Safari browser to install the application.",
+            "error_label": "Something went wrong...",
+            "invalid_scan_label": "We are sorry, but the given QR code could not be recognized.",
+            "close_label": "Close",
+            "no_face_detected": "We are sorry, but it was not possible to recognize anyone from the photo you took.",
+            "try_again_label": "Please try again. Zoom in on the face and take a photo.",
+            "wait_label": "Please wait. Your request is currently being processed."
         },
         {
-            "language":"de",
-            "install_download_label":"Wie downloadet man das?",
-            "install_step_1":"1. Öffnen Sie die Einstellungen Ihres Browsers.",
-            "install_step_2":"2. Suchen und tippen Sie auf Zum Startbildschirm hinzufügen.",
-            "install_step_1_safari":"2. Suchen und tippen Sie auf Share.",
-            "install_step_3":"3. Bestätigen Sie, indem Sie auf Installieren tippen.",
-            "warning":"Warnung",
-            "install_step_4_safari":"Sie müssen den Safari-Browser verwenden, um die Applikation zu installieren.",
-            "close_label":"Schließen",
-            "invalid_scan_label":"Es tut uns leid, aber der angegebene QR-Code konnte nicht erkannt werden.",
-            "error_label":"Etwas ist schief gelaufen...",
-            "no_face_detected":"Wir entschuldigen uns, aber auf dem von Ihnen aufgenommenen Foto war niemand zu erkennen.",
-            "try_again_label":"Bitte versuchen Sie es nochmal. Vergrößern Sie das Gesicht und machen Sie ein Foto.",
-            "recognition_wait_label":"Warten Sie mal. Das von Ihnen aufgenommene Bild wird gerade bearbeitet."
+            "language": "de",
+            "install_download_label": "Wie downloadet man das?",
+            "install_step_1": "1. Öffnen Sie die Einstellungen Ihres Browsers.",
+            "install_step_2": "2. Suchen und tippen Sie auf Zum Startbildschirm hinzufügen.",
+            "install_step_1_safari": "2. Suchen und tippen Sie auf Share.",
+            "install_step_3": "3. Bestätigen Sie, indem Sie auf Installieren tippen.",
+            "warning": "Warnung",
+            "install_step_4_safari": "Sie müssen den Safari-Browser verwenden, um die Applikation zu installieren.",
+            "close_label": "Schließen",
+            "invalid_scan_label": "Es tut uns leid, aber der angegebene QR-Code konnte nicht erkannt werden.",
+            "error_label": "Etwas ist schief gelaufen...",
+            "no_face_detected": "Wir entschuldigen uns, aber auf dem von Ihnen aufgenommenen Foto war niemand zu erkennen.",
+            "try_again_label": "Bitte versuchen Sie es nochmal. Vergrößern Sie das Gesicht und machen Sie ein Foto.",
+            "wait_label": "Warten Sie mal. Ihre Anfrage wird derzeit bearbeitet."
         }
     ],
     "install": [
         {
             "language": "en",
-            "install":"Install",
-            "install_label":"Install the app for offline access."
+            "install": "Install",
+            "install_label": "Install the app for offline access."
         },
         {
             "language": "de",
-            "install":"Installieren",
-            "install_label":"Installieren Sie die App für den Offline-Zugriff."
+            "install": "Installieren",
+            "install_label": "Installieren Sie die App für den Offline-Zugriff."
         }
     ],
-    "face_recognition":[
+    "face_recognition": [
         {
             "language": "en",
-            "face_recognition":"Image recognition",
-            "title":"Don't know who is in the picture?",
-            "label":"If you've come across an image on the tour and you're not sure who's in it, you can either ask the tourguide or use this feature, which recognizes who's in the image from the photo. Just follow the instructions below.",
-            "step_1":"Press the „Take a picture” button.",
-            "step_2":"Zoom in so that the face in the image you want to recognize is clearly visible.",
-            "step_3":"Now take a picture and then press OK.",
-            "step_4":"Wait a moment. When the image is recognized, you will be redirected to a new page with the depicted person.",
-            "button":"Take a picture",
-            "button_back":"Back"
+            "face_recognition": "Image recognition",
+            "title": "Don't know who is in the picture?",
+            "label": "If you've come across an image on the tour and you're not sure who's in it, you can either ask the tourguide or use this feature, which recognizes who's in the image from the photo. Just follow the instructions below.",
+            "step_1": "Press the „Take a picture” button.",
+            "step_2": "Zoom in so that the face in the image you want to recognize is clearly visible.",
+            "step_3": "Now take a picture and then press OK.",
+            "step_4": "Wait a moment. When the image is recognized, you will be redirected to a new page with the depicted person.",
+            "button": "Take a picture",
+            "button_back": "Back"
         },
         {
             "language": "de",
-            "face_recognition":"Bilderkennung",
-            "title":"Sie wissen nicht, wer auf dem Bild ist?",
-            "label":"Wenn Sie bei der Führung auf ein Bild gestoßen sind und sich nicht sicher sind, wer darauf abgebildet ist, können Sie entweder den Begleiter fragen oder diese Funktion verwenden, die anhand des Fotos erkennt, wer auf dem Bild zu sehen ist. Befolgen Sie einfach die nachstehenden Anweisungen.",
-            "step_1":"Drücken Sie die Schaltfläche „Bild aufnehmen”.",
-            "step_2":"Vergrößern Sie die Kamera so, dass das Gesicht im Bild, das Sie erkennen möchten, deutlich sichtbar ist.",
-            "step_3":"Machen Sie jetzt ein Foto und drücken Sie dann OK.",
-            "step_4":"Moment mal. Wenn das Bild erkannt wird, werden Sie auf eine neue Seite mit der abgebildeten Person weitergeleitet.",
-            "button":"Bild aufnehmen",
-            "button_back":"Zurück"
+            "face_recognition": "Bilderkennung",
+            "title": "Sie wissen nicht, wer auf dem Bild ist?",
+            "label": "Wenn Sie bei der Führung auf ein Bild gestoßen sind und sich nicht sicher sind, wer darauf abgebildet ist, können Sie entweder den Begleiter fragen oder diese Funktion verwenden, die anhand des Fotos erkennt, wer auf dem Bild zu sehen ist. Befolgen Sie einfach die nachstehenden Anweisungen.",
+            "step_1": "Drücken Sie die Schaltfläche „Bild aufnehmen”.",
+            "step_2": "Vergrößern Sie die Kamera so, dass das Gesicht im Bild, das Sie erkennen möchten, deutlich sichtbar ist.",
+            "step_3": "Machen Sie jetzt ein Foto und drücken Sie dann OK.",
+            "step_4": "Moment mal. Wenn das Bild erkannt wird, werden Sie auf eine neue Seite mit der abgebildeten Person weitergeleitet.",
+            "button": "Bild aufnehmen",
+            "button_back": "Zurück"
         }
     ],
-    "qr_scanner":[
+    "qr_scanner": [
         {
             "language": "en",
-            "qr_scanner":"QR code Scanner",
-            "title":"Don't know where you are right now?",
-            "label":"If you are not sure where exactly you are, you can ask your guide or use this feature to help you find where you are. Find the stand with QR code and follow the instructions below.",
-            "step_1":"Press the „Scan QR code” button.",
-            "step_2":"Zoom in so that the QR code is clearly visible.",
-            "step_3":"Now take a picture and then press OK.",
-            "step_4":"Wait a moment. When the QR code is detected, you will be redirected to the correct location.",
-            "button":"Scan QR code"
+            "qr_scanner": "QR code Scanner",
+            "title": "Don't know where you are right now?",
+            "label": "If you are not sure where exactly you are, you can ask your guide or use this feature to help you find where you are. Find the stand with QR code and follow the instructions below.",
+            "step_1": "Press the „Scan QR code” button.",
+            "step_2": "Zoom in so that the QR code is clearly visible.",
+            "step_3": "Now take a picture and then press OK.",
+            "step_4": "Wait a moment. When the QR code is detected, you will be redirected to the correct location.",
+            "button": "Scan QR code"
         },
         {
             "language": "de",
-            "qr_scanner":"QR Code Scanner",
-            "title":"Sie wissen nicht, wo Sie gerade sind?",
-            "label":"Wenn Sie sich nicht sicher sind, wo genau Sie sich befinden, können Sie Ihren Reiseleiter fragen oder diese Funktion nutzen, um Ihnen dabei zu helfen, Ihren Standort zu finden. Finden Sie den Stand mit QR-Code und folgen Sie den Anweisungen unten.",
-            "step_1":"Drücken Sie die Schaltfläche „QR Code scannen“.",
-            "step_2":"Vergrößern Sie die Kamera so, dass das QR-Code, deutlich sichtbar ist.",
-            "step_3":"Machen Sie jetzt ein Foto und drücken Sie dann OK.",
-            "step_4":"Moment mal. Wenn der QR-Code erkannt wird, werden Sie an die richtige Stelle weitergeleitet.",
-            "button":"QR Code scannen"
+            "qr_scanner": "QR Code Scanner",
+            "title": "Sie wissen nicht, wo Sie gerade sind?",
+            "label": "Wenn Sie sich nicht sicher sind, wo genau Sie sich befinden, können Sie Ihren Reiseleiter fragen oder diese Funktion nutzen, um Ihnen dabei zu helfen, Ihren Standort zu finden. Finden Sie den Stand mit QR-Code und folgen Sie den Anweisungen unten.",
+            "step_1": "Drücken Sie die Schaltfläche „QR Code scannen“.",
+            "step_2": "Vergrößern Sie die Kamera so, dass das QR-Code, deutlich sichtbar ist.",
+            "step_3": "Machen Sie jetzt ein Foto und drücken Sie dann OK.",
+            "step_4": "Moment mal. Wenn der QR-Code erkannt wird, werden Sie an die richtige Stelle weitergeleitet.",
+            "button": "QR Code scannen"
         }
     ],
-    "header":[
+    "header": [
         {
-            "language":"en",
+            "language": "en",
             "rooms": "Rooms",
-            "menu":"Menu",
+            "menu": "Menu",
             "history": "History",
             "houses": "Houses",
             "owners": "Owners",
-            "tours":"Tours",
-            "map" : "Map",
-            "where_to_next":"Where to next?",
-            "gallery":"Gallery",
-            "about_app":"About app",
-            "settings":"Settings",
-            "contact":"Contact"
+            "tours": "Tours",
+            "map": "Map",
+            "where_to_next": "Where to next?",
+            "gallery": "Gallery",
+            "about_app": "About app",
+            "settings": "Settings",
+            "contact": "Contact"
         },
         {
-            "language":"de",
+            "language": "de",
             "rooms": "Räume",
-            "menu":"Menü",
+            "menu": "Menü",
             "history": "Geschichte",
             "houses": "Häuser",
             "owners": "Besitzer",
-            "tours":"Führungen",
-            "map" : "Landkarte",
-            "where_to_next":"Wohin als nächstes?",
-            "gallery":"Galerie",
-            "about_app":"Über App",
-            "settings":"Einstellung",
-            "contact":"Kontakt"
+            "tours": "Führungen",
+            "map": "Landkarte",
+            "where_to_next": "Wohin als nächstes?",
+            "gallery": "Galerie",
+            "about_app": "Über App",
+            "settings": "Einstellung",
+            "contact": "Kontakt"
         }
     ],
-    "settings":[
+    "settings": [
         {
-            "language":"en",
-            "letter":"Font size",
-            "language_label":"Language",
-            "default":"Default",
-            "medium":"Medium",
-            "large":"Large"
+            "language": "en",
+            "letter": "Font size",
+            "language_label": "Language",
+            "default": "Default",
+            "medium": "Medium",
+            "large": "Large"
         },
         {
-            "language":"de",
-            "letter":"Schriftgröße",
-            "language_label":"Sprache",
-            "default":"Original",
-            "medium":"Mittlere",
-            "large":"Groß"
+            "language": "de",
+            "letter": "Schriftgröße",
+            "language_label": "Sprache",
+            "default": "Original",
+            "medium": "Mittlere",
+            "large": "Groß"
         }
     ],
-    "other":[
+    "other": [
         {
-            "language":"en",
+            "language": "en",
             "history": "History",
-            "gallery":"Gallery",
-            "image_recognition":"Image recognition",
-            "scan_room":"Scan the room",
-            "where_to_next":"Where to next?",
-            "contact":"Contact",
-            "settings":"Settings",
-            "about_app":"About app"
+            "gallery": "Gallery",
+            "image_recognition": "Image recognition",
+            "scan_room": "Scan the room",
+            "where_to_next": "Where to next?",
+            "contact": "Contact",
+            "settings": "Settings",
+            "about_app": "About app"
         },
         {
-            "language":"de",
+            "language": "de",
             "history": "Geschichte",
-            "gallery":"Galerie",
-            "image_recognition":"Bilderkennung",
-            "scan_room":"Scannen Sie den Raum",
-            "where_to_next":"Wohin als nächstes?",
-            "contact":"Kontakt",
-            "settings":"Einstellung",
-            "about_app":"Über App"
+            "gallery": "Galerie",
+            "image_recognition": "Bilderkennung",
+            "scan_room": "Scannen Sie den Raum",
+            "where_to_next": "Wohin als nächstes?",
+            "contact": "Kontakt",
+            "settings": "Einstellung",
+            "about_app": "Über App"
         }
     ],
     "navbar": [
         {
             "language": "en",
-            "home":"Home",
+            "home": "Home",
             "tours": "Tours",
             "rooms": "Rooms in tour",
-            "menu":"Menu",
-            "back":"Back to previous"
+            "menu": "Menu",
+            "back": "Back to previous"
         },
         {
             "language": "de",
-            "home":"Startseite",
+            "home": "Startseite",
             "tours": "Führungen",
             "rooms": "Zimmer in der Führung",
-            "menu":"Menü",
-            "back":"Zurück zum vorherigen"
+            "menu": "Menü",
+            "back": "Zurück zum vorherigen"
         }
     ],
-        "home": [
+    "home": [
         {
             "language": "en",
             "label_1": "Welcome",
@@ -235,104 +235,104 @@
             "button_label": "Führung auswählen"
         }
     ],
-    "where_to_next":[
+    "where_to_next": [
         {
-            "language":"en",
-            "button":"Visit",
-            "places":[
+            "language": "en",
+            "button": "Visit",
+            "places": [
                 {
-                    "title":"Grabštejn castle",
-                    "description":"Grabštejn was originally a Gothic castle, built in the middle of the thirteenth century, which stands near the Tri-Border Area where the Czech Republic, Germany and Poland meet. It was remodelled in the sixteenth century as a Renaissance castle, and now offers visitors several guided tours.",
-                    "url":"https://hrad-grabstejn.cz/en",
-                    "img":""
+                    "title": "Grabštejn castle",
+                    "description": "Grabštejn was originally a Gothic castle, built in the middle of the thirteenth century, which stands near the Tri-Border Area where the Czech Republic, Germany and Poland meet. It was remodelled in the sixteenth century as a Renaissance castle, and now offers visitors several guided tours.",
+                    "url": "https://hrad-grabstejn.cz/en",
+                    "img": ""
                 },
                 {
-                    "title":"Lemberk castle",
-                    "description":"The predecessor of today's Baroque castle was the medieval castle of Lemberk, founded in the 1340s by Havel of Markvartic, husband of St. Zdislava. In the second half of the 16th century it was rebuilt into a Renaissance chateau and it acquired its present appearance after the mid-17th century under the the lords of Breda. The last owners were the Clam-Gallas family, until 1945.",
-                    "url":"https://www.zamek-lemberk.cz/en",
-                    "img":""
+                    "title": "Lemberk castle",
+                    "description": "The predecessor of today's Baroque castle was the medieval castle of Lemberk, founded in the 1340s by Havel of Markvartic, husband of St. Zdislava. In the second half of the 16th century it was rebuilt into a Renaissance chateau and it acquired its present appearance after the mid-17th century under the the lords of Breda. The last owners were the Clam-Gallas family, until 1945.",
+                    "url": "https://www.zamek-lemberk.cz/en",
+                    "img": ""
                 },
                 {
-                    "title":"Brewery Albrecht",
-                    "description":"Manor beer production in Frýdlant is first documented in 1381, beer was apparently brewed right at the castle. In the 16th century, a new independent brewery was built under the Redern family near the Smědá river, on the site where the current operation is still located. The half-timbered storey building of the Renaissance brewery is depicted on the so-called Glaubic map.",
-                    "url":"https://pivovar-albrecht.com/",
-                    "img":""
+                    "title": "Brewery Albrecht",
+                    "description": "Manor beer production in Frýdlant is first documented in 1381, beer was apparently brewed right at the castle. In the 16th century, a new independent brewery was built under the Redern family near the Smědá river, on the site where the current operation is still located. The half-timbered storey building of the Renaissance brewery is depicted on the so-called Glaubic map.",
+                    "url": "https://pivovar-albrecht.com/",
+                    "img": ""
                 }
             ]
-        },
-        {
-            "language":"de",
-            "button":"Besuchen",
-            "places":[
-                {
-                    "title":"Burg Grabštejn",
-                    "description":"Grabštejn (Grafenstein), ursprünglich eine gotische Burg aus dem 13. Jahrhundert, die im 16. Jahrhundert in ein Renaissancesschloss umgebaut wurde, liegt nahe dem Dreiländereck zwischen der Tschechischen Republik, Deutschland und Polen und stellt ein nationales Kulturdenkmal mit einer reichen Geschichte dar. Heutzutage bietet die Burg mehrere Touristenführungen an, einschließlich der St. Barbara Kapelle, eines Renaissancejuwel aus der 2. Hälfte des 16. Jahrhunderts.",
-                    "url":"https://hrad-grabstejn.cz/de",
-                    "img":""
-                },
-                {
-                    "title":"Schloss Lemberk",
-                    "description":"Der Vorgänger des heutigen Barockschlosses war die mittelalterliche Burg Lemberk, das in den 1340er Jahren von Havel von Markvartic, dem Ehemann von St. Zdislava, gegründet wurde. In der zweiten Hälfte des 16. Jahrhunderts wurde es zu einem Renaissanceschloss umgebaut und erhielt sein heutiges Aussehen nach der Mitte des 17. Jahrhunderts unter den Herren von Breda. Die letzten Eigentümer waren bis 1945 die Familie Clam-Gallas.",
-                    "url":"https://www.zamek-lemberk.cz/en",
-                    "img":""
-                },
-                {
-                    "title":"Brauerei Albrecht",
-                    "description":"Die Herstellung von Bier in Frýdlant wird erstmals 1381 erwähnt, Bier wurde angeblich direkt auf der Burg gebraut. Im 16. Jahrhundert wurde unter der Familie Redern in der Nähe des Flusses Smědá an der Stelle, an der sich noch heute der Betrieb befindet, eine neue unabhängige Brauerei gebaut. Der Fachwerkgeschossbau der Renaissance-Brauerei ist auf der sogenannten Glaubic-Karte abgebildet.",
-                    "url":"https://pivovar-albrecht.com/",
-                    "img":""
-                }
-            ]
-        }
-    ],
-    "about_app":[
-        {
-            "language":"en",
-            "for_label":"Official app for",
-            "for":"Castle and chateau Frýdlant",
-            "author_label":"Author",
-            "author":"Veronika Pavlíková",
-            "collaboration_label":"In collaboration with",
-            "collaboration":"Palacký University Olomouc",
-            "photos_label":"Photos by",
-            "photos":"Lukáš Hübner",
-            "logo_label":"Logo by",
-            "logo":"Lucie Pavlíková"
-        },
-        {
-            "language":"de",
-            "for_label":"Ofizielle App für",
-            "for":"Das Schloss und die Burg Frýdlant",
-            "author_label":"Author",
-            "author":"Veronika Pavlíková",
-            "collaboration_label":"In Zusammenarbeit mit",
-            "collaboration":"Palacký Universität Olmütz",
-            "photos_label":"Fotos von",
-            "photos":"Lukáš Hübner",
-            "logo_label":"Logo von",
-            "logo":"Lucie Pavlíková"
-        }
-    ],
-    "rooms_overview":[
-        {
-            "language":"en",
-            "tour_not_selected":"First, please choose the sightseeing route you want to take.",
-            "seen":"Already visited rooms",
-            "not_seen":"Rooms not yet visited"
         },
         {
             "language": "de",
-            "tour_not_selected":"Bitte wählen Sie zunächst die Führung aus, die Sie nehmen möchten.",
-            "seen":"Bereits besuchte Räume",
-            "not_seen":"Noch nicht besuchte Räume"
+            "button": "Besuchen",
+            "places": [
+                {
+                    "title": "Burg Grabštejn",
+                    "description": "Grabštejn (Grafenstein), ursprünglich eine gotische Burg aus dem 13. Jahrhundert, die im 16. Jahrhundert in ein Renaissancesschloss umgebaut wurde, liegt nahe dem Dreiländereck zwischen der Tschechischen Republik, Deutschland und Polen und stellt ein nationales Kulturdenkmal mit einer reichen Geschichte dar. Heutzutage bietet die Burg mehrere Touristenführungen an, einschließlich der St. Barbara Kapelle, eines Renaissancejuwel aus der 2. Hälfte des 16. Jahrhunderts.",
+                    "url": "https://hrad-grabstejn.cz/de",
+                    "img": ""
+                },
+                {
+                    "title": "Schloss Lemberk",
+                    "description": "Der Vorgänger des heutigen Barockschlosses war die mittelalterliche Burg Lemberk, das in den 1340er Jahren von Havel von Markvartic, dem Ehemann von St. Zdislava, gegründet wurde. In der zweiten Hälfte des 16. Jahrhunderts wurde es zu einem Renaissanceschloss umgebaut und erhielt sein heutiges Aussehen nach der Mitte des 17. Jahrhunderts unter den Herren von Breda. Die letzten Eigentümer waren bis 1945 die Familie Clam-Gallas.",
+                    "url": "https://www.zamek-lemberk.cz/en",
+                    "img": ""
+                },
+                {
+                    "title": "Brauerei Albrecht",
+                    "description": "Die Herstellung von Bier in Frýdlant wird erstmals 1381 erwähnt, Bier wurde angeblich direkt auf der Burg gebraut. Im 16. Jahrhundert wurde unter der Familie Redern in der Nähe des Flusses Smědá an der Stelle, an der sich noch heute der Betrieb befindet, eine neue unabhängige Brauerei gebaut. Der Fachwerkgeschossbau der Renaissance-Brauerei ist auf der sogenannten Glaubic-Karte abgebildet.",
+                    "url": "https://pivovar-albrecht.com/",
+                    "img": ""
+                }
+            ]
         }
     ],
-
+    "about_app": [
+        {
+            "language": "en",
+            "for_label": "Official app for",
+            "for": "Castle and chateau Frýdlant",
+            "author_label": "Author",
+            "author": "Veronika Pavlíková",
+            "collaboration_label": "In collaboration with",
+            "collaboration": "Palacký University Olomouc",
+            "photos_label": "Photos by",
+            "photos": "Lukáš Hübner",
+            "logo_label": "Logo by",
+            "logo": "Lucie Pavlíková"
+        },
+        {
+            "language": "de",
+            "for_label": "Ofizielle App für",
+            "for": "Das Schloss und die Burg Frýdlant",
+            "author_label": "Author",
+            "author": "Veronika Pavlíková",
+            "collaboration_label": "In Zusammenarbeit mit",
+            "collaboration": "Palacký Universität Olmütz",
+            "photos_label": "Fotos von",
+            "photos": "Lukáš Hübner",
+            "logo_label": "Logo von",
+            "logo": "Lucie Pavlíková"
+        }
+    ],
+    "rooms_overview": [
+        {
+            "language": "en",
+            "tour_not_selected": "First, please choose the sightseeing route you want to take.",
+            "seen": "Already visited rooms",
+            "not_seen": "Rooms not yet visited"
+        },
+        {
+            "language": "de",
+            "tour_not_selected": "Bitte wählen Sie zunächst die Führung aus, die Sie nehmen möchten.",
+            "seen": "Bereits besuchte Räume",
+            "not_seen": "Noch nicht besuchte Räume"
+        }
+    ],
     "contact": [
         {
             "language": "en",
             "title": "Contact",
             "address": "Address",
+            "web": "Web",
             "reservation": "Ticket reservation",
             "phone": "Phone number"
         },
@@ -340,146 +340,147 @@
             "language": "de",
             "title": "Kontakt",
             "address": "Addresse",
+            "web": "Web",
             "reservation": "Ticketbuchung",
             "phone": "Telefonnummer"
         }
     ],
-    "face_recognition_people":[
+    "face_recognition_people": [
         {
-            "language":"en",
-            "people":[
+            "language": "en",
+            "people": [
                 {
-                    "name":"Fridrich of Redern",
-                    "img":"/people/katerina_redern.jpg"
+                    "name": "Fridrich of Redern",
+                    "img": "/people/katerina_redern.jpg"
                 },
                 {
-                    "name":"Melchior of Redern",
-                    "img":"/people/melchior_redern.jpg"
+                    "name": "Melchior of Redern",
+                    "img": "/people/melchior_redern.jpg"
                 },
                 {
-                    "name":"Catherine of Redern",
-                    "img":"/people/katerina_redern.jpg"
+                    "name": "Catherine of Redern",
+                    "img": "/people/katerina_redern.jpg"
                 },
                 {
-                    "name":"Christopher of Redern",
-                    "img":"/people/katerina_redern.jpg"
+                    "name": "Christopher of Redern",
+                    "img": "/people/katerina_redern.jpg"
                 },
                 {
-                    "name":"Albrecht of Wallenstein",
-                    "img":"/people/albrecht_valdstejn.jpg"
+                    "name": "Albrecht of Wallenstein",
+                    "img": "/people/albrecht_valdstejn.jpg"
                 },
                 {
-                    "name":"Matthias of Gallas",
-                    "img":"/people/matyas_gallas.jpg"
+                    "name": "Matthias of Gallas",
+                    "img": "/people/matyas_gallas.jpg"
                 },
                 {
-                    "name":"Antonius of Gallas",
-                    "img":"/people/antonin_pankrac_gallas.jpg"
+                    "name": "Antonius of Gallas",
+                    "img": "/people/antonin_pankrac_gallas.jpg"
                 },
                 {
-                    "name":"Francis Ferdinand of Gallas",
-                    "img":"/people/frantisek_ferdinand_gallas.jpg"
+                    "name": "Francis Ferdinand of Gallas",
+                    "img": "/people/frantisek_ferdinand_gallas.jpg"
                 },
                 {
-                    "name":"John Wenceslas of Gallas",
-                    "img":"/people/jan_vaclav_gallas.jpg"
+                    "name": "John Wenceslas of Gallas",
+                    "img": "/people/jan_vaclav_gallas.jpg"
                 },
                 {
-                    "name":"Philip Joseph of Gallas",
-                    "img":"/people/filip_josef_gallas.jpg"
+                    "name": "Philip Joseph of Gallas",
+                    "img": "/people/filip_josef_gallas.jpg"
                 },
                 {
-                    "name":"Christian Philip of Clam-Gallas",
-                    "img":"/people/kristian_filip_clamgallas.jpg"
+                    "name": "Christian Philip of Clam-Gallas",
+                    "img": "/people/kristian_filip_clamgallas.jpg"
                 },
                 {
-                    "name":"Christian Christopher of Clam-Gallas",
-                    "img":"/people/kristian_krystof_clamgallas.jpg"
+                    "name": "Christian Christopher of Clam-Gallas",
+                    "img": "/people/kristian_krystof_clamgallas.jpg"
                 },
                 {
-                    "name":"William of Clam-Gallas",
-                    "img":"/people/vilem_clamgallas.jpg"
+                    "name": "William of Clam-Gallas",
+                    "img": "/people/vilem_clamgallas.jpg"
                 },
                 {
-                    "name":"Edward of Clam-Gallas",
-                    "img":"/people/eduard_clamgallas.jpg"
+                    "name": "Edward of Clam-Gallas",
+                    "img": "/people/eduard_clamgallas.jpg"
                 },
                 {
-                    "name":"Francis of Clam-Gallas",
-                    "img":"/people/frantisek_ferdinand_gallas.jpg"
+                    "name": "Francis of Clam-Gallas",
+                    "img": "/people/frantisek_ferdinand_gallas.jpg"
                 },
                 {
-                    "name":"Clotilde of Clam-Gallas",
-                    "img":"/people/katerina_redern.jpg"
+                    "name": "Clotilde of Clam-Gallas",
+                    "img": "/people/katerina_redern.jpg"
                 }
             ]
         },
         {
-            "language":"de",
-            "people":[
+            "language": "de",
+            "people": [
                 {
-                    "name":"Fridrich von Rödern",
-                    "img":"/people/katerina_redern.jpg"
+                    "name": "Fridrich von Rödern",
+                    "img": "/people/katerina_redern.jpg"
                 },
                 {
-                    "name":"Melchior von Rödern",
-                    "img":"/people/melchior_redern.jpg"
+                    "name": "Melchior von Rödern",
+                    "img": "/people/melchior_redern.jpg"
                 },
                 {
-                    "name":"Katharina von Rödern",
-                    "img":"/people/katerina_redern.jpg"
+                    "name": "Katharina von Rödern",
+                    "img": "/people/katerina_redern.jpg"
                 },
                 {
-                    "name":"Christoph von Rödern",
-                    "img":"/people/katerina_redern.jpg"
+                    "name": "Christoph von Rödern",
+                    "img": "/people/katerina_redern.jpg"
                 },
                 {
-                    "name":"Albrecht von Wallenstein",
-                    "img":"/people/albrecht_valdstejn.jpg"
+                    "name": "Albrecht von Wallenstein",
+                    "img": "/people/albrecht_valdstejn.jpg"
                 },
                 {
-                    "name":"Matthias von Gallas",
-                    "img":"/people/matyas_gallas.jpg"
+                    "name": "Matthias von Gallas",
+                    "img": "/people/matyas_gallas.jpg"
                 },
                 {
-                    "name":"Antonius von Gallas",
-                    "img":"/people/antonin_pankrac_gallas.jpg"
+                    "name": "Antonius von Gallas",
+                    "img": "/people/antonin_pankrac_gallas.jpg"
                 },
                 {
-                    "name":"Franz Ferdinand von Gallas",
-                    "img":"/people/frantisek_ferdinand_gallas.jpg"
+                    "name": "Franz Ferdinand von Gallas",
+                    "img": "/people/frantisek_ferdinand_gallas.jpg"
                 },
                 {
-                    "name":"Johann Wenzeslaus von Gallas",
-                    "img":"/people/jan_vaclav_gallas.jpg"
+                    "name": "Johann Wenzeslaus von Gallas",
+                    "img": "/people/jan_vaclav_gallas.jpg"
                 },
                 {
-                    "name":"Philip Joseph von Gallas",
-                    "img":"/people/filip_josef_gallas.jpg"
+                    "name": "Philip Joseph von Gallas",
+                    "img": "/people/filip_josef_gallas.jpg"
                 },
                 {
-                    "name":"Christian Philip von Clam-Gallas",
-                    "img":"/people/kristian_filip_clamgallas.jpg"
+                    "name": "Christian Philip von Clam-Gallas",
+                    "img": "/people/kristian_filip_clamgallas.jpg"
                 },
                 {
-                    "name":"Christian Christoph von Clam-Gallas",
-                    "img":"/people/kristian_krystof_clamgallas.jpg"
+                    "name": "Christian Christoph von Clam-Gallas",
+                    "img": "/people/kristian_krystof_clamgallas.jpg"
                 },
                 {
-                    "name":"Wilhelm von Clam-Gallas",
-                    "img":"/people/vilem_clamgallas.jpg"
+                    "name": "Wilhelm von Clam-Gallas",
+                    "img": "/people/vilem_clamgallas.jpg"
                 },
                 {
-                    "name":"Eduard von Clam-Gallas",
-                    "img":"/people/eduard_clamgallas.jpg"
+                    "name": "Eduard von Clam-Gallas",
+                    "img": "/people/eduard_clamgallas.jpg"
                 },
                 {
-                    "name":"Franz von Clam-Gallas",
-                    "img":"/people/frantisek_ferdinand_gallas.jpg"
+                    "name": "Franz von Clam-Gallas",
+                    "img": "/people/frantisek_ferdinand_gallas.jpg"
                 },
                 {
-                    "name":"Clotilde von Clam-Gallas",
-                    "img":"/people/katerina_redern.jpg"
+                    "name": "Clotilde von Clam-Gallas",
+                    "img": "/people/katerina_redern.jpg"
                 }
             ]
         }
@@ -559,7 +560,7 @@
                             "label": "He was the ninth of a total of ten children of Friedrich of Redern.",
                             "button": "More",
                             "text": "He was the ninth of a total of ten children of Friedrich of Redern. He studied law at a protestant university in Heidelberg and then together with his brother Christopher went on a cavalier trip to France, where in 1572 he witnessed the murder of the Huguenots during the so-called Bartholomew's Night. In addition to France, he also visited the Italian cities of Rome, Padua or Naples. Melchior eventually joined the service in the army. In the 1570s and 1580s, he took part in the siege of Gdańsk, the anti-Hungarian campaign, the war in the Netherlands or the Siege of Pskov. \n\nAfter death of his brother Christopher in 1591 he became the owner of the Frýdlant manor. He married Catherine of Šlik, the sister of one of the most influential Protestant noblemen, Jáchym Ondřej of Šlik, who was the owner of the neighboring estate. During his lifetime, construction modifications were made in the castle area. He added one castle wing, the of the castle, the Renaissance wing of thechateau was created, and eventually also the chateau chapel. In the 1590s, Melchior returned to the Hungarian battlefields several times as an officer. As early as the spring of 1600, he participated in a meeting in Vienna about the next military advance against the Turks, during the autumn however, he interrupts his military campaign due to health reasons and died in September of this year.",
-                            "img":"/people/melchior_redern.jpg"
+                            "img": "/people/melchior_redern.jpg"
                         },
                         {
                             "number": 3,
@@ -568,7 +569,7 @@
                             "label": "Catherine of Redern, born Šlik, was the sister of Jáchym Ondřej of Šlik, one of those executed at Old Town Square in 1621.",
                             "button": "More",
                             "text": "Catherine of Redern, born Šlik, was the sister of Jáchym Ondřej of Šlik, one of those executed at Old Town Square in 1621. Between 1600 and 1611 she managed the Frýdlant manor for her underaged son Christopher. Her work on the Frýdlant estate is mainly connected with disputes with the local townspeople regarding the right to brew beer. Bad relations with the locals eventually resulted in her staying primarily at castle in Liberec. \n\nDuring her tenure, the chateau chapels in Frýdlant and Liberec were completed, and other churches were built in the entire Frýdlant manor. She died in 1617 in Liberec, she was to be buried in the family tomb in Frýdlant, but that never happened and the place of burial is still unknown.",
-                            "img":"/people/katerina_redern.jpg"
+                            "img": "/people/katerina_redern.jpg"
                         },
                         {
                             "number": 4,
@@ -594,7 +595,7 @@
                             "label": "Albrecht of Wallenstein was born into a not very wealthy and influential Protestant family and eventually became one of the most powerful men of European importance.",
                             "button": "More",
                             "text": "Albrecht of Wallenstein was born into a not very wealthy and influential Protestant family and eventually became one of the most powerful men of European importance. His tenure at Frýdlant was not long, it lasted only 12 years, even so, this is the time that made this place and the manor the most famous and it was even raised to a dukedom.\n\n The life of Albrecht of Wallenstein was connected with service in the army from a young age. He soon defected from the Protestant camp to the imperial service and on the battlefields of the Thirty Years' War he attained the highest rank in military command, i.e. Generalissimo of the Imperial Army. His possessions, which included the manor of Frýdlant were then more or less spared from major war conflicts and that is why they were referred to as 'the happy land - terra felix'.\n\n As for the Frýdlant manor, during Wallenstein's reign, we can talk about an economic rise, primarily in industries that were associated with the needs of the time – mining and metal processing or gunpowder production. The castle and chateau were uninhabited and only minor structural modifications took place. Wallenstein stayed here only for a few days in 1627, 1628 and 1630. The end of Wallenstein's life was heralded by the loss of trust from the emperor, who felt threatened by Walstein, which is why Wallenstein was murdered by his officers at the beginning of 1634.",
-                            "img":"/people/albrecht_valdstejn.jpg"
+                            "img": "/people/albrecht_valdstejn.jpg"
                         }
                     ]
                 },
@@ -611,7 +612,7 @@
                             "label": "The life of Matthias of Gallas and his social rise were, as in the case of Wallenstein, tightly connected with the period of the Thirty Years' War.",
                             "button": "More",
                             "text": "The life of Matthias of Gallas and his social rise were, as in the case of Wallenstein, tightly connected with the period of the Thirty Years' War. Matthias joined the army as a young man and became famous for the first time in the wars for the Mantuan inheritance on the side of the Catholic League. In 1628 he entered the service of Albrecht of Wallenstein and became one of his generals. In 1632 he attained the rank of earl. After the betrayal of Wallenstein, he became the heir to the Frydlant manor and later the commander-in-chief of the Imperial army, where he worked until the end of the Thirty Years' War. For Frýdlant, his reign meant the period between 1640-1649 when the castle and town were occupied by Swedish crew. Matthias died in Vienna in 1647.",
-                            "img":"/people/matyas_gallas.jpg"
+                            "img": "/people/matyas_gallas.jpg"
                         },
                         {
                             "number": 2,
@@ -620,7 +621,7 @@
                             "label": "Antonius is the younger of the sons of Matthias of Gallas.",
                             "button": "More",
                             "text": "Antonius is the younger of the sons of Matthias of Gallas. He lost his father at the age of 9. After studies and a cavalier journey after France and Benelux, together with his brother Francis Ferdinand, he took over the administration of inherited manors. During his lifetime, he worked as a chamberlain in the service of the Elector of Bavaria and inherited from his father the command of military regiments. His economic situation worsened to the point that he was forced to sell his share to manor and to gave up military regiments as well. In the end, he fell into debt and lived in Kladsk on estates of his son Philip Francis.",
-                            "img":"/people/antonin_pankrac_gallas.jpg"
+                            "img": "/people/antonin_pankrac_gallas.jpg"
                         },
                         {
                             "number": 3,
@@ -629,7 +630,7 @@
                             "label": "Francis is the elder of the sons of Matthias of Gallas.",
                             "button": "More",
                             "text": "Francis is the elder of the sons of Matthias of Gallas. After completing his studies and cavalier journey, he took over the administration of the inherited manors. The only court title he received was the titular court chamberlain. During his life he stayed mainly on his manors in Bohemia, mostly in Prague and at the castle in Hoříněves. His life in Frýdlant is mainly connected with the rebellion of the subjects led by the blacksmith Ondřej of Stelzig, which was suppressed in 1680. He died in 1697 and his remains are kept in the ancestral tomb in Hejnice.",
-                            "img":"/people/frantisek_ferdinand_gallas.jpg"
+                            "img": "/people/frantisek_ferdinand_gallas.jpg"
                         },
                         {
                             "number": 4,
@@ -638,7 +639,7 @@
                             "label": "The most important member of this family together with Matthias of Gallas.",
                             "button": "More",
                             "text": "The most important member of this family together with Matthias of Gallas. He worked in the service of emperors Joseph I. and Charles VI. as an imperial chamberlain, a true privy councilor and diplomat. He worked in the diplomatic service in London, The Hague and Rome. He was eventually appointed viceroy in Naples, where he died in 1719. He is the founder of the later Clam-Gallas Palace in Prague's Old Town.",
-                            "img":"/people/jan_vaclav_gallas.jpg"
+                            "img": "/people/jan_vaclav_gallas.jpg"
                         },
                         {
                             "number": 5,
@@ -647,7 +648,7 @@
                             "label": "The last member of the Gallas family, thanks to whom the Frýdlant estate was expanded to include the area around Lemberk.",
                             "button": "More",
                             "text": "The last member of the Gallas family, thanks to whom the Frýdlant estate was expanded to include the area around Lemberk. During his life he held the official positions of the highest regional hofmeister of the Kingdom of Bohemia and the highest court judge. After the Habsburg army suffered a defeat by the Prussians in the Battle of Liberec, the Frýdlant region was plundered by the Prussians. \n\nHe died in 1757 without a male heir, the estate was then managed by his wife Marie Anna. After her death the estate was passed to his nephew Christian Philip of Clam. The condition for this was the merging coats of arms and the addition of the name Gallas. This gave rise to the house Clam-Gallas.",
-                            "img":"/people/filip_josef_gallas.jpg"
+                            "img": "/people/filip_josef_gallas.jpg"
                         }
                     ]
                 },
@@ -664,7 +665,7 @@
                             "label": "The first of the Clam-Gallas line, who also held offices at the Habsburg court during his lifetime.",
                             "button": "More",
                             "text": "The first of the Clam-Gallas line, who also held offices at the Habsburg court during his lifetime. He became royal chamberlain of three emperors and was promoted to knight of the order of St. Stephen. He expanded the family estates by another territory. \n\nHe was a great lover and patron of the arts. In his Prague residence he hosted, for example, Mozart or Beethoven. In the Frýdlant region, he is primarily associated with the founding of the spa town of Libverda, in Prague then with the Klamovka estate.",
-                            "img":"/people/kristian_filip_clamgallas.jpg"
+                            "img": "/people/kristian_filip_clamgallas.jpg"
                         },
                         {
                             "number": 2,
@@ -673,7 +674,7 @@
                             "label": "Christian Christopher of Clam-Gallas continued his father's legacy in terms of career and patronage.",
                             "button": "More",
                             "text": "Christian Christopher of Clam-Gallas continued his father's legacy in terms of career and patronage. He had the rank of Supreme Marshal of the Czech Kingdom. He married Josefina Caroline Clary-Aldringen, also a great lover of art. Together they maintained contact with, for example, Ludwig van Beethoven. \n\nHe contributed to further construction activity in Libverda, where new spa pavilions were built. Around Klamovka,he established gardens with sculptural decoration.",
-                            "img":"/people/kristian_krystof_clamgallas.jpg"
+                            "img": "/people/kristian_krystof_clamgallas.jpg"
                         },
                         {
                             "number": 3,
@@ -682,7 +683,7 @@
                             "label": "The elder of Christian Christopher's sons.",
                             "button": "More",
                             "text": "The elder of Christian Christopher's sons. He died very young at the age of 21. He is buried in the ancestral tomb in Hejnice.",
-                            "img":"/people/vilem_clamgallas.jpg"
+                            "img": "/people/vilem_clamgallas.jpg"
                         },
                         {
                             "number": 4,
@@ -691,7 +692,7 @@
                             "label": "Edward was the younger of Christian Christopher's sons and also the most prominent member of the Clam-Gallas family.",
                             "button": "More",
                             "text": "Edward was the younger of Christian Christopher's sons and also the most prominent member of the Clam-Gallas family. In 1823 he entered the army as a young man, where he reached the rank of general. He fought under the command of Marshal Radecký in Northern Italy during the First Italian War of Independence, then fought in Hungary and returned to the Second War in Northern Italy. The most significant of the battles in which he participated are the battles of Magenta and Solferin. \n\nDuring the Prussian-Austrian War, he suffered a defeat at the Battle of Jičín, for which he was judged by a court-martial. Even though he was acquitted, he never returned to the army and lived out his life in Frýdlant and Liberec. \n\nDuring his stay in Frýdlant, he had the local chateau undergo extensive reconstruction and building modifications, during which the newest wing of the chateau was created. He died in 1891 at the age of 86.",
-                            "img":"/people/eduard_clamgallas.jpg"
+                            "img": "/people/eduard_clamgallas.jpg"
                         },
                         {
                             "number": 5,
@@ -789,7 +790,7 @@
                             "label": "Er war das neunte von insgesamt zehn Kindern von Friedrich von Rödern.",
                             "button": "Mehr",
                             "text": "Er war das neunte von insgesamt zehn Kindern von Friedrich von Rödern. In seiner Jugend studierte er der Rechtswissenschaften an einer evangelischen Universität in Heidelberg und begab sich anschließend zusammen mit seinem Bruder Christoph auf eine Kavaliersreise nach Frankreich, wo er 1572 Zeuge des Massakers an den Hugenotten in der sogenannten Bartholomäusnacht wurde. Neben Frankreich besuchte er auch die italienischen Städte Rom, Padua und Neapel. Alle männlichen Nachkommen wurden an der Verwaltung des Frydlant-Anwesens beteiligt, und Melchior trat schließlich der Armee bei. In den 1570er und 1580er Jahren nahm er an der Belagerung von Danzig, dem Feldzug gegen Ungarn, dem Krieg in den Niederlanden oder der Belagerung von Pskow teil.\n\nErst 1581 verwaltete er das Gut nur mit seinem Bruder Kryštof, und nach seinem Tod 1591 wurde er alleiniger Eigentümer. Er heiratete Katharina von Šlik, die Schwester eines der einflussreichsten protestantischen Adligen, Jáchym Ondřej von Šlik. Zu seinen Lebzeiten wurden im Burgbereich bauliche Veränderungen vorgenommen. Ein Burgflügel wurde angebaut, ein Renaissanceflügel des Schlosses wurde in der Nähe der Burg errichtet und schließlich auch eine Schlosskapelle. In den 1590er Jahren kehrte Melchior mehrmals als Offizier auf die ungarischen Schlachtfelder zurück. Bereits im Frühjahr 1600 nahm er an einer Versammlung in Wien über das weitere militärische Vorgehen gegen die Türken teil, unterbrach jedoch im Herbst aus gesundheitlichen Gründen seinen Feldzug und starb im September dieses Jahres.",
-                            "img":"/people/melchior_redern.jpg"
+                            "img": "/people/melchior_redern.jpg"
                         },
                         {
                             "number": 3,
@@ -798,7 +799,7 @@
                             "label": "Katharina von Rödern, geborene Šlik, war die Schwester von Jáchym Ondřej von Šlik, einem von denen, die 1621 auf dem Altstädter Ring hingerichtet wurden.",
                             "button": "Mehr",
                             "text": "Katharina von Rödern, geborene Šlik, war die Schwester von Jáchym Ondřej von Šlik, einem von denen, die 1621 auf dem Altstädter Ring hingerichtet wurden. Zwischen 1600 und 1611 verwaltete sie das Gut für ihren minderjährigen Sohn Christoph. Ihre Arbeit auf dem Gut Frýdlant ist vor allem mit Streitigkeiten mit den Bürgern der Stadt um das Bierbraurecht verbunden. Schlechte Beziehungen zu den Einheimischen führten schließlich dazu, dass sie hauptsächlich auf dem Schloss in Liberec blieb, und führten zu lokalem Aberglauben über den bösen Adel. \n\nWährend ihrer Amtszeit wurde die Schlosskapelle in Frýdlant und Liberec fertig gestellt, und weitere Kirchen wurden im gesamten Gut Frýdlant gebaut. Sie starb 1617 in Liberec, sie sollte in der Familiengruft in Frýdlant beerdigt werden, aber das geschah nie und der Bestattungsort ist bis heute unbekannt.",
-                            "img":"/people/katerina_redern.jpg"
+                            "img": "/people/katerina_redern.jpg"
                         },
                         {
                             "number": 4,
@@ -824,7 +825,7 @@
                             "label": "Albrecht von Wallenstein wurde in eine nicht sehr wohlhabende und einflussreiche protestantische Familie hineingeboren und wurde schließlich einer der mächtigsten Männer von gesamteuropäischer Bedeutung.",
                             "button": "Mehr",
                             "text": "Albrecht von Wallenstein wurde in eine nicht sehr wohlhabende und einflussreiche protestantische Familie hineingeboren und wurde schließlich einer der mächtigsten Männer von gesamteuropäischer Bedeutung. Seine Amtszeit bei Frýdlant war nicht lang, es dauerte nur 12 Jahre, dennoch ist dies die Zeit, die diesen Ort am berühmtesten machte und das Anwesen zum Herzogtum erhoben wurde. \n\nDas Leben von Albrecht von Wallenstein war schon in jungen Jahren mit dem Militärdienst verbunden. Er trat bald aus dem protestantischen Lager in den kaiserlichen Dienst über und erreichte auf den Schlachtfeldern des Dreißigjährigen Krieges die höchste Position in der Heeresleitung, d.h. Generalissimus der kaiserlichen Armee. Seine Besitzungen, zu denen auch das Herzogtum Frýdlant gehörte, blieben damals von größeren kriegerischen Auseinandersetzungen mehr oder weniger verschont und wurden daher als „das glückliche Land – terra felix“ bezeichnet. \n\nWas das Gut Frýdlan betrifft, können wir während der Herrschaft von Wallenstein von wirtschaftlichem Wachstum sprechen, insbesondere in Industriezweigen, die mit den Bedürfnissen der Zeit verbunden waren - Metallabbau und -verarbeitung oder Schießpulverherstellung. Die Burg und das Schloss waren unbewohnt und es wurden nur geringfügige bauliche Veränderungen vorgenommen. Wallenstein hielt sich hier nur wenige Tage in den Jahren 1627, 1628 und 1630 auf. Das Ende von Wallensteins Leben kündigte der Vertrauensverlust des Kaisers an, der sich durch seine Persönlichkeit bedroht fühlte, und so wurde Wallenstein Anfang 1634 von seinen Offizieren entfernt . Damit endete eine Zeit ohne größere Kriegsnöte und Veränderungen auch für seinen Nachlass.",
-                            "img":"/people/albrecht_valdstejn.jpg"
+                            "img": "/people/albrecht_valdstejn.jpg"
                         }
                     ]
                 },
@@ -841,7 +842,7 @@
                             "label": "Das Leben des Matthias von Gallas und sein gesellschaftlicher Aufstieg waren wie im Falle Wallensteins fest mit der Zeit des Dreißigjährigen Krieges verbunden.",
                             "button": "Mehr",
                             "text": "Das Leben des Matthias von Gallas und sein gesellschaftlicher Aufstieg waren wie im Falle Wallensteins fest mit der Zeit des Dreißigjährigen Krieges verbunden. Matthias trat als junger Mann in die Armee ein und wurde zum ersten Mal in den Kriegen berühmt für das mantuanische Erbe auf der Seite der Katholischen Liga. 1628 trat er in die Dienste von Albrecht von Wallenstein und wurde einer seiner Feldherren. 1632 erlangte er den Rang eines Earls. Nach dem Verrat an Wallenstein wurde er Erbe des Gutshofes Frýdlant und später Oberbefehlshaber der kaiserlichen Armee, wo er bis zum Ende des Dreißigjährigen Krieges diente. Für Frýdlant bedeutete seine Regierungszeit die Zeit zwischen 1640 und 1649, als das Schloss und die Stadt von einer schwedischen Garnison besetzt waren. Matthias starb 1647 in Wien.",
-                            "img":"/people/matyas_gallas.jpg"
+                            "img": "/people/matyas_gallas.jpg"
                         },
                         {
                             "number": 2,
@@ -850,7 +851,7 @@
                             "label": "Der jüngere der Söhne des Matthias von Gallas.",
                             "button": "Mehr",
                             "text": "Der jüngere der Söhne des Matthias von Gallas. Er verlor seinen Vater im Alter von 9 Jahren. Nach seinem Studium und einer Kavaliersreise durch Frankreich und die Benelux-Länder übernahm er zusammen mit seinem Bruder Franz Ferdinand die Führung der Familiengüter. Zu Lebzeiten arbeitete er als Kammerherr im Dienst des Kurfürsten von Bayern und erbte von seinem Vater die Führung von Militärregimentern. Seine wirtschaftliche Situation verschlechterte sich derart, dass er gezwungen war, seinen Anteil an den Gütern zu verkaufen und seine Militärregimenter aufzugeben. Schließlich verschuldete er sich und lebte in Kladsk auf den Gütern seines Sohnes Filip Franz.",
-                            "img":"/people/antonin_pankrac_gallas.jpg"
+                            "img": "/people/antonin_pankrac_gallas.jpg"
                         },
                         {
                             "number": 3,
@@ -859,7 +860,7 @@
                             "label": "Ältester der Söhne des Matthias von Gallas.",
                             "button": "Mehr",
                             "text": "Ältester der Söhne des Matthias von Gallas. Nach Abschluss seiner Ritterlehre übernahm er die Verwaltung der ererbten Ländereien. Der einzige Gerichtstitel, den er erhielt, war der Titulargerichtskämmerer. Zu seinen Lebzeiten lebte er hauptsächlich auf seinen Gütern in Böhmen, hauptsächlich in Prag und auf der Burg in Hořínevs. Sein Leben in Frýdlant ist vor allem mit dem Aufstand der Untertanen unter Führung des Peitschenschmieds Ondřej von Stelzig verbunden, der 1680 niedergeschlagen wurde. Er starb 1697 und seine sterblichen Überreste werden in der Ahnengruft in Hejnice aufbewahrt.",
-                            "img":"/people/frantisek_ferdinand_gallas.jpg"
+                            "img": "/people/frantisek_ferdinand_gallas.jpg"
                         },
                         {
                             "number": 4,
@@ -868,7 +869,7 @@
                             "label": "Das wichtigste Mitglied dieser Familie zusammen mit Matthias von Gallas.",
                             "button": "Mehr",
                             "text": "Das wichtigste Mitglied dieser Familie zusammen mit Matthias von Gallas. Er arbeitete im Dienst der Kaiser Joseph I. und Karl VI. als kaiserlicher Kämmerer, echter Geheimrat und Diplomat. Er diente im diplomatischen Dienst in London, Den Haag und Rom. Er wurde schließlich zum Vizekönig in Neapel ernannt, wo er 1719 starb. Er ist der Gründer des späteren Clam-Gallas-Palais in der Prager Altstadt.",
-                            "img":"/people/jan_vaclav_gallas.jpg"
+                            "img": "/people/jan_vaclav_gallas.jpg"
                         },
                         {
                             "number": 5,
@@ -877,7 +878,7 @@
                             "label": "Prvni majitel frydlantu",
                             "button": "Mehr",
                             "text": "Das letzte Mitglied der Familie Gallas, dank dessen das Gut Frýdlant auf das Gebiet um Lemberk ausgedehnt wurde. Zu seinen Lebzeiten bekleidete er die Ämter des höchsten Landeshofmeisters des Königreichs Böhmen und des obersten Gerichtsrichters. Nachdem die habsburgische Armee in der Schlacht bei Liberec eine Niederlage gegen die Preußen erlitten hatte, wurde ganz Friedland von den Preußen geplündert. \n\nEr starb 1757 ohne männlichen Erben, das Gut wurde dann von seiner Frau Marie Anna verwaltet. Nach ihren Tod musste das Gut an seinen Neffen Christian Philip von Clam übergehen. Voraussetzung dafür war die Zusammenlegung der Wappen und die Hinzufügung des Namens Gallas.",
-                            "img":"/people/filip_josef_gallas.jpg"
+                            "img": "/people/filip_josef_gallas.jpg"
                         }
                     ]
                 },
@@ -894,7 +895,7 @@
                             "label": "Der erste aus der Clam-Gallas-Linie, der zu Lebzeiten auch Ämter am habsburgischen Hof bekleidete.",
                             "button": "Mehr",
                             "text": "Der erste aus der Clam-Gallas-Linie, der zu Lebzeiten auch Ämter am habsburgischen Hof bekleidete. Er wurde königlicher Kammerherr von drei Kaisern und wurde in den Rang eines Ritters des St.-Stephans-Ordens erhoben. Er erweiterte die Familiengüter mit zusätzlichem Territorium. \n\nEr war ein großer Liebhaber und Mäzen der Künste. Er beherbergte zum Beispiel Mozart oder Beethoven in seiner Prager Residenz. In der Region Frydlant ist es vor allem mit der Gründung der Kurstadt Libverda und in Prag mit dem Gut Klamovka verbunden.",
-                            "img":"/people/kristian_filip_clamgallas.jpg"
+                            "img": "/people/kristian_filip_clamgallas.jpg"
                         },
                         {
                             "number": 2,
@@ -903,7 +904,7 @@
                             "label": "Christian Christoph setzte das Erbe seines Vaters in Bezug auf Karriere und Mäzenatentum fort.",
                             "button": "Mehr",
                             "text": "Christian Christoph setzte das Erbe seines Vaters in Bezug auf Karriere und Mäzenatentum fort. Er bekleidete den Rang eines Obersten Marschalls des böhmischen Königreichs. Er heiratete Josefina Caroline von Clary-Aldringen, ebenfalls eine große Kunstliebhaberin. Gemeinsam pflegten sie den Kontakt zum Beispiel zu Ludwig van Beethoven. \n\nEr trug zur weiteren Bautätigkeit in Libverda bei, wo neue Spa-Pavillons gebaut wurden. Rund um das Gehöft Klamovka ließ er Gärten mit Skulpturenschmuck anlegen.",
-                            "img":"/people/kristian_krystof_clamgallas.jpg"
+                            "img": "/people/kristian_krystof_clamgallas.jpg"
                         },
                         {
                             "number": 3,
@@ -912,7 +913,7 @@
                             "label": "Der ältere der Söhne von Christian Christoph.",
                             "button": "Mehr",
                             "text": "Der ältere der Söhne von Christian Christoph. Er starb sehr jung im Alter von 21 Jahren. Er ist in der Familiengruft in Hejnice begraben.",
-                            "img":"/people/vilem_clamgallas.jpg"
+                            "img": "/people/vilem_clamgallas.jpg"
                         },
                         {
                             "number": 4,
@@ -921,7 +922,7 @@
                             "label": "Der jüngere Sohn von Christian Christoph.",
                             "button": "Mehr",
                             "text": "Der jüngere Sohn von Christian Christoph. Das prominenteste Mitglied der Clam-Gallas-Familie. Bereits als junger Mann trat er 1823 in die Armee ein, wo er den Rang eines Generals erreichte. Unter dem Kommando von Marschall Radecký kämpfte er während des Ersten Italienischen Unabhängigkeitskrieges in Norditalien, schloss sich dann den Kämpfen in Ungarn an und kehrte in den Zweiten Krieg nach Norditalien zurück. Die wichtigsten der Schlachten, an denen er teilnahm, sind die Schlachten von Magenta und Solferino. \n\nWährend des Preußisch-Österreichischen Krieges erlitt er in der Schlacht bei Jičín eine Niederlage, für die er vor ein Kriegsgericht gestellt wurde. Dieser sprach ihn frei, aber er kehrte nie zur Armee zurück und verbrachte sein Leben in Frýdlant und Liberec. \n\nWährend seines Aufenthaltes in Frýdlant ließ er das Renaissanceschloss umfassend umbauen, wobei der neueste Flügel des Schlosses entstand. Er starb 1891 im Alter von 86 Jahren.",
-                            "img":"/people/eduard_clamgallas.jpg"
+                            "img": "/people/eduard_clamgallas.jpg"
                         },
                         {
                             "number": 5,
@@ -952,163 +953,154 @@
             "language": "en",
             "title": "Castle",
             "img": "/castle/castle.jpg",
-            "rooms_label":"rooms",
-            "time":"60 minutes",
+            "rooms_label": "rooms",
+            "time": "60 minutes",
             "description": "This tour takes the visitor through the Upper Castle, which is the oldest part of the Frýdlant area. The entire route is dominated by a large knight's hall with an ancestral gallery, armory, banquet hall or a large collection of employee uniforms.",
             "button": "Start tour",
             "rooms": [
                 {
                     "number": 1,
-                    "img":"/castle/room1.jpg",
-                    "title": "Nádvoří",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room1.jpg",
+                    "title": "The lower courtyard",
+                    "card_label": "We are currently standing in the lower courtyard, where we can see the whole complex.",
+                    "button": "Visit",
+                    "text": "Dear visitors, we welcome you to the state castle and chateau of Frýdlant. Before the start of the tour, we ask you to turn off your mobile phones so that the tour is not disturbed. If you are using an audio guide, wear headphones while listening. Furthermore, we ask you not to touch the displayed exhibits and stay with your group. Thank you for your understanding and we wish you a pleasant visit.\n\n Welcome to the State Castle and Chateau Frýdlant. We are currently standing in the lower courtyard, where we can see the whole complex.\n\nThe oldest part is the round tower called Indica. According to the legend, a fire was being lit on the top of Indica, so the tower served as a beacon for the trade route between the Czech Kingdom and the Kingdoms in the North. The tower is 49 metres high and its walls are in the first floor 4 metres thick.\n\n In the 13th century, the old gothic castle was built around the tower. Then in the 16th century, it was rebuilt in renaissance style, which is the current form of the castle.\n\nThe yellow building behind the tree is the chapel. It was built between 1598 - 1602 by Catherine Redern. Next to the chapel is the renaissance wing of the chateau from the 16th century. On its facade, we can see the original renaissance pictures called sgraffito. And the youngest part of the complex is the last wing of the chateau, called the Castellan wing. That was built in the 19th century by Eduard Clam-Gallas.\n\nUnder the original defensive wall, we can see the path leading up to the castle. The path is called the Knights road because knights rode their horses all the way to the castle doors in olden times while ladies were carried up in sedans. But unfortunately today we have to go by ourselves."
                 },
                 {
                     "number": 2,
-                    "img":"/castle/room1.jpg",
-                    "title": "Nádvoří",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room1.jpg",
+                    "title": "In front of the castle",
+                    "card_label": "Here we can see that the castle was erected on a natural rock foundation",
+                    "button": "Visit",
+                    "text": "Here we can see that the castle was erected on a natural rock foundation. The nickname for the rock is the Devil's Organ because, according to the legend, the Devil played a game of dice with a castle owner. Because he lost, he had to plough the furrows in this basalt rock base.\n\n Here above us, we can see this arc. It's called the Diaphragm arch. Owners used it as a corridor between the upper courtyard and the chapel.\n\nAbove the castle gate, there are two coats of arms. The one on the left belongs to one of the castle's former owners - Anton Pancratius Gallas. The right one belongs to his wife, to Del Arco's family.\n\nHere is also this platform where we can admire a beautiful view of the Jizera Mountains and the valley of the river Smědá.\n\nWhen we go upstairs, there are three fire extinguishers from the 19th century along the corridor walls."
                 },
                 {
                     "number": 3,
-                    "img":"/castle/room1.jpg",
-                    "title": "Nádvoří",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room1.jpg",
+                    "title": "The small castle courtyard",
+                    "card_label": "This courtyard is this small due to the rock we had seen before, which did not allow the owners to build the castle very wide.",
+                    "button": "Visit",
+                    "text": "This courtyard is this small due to the rock we had seen before, which did not allow the owners to build the castle very wide.\n\nAs you already know, the oldest part is the tower called Indica. Only two cells are in the tower (behind the wooden doors). They used to serve as a prison and later as a treasure room.\n\nThe table above the door commemorates that Christopher Bierberstein completed the first renaissance rebuilding of the castle in the year 1551.\n\nOn the wall above is the coat of arms of Matthias Gallas, and the coat of arms above the door belongs to the Bieberstein family.\n\nWe will now go inside the castle, and we want to remind you that you cannot touch any exhibits inside. We appreciate your understanding."
                 },
                 {
                     "number": 4,
-                    "img":"/castle/room2.jpg",
-                    "title": "Biberštejnové a Redernové",
-                    "card_label": "V první hradní místnosti bude návštěvník seznámen s prvními majitely hradu, konkrétně tedy Biberštejny a Rederny.",
-                    "label": "První místnost poskytne přehled majitelů hradu do poloviny 17.století",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room2.jpg",
+                    "title": "The first room of the castle",
+                    "card_label": "From the second half of the 13th century, this region of Bohemia was ruled by a family called Ronovci, whose coat of arms can be seen above the entrance door.",
+                    "button": "Visit",
+                    "text": "From the second half of the 13th century, this region of Bohemia was ruled by a family called Ronovci, whose coat of arms can be seen above the entrance door.\n\nIn the year 1278, the Czech king confiscated the castle and sold it to the house of Bieberstein. They remained at Frýdlant for almost 300 years. However, the Bieberstein family that lived on Frýdland died out in 1551.\n\n Then in 1558, Rederns came to this castle. In this room, we have three pictures of members of the Redern family. Next to the window is Melchior Redern. He fought against the Turks with great success and even became the Imperial marshall. During his absence and after his death, his wife Catherine (between windows) controlled his property and affairs.\n\nAt the beginning of the 17th century, she built the castle chapel, the old section of the chateau and the family tomb in a local church. In addition, she was able to finance all her son's journeys to Italy and all around Europe. Unfortunately, many of these expenses were paid by taxesfrom the local population, which angered them. So they started calling her Catherine the Bad.\n\nThen their son Christopher Redern controlled the castle. He took part in the insurrection of the Czech protestants against the catholic Habsburgs from 1618 to 1620. The rebellion culminated on the 8th of November 1620. After the decisive battle of White Mountain, Christopher was forced to emigrate. The Habsburg emperor then confiscated all his property and sold it to Albrecht of Wallenstein in 1622.\n\nThe most interesting things in this room are those two models of Frýdlant. They are both from the 19th century. The right one is the actual form of the castle, and the left one is a reconstruction that was never built.\n\nIn the glass case, the relics of Melchior Redern are displayed. It is his left armbone, his helmet, and his sword. Above it is his burial clothing robe."
                 },
                 {
                     "number": 5,
-                    "img":"/castle/room3.jpg",
-                    "title": "Albrecht z Valdštejna",
-                    "card_label": "Tato místnost prohlídkového okruhu je věnována dalšímu majiteli hradu, jedné z nejvýznamějších osob české Geschichte, a to Albrechtovi z Valdštejna.",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room3.jpg",
+                    "title": "Albrecht of Wallenstein",
+                    "card_label": "In 1622 the country around the Frýdlant was purchased by Albrecht of Wallenstein (picture on the wall next to the entrance doors). ",
+                    "button": "Visit",
+                    "text": "In 1622 the country around the Frýdlant was purchased by Albrecht of Wallenstein (picture on the wall next to the entrance doors). Although Albrecht became the Duke of Frýdlant, the castle was never his chief residence.\n\nAlbrecht of Wallenstein was the most important and best-known person in the Thirty years' war (1618-1648) in the 17th century. At the war's end, he started to negotiate with enemies and was accused of high treason. In 1634 he was assassinated in the town of Cheb.\n\nTwo paintings on the side of the door represent the murder of Wallenstein. The one on the left is a murder of his friends, and the one on the right is the murder of Wallenstein himself.\n\nLook at the other portraits in this room: \n\nHis daughter and wife are next to Albrecht's painting.\n\n On the left wall, next to the window, is Albrecht's brother-in-law, cardinal Harrach.\n\nThe great painting presents Wallenstein 's favourite horse, which he took as a spoil of war in 1632. The Spanish inscription MAS QUERIDO means My darling.\n\nIn the corner is Wallenstein's family tree, and next to the door is a portrait of Wallenstein's astrologer Giovanni Battista Seni."
                 },
                 {
                     "number": 6,
-                    "img":"/castle/room4.jpg",
-                    "title": "Rytířský sál",
-                    "card_label": "Rytířský sál, později využívaný jako rodová galerie, seznámí návštevníka s rodem Gallasů a jeho působením na hradu a v okolí.",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room4.jpg",
+                    "title": "The knight hall",
+                    "card_label": "Now we are in the knight hall, which was established as a gallery in 1801 when the castle was opened to the public as the first castle museum in central Europe.",
+                    "button": "Visit",
+                    "text": "Now we are in the knight hall, which was established as a gallery in 1801 when the castle was opened to the public as the first castle museum in central Europe.\n\nOn the left wall is situated the picture of Matthias Gallas. He betrayed Albrecht of Wallenstein, so he got the castle from the emperor. Next to there is his wife, Dorothy. They had four sons and five daughters. Here we can see only 2 of their sons - Anton Pancratius and Francis Ferdinand.\n\nFrancis reconstructed the castle in the baroque style. His portrait is on the right side of the door. His wife Joanne (on the other side of the door) died when she was 92 years old, which means that she outlived her husband and their son.\n\n Their son John Wenceslaus (between windows on the right side) was in 1719 appointed as a Viceroy of Naples. Opposite him is a painting of his wife, Mary Ann, who is thought to be the most beautiful lady in the castle.\n\nPhillip Joseph, their son, was the last ruling member of the house of Gallas. As he had no children, his family line ended with him. According to his last will, Frýdlant should be passed on to his nephew Christian Philip of Clam (on the left side of the door) under the condition that the name and coat of arms of the Clam family would be joined by the name and coat of arms of the Gallas family.\n\nAnd so in 1757, Clam-Gallas family gained Frýdlant."
                 },
                 {
                     "number": 7,
-                    "img":"/castle/room5.jpg",
-                    "title": "U piána",
-                    "card_label": "Ve čtvrté hradní místnosti bude návštěvníkovi představen rod Clam-Gallasů. Zároveň ",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room5.jpg",
+                    "title": "The piano room",
+                    "card_label": "In this room, there are portraits of the Clam-Gallas family members. ",
+                    "button": "Visit",
+                    "text": "In this room, there are portraits of the Clam-Gallas family members.\n\nChristian Christopher and his wife Josephine (paintings on the left side of the door we came through) sponsored many cultural events such as theather plays and musical performances. Josephine was an accomplished singer, guitarist and pianist. She was a friend of Ludwig van Beethoven who dedicated two of his musical compositions to her.\n\nJosephine and Christian had two sons - William and Eduard.\n\n William (next to the window) died during a hunting trip when he was only 20.\n\n Eduard was a famous general in the Habsburg army. He fought side by side with Marshal Radetzky in the war in Northern Italy. For his deeds, he was rewarded the Order of the Golden Fleece - the highest honours in the Habsburg Monarchy. For his defeats in 1866, he was court-martialled, but he was acquitted because of his position in society. After he abandoned military life, he retired to Frýdlant Castle.\n\nEduard had one son named Franz, whose bust we can see between the windows. Franz left no male heir, although he had seven daughters.\n\n His second youngest daughter Clotilda lived at Frýdlant castle till 1945.\n\n In 1945 Frýdlant was due to the Beneš decrees (after the 2WW - series of laws, thanks to which the German population was expelled from the state) confiscated by the Czechoslovakian state. Clotilda then moved to Wien, where she died in 1975 without heirs, so the castle is forever in the ownership of the Czech Republic.\n\nAnd that is the end of our long history. Now we will visit the rest of the castle, which is set up as the Castle Museum precisely as it was in 1801 when the owners of the castle opened it."
                 },
                 {
                     "number": 8,
-                    "img":"/castle/room6.jpg",
-                    "title": "Pracovna Eduarda z Gallasu",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room6.jpg",
+                    "title": "Eduard's study",
+                     "card_label": "In this room, you can examine Eduard's personal belongings. ",
+                    "button": "Visit",
+                    "text": "In this room, you can examine Eduard's personal belongings.\n\n In the glass boxes on the tables are two books. The bigger one is Eduard's photo album, and the smaller one is a birthday wish with photos inside.\n\nPictures around the rooms represent battles in North Italy, where Eduard fought alongside Marshal Radetzky. In the showcase at the wall, there are gifts from Radetzky to Eduard for his 80th birthday.\n\nIn the showcase on the left side of the door are other gifts. On the right side of the door are Eduard's three general uniforms - (from the left) Hussar uniform, Uhlan uniform and Dragoon uniform.\n\nThe showcase by the left window contains the personal belongings of Eduard's wife, Clotilda Dietrichstein. The one by the right window has military honours, sealing stamps or keys inside it. There is also the Order of the Golden Fleece - golden sheep on the red ribbon."
                 },
                 {
                     "number": 9,
-                    "img":"/castle/room7.jpg",
-                    "title": "Uniformy",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room7.jpg",
+                    "title": "The uniforms",
+                     "card_label": "Previously this room served as a luxury accommodation place for all important visitors to the castle. ",
+                    "button": "Visit",
+                    "text": "Previously this room served as a luxury accommodation place for all important visitors to the castle. Nowadays, several uniforms of the castle servants are displayed in this room.\n\nIn the smaller wardrobe at the wall are four different uniforms of the coachman. There are festive/ordinary and winter/summer uniforms.\n\nIn the more extensive wardrobe in the middle of the room are uniforms of the castle foresters, porters or valets. Underneath are several military hats and wigs, some of which were made from real human hair."
                 },
                 {
                     "number": 10,
-                    "img":"/castle/room8.jpg",
-                    "title": "Nosítka",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room8.jpg",
+                    "title": "Means of transport",
+                     "card_label": "Here in this room are displayed several means of transport used by nobles",
+                    "button": "Visit",
+                    "text": "Here in this room are displayed several means of transport used by nobles. \n\nFrom the left, the first one is the chassis of the children's coach; goats or ponies usually pulled that. \n\nNext are two children's baroque sledges. The bigger one has an animal's motive on it, specifically a dolphin's. However, it does not look like a dolphin because the maker of the sledge never saw a real dolphin and only read about them, that they look like fish with the head of a dog.\n\nThe last mean of transport is a lady's sedan.\n\nOther exhibits are a folding screen from 1719, used as a portable wall when changing clothes, or a very rare shooting target because already used targets were usually burned."
                 },
                 {
                     "number": 11,
-                    "img":"/castle/room9.jpg",
-                    "title": "Lovecký salonek",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room9.jpg",
+                    "title": "Hunting salon",
+                     "card_label": "Hunting was a very popular amusement for the aristocracy. ",
+                    "button": "Visit",
+                    "text": "Hunting was a very popular amusement for the aristocracy. Here on Frýdlant, the castle owners were no exception. Like the other nobles, they organized many hunts, mainly in the nearby forests of the Jizera mountains. Trophies from their hunts decorate the walls around the whole complex. Many of the antlers on the walls also have signs stating when, where, and by whom the animal was killed; some also note the animal's weight.\n\nIn this room, we have this scarce table. It was made from the trunk of 130 years old birch tree. On it is a collection of pipes that belonged to Eduard Clam-Gallas. Eduard and his son Franz had collected and gathered more than 220 pipes worldwide. Some of them are displayed like this throughout the entire tour of the castle.\n\nOpposite the table, on the wall, is the great painting of the last killed wolf in Frýdlant woods, which was shot in 1766."
                 },
                 {
                     "number": 12,
-                    "img":"/castle/room10.jpg",
-                    "title": "Hradní kuchyně",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room10.jpg",
+                    "title": "Renaissance dining room",
+                     "card_label": "This old Redern's dining room is equipped in renaissance style. ",
+                    "button": "Visit",
+                    "text": "nThis old Redern's dining room is equipped in renaissance style. The collection of the dishes made from the tin is from the 17th, 18th and 19th centuries. The stove in this room is the oldest in the whole castle, from the 17th century. On the wall next to the stove is the clock from the 17th century, entirely made from wood, except for three glass bells. Behind the door is a terrace with a view of the lower courtyard and the town of Frýdlant."
                 },
                 {
                     "number": 13,
-                    "img":"/castle/room11.jpg",
-                    "title": "U vězení",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room11.jpg",
+                    "title": "The hallway",
+                     "card_label": "The wall here is curved due to the fact, that we are going along the high tower called Indica. ",
+                    "button": "Visit",
+                    "text": "nThe wall here is curved due to the fact, that we are going along the high tower called Indica. The first door was used for putting the wood into the stove, and the second one leads into one of the cells (used as a prison, later as a treasure room) that are in the tower. Now we will go upstairs to the Castle's armoury."
                 },
                 {
                     "number": 14,
-                    "img":"/castle/room12.jpg",
-                    "title": "Hradní zbrojnice",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room12.jpg",
+                    "title": "The armoury – Main hall",
+                     "card_label": "On the ceiling of this room are coats of arms of families from the Thirty years' war which lasted from 1618 to 1648.",
+                    "button": "Visit",
+                    "text": "On the ceiling of this room are coats of arms of families from the Thirty years' war which lasted from 1618 to 1648. Most weapons are muskets (long guns on the walls) from the 17th century; they can shoot up to 300 metres and weigh 5-9 kilos. On the left are very rare those two big guns. They are called Arquebus. They were used from the 14th century; one was operated by two men, weighed 50 kilos and could shoot up to 100 metres. On the wall above the doors are copies of Hussit's weapons as a reminder that Hussites tried to conquer the castle twice but never succeeded."
                 },
                 {
                     "number": 15,
-                    "img":"/castle/room13.jpg",
-                    "title": "Koňské postroje",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room12.jpg",
+                    "title": "The armoury – the second room",
+                     "card_label": "In this room we have equipment for castle garrison. ",
+                    "button": "Visit",
+                    "text": "In this room we have equipment for castle garrison. It was bought by one of the castle owners - Count Francis Ferdinand Gallas. His initials are also on the cartridge bags on the walls (from German) - Franz Ferdinand Gräf von Gallas. Displayed are also mortars and tiny cannons used as festive weapons."  
                 },
                 {
                     "number": 16,
-                    "img":"/castle/room14.jpg",
-                    "title": "Hradní galerie",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room13.jpg",
+                    "title": "Equipment for horses",
+                     "card_label": "On the left are four silver harnesses used last time in 1930 at the funeral of the last male owner of the castle - Franz Clam-Gallas.",
+                    "button": "Visit",
+                    "text": "On the left are four silver harnesses used last time in 1930 at the funeral of the last male owner of the castle - Franz Clam-Gallas. Behind them, next to the door, are boots and a hat. That belonged to the courier. Couriers filled the boots with hay and put them over their own shoes so their feet would stay warm. The hat is, in fact, a secret backpack for letters or money.\n\nThe other two harnesses are golden, and behind them, on the wall, are three nets. They were used as a protection for horses against the insect. In the adjoining room, you can view some other equipment for horses."
                 },
                 {
                     "number": 17,
-                    "img":"/castle/room15.jpg",
-                    "title": "Vrchnostenská kancelář",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/castle/room14.jpg",
+                    "title": "The Castle’s gallery",
+                     "card_label": "Here in the gallery are pictures of many owners of the castle, like Christian Philip of Clam-Gallas (oval portrait at the doors, the right one), William Clam-Gallas (oval portrait at the doors, the left one), Albrecht Wallenstein (picture next to the entrance door) or John Wenceslaus Gallas  (painting in the stand).",
+                    "button": "Visit",
+                    "text": "Here in the gallery are pictures of many owners of the castle, like Christian Philip of Clam-Gallas (oval portrait at the doors, the right one), William Clam-Gallas (oval portrait at the doors, the left one), Albrecht Wallenstein (picture next to the entrance door) or John Wenceslaus Gallas  (painting in the stand).\n\nSome of the pictures also show aristocracy all around Europe. For example, the painting above the entrance door is Spanish princess Margaret Theresa - wife of the Habsburg emperor Leopold I. On the right side of her portrait is emperor Charles VI.\n\nA fruit bowl made from alabaster is on the table in the middle of the room.   On the other table is a showcase with ostrich egg (a souvenir from travels of the Clam-Gallas family) and burned money - another tourist attraction for the Castle Museum."
+                },
+                {
+                    "number": 18,
+                    "img": "/castle/room15.jpg",
+                    "title": "Administrative office",
+                     "card_label": "Here we have many casual things clerks required for their job.",
+                    "button": "Visit",
+                    "text": "Here we have many casual things clerks required for their job.\n\nThis office has two cabinets: the younger one in front from the 19th century and the older one in the back from the 18th century. On the wall is the oldest map of the Frýdlant region from the 17th century. The interesting thing is that it has north on the bottom and south on the top. The following map is a map from school. The roughcast on the table is a map of the park around the castle from the 19th century. The last map is a map of the region from 1880.\n\nBetween the windows is a photo of Eduard Clam-Gallas. Above the door is a woodcut of Saint Florian because the castle owners believed it would protect the castle against fire.\n\nOn our way out, you can spot a table on the wall that states the prize of entry into the Castle Museum.\n\nDear visitors, our tour ends here. Thank you for your attention and I wish you a nice rest of the day."
                 }
             ]
         },
@@ -1117,163 +1109,147 @@
             "language": "de",
             "title": "Die Burg",
             "img": "/castle/castle.jpg",
-            "rooms_label":"Räume",
-            "time":"60 Minuten",
+            "rooms_label": "Räume",
+            "time": "60 Minuten",
             "description": "Die Führung führt den Besucher durch die Obere Burg, den ältesten Teil des Frýdlant-Gebiets. Der gesamte Weg wird dominiert von einem großen Rittersaal mit Ahnenempore, einer Rüstkammer, einem Festsaal oder einer großen Sammlung von Dienstkleidung.",
             "button": "Führung beginnen",
             "rooms": [
                 {
                     "number": 1,
-                    "img":"/castle/room1.jpg",
+                    "img": "/castle/room1.jpg",
                     "title": "Nádvoří",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 2,
-                    "img":"/castle/room1.jpg",
+                    "img": "/castle/room1.jpg",
                     "title": "Nádvoří",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 3,
-                    "img":"/castle/room1.jpg",
+                    "img": "/castle/room1.jpg",
                     "title": "Nádvoří",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 4,
-                    "img":"/castle/room2.jpg",
+                    "img": "/castle/room2.jpg",
                     "title": "Biberštejnové a Redernové",
                     "card_label": "V první hradní místnosti bude návštěvník seznámen s prvními majitely hradu, konkrétně tedy Biberštejny a Rederny.",
                     "label": "První místnost poskytne přehled majitelů hradu do poloviny 17.století",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 5,
-                    "img":"/castle/room3.jpg",
+                    "img": "/castle/room3.jpg",
                     "title": "Albrecht z Valdštejna",
                     "card_label": "Tato místnost prohlídkového okruhu je věnována dalšímu majiteli hradu, jedné z nejvýznamějších osob české Geschichte, a to Albrechtovi z Valdštejna.",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 6,
-                    "img":"/castle/room4.jpg",
+                    "img": "/castle/room4.jpg",
                     "title": "Rytířský sál",
                     "card_label": "Rytířský sál, později využívaný jako rodová galerie, seznámí návštevníka s rodem Gallasů a jeho působením na hradu a v okolí.",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 7,
-                    "img":"/castle/room5.jpg",
+                    "img": "/castle/room5.jpg",
                     "title": "U piána",
                     "card_label": "Ve čtvrté hradní místnosti bude návštěvníkovi představen rod Clam-Gallasů. Zároveň ",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 8,
-                    "img":"/castle/room6.jpg",
+                    "img": "/castle/room6.jpg",
                     "title": "Pracovna Eduarda z Gallasu",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 9,
-                    "img":"/castle/room7.jpg",
+                    "img": "/castle/room7.jpg",
                     "title": "Uniformy",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 10,
-                    "img":"/castle/room8.jpg",
+                    "img": "/castle/room8.jpg",
                     "title": "Nosítka",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 11,
-                    "img":"/castle/room9.jpg",
+                    "img": "/castle/room9.jpg",
                     "title": "Lovecký salonek",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 12,
-                    "img":"/castle/room10.jpg",
+                    "img": "/castle/room10.jpg",
                     "title": "Hradní kuchyně",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 13,
-                    "img":"/castle/room11.jpg",
+                    "img": "/castle/room11.jpg",
                     "title": "U vězení",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 14,
-                    "img":"/castle/room12.jpg",
+                    "img": "/castle/room12.jpg",
                     "title": "Hradní zbrojnice",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 15,
-                    "img":"/castle/room13.jpg",
+                    "img": "/castle/room13.jpg",
                     "title": "Koňské postroje",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 16,
-                    "img":"/castle/room14.jpg",
+                    "img": "/castle/room14.jpg",
                     "title": "Hradní galerie",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 17,
-                    "img":"/castle/room15.jpg",
+                    "img": "/castle/room15.jpg",
                     "title": "Vrchnostenská kancelář",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 }
             ]
         },
@@ -1282,181 +1258,162 @@
             "language": "en",
             "title": "Chateau",
             "img": "/chateau/chateau.jpg",
-            "rooms_label":"rooms",
-            "time":"60 minutes",
+            "rooms_label": "rooms",
+            "time": "60 minutes",
             "description": "This tour takes the visitor through the richly furnished castle and the history of the last owners of Clam Gallas. A fully equipped tour route maps the castle and its 24 accessible rooms on all its floors.",
             "button": "Start tour",
             "rooms": [
                 {
                     "number": 1,
-                    "img":" /chateau/chateau.jpg",
-                    "title": "Kuchyně",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/chateau/chateau.jpg",
+                    "title": "The lower courtyard",
+                     "card_label": "We are currently standing in the lower courtyard, where we can see the whole complex.",
+                    "button": "Visit",
+                    "text": "Dear visitors, we welcome you to the state castle and chateau of Frýdlant. Before the start of the tour, we ask you to turn off your mobile phones so that the tour is not disturbed. If you are using an audio guide, wear headphones while listening. Furthermore, we ask you not to touch the displayed exhibits and stay with your group. Thank you for your understanding and we wish you a pleasant visit.\n\nWe are currently standing in the lower courtyard, where we can see the whole complex.\n\nThe oldest part is the round tower called Indica. According to the legend, a fire was being lit on the top of Indica, so the tower served as a beacon for the trade route between the Czech Kingdom and the Kingdoms in the North. The tower is 49 metres high and its walls are in the first floor 4 metres thick.\n\nIn the 13th century, the old gothic castle was built around the tower. Then in the 16th century, it was rebuilt in renaissance style, which is the current form of the castle.\n\nThe yellow building behind the tree is the chapel. It was built between 1598 - 1602 by Catherine Redern. Next to the chapel is the renaissance wing of the chateau from the 16th century. On its facade, we can see the original renaissance pictures called sgraffito. And the youngest part of the complex is the last wing of the chateau, called the Castellan wing. That was built in the 19th century by Eduard Clam-Gallas.\n\nOn this tour through the chateau, we will visit all floors of the renaissance wing. And at the end, we will see the chapel. \n\nNow let us begin our tour in the chateau's kitchen."
                 },
                 {
                     "number": 2,
-                    "img":" /chateau/chateau.jpg",
-                    "title": "Chodba",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/chateau/chateau.jpg",
+                    "title": "The kitchen",
+                     "card_label": "We entered the chateau building from the 16th century. ",
+                    "button": "Visit",
+                    "text": "We entered the chateau building from the 16th century. Originally this building was not supposed to be for the nobles. On the upper floors were offices, and on the ground floor were stables for horses. In the 19th century, nobles moved from the upper castle to the chateau. Chateau was reconstructed and furnished with new things, meaning that the interiors we have today are from the 19th century. The castle was in 1801 opened to the public as the first Castle Museum in Central Europe.\n\nAs we are on the ground floor, this room used to be stable. Proof for this statement is the stone trough next to the doors. During the reconstruction, cooks wanted to keep it here, so they could wash dishes or keep live fish in it.\n\nThe kitchen is, for its time, relatively modern. Displayed is the most extensive collection of copper dishes in the Czech Republic. The dishes are tin-plated inside.\n\nThe larger stove has five ovens, it is still functional, and on some special occasions, we even bake some treats on them. A big black box is placed on top of them, that is a water-heating system for the chateau's bathroom.\n\nThe smaller stove is a grill and smoking chamber; unfortunately, it is no longer functional."
                 },
                 {
                     "number": 3,
-                    "img":" /chateau/chateau.jpg",
-                    "title": "Herna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                    "img": "/chateau/chateau.jpg",
+                    "title": "The larder",
+                     "card_label": "This larder was carved into the rock on which the castle and chateau Frýdlant was built. ",
+                    "button": "Visit",
+                    "text": "This larder was carved into the rock on which the castle and chateau Frýdlant was built. That is why the temperature is quite cold here during the year, which is optimal for storing food. Interesting are those compotes in the cabinet, some of which are from 1945. Everything else in this larder is not originally from the Frýdlant; it was brought here from the surrounding villages."
                 },
                 {
                     "number": 4,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Jídelna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 5,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Modrý salon",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 6,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Předpokoj",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 7,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Přijímací salonek",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 8,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Pracovna hraběte",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 9,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Ložnice",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 10,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Nad schody",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 11,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Květinový salon",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 12,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Ložnice",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 13,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Ranní salon",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 14,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Malá jídelna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 15,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Převlekárna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 16,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Královská chodba",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 17,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Podkroví",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 18,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Lokajna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 19,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Kaple sv. Anny",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 }
             ]
         },
@@ -1465,181 +1422,162 @@
             "language": "de",
             "title": "Das Schloß",
             "img": "/chateau/chateau.jpg",
-            "rooms_label":"Räume",
-            "time":"60 Minuten",
+            "rooms_label": "Räume",
+            "time": "60 Minuten",
             "description": "Die Führung führt den Besucher durch das reich ausgestattete Schloss und die Geschichte der letzten Besitzer von Clam Gallas. Ein komplett ausgestatteter Rundgang zeigt das Schloss und seine 24 barrierefreien Räume auf allen Etagen.",
             "button": "Führung beginnen",
             "rooms": [
                 {
                     "number": 1,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Kuchyně",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 2,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Chodba",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 3,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Herna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 4,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Jídelna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 5,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Modrý salon",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 6,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Předpokoj",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 7,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Přijímací salonek",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 8,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Pracovna hraběte",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 9,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Ložnice",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 10,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Nad schody",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 11,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Květinový salon",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 12,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Ložnice",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 13,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Ranní salon",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 14,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Malá jídelna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 15,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Převlekárna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 16,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Královská chodba",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 17,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Podkroví",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 18,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Lokajna",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 },
                 {
                     "number": 19,
-                    "img":" /chateau/chateau.jpg",
+                    "img": "/chateau/chateau.jpg",
                     "title": "Kaple sv. Anny",
-                    "card_label": "kratka veta popisujici, co navstevnik v misnosti uvidi",
-                    "label": "Kratky popisek mistnosti",
-                    "button": "Navštívit",
-                    "text": "Vítám Vás na frýdlantském státním hradu a zámku a přeji Vám příjemnou prohlídku. Stojíme na dolním zámeckém nádvoří, odkud vidíme dobře hrad, kapli i starou a novou část zámku. Hrad Frýdlant patří mezi nejmohutnější a nejstarší zachovalé hrady v severních Čechách, vybudován byl kolem poloviny 13.století ve slohu gotickém. Nejstarší částí hradu je kulatá věž. Podle pověsti na ni byly zapalovány ohně a sloužila prý jako světelný maják na obchodní stezce z Čech do Lužice a Polska."
+                     "card_label": "",
+                    "button": "Visit",
+                    "text": ""
                 }
             ]
         }
