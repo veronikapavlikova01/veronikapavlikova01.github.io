@@ -3,12 +3,8 @@ import { Link } from "react-router-dom";
 import { Context } from "../Context"
 import DataAPI from '../DataAPI'
 import Header from "./Header";
-import CustomDialog from "./dialogs/CustomDialog";
-import WaitDialog from "./dialogs/WaitDialog";
 import Tutorial from './content_components/Tutorial';
-import { BrowserQRCodeReader } from "@zxing/browser";
 import Button from './content_components/Button';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 function ScanRoom() {
     const context = useContext(Context);
