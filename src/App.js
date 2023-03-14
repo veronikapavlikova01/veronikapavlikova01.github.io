@@ -20,6 +20,7 @@ import Gallery from './components/Gallery';
 import GalleryRooms from './components/GalleryRooms';
 import ScrollToTop from './components/ScrollToTop';
 import QRScanner from './components/QRScanner';
+import ScanRoom from './components/ScanRoom';
 import { Context } from './Context'
 import FaceRecognition from './components/FaceRecognition';
 
@@ -145,7 +146,8 @@ class App extends React.Component {
                 <Route path="/where_to_next" element={<WhereToNext />} />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/gallery_rooms" element={<GalleryRooms />} />
-                <Route path="/scan_room" element={<QRScanner />} />
+                <Route path="/scan_room" element={<ScanRoom />} />
+                <Route path="/scanner" element={<QRScanner/>}/>
                 <Route path="/image_recognition" element={<FaceRecognition/>}/>
               </Routes>
             </Context.Provider>

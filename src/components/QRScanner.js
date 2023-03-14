@@ -1,12 +1,11 @@
-import { useState, useContext, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useState, useContext, useEffect, useRef } from "react";
+import { useNavigate, Link } from "react-router-dom";
+import { useZxing } from "react-zxing"
 import { Context } from "../Context"
 import DataAPI from '../DataAPI'
-import Header from "./Header";
 import CustomDialog from "./dialogs/CustomDialog";
 import WaitDialog from "./dialogs/WaitDialog";
-import Tutorial from './content_components/Tutorial';
-import { BrowserQRCodeReader } from "@zxing/browser";
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 function QRScanner() {
     const context = useContext(Context);
@@ -17,27 +16,12 @@ function QRScanner() {
     const [dialogOpen, setDialogOpen] = useState(false);
     const [waitDialogOpen, setWaitDialogOpen] = useState(false);
     const navigate = useNavigate();
-    const [isScanning, setIsScanning] = useState(false)
 
-    useEffect(() => {
-        document
-            .getElementById("native_camera")
-            .addEventListener("change", function () {
-                let file = document.getElementById('native_camera').files[0];
-                let url = window.URL.createObjectURL(file);
-                const img = document.getElementById('picture');
-                img.src=url;
-
-                const reader = new BrowserQRCodeReader();
-                reader.decodeFromImageElement(img).then((rslt) => {
-                    console.log(rslt);
-                    splitScannedText(rslt.text);
-                }).catch((err) => {
-                    console.error(err);
-                    setDialogOpen(true);
-                })
-            })
-    }, []);
+    const { ref } = useZxing({
+        onResult(rslt) {
+            splitScannedText(rslt.getText());
+        },
+    });
 
     const dialogClose = () => {
         setDialogOpen(false);
@@ -84,14 +68,16 @@ function QRScanner() {
         <>
             <WaitDialog isOpen={waitDialogOpen} isClosed={waitDialogClose} />
             <CustomDialog isOpen={dialogOpen} closeDialog={dialogClose} title={dialogs.error_label} content={dialogs.invalid_scan_label} />
-            <Header header={scan.qr_scanner} />
-            <Tutorial title={scan.title} label={scan.label} step_1={scan.step_1} step_2={scan.step_2} step_3={scan.step_3} step_4={scan.step_4}>
-                <div className="center-text margin-primary ">
-                    <label htmlFor="native_camera" className="text-medium button align-self-primary background-primary font-weight-primary color-primary cursor-primary">{scan.button}</label>
-                    <input id="native_camera" type="file" accept="image/*" capture="environment" className="display-none" onClick={() => setWaitDialogOpen(true)} />
+            <video id="video" ref={ref} className="full-screen" />
+            <div className="video-label margin-top text-medium font-weight-primary center-text">
+                <span>{scan.qr_scanner}</span>
+            </div>
+            <Link to="/scan_room" className="video-button flex-secondary padding-bottom-primary padding-top-primary align-items-primary">
+                <div className="flex round-item background-fourth margin-right-secondary">
+                    <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" />
                 </div>
-                <img id="picture" src="" className="display-none" alt="person_picture" />
-            </Tutorial>
+                <p className="text-medium font-weight-primary">{scan.button_back}</p>
+            </Link>
         </>
     );
 }

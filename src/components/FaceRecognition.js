@@ -64,7 +64,7 @@ function FaceRecognition() {
             if (fullFaceDescriptions.length === 0) {
                 waitDialogClose();
                 setDialogOpen(true);
-                return
+                return;
             }
 
             const labeledFaceDescriptors = await Promise.all(
@@ -82,6 +82,7 @@ function FaceRecognition() {
             ).catch(err => {
                 waitDialogClose();
                 setDialogOpen(true);
+                return;
             });
 
 
@@ -140,7 +141,7 @@ function FaceRecognition() {
                                 <img src={require(`../img${resultImage}`)} alt="castle" className="page-image" />
                             </div>
                         </div>
-                        <div className="video flex-secondary padding-bottom-primary padding-top-primary align-items-primary">
+                        <div className="flex-secondary padding-bottom-primary padding-top-primary align-items-primary">
                             <div className="flex round-item background-fourth margin-right-secondary" onClick={() =>setIsResultDisplayed(false)}>
                                 <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" />
                             </div>
