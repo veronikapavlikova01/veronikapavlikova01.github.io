@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom'
 import Header from "./Header";
 import DataAPI from '../DataAPI';
 import Information from "./Information";
+import Button from "./content_components/Button";
+import CardContent from "./content_components/CardContent";
+import { ContentCopy } from "@mui/icons-material";
 
 
 
@@ -25,12 +28,8 @@ function Tours() {
                         history.map((item) => (
                             <Link to={item.path} className="card box-shadow transition-primary hover-primary" key={item.title}>
                                 <article className="flex">
-                                    <img src={require(`../img${item.img}`)} alt="castle" className="card-image padding-bottom-primary border-radius-secondary" />
-                                    <h2 className="text-medium padding-primary padding-bottom-primary">{item.title}</h2>
-                                    <p className="margin-bottom padding-primary medieval-first-letter">{item.card_label}</p>
-                                    <div className="center-text margin-primary">
-                                        <button className="text-medium button align-self-primary background-primary font-weight-primary color-primary">{item.button}</button>
-                                    </div>
+                                    <CardContent img={item.img} title={item.title} description={item.card_label}/>
+                                    <Button button={item.button}/>
                                 </article>
                             </Link>
                         )

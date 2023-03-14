@@ -3,7 +3,8 @@ import { Context } from "../Context";
 import { useContext, useState } from "react";
 import { Link } from 'react-router-dom'
 import DataAPI from '../DataAPI'
-import CustomDialog from "./CustomDialog";
+import CustomDialog from "./dialogs/CustomDialog";
+import Button from "./content_components/Button";
 
 
 
@@ -15,18 +16,18 @@ function Home() {
     const isIOSNotSafari = isIOS() && !isSafari()
     const [dialogOpen, setDialogOpen] = useState(isIOSNotSafari);
 
-    function isIOS(){
+    function isIOS() {
         const expression = /(Mac|iPhone|iPod|iPad)/i;
-        if(expression.test(navigator.platform)){
+        if (expression.test(navigator.platform)) {
             return true
         }
         return false
     }
 
-    function isSafari(){
+    function isSafari() {
         const userAgent = navigator.userAgent;
-        if(userAgent.includes("Safari")){
-            if(!(userAgent.includes("Chrome") || userAgent.includes("Chromium"))){
+        if (userAgent.includes("Safari")) {
+            if (!(userAgent.includes("Chrome") || userAgent.includes("Chromium"))) {
                 return true
             }
         }
@@ -36,10 +37,10 @@ function Home() {
     const dialogClose = () => {
         setDialogOpen(false);
     };
-    
+
     return (
         <div className="welcome-background full-screen flex">
-            <CustomDialog isOpen={dialogOpen} closeDialog={dialogClose} title={dialogs.warning} content={dialogs.install_use_safari}/>
+            <CustomDialog isOpen={dialogOpen} closeDialog={dialogClose} title={dialogs.warning} content={dialogs.install_use_safari} />
             <Dropdown />
             <div className="flex welcome-box">
                 <h1 className="center-text welcome-text-large color-primary welcome-text">

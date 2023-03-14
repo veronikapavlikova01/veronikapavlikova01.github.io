@@ -8,6 +8,7 @@ import DataAPI from '../DataAPI'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import QrCode2Icon from '@mui/icons-material/QrCode2';
+import ArticleContent from "./content_components/ArticleContent"
 
 
 function Room() {
@@ -54,20 +55,7 @@ function Room() {
         <>
             <Header header={tour.title} />
             <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => { x1 = touchStartEvent.setdTouches[0].clientX; y1 = touchStartEvent.setdTouches[0].clientY }} onTouchEnd={touchEndEvent => { slide(x1, touchEndEvent.setdTouches[0].clientX, y1, touchEndEvent.setdTouches[0].clientY) }}>
-                <article>
-                    <div className="flex-secondary">
-                        <div className="margin-right-primary margin-left-primary">
-                            <span className="font-style-primary margin-primary">{room.number}</span>
-                            <h2 className="text-medium">{room.title}</h2>
-                            <span className="font-style-primary margin-primary">{tour.title}</span>
-                        </div>
-                    </div>
-                    <div className="margin-top-secondary">
-                        <img src={require(`../img${room.img}`)} alt="castle" className="page-image" />
-                        <audio controls src="/src/mp3/nachod.mp3" className="page-audio"> Your browser does not support the audio element.</audio>
-                    </div>
-                    <p className="start-text margin-top-secondary medieval-first-letter">{room.text}</p>
-                </article>
+                <ArticleContent first_label={room.number} title={room.title} second_label={tour.title} img={room.img} audio="/src/mp3/nachod.mp3" description={room.text}/>
                 <div className="flex-secondary stick-bottom padding-bottom-primary padding-top-primary background-gradient">
                     <div className={`flex round-item background-fourth margin-right-primary ${isPrev ? '' : ' visibility-hidden'}`}>
                         <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { previous() }} />

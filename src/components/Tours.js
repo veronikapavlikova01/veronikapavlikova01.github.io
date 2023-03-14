@@ -7,6 +7,8 @@ import DataAPI from '../DataAPI';
 import Information from './Information'
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import MeetingRoomIcon from '@mui/icons-material/MeetingRoom';
+import Button from "./content_components/Button";
+import CardContent from "./content_components/CardContent";
 
 
 
@@ -27,9 +29,7 @@ function Tours() {
                         tours.map((item) => (
                             <Link to="/rooms" className="card box-shadow transition-primary hover-primary" key={item.title}>
                                 <article className="flex" onClick={() => context.setTour(item.tour_id)}>
-                                    <img src={require(`../img${item.img}`)} alt="castle" className="card-image padding-bottom-primary border-radius-secondary" />
-                                    <h2 className="text-medium padding-primary padding-bottom-primary">{item.title}</h2>
-                                    <p className="margin-bottom padding-primary medieval-first-letter padding-bottom-primary">{item.description}</p>
+                                    <CardContent img={item.img} title={item.title} description={item.description}/>
                                     <div className="flex-secondary align-items-primary padding-primary padding-bottom-primary">
                                         <MeetingRoomIcon className="icon margin-right-secondary" />
                                         <span className="font-weight-primary">{item.rooms.length + " " + item.rooms_label}</span>
@@ -38,9 +38,7 @@ function Tours() {
                                         <AccessTimeIcon className="icon margin-right-secondary" />
                                         <span className="font-weight-primary">{item.time}</span>
                                     </div>
-                                    <div className="center-text margin-primary">
-                                        <button className="text-medium button align-self-primary background-primary font-weight-primary color-primary">{item.button}</button>
-                                    </div>
+                                    <Button button={item.button}/>
                                 </article>
                             </Link>
                         )

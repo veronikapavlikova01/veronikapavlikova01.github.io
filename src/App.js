@@ -22,7 +22,6 @@ import ScrollToTop from './components/ScrollToTop';
 import QRScanner from './components/QRScanner';
 import { Context } from './Context'
 import FaceRecognition from './components/FaceRecognition';
-import FaceRecognitionResult from './components/FaceRecognitionResult';
 
 
 class App extends React.Component {
@@ -114,6 +113,8 @@ class App extends React.Component {
   componentDidMount() {
     var fontSize = localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d";
     this.setFontSize(fontSize);
+    fetch("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80611.4856216651!2d14.978767699106092!3d50.84766716300532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47092e5555ec4efb%3A0xb81e27103a735e5c!2zWsOhbWVrIEZyw71kbGFudA!5e0!3m2!1scs!2scz!4v1659987294190!5m2!1scs!2scz")
+    .then(console.log("fetched"));
   }
 
 
@@ -146,7 +147,6 @@ class App extends React.Component {
                 <Route path="/gallery_rooms" element={<GalleryRooms />} />
                 <Route path="/scan_room" element={<QRScanner />} />
                 <Route path="/image_recognition" element={<FaceRecognition/>}/>
-                <Route path="/image_recognition_result" element={<FaceRecognitionResult/>}/>
               </Routes>
             </Context.Provider>
           </BrowserRouter>

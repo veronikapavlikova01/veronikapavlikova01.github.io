@@ -1,6 +1,6 @@
 {
-    "short_name": "Audio-guide Frýdlant",
-    "name": "Audio-guide for Frýdlant castle",
+    "short_name": "Audio guide Frýdlant",
+    "name": "Audio guide for Frýdlant castle",
     "icons": [
       {
         "src": "icons/icon-48.png",
@@ -41,7 +41,7 @@
     ],
     "id":".",
     "start_url": ".",
-    "scope":".",
+    "scope": "https://veronikapavlikova01.github.io/",
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff",

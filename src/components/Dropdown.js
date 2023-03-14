@@ -23,7 +23,7 @@ function Dropdown() {
                 <div className="dropdown-padding font-size-medium">{context.language}</div>
                 <KeyboardArrowDownIcon className="dropdown-icon"/>
             </div>
-            <ul className={dropdown ? "dropdown dropdown-show" : "dropdown"}>
+            <ul className={dropdown ? "dropdown display-block" : "dropdown"}>
                 {
                     languages.map((item) =>
                         <li className="dropdown-item cursor-primary font-size-medium" key={item} onClick={() => languageChange(item)}>{item}</li>

@@ -1,7 +1,7 @@
 import {React} from "react";
 import { useState, useEffect, useContext} from 'react';
-import DataAPI from '../DataAPI';
-import { Context } from "../Context"
+import DataAPI from '../../DataAPI';
+import { Context } from "../../Context"
 import Dialog from "@material-ui/core/Dialog";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";

@@ -46,7 +46,7 @@
             "close_label": "Close",
             "no_face_detected": "We are sorry, but it was not possible to recognize anyone from the photo you took.",
             "try_again_label": "Please try again. Zoom in on the face and take a photo.",
-            "wait_label": "Please wait. Your request is currently being processed."
+            "wait_label": "Please wait"
         },
         {
             "language": "de",
@@ -62,7 +62,7 @@
             "error_label": "Etwas ist schief gelaufen...",
             "no_face_detected": "Wir entschuldigen uns, aber auf dem von Ihnen aufgenommenen Foto war niemand zu erkennen.",
             "try_again_label": "Bitte versuchen Sie es nochmal. Vergrößern Sie das Gesicht und machen Sie ein Foto.",
-            "wait_label": "Warten Sie mal. Ihre Anfrage wird derzeit bearbeitet."
+            "wait_label": "Warten Sie bitte."
         }
     ],
     "install": [
@@ -113,7 +113,8 @@
             "step_2": "Zoom in so that the QR code is clearly visible.",
             "step_3": "Now take a picture and then press OK.",
             "step_4": "Wait a moment. When the QR code is detected, you will be redirected to the correct location.",
-            "button": "Scan QR code"
+            "button": "Scan QR code",
+            "button_back": "Back"
         },
         {
             "language": "de",
@@ -124,7 +125,8 @@
             "step_2": "Vergrößern Sie die Kamera so, dass das QR-Code, deutlich sichtbar ist.",
             "step_3": "Machen Sie jetzt ein Foto und drücken Sie dann OK.",
             "step_4": "Moment mal. Wenn der QR-Code erkannt wird, werden Sie an die richtige Stelle weitergeleitet.",
-            "button": "QR Code scannen"
+            "button": "QR Code scannen",
+            "button_back": "Zurück"
         }
     ],
     "header": [
@@ -513,7 +515,7 @@
                         {
                             "number": 1,
                             "name": "Ronowitzer",
-                            "years": "????-1278",
+                            "years": "?-1278",
                             "label": "The oldest history of the Frýdlant castle is connected with the Ronowitzer family, who had it built in the 13th century.",
                             "button": "More",
                             "text": "The oldest history of the Frýdlant castle is connected with the Ronowitzer family, who had it built in the 13th century. We don't know much about their activities in the northern part of Bohemia. The first known member of this family was Smil, who was a member of the retinue of King Přemysl Otakar I. His sons Henry and Častolov still use the epithet 'of Zittau' in 1238, but in 1257 we already find a mention of 'Častolov of Frýdlant'. The expansion of this family was limited in 1278 by King Přemysl Otakar II., when he took the estate from the Ronowitzer family and sold it to the Biberstein family.",
@@ -547,7 +549,7 @@
                         {
                             "number": 1,
                             "name": "Friedrich of Redern",
-                            "years": "????-1564",
+                            "years": "?-1564",
                             "label": "Friedrich of Redern was a member of the Silesian knightly family.",
                             "button": "More",
                             "text": "Friedrich of Redern was a member of the Silesian knightly family. During his lifetime, he held the position of president of the Silesian Land Chamber and was a member of the royal commission to record the state of the Frýdlant manor after death of the last owner. In 1558 it was Friedrich, who bought the North Bohemian estates of Liberec, Frýdlant and Zawidow. After buying them, he reached elevation to nobility. He and his wife Salomena of Schönaich had a total of 10 children. He died in 1564 while staying in Wroclaw, Poland.",
@@ -743,7 +745,7 @@
                         {
                             "number": 1,
                             "name": "Ronowitzer",
-                            "years": "????-1278",
+                            "years": "?-1278",
                             "label": "Die älteste Geschichte der Burg Frýdlant ist mit der Familie Ronowitzer verbunden, die sie offenbar im 13. Jahrhundert in den 1340er Jahren erbauen ließ.",
                             "button": "Mehr",
                             "text": "Die älteste Geschichte der Burg Frýdlant ist mit der Familie Ronowitzer verbunden, die sie offenbar im 13. Jahrhundert in den 1340er Jahren erbauen ließ. Wir wissen nicht viel über ihre Aktivitäten in Nordböhmen. Das erste bekannte Mitglied aus dieser Familie war Smil, der zum Gefolge von König Přemysl Otakar I. gehörte. Seine Söhne Jindřich und Častolov verwenden noch 1238 den Beinamen 'von Zittau', aber schon 1257 finden wir eine Erwähnung 'Der Vogel von Frýdlant'. Die Expansion dieser Familie wurde 1278 von König Přemysl Otakar II. begrenzt, als er den Besitz von der Familie Ronowitzer übernahm und an die benachbarte Familie Biberstein verkaufte.",
@@ -777,7 +779,7 @@
                         {
                             "number": 1,
                             "name": "Friedrich von Rödern",
-                            "years": "????-1564",
+                            "years": "?-1564",
                             "label": "Friedrich von Rödern war ein Mitglied des schlesischen Rittergeschlechts.",
                             "button": "Mehr",
                             "text": "Friedrich von Rödern war ein Mitglied des schlesischen Rittergeschlechts. Zu seinen Lebzeiten bekleidete er das Amt des Präsidenten der Schlesischen Länderkammer und war Mitglied der königlichen Kommission zur Erfassung des Zustandes des Guts nach dem Tod des letzten Besitzers des Gutshofes Frýdlant. In 1558 kaufte Friedrich die nordböhmischen Güter Liberec, Frýdlant und Zawidow. Nach dem Kauf wurde er in den Adelsstand erhoben. Er und seine Frau Salomena aus Schönaich hatten insgesamt 10 Kinder. Er starb 1564 während eines Aufenthalts in Wroclaw, Polen.",
@@ -988,7 +990,7 @@
                     "title": "The first room of the castle",
                     "card_label": "From the second half of the 13th century, this region of Bohemia was ruled by a family called Ronovci, whose coat of arms can be seen above the entrance door.",
                     "button": "Visit",
-                    "text": "From the second half of the 13th century, this region of Bohemia was ruled by a family called Ronovci, whose coat of arms can be seen above the entrance door.\n\nIn the year 1278, the Czech king confiscated the castle and sold it to the house of Bieberstein. They remained at Frýdlant for almost 300 years. However, the Bieberstein family that lived on Frýdland died out in 1551.\n\n Then in 1558, Rederns came to this castle. In this room, we have three pictures of members of the Redern family. Next to the window is Melchior Redern. He fought against the Turks with great success and even became the Imperial marshall. During his absence and after his death, his wife Catherine (between windows) controlled his property and affairs.\n\nAt the beginning of the 17th century, she built the castle chapel, the old section of the chateau and the family tomb in a local church. In addition, she was able to finance all her son's journeys to Italy and all around Europe. Unfortunately, many of these expenses were paid by taxesfrom the local population, which angered them. So they started calling her Catherine the Bad.\n\nThen their son Christopher Redern controlled the castle. He took part in the insurrection of the Czech protestants against the catholic Habsburgs from 1618 to 1620. The rebellion culminated on the 8th of November 1620. After the decisive battle of White Mountain, Christopher was forced to emigrate. The Habsburg emperor then confiscated all his property and sold it to Albrecht of Wallenstein in 1622.\n\nThe most interesting things in this room are those two models of Frýdlant. They are both from the 19th century. The right one is the actual form of the castle, and the left one is a reconstruction that was never built.\n\nIn the glass case, the relics of Melchior Redern are displayed. It is his left armbone, his helmet, and his sword. Above it is his burial clothing robe."
+                    "text": "From the second half of the 13th century, this region of Bohemia was ruled by a family called Ronovci, whose coat of arms can be seen above the entrance door.\n\nIn the year 1278, the Czech king confiscated the castle and sold it to the house of Bieberstein. They remained at Frýdlant for almost 300 years. However, the Bieberstein family that lived on Frýdland died out in 1551.\n\n Then in 1558, Rederns came to this castle. In this room, we have three pictures of members of the Redern family. Next to the window is Melchior Redern. He fought against the Turks with great success and even became the Imperial marshall. During his absence and after his death, his wife Catherine (between windows) controlled his property and affairs.\n\nAt the beginning of the 17th century, she built the castle chapel, the old section of the chateau and the family tomb in a local church. In addition, she was able to finance all her son's journeys to Italy and all around Europe. Unfortunately, many of these expenses were paid by taxes from the local population, which angered them. So they started calling her Catherine the Bad.\n\nThen their son Christopher Redern controlled the castle. He took part in the insurrection of the Czech protestants against the catholic Habsburgs from 1618 to 1620. The rebellion culminated on the 8th of November 1620. After the decisive battle of White Mountain, Christopher was forced to emigrate. The Habsburg emperor then confiscated all his property and sold it to Albrecht of Wallenstein in 1622.\n\nThe most interesting things in this room are those two models of Frýdlant. They are both from the 19th century. The right one is the actual form of the castle, and the left one is a reconstruction that was never built.\n\nIn the glass case, the relics of Melchior Redern are displayed. It is his left armbone, his helmet, and his sword. Above it is his burial clothing robe."
                 },
                 {
                     "number": 5,
@@ -996,7 +998,7 @@
                     "title": "Albrecht of Wallenstein",
                     "card_label": "In 1622 the country around the Frýdlant was purchased by Albrecht of Wallenstein (picture on the wall next to the entrance doors). ",
                     "button": "Visit",
-                    "text": "In 1622 the country around the Frýdlant was purchased by Albrecht of Wallenstein (picture on the wall next to the entrance doors). Although Albrecht became the Duke of Frýdlant, the castle was never his chief residence.\n\nAlbrecht of Wallenstein was the most important and best-known person in the Thirty years' war (1618-1648) in the 17th century. At the war's end, he started to negotiate with enemies and was accused of high treason. In 1634 he was assassinated in the town of Cheb.\n\nTwo paintings on the side of the door represent the murder of Wallenstein. The one on the left is a murder of his friends, and the one on the right is the murder of Wallenstein himself.\n\nLook at the other portraits in this room: \n\nHis daughter and wife are next to Albrecht's painting.\n\n On the left wall, next to the window, is Albrecht's brother-in-law, cardinal Harrach.\n\nThe great painting presents Wallenstein 's favourite horse, which he took as a spoil of war in 1632. The Spanish inscription MAS QUERIDO means My darling.\n\nIn the corner is Wallenstein's family tree, and next to the door is a portrait of Wallenstein's astrologer Giovanni Battista Seni."
+                    "text": "In 1622 the country around the Frýdlant was purchased by Albrecht of Wallenstein (picture on the wall next to the entrance doors). Although Albrecht became the Duke of Frýdlant, the castle was never his chief residence.\n\nAlbrecht of Wallenstein was the most important and best-known person in the Thirty years' war (1618-1648) in the 17th century. At the war's end, he started to negotiate with enemies and was accused of high treason. In 1634 he was assassinated in the town of Cheb.\n\nTwo paintings on the side of the door represent the murder of Wallenstein. The one on the left is a murder of his friends, and the one on the right is the murder of Wallenstein himself.\n\nLook at the other portraits in this room: \n\nHis daughter and wife are next to Albrecht's painting.\n\n On the left wall, next to the window, is Albrecht's brother-in-law, cardinal Harrach.\n\nThe great painting presents Wallenstein's favourite horse, which he took as a spoil of war in 1632. The Spanish inscription MAS QUERIDO means My darling.\n\nIn the corner is Wallenstein's family tree, and next to the door is a portrait of Wallenstein's astrologer Giovanni Battista Seni."
                 },
                 {
                     "number": 6,

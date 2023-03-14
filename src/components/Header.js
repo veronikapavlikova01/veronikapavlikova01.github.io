@@ -91,11 +91,11 @@ function Header(props) {
             </header>
             <nav id="navbar">
                 <ul id="navlist" className={sidebar? "navigation-list font-weight-primary flex navigation-list-active":"navigation-list flex font-weight-primary"} onClick={showSidebar}>
-                    <li><NavLink className="navigation-link navigation-link-padding text-medium font-weight-primary color-primary cursor-primary" to="/"><span>{navbar.home}</span></NavLink></li>
-                    <li><NavLink className="navigation-link navigation-link-padding text-medium font-weight-primary color-primary cursor-primary" to="/other">{navbar.menu}</NavLink></li>
-                    <li><NavLink className="navigation-link navigation-link-padding text-medium font-weight-primary color-primary cursor-primary" to="/tours">{navbar.tours}</NavLink></li>
-                    <li><NavLink className="navigation-link navigation-link-padding text-medium font-weight-primary color-primary cursor-primary" to="/rooms_overview">{navbar.rooms}</NavLink></li>
-                    <li><NavLink className="navigation-link navigation-link-padding text-medium font-weight-primary color-primary cursor-primary" onClick={()=> navigate(-1)}>{navbar.back}</NavLink></li>
+                    <li><NavLink className="navigation-link-padding text-medium font-weight-primary color-primary" to="/"><span>{navbar.home}</span></NavLink></li>
+                    <li><NavLink className="navigation-link-padding text-medium font-weight-primary color-primary cursor-primary" to="/other">{navbar.menu}</NavLink></li>
+                    <li><NavLink className="navigation-link-padding text-medium font-weight-primary color-primary cursor-primary" to="/tours">{navbar.tours}</NavLink></li>
+                    <li><NavLink className="navigation-link-padding text-medium font-weight-primary color-primary cursor-primary" to="/rooms_overview">{navbar.rooms}</NavLink></li>
+                    <li><NavLink className="navigation-link-padding text-medium font-weight-primary color-primary cursor-primary" onClick={()=> navigate(-1)}>{navbar.back}</NavLink></li>
                     <li className={(window.installBannerDisplayed) ? "background-primary" : "display-none"}>
                         <div className="flex navigation-link-padding">
                             <span className="text-medium color-primary margin-bottom-primary">{install.install_label}</span>

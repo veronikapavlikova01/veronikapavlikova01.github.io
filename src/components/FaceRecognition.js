@@ -5,21 +5,24 @@ import { useNavigate } from 'react-router-dom';
 import Header from "./Header";
 import DataAPI from '../DataAPI';
 import { Context } from "../Context"
-import CustomDialog from './CustomDialog';
-import WaitDialog from './WaitDialog';
+import CustomDialog from './dialogs/CustomDialog';
+import WaitDialog from './dialogs/WaitDialog';
+import Tutorial from './content_components/Tutorial';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 function FaceRecognition() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
-    const faceRecognitionLabels = dataAPI.getFaceRecognition(context.language);
+    const frl = dataAPI.getFaceRecognition(context.language);
     const people = dataAPI.getFaceRecognitionPeople(context.language);
     const dialogs = dataAPI.getDialogs(context.language);
     const [dialogOpen, setDialogOpen] = useState(false);
     const [waitDialogOpen, setWaitDialogOpen] = useState(false);
     const navigate = useNavigate();
     let isModelsLoaded = false;
-
-
+    const [isResultDisplayed, setIsResultDisplayed] = useState(false);
+    const [resultImage, setResultImage] = useState(false);
+    const [resultName, setResultName] = useState(false);
 
     useEffect(() => {
         const MODEL_URL = process.env.PUBLIC_URL + '/models';
@@ -93,11 +96,11 @@ function FaceRecognition() {
                 return
             }
 
-            var peopleImg = getPeopleImg(results[0].label);
-            context.setImageRecognitionName(results[0].label)
-            context.setImageRecognitionImg(peopleImg)
+            setResultName(results[0].label);
+            setResultImage(getPeopleImg(results[0].label));
+            waitDialogClose();
+            setIsResultDisplayed(true)
 
-            navigate('/image_recognition_result')
         }
     }
 
@@ -112,34 +115,40 @@ function FaceRecognition() {
 
     return (
         <>
-            <Header header={faceRecognitionLabels.face_recognition} />
+            <Header header={frl.face_recognition} />
             <WaitDialog isOpen={waitDialogOpen} isClosed={waitDialogClose} />
             <CustomDialog isOpen={dialogOpen} closeDialog={dialogClose} title={dialogs.no_face_detected} content={dialogs.try_again_label} />
-            <div className="flex content-container background-secondary padding-secondary border-radius-primary box-shadow">
-                <h2 className="text-medium">{faceRecognitionLabels.title}</h2>
-                <p className="margin-top-secondary margin-bottom-primary">{faceRecognitionLabels.label}</p>
-                <div className="flex-secondary margin-bottom-primary">
-                    <span className="margin-right-secondary font-weight-primary text-medium">1.</span>
-                    <span>{faceRecognitionLabels.step_1}</span>
-                </div>
-                <div className="flex-secondary margin-bottom-primary">
-                    <span className="margin-right-secondary font-weight-primary text-medium">2.</span>
-                    <span>{faceRecognitionLabels.step_2}</span>
-                </div>
-                <div className="flex-secondary margin-bottom-primary">
-                    <span className="margin-right-secondary font-weight-primary text-medium">3.</span>
-                    <span>{faceRecognitionLabels.step_3}</span>
-                </div>
-                <div className="flex-secondary margin-bottom-primary">
-                    <span className="margin-right-secondary font-weight-primary text-medium">4.</span>
-                    <span>{faceRecognitionLabels.step_4}</span>
-                </div>
-                <div className="center-text margin-primary ">
-                    <label htmlFor="native_camera" className="text-medium button align-self-primary background-primary font-weight-primary color-primary cursor-primary">{faceRecognitionLabels.button}</label>
-                    <input id="native_camera" type="file" accept="image/*" capture="environment" className="display-none" onClick={() => setWaitDialogOpen(true)} />
-                </div>
-                <img id="person_picture" src="" className="display-none" alt="person_picture" />
-            </div>
+            {
+                !isResultDisplayed ? 
+                (
+                    <Tutorial title={frl.title} label={frl.label} step_1={frl.step_1} step_2={frl.step_2} step_3={frl.step_3} step_4={frl.step_4} button={frl.button}>
+                        <div className="center-text margin-primary ">
+                            <label htmlFor="native_camera" className="text-medium button align-self-primary background-primary font-weight-primary color-primary cursor-primary">{frl.button}</label>
+                            <input id="native_camera" type="file" accept="image/*" capture="environment" className="display-none" onClick={() => setWaitDialogOpen(true)} />
+                        </div>
+                        <img id="person_picture" src="" className="display-none" alt="person_picture" />
+                    </Tutorial>
+                ) 
+                :
+                (
+                    <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary">
+                        <div className="font-size-third medieval-first-letter">
+                            <div className="flex-secondary align-items-primary">
+                                <h2 className="margin-right-primary margin-left-primary">{resultName}</h2>
+                            </div>
+                            <div className="margin-top-secondary">
+                                <img src={require(`../img${resultImage}`)} alt="castle" className="page-image" />
+                            </div>
+                        </div>
+                        <div className="video flex-secondary padding-bottom-primary padding-top-primary align-items-primary">
+                            <div className="flex round-item background-fourth margin-right-secondary" onClick={() =>setIsResultDisplayed(false)}>
+                                <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" />
+                            </div>
+                            <p className="text-medium font-weight-primary">{frl.button_back}</p>
+                        </div>
+                    </div>
+                )
+            }
         </>
     );
 }

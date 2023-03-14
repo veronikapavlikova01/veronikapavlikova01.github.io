@@ -1,11 +1,14 @@
-import { useState, useContext, useEffect } from "react";
+import { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { Context } from "../Context"
 import DataAPI from '../DataAPI'
 import Header from "./Header";
-import { Html5Qrcode } from "html5-qrcode";
-import CustomDialog from "./CustomDialog";
-import WaitDialog from "./WaitDialog";
+import { useZxing } from "react-zxing";
+import CustomDialog from "./dialogs/CustomDialog";
+import WaitDialog from "./dialogs/WaitDialog";
+import Tutorial from './content_components/Tutorial';
+import Button from './content_components/Button';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 function QRScanner() {
     const context = useContext(Context);
@@ -16,26 +19,14 @@ function QRScanner() {
     const [dialogOpen, setDialogOpen] = useState(false);
     const [waitDialogOpen, setWaitDialogOpen] = useState(false);
     const navigate = useNavigate();
+    const [isScanning, setIsScanning] = useState(false)
 
-    useEffect(() => {
-        document
-            .getElementById("native_camera")
-            .addEventListener("change", function () {
-                setWaitDialogOpen(true);
-                let file = document.getElementById('native_camera').files[0];
-                let html5QrCode = new Html5Qrcode("reader");
-                console.log(file);
-                html5QrCode.scanFile(file, false)
-                    .then(text => {
-                        console.log("start splitting");
-                        splitScannedText(text);
-                    })
-                    .catch(err => {
-                        setWaitDialogOpen(false);
-                        setDialogOpen(true);
-                    });
-            })
-    }, []);
+
+    const { ref } = useZxing({
+        onResult(rslt) {
+            splitScannedText(rslt.getText());
+        },
+    });
 
     const dialogClose = () => {
         setDialogOpen(false);
@@ -53,11 +44,11 @@ function QRScanner() {
         if (tourExists(tour)) {
             if ((room >= 1) && (room <= dataAPI.getRooms(context.language, tour).length)) {
                 redirectToRoom(tour, room);
-            } else{
+            } else {
                 setWaitDialogOpen(false);
                 setDialogOpen(true);
             }
-        } else{
+        } else {
             setWaitDialogOpen(false);
             setDialogOpen(true);
         }
@@ -72,7 +63,7 @@ function QRScanner() {
         return false;
     }
 
-    function redirectToRoom(tour, room) {
+    const redirectToRoom = (tour, room) => {
         context.setTour(tour);
         context.setRoom(room);
         navigate("/room");
@@ -80,34 +71,37 @@ function QRScanner() {
 
     return (
         <>
-            <WaitDialog isOpen={waitDialogOpen} isClosed={waitDialogClose}/>
-            <CustomDialog isOpen={dialogOpen} closeDialog={dialogClose} title={dialogs.error_label} content={dialogs.invalid_scan_label}/>
-            <Header header={scan.qr_scanner} />
-            <div className="flex content-container background-secondary padding-secondary border-radius-primary box-shadow">
-                <h2 className="text-medium">{scan.title}</h2>
-                <p className="margin-top-secondary margin-bottom-primary">{scan.label}</p>
-                <div className="flex-secondary margin-bottom-primary">
-                    <span className="margin-right-secondary font-weight-primary text-medium">1.</span>
-                    <span>{scan.step_1}</span>
-                </div>
-                <div className="flex-secondary margin-bottom-primary">
-                    <span className="margin-right-secondary font-weight-primary text-medium">2.</span>
-                    <span>{scan.step_2}</span>
-                </div>
-                <div className="flex-secondary margin-bottom-primary">
-                    <span className="margin-right-secondary font-weight-primary text-medium">3.</span>
-                    <span>{scan.step_3}</span>
-                </div>
-                <div className="flex-secondary margin-bottom-primary">
-                    <span className="margin-right-secondary font-weight-primary text-medium">4.</span>
-                    <span>{scan.step_4}</span>
-                </div>
-                <div className="center-text margin-primary ">
-                    <label htmlFor="native_camera" className="text-medium button align-self-primary background-primary font-weight-primary color-primary cursor-primary">{scan.button}</label>
-                    <input id="native_camera" type="file" accept="image/*" capture="environment" className="display-none" />
-                </div>
-                <div id="reader" className="display-none" />
-            </div>
+            <WaitDialog isOpen={waitDialogOpen} isClosed={waitDialogClose} />
+            <CustomDialog isOpen={dialogOpen} closeDialog={dialogClose} title={dialogs.error_label} content={dialogs.invalid_scan_label} />
+            {
+                !isScanning ?
+                    (
+                        <>
+                            <Header header={scan.qr_scanner} />
+                            <Tutorial title={scan.title} label={scan.label} step_1={scan.step_1} step_2={scan.step_2} step_3={scan.step_3} step_4={scan.step_4}>
+                                <div className="align-self-primary" onClick={() => setIsScanning(true)}>
+                                    <Button button={scan.button} />
+                                </div>
+                                <div id="reader" className="display-none" />
+                            </Tutorial>
+                        </>
+                    )
+                    :
+                    (
+                        <>
+                            <video id="player" ref={ref} className="full-screen" />
+                            <div className="video-label margin-top text-medium font-weight-primary center-text">
+                                <span>{scan.qr_scanner}</span>
+                            </div>
+                            <div className="video-button flex-secondary padding-bottom-primary padding-top-primary align-items-primary">
+                                <div className="flex round-item background-fourth margin-right-secondary" onClick={() => setIsScanning(false)}>
+                                    <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" />
+                                </div>
+                                <p className="text-medium font-weight-primary">{scan.button_back}</p>
+                            </div>
+                        </>
+                    )
+            }
         </>
     );
 }

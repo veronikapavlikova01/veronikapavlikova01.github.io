@@ -5,6 +5,7 @@ import Header from './Header'
 import DataAPI from '../DataAPI'
 import { Link } from 'react-router-dom';
 import InfoIcon from '@mui/icons-material/Info';
+import Information from './Information'
 
 function RoomsOverview() {
     const context = useContext(Context);
@@ -22,15 +23,7 @@ function RoomsOverview() {
                 {
                     !context.room ? (<p>{roomsOverview.tour_not_selected}</p>) :
                         (<>
-                            <div className="card box-shadow transition-primary padding-third margin-bottom-primary">
-                                <div className="flex">
-                                    <div className="flex-secondary align-items-primary">
-                                        <InfoIcon className="icon margin-right-secondary" />
-                                        <span className="font-weight-primary">{info.info}</span>
-                                    </div>
-                                    <span>{info.rooms_overview}</span>
-                                </div>
-                            </div>
+                            <Information info={info.info} content ={info.rooms_overview}/>
                             <h3 className="opacity padding-top-primary padding-bottom-primary">{roomsOverview.seen}</h3>
                             {
                                 visited.map((item) => (

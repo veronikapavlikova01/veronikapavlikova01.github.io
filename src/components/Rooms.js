@@ -4,12 +4,13 @@ import { Link } from 'react-router-dom';
 import { useContext} from "react";
 import Header from "./Header";
 import DataAPI from '../DataAPI'
+import Button from "./content_components/Button";
+import CardContent from "./content_components/CardContent";
 
 
 function Rooms() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
-    const rooms = dataAPI.getRooms(context.language, context.tour);
     const tour = dataAPI.getTour(context.language, context.tour);
 
     return (
@@ -18,20 +19,15 @@ function Rooms() {
             <div className="content-container">
                 <div className="grid">
                     {
-                        rooms.map((item) => (
+                        tour.rooms.map((item) => (
                             <Link to="/room" className="card box-shadow transition-primary hover-primary" key={item.number} onClick={() => context.setRoom(item.number)}>
                                 <article className="flex">
-                                    <div className="padding-bottom-primary position-relative">
-                                        <img src={require(`../img${item.img}`)} alt="castle" className="card-image border-radius-secondary" />
+                                    <CardContent img={item.img} title={item.title} description={item.card_label}>
                                         <div className="card-number flex round-item">
                                             <span className="round-item-content">{item.number}</span>
                                         </div>
-                                    </div>
-                                    <h2 className="text-medium padding-primary card-title flex-secondary ">{item.title}</h2>
-                                    <p className="margin-bottom padding-primary medieval-first-letter">{item.card_label}</p>
-                                    <div className="center-text margin-primary ">
-                                        <button className="text-medium button align-self-primary background-primary font-weight-primary color-primary">{item.button}</button>
-                                    </div>
+                                    </CardContent>
+                                    <Button button={item.button}/>
                                 </article>
                             </Link>
                         )
