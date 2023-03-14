@@ -1,14 +1,12 @@
-import { useState, useContext } from "react";
+import { useState, useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Context } from "../Context"
 import DataAPI from '../DataAPI'
 import Header from "./Header";
-import { useZxing } from "react-zxing";
 import CustomDialog from "./dialogs/CustomDialog";
 import WaitDialog from "./dialogs/WaitDialog";
 import Tutorial from './content_components/Tutorial';
-import Button from './content_components/Button';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import { BrowserQRCodeReader } from "@zxing/browser";
 
 function QRScanner() {
     const context = useContext(Context);
@@ -21,12 +19,25 @@ function QRScanner() {
     const navigate = useNavigate();
     const [isScanning, setIsScanning] = useState(false)
 
+    useEffect(() => {
+        document
+            .getElementById("native_camera")
+            .addEventListener("change", function () {
+                let file = document.getElementById('native_camera').files[0];
+                let url = window.URL.createObjectURL(file);
+                const img = document.getElementById('picture');
+                img.src=url;
 
-    const { ref } = useZxing({
-        onResult(rslt) {
-            splitScannedText(rslt.getText());
-        },
-    });
+                const reader = new BrowserQRCodeReader();
+                reader.decodeFromImageElement(img).then((rslt) => {
+                    console.log(rslt);
+                    splitScannedText(rslt.text);
+                }).catch((err) => {
+                    console.error(err);
+                    setDialogOpen(true);
+                })
+            })
+    }, []);
 
     const dialogClose = () => {
         setDialogOpen(false);
@@ -73,35 +84,14 @@ function QRScanner() {
         <>
             <WaitDialog isOpen={waitDialogOpen} isClosed={waitDialogClose} />
             <CustomDialog isOpen={dialogOpen} closeDialog={dialogClose} title={dialogs.error_label} content={dialogs.invalid_scan_label} />
-            {
-                !isScanning ?
-                    (
-                        <>
-                            <Header header={scan.qr_scanner} />
-                            <Tutorial title={scan.title} label={scan.label} step_1={scan.step_1} step_2={scan.step_2} step_3={scan.step_3} step_4={scan.step_4}>
-                                <div className="align-self-primary" onClick={() => setIsScanning(true)}>
-                                    <Button button={scan.button} />
-                                </div>
-                                <div id="reader" className="display-none" />
-                            </Tutorial>
-                        </>
-                    )
-                    :
-                    (
-                        <>
-                            <video id="player" ref={ref} className="full-screen" />
-                            <div className="video-label margin-top text-medium font-weight-primary center-text">
-                                <span>{scan.qr_scanner}</span>
-                            </div>
-                            <div className="video-button flex-secondary padding-bottom-primary padding-top-primary align-items-primary">
-                                <div className="flex round-item background-fourth margin-right-secondary" onClick={() => setIsScanning(false)}>
-                                    <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" />
-                                </div>
-                                <p className="text-medium font-weight-primary">{scan.button_back}</p>
-                            </div>
-                        </>
-                    )
-            }
+            <Header header={scan.qr_scanner} />
+            <Tutorial title={scan.title} label={scan.label} step_1={scan.step_1} step_2={scan.step_2} step_3={scan.step_3} step_4={scan.step_4}>
+                <div className="center-text margin-primary ">
+                    <label htmlFor="native_camera" className="text-medium button align-self-primary background-primary font-weight-primary color-primary cursor-primary">{scan.button}</label>
+                    <input id="native_camera" type="file" accept="image/*" capture="environment" className="display-none" onClick={() => setWaitDialogOpen(true)} />
+                </div>
+                <img id="picture" src="" className="display-none" alt="person_picture" />
+            </Tutorial>
         </>
     );
 }
