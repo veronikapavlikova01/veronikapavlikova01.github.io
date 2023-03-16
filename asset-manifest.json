@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e3042694.css",
-    "main.js": "/static/js/main.9116c37b.js",
+    "main.js": "/static/js/main.da5a8503.js",
     "static/js/787.8b87e823.chunk.js": "/static/js/787.8b87e823.chunk.js",
     "static/media/salon_damske.jpg": "/static/media/salon_damske.f4e3bad937f974825c32.jpg",
     "static/media/stanovy_salon.jpg": "/static/media/stanovy_salon.7b67f8cd229ecc0f8db7.jpg",
@@ -64,16 +64,16 @@
     "static/media/albrecht.png": "/static/media/albrecht.aec195fb9a141b8bdabb.png",
     "static/media/erbovni_sal.jpg": "/static/media/erbovni_sal.0718b9b0934bc8b99290.jpg",
     "static/media/prevlekarna_salon.jpg": "/static/media/prevlekarna_salon.62524b9c8ffee52c89e8.jpg",
-    "static/media/historie.jpg": "/static/media/historie.d962ae0c2aa5f1750769.jpg",
+    "static/media/history.jpg": "/static/media/history.d962ae0c2aa5f1750769.jpg",
     "static/media/pripravna.jpg": "/static/media/pripravna.af6f0b53537ccbc81b29.jpg",
     "static/media/uvod.jpg": "/static/media/uvod.8c72f255b8838e80a20b.jpg",
     "static/media/vezeni.jpg": "/static/media/vezeni.d569d64ef4f6afe24407.jpg",
-    "static/media/hrad-26.jpg": "/static/media/hrad-26.5e606a88a282e54e9b6e.jpg",
     "static/media/pred_kapli.jpg": "/static/media/pred_kapli.f3d17d25d29ce2b4c9d6.jpg",
     "static/media/pracovna.jpg": "/static/media/pracovna.bd353474ded30724b152.jpg",
     "static/media/chateau.jpg": "/static/media/chateau.e3cc6d3c5953c8f85fef.jpg",
     "static/media/prijimaci_salon.jpg": "/static/media/prijimaci_salon.3886386e6b5746c95a27.jpg",
     "static/media/pokoj_vychovatelky.jpg": "/static/media/pokoj_vychovatelky.d16db98dd0f28fdde6e8.jpg",
+    "static/media/houses.jpg": "/static/media/houses.07f914a0dd3dd7af8ad3.jpg",
     "static/media/loznice_dcer_podkrovi.jpg": "/static/media/loznice_dcer_podkrovi.251dbc92b5b5da6c388e.jpg",
     "static/media/kvetinovy_salon.jpg": "/static/media/kvetinovy_salon.83626c7345aabcc22eec.jpg",
     "static/media/panska_chodba.jpg": "/static/media/panska_chodba.4d975fc93467d84ba78f.jpg",
@@ -89,7 +89,6 @@
     "static/media/detsky_pokoj.jpg": "/static/media/detsky_pokoj.27847b570f969cd653ec.jpg",
     "static/media/loznice.jpg": "/static/media/loznice.511b3f46ecb8c658ec5c.jpg",
     "static/media/piano.jpg": "/static/media/piano.5d3a4e82f90a1973511d.jpg",
-    "static/media/coat_of_arms.jpg": "/static/media/coat_of_arms.2a0f1e66ebd97ea84bd9.jpg",
     "static/media/hradni_nadvori.jpg": "/static/media/hradni_nadvori.2a0f1e66ebd97ea84bd9.jpg",
     "static/media/eduard.jpg": "/static/media/eduard.567c7db2a324b16446f3.jpg",
     "static/media/nositka.jpg": "/static/media/nositka.9b78c30bef03d8e7406d.jpg",
@@ -128,11 +127,11 @@
     "static/media/icon-128.png": "/static/media/icon-128.987b6916ad8cabc59e8a.png",
     "index.html": "/index.html",
     "main.e3042694.css.map": "/static/css/main.e3042694.css.map",
-    "main.9116c37b.js.map": "/static/js/main.9116c37b.js.map",
+    "main.da5a8503.js.map": "/static/js/main.da5a8503.js.map",
     "787.8b87e823.chunk.js.map": "/static/js/787.8b87e823.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3042694.css",
-    "static/js/main.9116c37b.js"
+    "static/js/main.da5a8503.js"
   ]
 }
