@@ -18,7 +18,7 @@ function HistoryOverview() {
         <>
             <Header header={header.history}/>
             <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary">
-                <ArticleContent first_label={header.history} title={historyOverview.title} second_label={historyOverview.label} img="/castle/room1.jpg" description={historyOverview.description}/>
+                <ArticleContent first_label={header.history} title={historyOverview.title} second_label={historyOverview.label} img={historyOverview.img} description={historyOverview.description}/>
             </div>
         </>
     )

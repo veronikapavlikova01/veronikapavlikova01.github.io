@@ -1,10 +1,9 @@
 import Dropdown from "./Dropdown";
 import { Context } from "../Context";
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import { Link } from 'react-router-dom'
 import DataAPI from '../DataAPI'
 import CustomDialog from "./dialogs/CustomDialog";
-import Button from "./content_components/Button";
 
 
 
@@ -15,6 +14,23 @@ function Home() {
     const dialogs = dataAPI.getDialogs(context.language)
     const isIOSNotSafari = isIOS() && !isSafari()
     const [dialogOpen, setDialogOpen] = useState(isIOSNotSafari);
+
+    useEffect(() => {
+        let homepage = document.getElementById('homepage');
+        let hour = new Date().getHours();
+        if(hour>6){
+            homepage.classList.add("welcome-morning");
+        }
+        if(hour>12){
+            homepage.classList.add("welcome-afternoon");
+        }
+        if(hour>18){
+            homepage.classList.add("welcome-evening");
+        }
+        if(hour>22){
+            homepage.classList.add("welcome-night");
+        }
+      });
 
     function isIOS() {
         const expression = /(Mac|iPhone|iPod|iPad)/i;
@@ -39,7 +55,7 @@ function Home() {
     };
 
     return (
-        <div className="welcome-background full-screen flex">
+        <div id="homepage" className="welcome-background full-screen flex">
             <CustomDialog isOpen={dialogOpen} closeDialog={dialogClose} title={dialogs.warning} content={dialogs.install_use_safari} />
             <Dropdown />
             <div className="flex welcome-box">

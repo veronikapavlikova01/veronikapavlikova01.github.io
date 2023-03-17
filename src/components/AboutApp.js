@@ -37,7 +37,8 @@ function AboutApp() {
                             </li>
                             <li class="margin-bottom-primary flex">
                                 <span class="font-weight-primary text-transform-primary">{about.photos_label}</span>
-                                <span>{about.photos}</span>
+                                <span>{about.photos1}</span>
+                                <span>{about.photos2}</span>
                             </li>
                             <li class="margin-bottom-primary flex">
                                 <span class="font-weight-primary text-transform-primary">{about.logo_label}</span>

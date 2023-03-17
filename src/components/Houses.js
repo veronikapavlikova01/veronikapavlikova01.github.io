@@ -4,7 +4,6 @@ import { useContext } from "react";
 import { Link } from 'react-router-dom'
 import Header from "./Header";
 import DataAPI from '../DataAPI';
-import castle from '../img/uvod.jpg'
 import Button from "./content_components/Button";
 import CardContent from "./content_components/CardContent";
 

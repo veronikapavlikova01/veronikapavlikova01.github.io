@@ -266,13 +266,37 @@ option{
 }
 
 /*Uvodni strana*/
-.welcome-background {
-  background: linear-gradient(rgba(56, 27, 27, 0.4), rgba(107, 91, 91, 0.5)), url('/src/img/uvod.jpg');
+.welcome-background{
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-morning{
+  background: linear-gradient(rgba(56, 27, 27, 0.4), rgba(107, 91, 91, 0.5)), url('/src/img/homepage_morning.jpg');
   background-color:black;
   background-size: cover;
   background-position: center;
-  justify-content: center;
-  align-items: center;
+}
+
+.welcome-evening{
+  background: linear-gradient(rgba(56, 27, 27, 0.4), rgba(107, 91, 91, 0.5)), url('/src/img/homepage_evening.jpg');
+  background-color:black;
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome-afternoon{
+  background: linear-gradient(rgba(56, 27, 27, 0.4), rgba(107, 91, 91, 0.5)), url('/src/img/homepage_afternoon.jpg');
+  background-color:black;
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome-night{
+  background: linear-gradient(rgba(56, 27, 27, 0.4), rgba(107, 91, 91, 0.5)), url('/src/img/homepage_night.jpg');
+  background-color:black;
+  background-size: cover;
+  background-position: center;
 }
 
 .full-screen{
@@ -391,7 +415,8 @@ option{
 }
 
 .navigation-list li{
-  display:flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .navigation-list li :hover{
