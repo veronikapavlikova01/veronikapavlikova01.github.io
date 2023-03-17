@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3042694.css",
+    "main.css": "/static/css/main.8b6573a2.css",
     "main.js": "/static/js/main.519a819b.js",
     "static/js/787.8b87e823.chunk.js": "/static/js/787.8b87e823.chunk.js",
     "static/media/salon_damske.jpg": "/static/media/salon_damske.f4e3bad937f974825c32.jpg",
@@ -126,12 +126,12 @@
     "static/media/maskable-icon-192.png": "/static/media/maskable-icon-192.2be9a4a0fb28eafccac1.png",
     "static/media/icon-128.png": "/static/media/icon-128.987b6916ad8cabc59e8a.png",
     "index.html": "/index.html",
-    "main.e3042694.css.map": "/static/css/main.e3042694.css.map",
+    "main.8b6573a2.css.map": "/static/css/main.8b6573a2.css.map",
     "main.519a819b.js.map": "/static/js/main.519a819b.js.map",
     "787.8b87e823.chunk.js.map": "/static/js/787.8b87e823.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3042694.css",
+    "static/css/main.8b6573a2.css",
     "static/js/main.519a819b.js"
   ]
 }
