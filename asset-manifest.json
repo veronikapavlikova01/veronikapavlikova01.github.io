@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b6573a2.css",
-    "main.js": "/static/js/main.519a819b.js",
+    "main.css": "/static/css/main.9a23aed9.css",
+    "main.js": "/static/js/main.75a703d4.js",
     "static/js/787.8b87e823.chunk.js": "/static/js/787.8b87e823.chunk.js",
     "static/media/salon_damske.jpg": "/static/media/salon_damske.f4e3bad937f974825c32.jpg",
     "static/media/stanovy_salon.jpg": "/static/media/stanovy_salon.7b67f8cd229ecc0f8db7.jpg",
@@ -66,7 +66,7 @@
     "static/media/prevlekarna_salon.jpg": "/static/media/prevlekarna_salon.62524b9c8ffee52c89e8.jpg",
     "static/media/history.jpg": "/static/media/history.d962ae0c2aa5f1750769.jpg",
     "static/media/pripravna.jpg": "/static/media/pripravna.af6f0b53537ccbc81b29.jpg",
-    "static/media/uvod.jpg": "/static/media/uvod.8c72f255b8838e80a20b.jpg",
+    "static/media/homepage_evening.jpg": "/static/media/homepage_evening.8c72f255b8838e80a20b.jpg",
     "static/media/vezeni.jpg": "/static/media/vezeni.d569d64ef4f6afe24407.jpg",
     "static/media/pred_kapli.jpg": "/static/media/pred_kapli.f3d17d25d29ce2b4c9d6.jpg",
     "static/media/pracovna.jpg": "/static/media/pracovna.bd353474ded30724b152.jpg",
@@ -80,7 +80,7 @@
     "static/media/jidelna.jpg": "/static/media/jidelna.87861052d3e3cce26be7.jpg",
     "static/media/pokoj_dcer_2.jpg": "/static/media/pokoj_dcer_2.2fbef7ea1d6baa1ccf76.jpg",
     "static/media/ucebna.jpg": "/static/media/ucebna.262e49b3218047be7d16.jpg",
-    "static/media/homepage.jpg": "/static/media/homepage.30a834f1f8c139dc55c9.jpg",
+    "static/media/homepage_morning.jpg": "/static/media/homepage_morning.30a834f1f8c139dc55c9.jpg",
     "static/media/prevlekarna.jpg": "/static/media/prevlekarna.3d63581ee5f8d01d669e.jpg",
     "static/media/vrchnostenska.jpg": "/static/media/vrchnostenska.55920fed83e465cdbd80.jpg",
     "static/media/podkrovi.jpg": "/static/media/podkrovi.f94f66544c201dd6775d.jpg",
@@ -99,6 +99,7 @@
     "static/media/loznice_klotildy.jpg": "/static/media/loznice_klotildy.312a61f7b9598a506108.jpg",
     "static/media/dolni_nadvori.jpg": "/static/media/dolni_nadvori.ea6e03d6069968d3d25a.jpg",
     "static/media/melchior_redern.jpg": "/static/media/melchior_redern.b9d625f8c329ec7fb2d3.jpg",
+    "static/media/homepage_afternoon.jpg": "/static/media/homepage_afternoon.7f63db193c0d93dd12b8.jpg",
     "static/media/gallasove.png": "/static/media/gallasove.c46888b34f539fa09d64.png",
     "static/media/lokajna.jpg": "/static/media/lokajna.3d63db6ab7811aef5929.jpg",
     "static/media/koupelna.jpg": "/static/media/koupelna.26dd2542a77d3b89173d.jpg",
@@ -122,16 +123,17 @@
     "static/media/kristian_filip_clamgallas.jpg": "/static/media/kristian_filip_clamgallas.cc244f1005c151615ca8.jpg",
     "static/media/biberstejnove.png": "/static/media/biberstejnove.ef5d776aa039ff148504.png",
     "service-worker.js": "/service-worker.js",
+    "static/media/homepage_night.jpg": "/static/media/homepage_night.369b2625991d94b487cd.jpg",
     "static/media/icon-256.png": "/static/media/icon-256.a582b8fbf057d003d7af.png",
     "static/media/maskable-icon-192.png": "/static/media/maskable-icon-192.2be9a4a0fb28eafccac1.png",
     "static/media/icon-128.png": "/static/media/icon-128.987b6916ad8cabc59e8a.png",
     "index.html": "/index.html",
-    "main.8b6573a2.css.map": "/static/css/main.8b6573a2.css.map",
-    "main.519a819b.js.map": "/static/js/main.519a819b.js.map",
+    "main.9a23aed9.css.map": "/static/css/main.9a23aed9.css.map",
+    "main.75a703d4.js.map": "/static/js/main.75a703d4.js.map",
     "787.8b87e823.chunk.js.map": "/static/js/787.8b87e823.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b6573a2.css",
-    "static/js/main.519a819b.js"
+    "static/css/main.9a23aed9.css",
+    "static/js/main.75a703d4.js"
   ]
 }
