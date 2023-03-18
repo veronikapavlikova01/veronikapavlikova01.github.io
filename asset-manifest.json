@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9a23aed9.css",
-    "main.js": "/static/js/main.5faea163.js",
+    "main.js": "/static/js/main.f613f9da.js",
     "static/js/787.8b87e823.chunk.js": "/static/js/787.8b87e823.chunk.js",
     "static/media/salon_damske.jpg": "/static/media/salon_damske.f4e3bad937f974825c32.jpg",
     "static/media/stanovy_salon.jpg": "/static/media/stanovy_salon.7b67f8cd229ecc0f8db7.jpg",
@@ -129,11 +129,11 @@
     "static/media/icon-128.png": "/static/media/icon-128.987b6916ad8cabc59e8a.png",
     "index.html": "/index.html",
     "main.9a23aed9.css.map": "/static/css/main.9a23aed9.css.map",
-    "main.5faea163.js.map": "/static/js/main.5faea163.js.map",
+    "main.f613f9da.js.map": "/static/js/main.f613f9da.js.map",
     "787.8b87e823.chunk.js.map": "/static/js/787.8b87e823.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a23aed9.css",
-    "static/js/main.5faea163.js"
+    "static/js/main.f613f9da.js"
   ]
 }
