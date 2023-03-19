@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.9a23aed9.css",
-    "main.js": "/static/js/main.ff89508f.js",
+    "main.js": "/static/js/main.8f519b31.js",
     "static/js/787.8b87e823.chunk.js": "/static/js/787.8b87e823.chunk.js",
     "static/media/salon_damske.jpg": "/static/media/salon_damske.f4e3bad937f974825c32.jpg",
     "static/media/stanovy_salon.jpg": "/static/media/stanovy_salon.7b67f8cd229ecc0f8db7.jpg",
     "static/media/pokoj_sluzebnych_podkrovi.jpg": "/static/media/pokoj_sluzebnych_podkrovi.f0b59de4e782d5b477b5.jpg",
+    "static/media/grabstejn.jpg": "/static/media/grabstejn.7440ae2e7c07ff15232a.jpg",
     "static/media/kaple.jpg": "/static/media/kaple.69abcd080c935b875e5a.jpg",
     "static/media/42.jpg": "/static/media/42.a7d3efccf5b015b13cd2.jpg",
+    "static/media/coffin.mp3": "/static/media/coffin.6f2fa66903537b39ed6b.mp3",
     "static/media/49.jpg": "/static/media/49.9c173e692708218240ff.jpg",
     "static/media/72.jpg": "/static/media/72.211b379ba38df5954fbf.jpg",
     "static/media/61.jpg": "/static/media/61.63fe6abade6314718d66.jpg",
@@ -23,6 +25,7 @@
     "static/media/36.jpg": "/static/media/36.232895ac6acce5b7166e.jpg",
     "static/media/37.jpg": "/static/media/37.64bfc071403f5ff5e404.jpg",
     "static/media/63.jpg": "/static/media/63.6c027bc16727227ea820.jpg",
+    "static/media/polka.mp3": "/static/media/polka.2d0ffab26304e9ce5cd9.mp3",
     "static/media/54.jpg": "/static/media/54.0b0b73adecbe1dc664c7.jpg",
     "static/media/47.jpg": "/static/media/47.a174316ba6ede7f98ab1.jpg",
     "static/media/39.jpg": "/static/media/39.91d518640fd7cb621ac5.jpg",
@@ -129,11 +132,11 @@
     "static/media/icon-128.png": "/static/media/icon-128.987b6916ad8cabc59e8a.png",
     "index.html": "/index.html",
     "main.9a23aed9.css.map": "/static/css/main.9a23aed9.css.map",
-    "main.ff89508f.js.map": "/static/js/main.ff89508f.js.map",
+    "main.8f519b31.js.map": "/static/js/main.8f519b31.js.map",
     "787.8b87e823.chunk.js.map": "/static/js/787.8b87e823.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a23aed9.css",
-    "static/js/main.ff89508f.js"
+    "static/js/main.8f519b31.js"
   ]
 }
