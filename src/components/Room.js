@@ -35,6 +35,7 @@ function Room() {
     }
     
     const slide = (x1, x2, y1, y2) => {
+        console.log("sliding");
         let distance = 100;
         if (Math.abs(y1 - y2) < 50) {
             if (x1 > (x2 + distance)) {
@@ -54,7 +55,7 @@ function Room() {
     return (
         <>
             <Header header={tour.title} />
-            <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => { x1 = touchStartEvent.setdTouches[0].clientX; y1 = touchStartEvent.setdTouches[0].clientY }} onTouchEnd={touchEndEvent => { slide(x1, touchEndEvent.setdTouches[0].clientX, y1, touchEndEvent.setdTouches[0].clientY) }}>
+            <div className="flex content-container background-secondary center-text padding-secondary border-radius-primary box-shadow" onTouchStart={touchStartEvent => { x1 = touchStartEvent.changedTouches[0].clientX; y1 = touchStartEvent.changedTouches[0].clientY }} onTouchEnd={touchEndEvent => { slide(x1, touchEndEvent.changedTouches[0].clientX, y1, touchEndEvent.changedTouches[0].clientY) }}>
                 <ArticleContent first_label={room.number} title={room.title} second_label={tour.title} img={room.img} audio="/src/mp3/nachod.mp3" description={room.text}/>
                 <div className="flex-secondary stick-bottom padding-bottom-primary padding-top-primary background-gradient">
                     <div className={`flex round-item background-fourth margin-right-primary ${isPrev ? '' : ' visibility-hidden'}`}>

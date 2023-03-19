@@ -24,7 +24,7 @@ function WhereToNext() {
                         where.places.map((item) => (
                             <a href={item.url} className="card box-shadow transition-primary hover-primary" key={item.title}>
                                 <article className="flex">
-                                    <CardContent img="/castle/room1.jpg" title={item.title} description={item.description}>
+                                    <CardContent img="/castle/castle.jpg" title={item.title} description={item.description}>
                                         <div className="card-number flex round-item">
                                             <OpenInNewIcon className="round-item-content">{item.number}</OpenInNewIcon>
                                         </div>

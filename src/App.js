@@ -42,6 +42,8 @@ class App extends React.Component {
     this.setTour = (e) => {
       this.setState({ tour: e });
       localStorage.setItem("tour", JSON.stringify(e));
+      this.setState({room: 0});
+      localStorage.setItem("room", JSON.stringify(0));
     }
 
     this.setRoom = (e) => {
@@ -92,9 +94,9 @@ class App extends React.Component {
     this.state = {
       language: localStorage.getItem("language") !== null ? JSON.parse(localStorage.getItem("language")) : "en",
       setLanguage: this.setLanguage,
-      tour: localStorage.getItem("tour") !== null ? JSON.parse(localStorage.getItem("tour")) : "castle",
+      tour: localStorage.getItem("tour") !== null ? JSON.parse(localStorage.getItem("tour")) : "0",
       setTour: this.setTour,
-      room: localStorage.getItem("room") !== null ? JSON.parse(localStorage.getItem("room")) : "1",
+      room: localStorage.getItem("room") !== null ? JSON.parse(localStorage.getItem("room")) : "0",
       setRoom: this.setRoom,
       house: localStorage.getItem("house") !== null ? JSON.parse(localStorage.getItem("house")) : "Redernové",
       setHouse: this.setHouse,
@@ -114,8 +116,6 @@ class App extends React.Component {
   componentDidMount() {
     var fontSize = localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d";
     this.setFontSize(fontSize);
-    fetch("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80611.4856216651!2d14.978767699106092!3d50.84766716300532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47092e5555ec4efb%3A0xb81e27103a735e5c!2zWsOhbWVrIEZyw71kbGFudA!5e0!3m2!1scs!2scz!4v1659987294190!5m2!1scs!2scz")
-    .then(console.log("fetched"));
   }
 
 

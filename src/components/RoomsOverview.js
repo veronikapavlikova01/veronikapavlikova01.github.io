@@ -13,20 +13,20 @@ function RoomsOverview() {
     const info = dataAPI.getInfo(context.language);
     const header = dataAPI.getHeader(context.language);
     const roomsOverview = dataAPI.getRoomsOverview(context.language);
-    const unvisited = dataAPI.getUnvisitedRooms(context.language, context.tour, context.room);
-    const visited = dataAPI.getVisitedRooms(context.language, context.tour, context.room);
+    //const unvisited = dataAPI.getUnvisitedRooms(context.language, context.tour, context.room);
+    //const visited = dataAPI.getVisitedRooms(context.language, context.tour, context.room);
 
     return (
         <>
             <Header header={header.rooms} />
             <div class="content-container background-secondary">
                 {
-                    !context.room ? (<p>{roomsOverview.tour_not_selected}</p>) :
+                    !(context.tour) ? (<span className="font-weight-primary text-medium">{roomsOverview.tour_not_selected}</span>) :
                         (<>
                             <Information info={info.info} content ={info.rooms_overview}/>
                             <h3 className="opacity padding-top-primary padding-bottom-primary">{roomsOverview.seen}</h3>
                             {
-                                visited.map((item) => (
+                                dataAPI.getVisitedRooms(context.language, context.tour, context.room).map((item) => (
                                     <div className="card flex-secondary align-items-primary margin-bottom-primary box-shadow padding-third opacity">
                                         <div className="flex round-item background-fourth margin-right-secondary">
                                             <span className="round-item-content color-primary">{item.number}</span>
@@ -37,7 +37,7 @@ function RoomsOverview() {
                             }
                             <h3 className="padding-top-primary padding-bottom-primary">{roomsOverview.not_seen}</h3>
                             {
-                                unvisited.map((item) => (
+                                dataAPI.getUnvisitedRooms(context.language, context.tour, context.room).map((item) => (
                                     <Link to="/room" className="transition-primary hover-primary card margin-bottom-primary box-shadow padding-third" onClick={() => context.setRoom(item.number)}>
                                         <div className="flex-secondary align-items-primary">
                                             <div className="flex round-item background-fourth margin-right-secondary">
