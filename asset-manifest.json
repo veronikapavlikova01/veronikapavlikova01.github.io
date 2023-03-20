@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a23aed9.css",
-    "main.js": "/static/js/main.d63aead6.js",
+    "main.css": "/static/css/main.a77ee02d.css",
+    "main.js": "/static/js/main.a78cc231.js",
     "static/js/787.8b87e823.chunk.js": "/static/js/787.8b87e823.chunk.js",
     "static/media/salon_damske.jpg": "/static/media/salon_damske.f4e3bad937f974825c32.jpg",
     "static/media/stanovy_salon.jpg": "/static/media/stanovy_salon.7b67f8cd229ecc0f8db7.jpg",
@@ -87,12 +87,12 @@
     "static/media/prevlekarna.jpg": "/static/media/prevlekarna.3d63581ee5f8d01d669e.jpg",
     "static/media/vrchnostenska.jpg": "/static/media/vrchnostenska.55920fed83e465cdbd80.jpg",
     "static/media/podkrovi.jpg": "/static/media/podkrovi.f94f66544c201dd6775d.jpg",
+    "static/media/hradni_nadvori.jpg": "/static/media/hradni_nadvori.f325ac747ebf1db163ba.jpg",
     "static/media/rytirsky_sal.jpg": "/static/media/rytirsky_sal.cad15c4794aafcf2072d.jpg",
     "static/media/clamgallasove.png": "/static/media/clamgallasove.b49e0c7345669f0ce6fd.png",
     "static/media/detsky_pokoj.jpg": "/static/media/detsky_pokoj.27847b570f969cd653ec.jpg",
     "static/media/loznice.jpg": "/static/media/loznice.511b3f46ecb8c658ec5c.jpg",
     "static/media/piano.jpg": "/static/media/piano.5d3a4e82f90a1973511d.jpg",
-    "static/media/hradni_nadvori.jpg": "/static/media/hradni_nadvori.2a0f1e66ebd97ea84bd9.jpg",
     "static/media/eduard.jpg": "/static/media/eduard.567c7db2a324b16446f3.jpg",
     "static/media/nositka.jpg": "/static/media/nositka.9b78c30bef03d8e7406d.jpg",
     "static/media/prvni_hradni.jpg": "/static/media/prvni_hradni.2b8c69aab6d2218baee8.jpg",
@@ -131,12 +131,12 @@
     "static/media/maskable-icon-192.png": "/static/media/maskable-icon-192.2be9a4a0fb28eafccac1.png",
     "static/media/icon-128.png": "/static/media/icon-128.987b6916ad8cabc59e8a.png",
     "index.html": "/index.html",
-    "main.9a23aed9.css.map": "/static/css/main.9a23aed9.css.map",
-    "main.d63aead6.js.map": "/static/js/main.d63aead6.js.map",
+    "main.a77ee02d.css.map": "/static/css/main.a77ee02d.css.map",
+    "main.a78cc231.js.map": "/static/js/main.a78cc231.js.map",
     "787.8b87e823.chunk.js.map": "/static/js/787.8b87e823.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a23aed9.css",
-    "static/js/main.d63aead6.js"
+    "static/css/main.a77ee02d.css",
+    "static/js/main.a78cc231.js"
   ]
 }
