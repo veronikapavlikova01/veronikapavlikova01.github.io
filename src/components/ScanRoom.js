@@ -18,7 +18,6 @@ function ScanRoom() {
                 <Link to="/scanner" className="align-self-primary">
                     <Button button={scan.button} />
                 </Link>
-                <img id="picture" src="" className="display-none" alt="person_picture" />
             </Tutorial>
         </>
     );

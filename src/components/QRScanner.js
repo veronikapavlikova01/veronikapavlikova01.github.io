@@ -72,11 +72,11 @@ function QRScanner() {
             <div className="video-label margin-top text-medium font-weight-primary center-text">
                 <span>{scan.qr_scanner}</span>
             </div>
-            <Link to="/scan_room" className="video-button flex-secondary padding-bottom-primary padding-top-primary align-items-primary">
+            <Link to="/scan_room" className="video-button flex-secondary align-items-primary margin-bottom-primary">
                 <div className="flex round-item background-fourth margin-right-secondary">
                     <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" />
                 </div>
-                <p className="text-medium font-weight-primary">{scan.button_back}</p>
+                <span className="text-medium font-weight-primary">{scan.button_back}</span>
             </Link>
         </>
     );

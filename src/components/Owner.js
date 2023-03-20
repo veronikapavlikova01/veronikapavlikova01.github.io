@@ -6,7 +6,6 @@ import Header from "./Header"
 import DataAPI from '../DataAPI'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import ArticleContent from "./content_components/ArticleContent"
 
 function Owner() {
     const context = useContext(Context);
@@ -48,8 +47,20 @@ function Owner() {
     return (
         <>
             <Header header={context.house}/>
-            <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary" onTouchStart={touchStartEvent => { x1 = touchStartEvent.changedTouches[0].clientX; y1 = touchStartEvent.changedTouches[0].clientY }} onTouchEnd={touchEndEvent => { slide(x1, touchEndEvent.changedTouches[0].clientX, y1, touchEndEvent.changedTouches[0].clientY) }}>
-                <ArticleContent first_label={house.title} title={owner.name} second_label={owner.years} img={owner.img} description={owner.text}/>
+            <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary" onTouchStart={touchStartEvent => { x1 = touchStartEvent.setdTouches[0].clientX; y1 = touchStartEvent.setdTouches[0].clientY }} onTouchEnd={touchEndEvent => { slide(x1, touchEndEvent.setdTouches[0].clientX, y1, touchEndEvent.setdTouches[0].clientY) }}>
+                <article className="font-size-third medieval-first-letter">
+                    <div className="flex-secondary">
+                        <div className="margin-right-primary margin-left-primary">
+                            <span className="font-style-primary margin-primary">{house.title}</span>
+                            <h2>{owner.name}</h2>
+                            <span className="font-style-primary margin-primary">{owner.years}</span>
+                        </div>
+                    </div>
+                    <div className="margin-top-secondary">
+                        <img src={require(`../img${owner.img}`)} alt="castle" className="page-image" />
+                    </div>
+                    <p className="start-text margin-top-secondary medieval-first-letter">{owner.text}</p>
+                </article>
                 <div className="flex-secondary stick-bottom padding-bottom-primary padding-top-primary background-gradient">
                     <div className={`flex round-item background-fourth margin-right-primary ${isPrev ? '' : ' visibility-hidden'}`}>
                         <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { previous() }} />

@@ -1,9 +1,8 @@
 import React from "react"
 import { Context } from "../Context"
-import { useContext} from "react"
+import { useContext } from "react"
 import Header from "./Header"
 import DataAPI from '../DataAPI'
-import ArticleContent from "./content_components/ArticleContent"
 
 
 
@@ -18,7 +17,19 @@ function HistoryOverview() {
         <>
             <Header header={header.history}/>
             <div className="flex content-container background-secondary center-text padding-secondary box-shadow border-radius-primary">
-                <ArticleContent first_label={header.history} title={historyOverview.title} second_label={historyOverview.label} img={historyOverview.img} description={historyOverview.description}/>
+                <article className="font-size-third ">
+                    <div className="flex-secondary">
+                        <div className="margin-right-primary margin-left-primary">
+                            <span className="font-style-primary margin-primary">{header.history}</span>
+                            <h2>{historyOverview.title}</h2>
+                            <span className="font-style-primary margin-primary">{historyOverview.label}</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src={require(`../img${historyOverview.img}`)} alt="castle" className="page-image" />
+                    </div>
+                    <p className="start-text margin-top-secondary medieval-first-letter">{historyOverview.description}</p>
+                </article>
             </div>
         </>
     )
