@@ -14,7 +14,7 @@ function AboutApp() {
     return (
         <>
             <Header header={header.about_app} />
-            <section class="content-container background-secondary padding-secondary box-shadow border-radius-primary">
+            <div class="content-container background-secondary padding-secondary box-shadow border-radius-primary">
                 <div className="flex align-items-primary">
                     <div className="margin-top-secondary">
                         <img src={small_icon} alt="logo" className="page-image" />
@@ -47,7 +47,7 @@ function AboutApp() {
                         </ul>
                     </div>
                 </div>
-            </section>
+            </div>
         </>
     )
 } export default AboutApp;

@@ -6,6 +6,8 @@ import DataAPI from '../DataAPI';
 import Information from "./Information";
 import CardContent from "./content_components/CardContent";
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import Button from "./content_components/Button";
+import { redirect } from "react-router-dom";
 
 
 function WhereToNext() {
@@ -14,6 +16,11 @@ function WhereToNext() {
     const header = dataAPI.getHeader(context.language);
     const info = dataAPI.getInfo(context.language);
     const where = dataAPI.getWhereToNext(context.language);
+
+    const redirect = (url) => {
+        window.open(url, "_blank", "");
+    }
+
     return (
         <>
             <Header header={header.where_to_next} />
@@ -22,16 +29,14 @@ function WhereToNext() {
                 <div className="grid padding-top-primary">
                     {
                         where.places.map((item) => (
-                            <a href={item.url} className="card box-shadow transition-primary hover-primary" key={item.title}>
-                                <article className="flex">
-                                    <CardContent img="/castle/castle.jpg" title={item.title} description={item.description}>
-                                        <div className="card-number flex round-item">
-                                            <OpenInNewIcon className="round-item-content">{item.number}</OpenInNewIcon>
-                                        </div>
-                                    </CardContent>
-                                    <a href={item.url} className="margin-primary display-block text-medium button align-self-primary background-primary font-weight-primary color-primary">{where.button}</a>
-                                </article>
-                            </a>
+                            <article onClick={() => redirect(item.url)} className="cursor-primary flex card box-shadow transition-primary hover-primary" key={item.title}>
+                                <CardContent img="/castle/castle.jpg" title={item.title} description={item.description}>
+                                    <div className="card-number flex round-item">
+                                        <OpenInNewIcon className="round-item-content">{item.number}</OpenInNewIcon>
+                                    </div>
+                                </CardContent>
+                                <Button button={where.button}/>
+                            </article>
                         ))
                     }
                 </div>

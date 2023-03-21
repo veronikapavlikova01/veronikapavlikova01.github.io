@@ -9,15 +9,24 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 window.deferredPrompt = null;
 
 //if app is not running in standalone, installSection should be displayed
-window.installBannerDisplayed=!window.matchMedia('(display-mode: standalone)').matches;
+window.installBannerDisplayed = !window.matchMedia('(display-mode: standalone)').matches;
 
 window.addEventListener("beforeinstallprompt", (e) => {
   e.preventDefault();
-  window.deferredPrompt=e;
+  window.deferredPrompt = e;
 });
 
-window.json_response=null;
+//document.documentElement.requestFullscreen();
 
+window.screen.orientation
+.lock("portrait")
+.then(() => {
+  console.log("locked")
+})
+.catch((error) => {
+   //window.alert(error)
+  console.log(error)
+});
 
 root.render(
   <React.StrictMode>

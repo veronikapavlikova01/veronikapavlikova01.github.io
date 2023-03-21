@@ -25,7 +25,7 @@ function HistoryOverview() {
                             <span className="font-style-primary margin-primary">{historyOverview.label}</span>
                         </div>
                     </div>
-                    <div>
+                    <div className="margin-top-secondary">
                         <img src={require(`../img${historyOverview.img}`)} alt="castle" className="page-image" />
                     </div>
                     <p className="start-text margin-top-secondary medieval-first-letter">{historyOverview.description}</p>

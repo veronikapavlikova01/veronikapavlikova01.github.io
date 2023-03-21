@@ -50,7 +50,6 @@ function Room() {
 
     //https://developer.mozilla.org/en-US/docs/Web/API/MediaSession
     function updatePositionState() {
-        console.log("updating");
         let audio = document.getElementById('audio');
         navigator.mediaSession.setPositionState({
           duration: audio.duration,
@@ -64,6 +63,7 @@ function Room() {
         window.scrollTo(0, 0);
         let title = dataAPI.getRoom(context.language, context.tour, context.room).title.toString();
         let tour = dataAPI.getTour(context.language, context.tour).title.toString();
+
         if ('mediaSession' in navigator) {
             navigator.mediaSession.metadata = new MediaMetadata({
                 title: title,
@@ -109,7 +109,12 @@ function Room() {
             }
 
             let audio = document.getElementById('audio');
-            audio.onplay = () => {
+
+            audio.onloadedmetadata = () => {
+                updatePositionState()
+            }
+
+            audio.onseeked = () => {
                 updatePositionState()
             }
     
@@ -120,7 +125,7 @@ function Room() {
             setIsPlaying(false);
         }
 
-    }, [context.room, document.getElementById('audio')]);
+    }, [context.room]);
 
     return (
         <>
@@ -136,7 +141,7 @@ function Room() {
                     </div>
                     <div className="margin-top-secondary">
                         <img src={require(`../img${room.img}`)} alt="castle" className="page-image" />
-                        <audio id="audio" controls src={require(`../audio${room.audio}`)} className="page-audio"> Your browser does not support the audio element.</audio>
+                        <audio preload="metadata" id="audio" controls src={require(`../audio${room.audio}`)} className="page-audio"> Your browser does not support the audio element.</audio>
                     </div>
                     <p className="start-text margin-top-secondary medieval-first-letter">{room.text}</p>
                 </article>

@@ -30,7 +30,8 @@ function Home() {
         if(hour>=22){
             homepage.classList.add("welcome-night");
         }
-      });
+    });
+
 
     function isIOS() {
         const expression = /(Mac|iPhone|iPod|iPad)/i;
@@ -63,9 +64,9 @@ function Home() {
                     {home.label_1}<br />{home.label_2}<br />{home.label_3}
                 </h1>
                 <Link to="/tours">
-                    <button className="button margin-top-primary background-primary color-primary welcome-text-button font-weight-primary text-transform-primary" onClick={() => window.lastVisited}>
+                    <span className="button display-block margin-top-primary background-primary color-primary welcome-text-button font-weight-primary text-transform-primary" onClick={() => window.lastVisited}>
                         {home.button_label}
-                    </button>
+                    </span>
                 </Link>
             </div>
         </div>

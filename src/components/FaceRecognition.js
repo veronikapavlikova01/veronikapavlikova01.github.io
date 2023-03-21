@@ -127,7 +127,7 @@ function FaceRecognition() {
                             <label htmlFor="native_camera" className="text-medium button align-self-primary background-primary font-weight-primary color-primary cursor-primary">{frl.button}</label>
                             <input id="native_camera" type="file" accept="image/*" capture="environment" className="display-none" onClick={() => setWaitDialogOpen(true)} />
                         </div>
-                        <img id="person_picture" src="" className="display-none" alt="person_picture" />
+                        <img id="person_picture" src="." className="display-none" alt="person_picture" />
                     </Tutorial>
                 ) 
                 :

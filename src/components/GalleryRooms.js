@@ -18,12 +18,10 @@ function GalleryRooms() {
                 <div className="grid">
                     {
                         tour.rooms.map((item) => (
-                            <Link to="/gallery_rooms" className="card box-shadow transition-primary hover-primary" key={item.title}>
-                                <div className="flex">
-                                    <img src={require(`../img${item.img}`)} alt="castle" className="card-image border-radius-primary" />
-                                    <h2 className="text-medium gallery-label margin-top-fourth color-primary padding-third">{item.title}</h2>
-                                </div>
-                            </Link>
+                            <div className="flex card box-shadow transition-primary hover-primary" key={item.title}>
+                                <img src={require(`../img${item.img}`)} alt="castle" className="card-image border-radius-primary" />
+                                <h2 className="text-medium gallery-label margin-top-fourth color-primary padding-third">{item.title}</h2>
+                            </div>
                         )
                         )
                     }
