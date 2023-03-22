@@ -29,14 +29,16 @@ function WhereToNext() {
                 <div className="grid padding-top-primary">
                     {
                         where.places.map((item) => (
-                            <article onClick={() => redirect(item.url)} className="cursor-primary flex card box-shadow transition-primary hover-primary" key={item.title}>
-                                <CardContent img="/castle/castle.jpg" title={item.title} description={item.description}>
-                                    <div className="card-number flex round-item">
-                                        <OpenInNewIcon className="round-item-content">{item.number}</OpenInNewIcon>
-                                    </div>
-                                </CardContent>
-                                <Button button={where.button}/>
-                            </article>
+                            <a className="card box-shadow transition-primary hover-primary" href="" onClick={() => redirect(item.url)}>
+                                <article className="flex" key={item.title}>
+                                    <CardContent img="/castle/castle.jpg" title={item.title} description={item.description}>
+                                        <div className="card-number flex round-item">
+                                            <OpenInNewIcon className="round-item-content">{item.number}</OpenInNewIcon>
+                                        </div>
+                                    </CardContent>
+                                    <Button button={where.button} />
+                                </article>
+                            </a>
                         ))
                     }
                 </div>
