@@ -21,13 +21,13 @@ function Home() {
         if(hour>=6 && hour<12){
             homepage.classList.add("welcome-morning");
         }
-        if(hour>=12 && hour<18){
+        else if(hour>=12 && hour<18){
             homepage.classList.add("welcome-afternoon");
         }
-        if(hour>=18 && hour<22){
+        else if(hour>=18 && hour<22){
             homepage.classList.add("welcome-evening");
         }
-        if(hour>=22){
+        else{
             homepage.classList.add("welcome-night");
         }
     });
