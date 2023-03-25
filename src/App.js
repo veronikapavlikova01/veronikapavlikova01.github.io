@@ -94,7 +94,7 @@ class App extends React.Component {
     this.state = {
       language: localStorage.getItem("language") !== null ? JSON.parse(localStorage.getItem("language")) : "en",
       setLanguage: this.setLanguage,
-      tour: localStorage.getItem("tour") !== null ? JSON.parse(localStorage.getItem("tour")) : "0",
+      tour: localStorage.getItem("tour") !== null ? JSON.parse(localStorage.getItem("tour")) : "castle",
       setTour: this.setTour,
       room: localStorage.getItem("room") !== null ? JSON.parse(localStorage.getItem("room")) : "0",
       setRoom: this.setRoom,
