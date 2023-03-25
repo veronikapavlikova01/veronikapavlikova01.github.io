@@ -108,11 +108,10 @@
             "language": "en",
             "qr_scanner": "QR code Scanner",
             "title": "Don't know where you are right now?",
-            "label": "If you are not sure where exactly you are, you can ask your guide or use this feature to help you find where you are. Find the stand with QR code and follow the instructions below.",
+            "label": "If you are not sure where exactly you are, you can ask your guide or use this feature to help you find out. Find the stand with QR code and follow the instructions below.",
             "step_1": "Press the „Scan QR code” button.",
-            "step_2": "Zoom in so that the QR code is clearly visible.",
-            "step_3": "Now take a picture and then press OK.",
-            "step_4": "Wait a moment. When the QR code is detected, you will be redirected to the correct location.",
+            "step_2": "Get close to the QR code so that it is clearly visible on the camera.",
+            "step_3": "Wait a moment. When the QR code is detected, you will be redirected to the correct location.",
             "button": "Scan QR code",
             "button_back": "Back"
         },
@@ -122,9 +121,8 @@
             "title": "Sie wissen nicht, wo Sie gerade sind?",
             "label": "Wenn Sie sich nicht sicher sind, wo genau Sie sich befinden, können Sie Ihren Reiseleiter fragen oder diese Funktion nutzen, um Ihnen dabei zu helfen, Ihren Standort zu finden. Finden Sie den Stand mit QR-Code und folgen Sie den Anweisungen unten.",
             "step_1": "Drücken Sie die Schaltfläche „QR Code scannen“.",
-            "step_2": "Vergrößern Sie die Kamera so, dass das QR-Code, deutlich sichtbar ist.",
-            "step_3": "Machen Sie jetzt ein Foto und drücken Sie dann OK.",
-            "step_4": "Moment mal. Wenn der QR-Code erkannt wird, werden Sie an die richtige Stelle weitergeleitet.",
+            "step_2": "Nähern Sie sich dem QR-Code, sodass er auf der Kamera gut sichtbar ist.",
+            "step_3": "Moment mal. Wenn der QR-Code erkannt wird, werden Sie an die richtige Stelle weitergeleitet.",
             "button": "QR Code scannen",
             "button_back": "Zurück"
         }

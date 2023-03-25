@@ -18,6 +18,6 @@ export const Context = React.createContext({
   "image_recognition_name":"",
   setImageRecognitionName:()=>{},
   "image_recognition_img":"",
-  setImageRecognitionImg:()=>{}
+  setImageRecognitionImg:()=>{},
 });
 

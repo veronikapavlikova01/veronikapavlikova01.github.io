@@ -97,7 +97,7 @@ function Header(props) {
                     <li><NavLink className="navigation-link-padding text-medium font-weight-primary color-primary cursor-primary" to="/rooms_overview">{navbar.rooms}</NavLink></li>
                     <li><NavLink className="navigation-link-padding text-medium font-weight-primary color-primary cursor-primary" onClick={()=> navigate(-1)}>{navbar.back}</NavLink></li>
                     <li className={(window.installBannerDisplayed) ? "background-primary" : "display-none"}>
-                        <div className="flex navigation-link-padding">
+                        <div className="flex navigation-link-padding navigation-list-install">
                             <span className="text-medium color-primary margin-bottom-primary">{install.install_label}</span>
                             <button onClick={onClick} id="downloadButton" className="margin-secondary background-secondary text-medium button background-primary color-secondary text-transform-primary font-weight-primary">{install.install}</button>
                         </div>

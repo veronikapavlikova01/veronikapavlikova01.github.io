@@ -416,6 +416,10 @@ option{
   color:#ff9301;
 }
 
+.navigation-list-install:hover{
+  color:white;
+}
+
 
 .navigation-list-active{
   top:100px;

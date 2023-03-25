@@ -16,18 +16,6 @@ window.addEventListener("beforeinstallprompt", (e) => {
   window.deferredPrompt = e;
 });
 
-//document.documentElement.requestFullscreen();
-
-window.screen.orientation
-.lock("portrait")
-.then(() => {
-  console.log("locked")
-})
-.catch((error) => {
-   //window.alert(error)
-  console.log(error)
-});
-
 root.render(
   <React.StrictMode>
     <App />

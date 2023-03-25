@@ -14,7 +14,7 @@ function ScanRoom() {
     return (
         <>
             <Header header={scan.qr_scanner} />
-            <Tutorial title={scan.title} label={scan.label} step_1={scan.step_1} step_2={scan.step_2} step_3={scan.step_3} step_4={scan.step_4}>
+            <Tutorial title={scan.title} label={scan.label} steps={[scan.step_1, scan.step_2, scan.step_3]}>
                 <Link to="/scanner" className="align-self-primary">
                     <button className="margin-primary display-block text-medium button align-self-primary background-primary font-weight-primary color-primary">{scan.button}</button>
                 </Link>

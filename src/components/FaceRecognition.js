@@ -27,9 +27,9 @@ function FaceRecognition() {
     useEffect(() => {
         const MODEL_URL = process.env.PUBLIC_URL + '/models';
         Promise.all([
-            faceapi.nets.ssdMobilenetv1.loadFromUri(MODEL_URL),
-            faceapi.nets.faceLandmark68Net.loadFromUri(MODEL_URL),
-            faceapi.nets.faceRecognitionNet.loadFromUri(MODEL_URL)
+            faceapi.loadSsdMobilenetv1Model(MODEL_URL),
+            faceapi.loadFaceLandmarkModel(MODEL_URL),
+            faceapi.loadFaceRecognitionModel(MODEL_URL)
         ]).then(
             isModelsLoaded = true
         );
@@ -122,7 +122,7 @@ function FaceRecognition() {
             {
                 !isResultDisplayed ? 
                 (
-                    <Tutorial title={frl.title} label={frl.label} step_1={frl.step_1} step_2={frl.step_2} step_3={frl.step_3} step_4={frl.step_4} button={frl.button}>
+                    <Tutorial title={frl.title} label={frl.label} steps={[frl.step_1, frl.step_2, frl.step_3, frl.step_4]}>
                         <div className="center-text margin-primary ">
                             <label htmlFor="native_camera" className="text-medium button align-self-primary background-primary font-weight-primary color-primary cursor-primary">{frl.button}</label>
                             <input id="native_camera" type="file" accept="image/*" capture="environment" className="display-none" onClick={() => setWaitDialogOpen(true)} />

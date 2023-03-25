@@ -6,10 +6,11 @@ function Tutorial(props) {
             <h2 className="text-medium">{props.title}</h2>
             <p className="margin-top-secondary margin-bottom-primary">{props.label}</p>
             <ol>
-                <li className="margin-bottom-primary">{props.step_1}</li>
-                <li className="margin-bottom-primary">{props.step_2}</li>
-                <li className="margin-bottom-primary">{props.step_3}</li>
-                <li className="margin-bottom-primary">{props.step_4}</li>
+                {
+                    props.steps.map((item) => (
+                        <li className="margin-bottom-primary">{item}</li>
+                    ))
+                }
             </ol>
             {props.children}
         </div>
