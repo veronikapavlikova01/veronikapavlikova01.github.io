@@ -412,15 +412,6 @@ option{
   padding-bottom: 1rem;
 }
 
-.navigation-list li :hover{
-  color:#ff9301;
-}
-
-.navigation-list-install:hover{
-  color:white;
-}
-
-
 .navigation-list-active{
   top:100px;
 }

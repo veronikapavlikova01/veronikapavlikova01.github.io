@@ -1,4 +1,5 @@
 import React from 'react';
+import * as faceapi from 'face-api.js';
 import DataAPI from './DataAPI';
 import { Route, BrowserRouter, Routes } from 'react-router-dom'
 import Home from './components/Home';
@@ -116,6 +117,15 @@ class App extends React.Component {
   componentDidMount() {
     var fontSize = localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d";
     this.setFontSize(fontSize);
+
+    const MODEL_URL = process.env.PUBLIC_URL + '/models';
+    Promise.all([
+        faceapi.loadSsdMobilenetv1Model(MODEL_URL),
+        faceapi.loadFaceLandmarkModel(MODEL_URL),
+        faceapi.loadFaceRecognitionModel(MODEL_URL)
+    ]).then(
+        window.isModelsLoaded = true
+    );
   }
 
 

@@ -19,29 +19,17 @@ function FaceRecognition() {
     const [dialogOpen, setDialogOpen] = useState(false);
     const [waitDialogOpen, setWaitDialogOpen] = useState(false);
     const navigate = useNavigate();
-    let isModelsLoaded = false;
     const [isResultDisplayed, setIsResultDisplayed] = useState(false);
     const [resultImage, setResultImage] = useState(false);
     const [resultName, setResultName] = useState(false);
 
-    useEffect(() => {
-        const MODEL_URL = process.env.PUBLIC_URL + '/models';
-        Promise.all([
-            faceapi.loadSsdMobilenetv1Model(MODEL_URL),
-            faceapi.loadFaceLandmarkModel(MODEL_URL),
-            faceapi.loadFaceRecognitionModel(MODEL_URL)
-        ]).then(
-            isModelsLoaded = true
-        );
-        document
-            .getElementById("native_camera")
-            .addEventListener("change", function () {
-                let file = document.getElementById('native_camera').files[0];
-                let url = window.URL.createObjectURL(file);
-                document.getElementById('person_picture').src = url;
-                handleImg();
-            })
-    }, []);
+    const inputChanged = () => {
+        let file = document.getElementById('native_camera').files[0];
+        let url = window.URL.createObjectURL(file);
+        document.getElementById('person_picture').src = url;
+        handleImg();
+        document.getElementById('native-camera').files[0] = null;   //jinak je change zavolano pouze jednou
+    }
 
     const dialogClose = () => {
         setDialogOpen(false);
@@ -56,9 +44,9 @@ function FaceRecognition() {
     //detekce může trvat i několik sekund - proto byl zaveden spinner
     //prvni rozpoznavani trva i kolem 10s, dalsi uz jsou rychlejsi. Funguje rychleji, pokud je aplikace stažena
     const handleImg = async () => {
-        if (isModelsLoaded) {
+        if (window.isModelsLoaded) {
             let img = document.getElementById('person_picture');
-            let fullFaceDescriptions = await faceapi.detectAllFaces(img).withFaceLandmarks().withFaceDescriptors()
+            let fullFaceDescriptions = await faceapi.detectAllFaces(img).withFaceLandmarks().withFaceDescriptors()  
 
 
             if (fullFaceDescriptions.length === 0) {
@@ -102,6 +90,8 @@ function FaceRecognition() {
             waitDialogClose();
             setIsResultDisplayed(true)
 
+        } else{
+            window.alert("Nothing loaded");
         }
     }
 
@@ -125,7 +115,7 @@ function FaceRecognition() {
                     <Tutorial title={frl.title} label={frl.label} steps={[frl.step_1, frl.step_2, frl.step_3, frl.step_4]}>
                         <div className="center-text margin-primary ">
                             <label htmlFor="native_camera" className="text-medium button align-self-primary background-primary font-weight-primary color-primary cursor-primary">{frl.button}</label>
-                            <input id="native_camera" type="file" accept="image/*" capture="environment" className="display-none" onClick={() => setWaitDialogOpen(true)} />
+                            <input onChange={() => inputChanged()} id="native_camera" type="file" accept="image/*" capture="environment" className="display-none" onClick={() => setWaitDialogOpen(true)} />
                         </div>
                         <img id="person_picture" src="." className="display-none" alt="person_picture" />
                     </Tutorial>
