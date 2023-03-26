@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.33e4e53d.css",
-    "main.js": "/static/js/main.3b41278c.js",
+    "main.css": "/static/css/main.622c6493.css",
+    "main.js": "/static/js/main.c91bd1c3.js",
     "static/js/787.8b87e823.chunk.js": "/static/js/787.8b87e823.chunk.js",
     "static/media/stanovy_salon.bak.jpg": "/static/media/stanovy_salon.bak.7b67f8cd229ecc0f8db7.jpg",
     "static/media/grabstejn.jpg": "/static/media/grabstejn.7440ae2e7c07ff15232a.jpg",
@@ -14,6 +14,7 @@
     "static/media/hrad-42.jpg": "/static/media/hrad-42.77b26be7a647f838c213.jpg",
     "static/media/hrad-39.jpg": "/static/media/hrad-39.64e78e553cf61632f4ef.jpg",
     "static/media/hrad-36.jpg": "/static/media/hrad-36.db49515035148f07c7b9.jpg",
+    "static/media/map.png": "/static/media/map.795bc53df3e14b58b803.png",
     "static/media/history.jpg": "/static/media/history.d962ae0c2aa5f1750769.jpg",
     "static/media/homepage_evening.jpg": "/static/media/homepage_evening.8c72f255b8838e80a20b.jpg",
     "static/media/houses.jpg": "/static/media/houses.07f914a0dd3dd7af8ad3.jpg",
@@ -71,8 +72,8 @@
     "static/media/lokajna.jpg": "/static/media/lokajna.97cc51804b3b5b4ce98b.jpg",
     "static/media/melchior_redern.jpg": "/static/media/melchior_redern.923657121e584e1cd91c.jpg",
     "static/media/koupelna.jpg": "/static/media/koupelna.4387f78c59f2755238a7.jpg",
-    "static/media/gallasove.png": "/static/media/gallasove.5f3744c90f4f77454888.png",
     "service-worker.js": "/service-worker.js",
+    "static/media/gallasove.png": "/static/media/gallasove.5f3744c90f4f77454888.png",
     "static/media/umyvarna.jpg": "/static/media/umyvarna.052e6f26d4daeb2b511f.jpg",
     "static/media/matyas_gallas.jpg": "/static/media/matyas_gallas.06ab2e206727ce0b8300.jpg",
     "static/media/frantisek_ferdinand_gallas.jpg": "/static/media/frantisek_ferdinand_gallas.4928950668ab95fb27a7.jpg",
@@ -96,12 +97,12 @@
     "static/media/maskable-icon-192.png": "/static/media/maskable-icon-192.2be9a4a0fb28eafccac1.png",
     "static/media/icon-128.png": "/static/media/icon-128.987b6916ad8cabc59e8a.png",
     "index.html": "/index.html",
-    "main.33e4e53d.css.map": "/static/css/main.33e4e53d.css.map",
-    "main.3b41278c.js.map": "/static/js/main.3b41278c.js.map",
+    "main.622c6493.css.map": "/static/css/main.622c6493.css.map",
+    "main.c91bd1c3.js.map": "/static/js/main.c91bd1c3.js.map",
     "787.8b87e823.chunk.js.map": "/static/js/787.8b87e823.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33e4e53d.css",
-    "static/js/main.3b41278c.js"
+    "static/css/main.622c6493.css",
+    "static/js/main.c91bd1c3.js"
   ]
 }
