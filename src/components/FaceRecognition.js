@@ -9,6 +9,7 @@ import CustomDialog from './dialogs/CustomDialog';
 import WaitDialog from './dialogs/WaitDialog';
 import Tutorial from './content_components/Tutorial';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import { Button } from '@mui/material';
 
 function FaceRecognition() {
     const context = useContext(Context);
@@ -18,17 +19,22 @@ function FaceRecognition() {
     const dialogs = dataAPI.getDialogs(context.language);
     const [dialogOpen, setDialogOpen] = useState(false);
     const [waitDialogOpen, setWaitDialogOpen] = useState(false);
-    const navigate = useNavigate();
+    let waitDialogDisplayed = false;
     const [isResultDisplayed, setIsResultDisplayed] = useState(false);
     const [resultImage, setResultImage] = useState(false);
     const [resultName, setResultName] = useState(false);
 
-    const inputChanged = () => {
+    const inputChanged = async() => {
+        await setWaitDialogOpen(true);
         let file = document.getElementById('native_camera').files[0];
-        let url = window.URL.createObjectURL(file);
-        document.getElementById('person_picture').src = url;
-        handleImg();
-        document.getElementById('native-camera').files[0] = null;   //jinak je change zavolano pouze jednou
+        if(file != null){
+            let url = window.URL.createObjectURL(file);
+            document.getElementById('person_picture').src = url;
+            handleImg();
+            document.getElementById('native-camera').files[0] = null;   //jinak je change zavolano pouze jednou
+        } else{
+            waitDialogClose();
+        }
     }
 
     const dialogClose = () => {
@@ -113,10 +119,10 @@ function FaceRecognition() {
                 !isResultDisplayed ? 
                 (
                     <Tutorial title={frl.title} label={frl.label} steps={[frl.step_1, frl.step_2, frl.step_3, frl.step_4]}>
-                        <div className="center-text margin-primary ">
-                            <label htmlFor="native_camera" className="text-medium button align-self-primary background-primary font-weight-primary color-primary cursor-primary">{frl.button}</label>
-                            <input onChange={() => inputChanged()} id="native_camera" type="file" accept="image/*" capture="environment" className="display-none" onClick={() => setWaitDialogOpen(true)} />
-                        </div>
+                        <label id="label" className="cursor-primary text-medium button align-self-primary background-primary font-weight-primary color-primary">
+                            {frl.button}
+                            <input onChange={() => inputChanged()} id="native_camera" type="file" accept="image/*" capture="environment" hidden />
+                        </label>
                         <img id="person_picture" src="." className="display-none" alt="person_picture" />
                     </Tutorial>
                 ) 

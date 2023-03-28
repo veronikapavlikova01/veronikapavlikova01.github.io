@@ -51,6 +51,14 @@ ol>li::marker{
   font-size:2rem;
 }
 
+.transparent-background{
+  background-color:transparent;
+}
+
+.border-none{
+  border:none;
+}
+
 /*Dropdown menu*/
 .dropdown-box{
   position: relative;

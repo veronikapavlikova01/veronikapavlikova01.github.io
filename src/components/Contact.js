@@ -35,7 +35,7 @@ function Contact() {
                         <div className="margin-top">
                             <ul className="contact-list">
                                 <li className="margin-bottom-primary">
-                                    <div className="flex-secondary">
+                                    <div className="flex-secondary align-items-primary">
                                         <span className="font-weight-primary text-transform-primary margin-right-secondary">{contact.address}</span>
                                         <OpenInNewIcon />
                                     </div>
@@ -46,7 +46,7 @@ function Contact() {
                                     <a href="mailto:zamek.rezervace@seznam.cz">zamek.rezervace@seznam.cz</a>
                                 </li>
                                 <li className="margin-bottom-primary">
-                                    <div className="flex-secondary">
+                                    <div className="flex-secondary align-items-primary">
                                         <span className="font-weight-primary text-transform-primary margin-right-secondary">{contact.web}</span>
                                         <OpenInNewIcon />
                                     </div>
