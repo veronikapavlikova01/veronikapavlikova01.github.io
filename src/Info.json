@@ -16,11 +16,23 @@
     "help":[
         {
             "language":"en",
-            "help": "How to use the app?"
+            "help": "How to use the app?",
+            "help_tour":"How to start a tour?",
+            "help_tour_content":"After opening the application, click on the 'Select tour' button on the home page. Subsequently, you will see a list of all available tour circuits. Choose the one you bought a ticket for. By clicking on the tour, you will see an overview of the rooms that you will pass through during the tour. Choose the first one, i.e. the one marked with the number 1. After selecting it, a screen with more detailed information about the room, including audio, will appear.",
+            "help_room":"How do I switch between rooms?",
+            "help_room_content":"You can switch to the next or previous room using the buttons at the bottom of the screen. Gestures are also available to you. Swipe left to switch to next room, swipe left to previous room. You can also switch between rooms if you're listening to audio and your screen is locked. Arrows are available on the displayed notification to switch.",
+            "help_more_functions":"Does the audio guide have additional features?",
+            "help_more_functions_content":"Yes, the audio guide offers a lot of additional features. you can find their overview after clicking on the navigation under the item 'Menu'."
         },
         {
             "language":"de",
-            "help":"Wie verwende ich die App?"
+            "help":"Wie verwende ich die App?",
+            "help_tour":"Wie starte ich eine Führung?",
+            "help_tour_content":"Klicken Sie nach dem Öffnen der Anwendung auf die Schaltfläche 'Tour auswählen'. Anschließend sehen Sie eine Liste aller verfügbaren Rundfahrten. Wählen Sie diejenige aus, für die Sie ein Ticket gekauft haben. Durch Anklicken der Führung erhalten Sie eine Übersicht der Räume, die Sie während der Führung durchlaufen. Wählen Sie den ersten aus, d. h. den mit der Nummer 1 markierten. Nachdem Sie ihn ausgewählt haben, erscheint ein Bildschirm mit detaillierteren Informationen über den Raum, einschließlich Audio.",
+            "help_room":"Wie wechsle ich zwischen Räumen?",
+            "help_room_content":"Mit den Schaltflächen am unteren Bildschirmrand können Sie zum nächsten oder vorherigen Raum wechseln. Auch Gesten stehen Ihnen zur Verfügung. Wische nach links, um zum nächsten Raum zu wechseln, wische nach links zum vorherigen Raum. Sie können auch zwischen Räumen wechseln, wenn Sie Audio hören und Ihr Bildschirm gesperrt ist. Auf der angezeigten Benachrichtigung stehen Pfeile zum Wechseln zur Verfügung.",
+            "help_more_functions":"Hat der Audioguide zusätzliche Funktionen?",
+            "help_more_functions_content":"Ja, der Audioguide bietet viele zusätzliche Funktionen. deren Übersicht finden Sie nach Klick auf die Navigation unter dem Punkt 'Menü'."
         }
     ],
     "info": [

@@ -14,7 +14,13 @@ function Help(props) {
         <>
             <Header header={header.help} />
             <div className="flex content-container background-secondary padding-secondary border-radius-primary box-shadow">
-                <h2 className="text-medium">{help.help}</h2>
+                <h2 className="text-medium margin-bottom-primary">{help.help}</h2>
+                <h3>{help.help_tour}</h3>
+                <p className="margin-bottom-primary">{help.help_tour_content}</p>
+                <h3>{help.help_room}</h3>
+                <p className="margin-bottom-primary">{help.help_room_content}</p>
+                <h3>{help.help_more_functions}</h3>
+                <p>{help.help_more_functions_content}</p>
             </div>
         </>
     )
