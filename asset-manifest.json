@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b3de256.css",
-    "main.js": "/static/js/main.fbeda97e.js",
+    "main.css": "/static/css/main.b6fb42a7.css",
+    "main.js": "/static/js/main.da191bb2.js",
     "static/js/787.8b87e823.chunk.js": "/static/js/787.8b87e823.chunk.js",
     "static/media/stanovy_salon.bak.jpg": "/static/media/stanovy_salon.bak.7b67f8cd229ecc0f8db7.jpg",
     "static/media/grabstejn.jpg": "/static/media/grabstejn.7440ae2e7c07ff15232a.jpg",
@@ -97,12 +97,12 @@
     "static/media/maskable-icon-192.png": "/static/media/maskable-icon-192.2be9a4a0fb28eafccac1.png",
     "static/media/icon-128.png": "/static/media/icon-128.987b6916ad8cabc59e8a.png",
     "index.html": "/index.html",
-    "main.6b3de256.css.map": "/static/css/main.6b3de256.css.map",
-    "main.fbeda97e.js.map": "/static/js/main.fbeda97e.js.map",
+    "main.b6fb42a7.css.map": "/static/css/main.b6fb42a7.css.map",
+    "main.da191bb2.js.map": "/static/js/main.da191bb2.js.map",
     "787.8b87e823.chunk.js.map": "/static/js/787.8b87e823.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b3de256.css",
-    "static/js/main.fbeda97e.js"
+    "static/css/main.b6fb42a7.css",
+    "static/js/main.da191bb2.js"
   ]
 }
