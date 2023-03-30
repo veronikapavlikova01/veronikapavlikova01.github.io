@@ -327,6 +327,11 @@ option{
   left: 10%;
 }
 
+.help-box{
+  position:fixed;
+  bottom:0;
+}
+
 .spinner-container {
   display: flex;
   justify-content: center;

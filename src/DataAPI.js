@@ -306,25 +306,43 @@ class DataAPI {
     }
 
     getVisitedRooms(language, tour, room){
-        let rooms = this.getRooms(language,tour);
-        const visited = [];
-        for(let i=0;i<rooms.length;i++){
-            if(rooms[i].number<=room){
-                visited.push(rooms[i]);
+        if(tour != null){
+            let rooms = this.getRooms(language,tour);
+            const visited = [];
+            for(let i=0;i<rooms.length;i++){
+                if(rooms[i].number<=room){
+                    visited.push(rooms[i]);
+                }
             }
+            return visited;
+        } else {
+            return null;
         }
-        return visited;
     }
 
     getUnvisitedRooms(language, tour, room){
-        let rooms = this.getRooms(language,tour);
-        const unvisited = [];
-        for(let i=0;i<rooms.length;i++){
-            if(rooms[i].number>room){
-                unvisited.push(rooms[i]);
+        if(tour != null){
+            let rooms = this.getRooms(language,tour);
+            const unvisited = [];
+            for(let i=0;i<rooms.length;i++){
+                if(rooms[i].number>room){
+                    unvisited.push(rooms[i]);
+                }
+            }
+            return unvisited;
+        } else {
+            return null;
+        }
+    }
+
+    getHelp(language){
+        let info=Info.help;
+        for(let i=0;i<info.length;i++){
+            if(info[i].language===language){
+                return info[i];
             }
         }
-        return unvisited;
+        return null;
     }
 }
 

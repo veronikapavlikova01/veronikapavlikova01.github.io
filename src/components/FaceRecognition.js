@@ -24,6 +24,17 @@ function FaceRecognition() {
     const [resultImage, setResultImage] = useState(false);
     const [resultName, setResultName] = useState(false);
 
+    useEffect(() => {
+        const MODEL_URL = process.env.PUBLIC_URL + '/models';
+        Promise.all([
+            faceapi.loadSsdMobilenetv1Model(MODEL_URL),
+            faceapi.loadFaceLandmarkModel(MODEL_URL),
+            faceapi.loadFaceRecognitionModel(MODEL_URL)
+        ]).then(
+            window.isModelsLoaded = true
+        );
+    })
+
     const inputChanged = async() => {
         await setWaitDialogOpen(true);
         let file = document.getElementById('native_camera').files[0];

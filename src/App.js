@@ -23,6 +23,7 @@ import ScrollToTop from './components/ScrollToTop';
 import ScanRoom from './components/ScanRoom';
 import { Context } from './Context'
 import FaceRecognition from './components/FaceRecognition';
+import Help from './components/Help';
 
 
 class App extends React.Component {
@@ -94,13 +95,13 @@ class App extends React.Component {
     this.state = {
       language: localStorage.getItem("language") !== null ? JSON.parse(localStorage.getItem("language")) : "en",
       setLanguage: this.setLanguage,
-      tour: localStorage.getItem("tour") !== null ? JSON.parse(localStorage.getItem("tour")) : "castle",
+      tour: localStorage.getItem("tour") !== null ? JSON.parse(localStorage.getItem("tour")) : null,
       setTour: this.setTour,
-      room: localStorage.getItem("room") !== null ? JSON.parse(localStorage.getItem("room")) : "0",
+      room: localStorage.getItem("room") !== null ? JSON.parse(localStorage.getItem("room")) : 0,
       setRoom: this.setRoom,
-      house: localStorage.getItem("house") !== null ? JSON.parse(localStorage.getItem("house")) : "Redernové",
+      house: localStorage.getItem("house") !== null ? JSON.parse(localStorage.getItem("house")) : null,
       setHouse: this.setHouse,
-      owner: localStorage.getItem("owner") !== null ? JSON.parse(localStorage.getItem("owner")) : "1",
+      owner: localStorage.getItem("owner") !== null ? JSON.parse(localStorage.getItem("owner")) : 0,
       setOwner: this.setOwner,
       fontSize: localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d",
       setFontSize: this.setFontSize,
@@ -116,15 +117,6 @@ class App extends React.Component {
   componentDidMount() {
     var fontSize = localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d";
     this.setFontSize(fontSize);
-
-    const MODEL_URL = process.env.PUBLIC_URL + '/models';
-    Promise.all([
-        faceapi.loadSsdMobilenetv1Model(MODEL_URL),
-        faceapi.loadFaceLandmarkModel(MODEL_URL),
-        faceapi.loadFaceRecognitionModel(MODEL_URL)
-    ]).then(
-        window.isModelsLoaded = true
-    );
   }
 
 
@@ -157,6 +149,7 @@ class App extends React.Component {
                 <Route path="/gallery_rooms" element={<GalleryRooms />} />
                 <Route path="/scan_room" element={<ScanRoom />} />
                 <Route path="/image_recognition" element={<FaceRecognition/>}/>
+                <Route path="/help" element={<Help/>}/>
               </Routes>
             </Context.Provider>
           </BrowserRouter>

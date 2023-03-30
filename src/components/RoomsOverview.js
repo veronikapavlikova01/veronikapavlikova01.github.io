@@ -1,10 +1,8 @@
-import React from "react";
 import { Context } from "../Context";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import Header from './Header'
 import DataAPI from '../DataAPI'
 import { Link } from 'react-router-dom';
-import InfoIcon from '@mui/icons-material/Info';
 import Information from './Information'
 
 function RoomsOverview() {
@@ -16,13 +14,14 @@ function RoomsOverview() {
     const unvisited = dataAPI.getUnvisitedRooms(context.language, context.tour, context.room);
     const visited = dataAPI.getVisitedRooms(context.language, context.tour, context.room);
 
+
     return (
         <>
             <Header header={header.rooms} />
-            <div class="content-container background-secondary">
+            <div className="content-container background-secondary">
                 {
-                    !(context.tour) ? (<span className="font-weight-primary text-medium">{roomsOverview.tour_not_selected}</span>) :
-                        (<>
+                    !(context.tour) ? (<span className="padding-third font-weight-primary text-medium">{roomsOverview.tour_not_selected}</span>) :
+                        <>
                             <Information info={info.info} content ={info.rooms_overview}/>
                             <h3 className={visited.length? "opacity padding-top-primary padding-bottom-primary" : "display-none"}>{roomsOverview.seen}</h3>
                             {
@@ -49,7 +48,6 @@ function RoomsOverview() {
                                 ))
                             }
                         </>
-                        )
                 }
             </div>
         </>

@@ -13,6 +13,16 @@
             "rotate": "Bitte drehen Sie Ihr Gerät!"
         }
     ],
+    "help":[
+        {
+            "language":"en",
+            "help": "How to use the app?"
+        },
+        {
+            "language":"de",
+            "help":"Wie verwende ich die App?"
+        }
+    ],
     "info": [
         {
             "language": "en",
@@ -141,7 +151,9 @@
             "gallery": "Gallery",
             "about_app": "About app",
             "settings": "Settings",
-            "contact": "Contact"
+            "contact": "Contact",
+            "scan": "QR code Scanner",
+            "help": "Help"
         },
         {
             "language": "de",
@@ -156,7 +168,9 @@
             "gallery": "Galerie",
             "about_app": "Über App",
             "settings": "Einstellung",
-            "contact": "Kontakt"
+            "contact": "Kontakt",
+            "scan": "QR Code Scanner",
+            "help": "Hilfe"
         }
     ],
     "settings": [
@@ -187,6 +201,7 @@
             "where_to_next": "Where to next?",
             "contact": "Contact",
             "settings": "Settings",
+            "help": "Help",
             "about_app": "About app"
         },
         {
@@ -198,6 +213,7 @@
             "where_to_next": "Wohin als nächstes?",
             "contact": "Kontakt",
             "settings": "Einstellung",
+            "help": "Hilfe",
             "about_app": "Über App"
         }
     ],

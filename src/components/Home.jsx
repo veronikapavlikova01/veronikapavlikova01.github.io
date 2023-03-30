@@ -11,23 +11,24 @@ function Home() {
     const context = useContext(Context);
     const dataAPI = new DataAPI();
     const home = dataAPI.getHome(context.language);
-    const dialogs = dataAPI.getDialogs(context.language)
+    const dialogs = dataAPI.getDialogs(context.language);
+    const help = dataAPI.getHelp(context.language);
     const isIOSNotSafari = isIOS() && !isSafari()
     const [dialogOpen, setDialogOpen] = useState(isIOSNotSafari);
 
     useEffect(() => {
         let homepage = document.getElementById('homepage');
         let hour = new Date().getHours();
-        if(hour>=6 && hour<12){
+        if (hour >= 6 && hour < 12) {
             homepage.classList.add("welcome-morning");
         }
-        else if(hour>=12 && hour<18){
+        else if (hour >= 12 && hour < 18) {
             homepage.classList.add("welcome-afternoon");
         }
-        else if(hour>=18 && hour<22){
+        else if (hour >= 18 && hour < 22) {
             homepage.classList.add("welcome-evening");
         }
-        else{
+        else {
             homepage.classList.add("welcome-night");
         }
     });
@@ -64,9 +65,14 @@ function Home() {
                     {home.label_1}<br />{home.label_2}<br />{home.label_3}
                 </h1>
                 <Link to="/tours">
-                    <span className="button display-block margin-top-primary background-primary color-primary welcome-text-button font-weight-primary text-transform-primary" onClick={() => window.lastVisited}>
+                    <span className="button display-block margin-top-primary background-primary color-primary welcome-text-button font-weight-primary text-transform-primary">
                         {home.button_label}
                     </span>
+                </Link>
+            </div>
+            <div className="help-box flex margin-primary font-weight-primary">
+                <Link to="help" className="color-secondary center-text">
+                    {help.help}
                 </Link>
             </div>
         </div>

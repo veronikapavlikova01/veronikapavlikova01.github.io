@@ -16,6 +16,7 @@ function ScanRoom() {
     const scan = dataAPI.getQRScanner(context.language);
     const tourIds = dataAPI.getTourIds(context.language);
     const dialogs = dataAPI.getDialogs(context.language);
+    const header = dataAPI.getHeader(context.language);
     const [dialogOpen, setDialogOpen] = useState(false);
     const [waitDialogOpen, setWaitDialogOpen] = useState(false);
     const [isDisplayed, setIsDisplayed] = useState(false);
@@ -73,7 +74,7 @@ function ScanRoom() {
     return (
         <>
             <div className={isDisplayed ? "display-none" : ""}>
-                <Header header={scan.qr_scanner} />
+                <Header header={header.scan} />
                 <Tutorial title={scan.title} label={scan.label} steps={[scan.step_1, scan.step_2, scan.step_3]}>
                     <button onClick={() => setIsDisplayed(true)} className="margin-primary display-block text-medium button align-self-primary background-primary font-weight-primary color-primary">{scan.button}</button>
                 </Tutorial>

@@ -12,6 +12,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import QrCode2Icon from '@mui/icons-material/QrCode2';
 import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
 import PortraitIcon from '@mui/icons-material/Portrait';
+import HelpIcon from '@mui/icons-material/Help';
 
 
 function Other() {
@@ -78,6 +79,14 @@ function Other() {
                             <SettingsIcon className="round-item-content color-primary" />
                         </div>
                         <span>{other.settings}</span>
+                    </div>
+                </Link>
+                <Link to="/help" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                    <div className="flex-secondary align-items-primary">
+                        <div className="flex round-item background-fourth margin-right-secondary">
+                            <HelpIcon className="round-item-content color-primary" />
+                        </div>
+                        <span>{other.help}</span>
                     </div>
                 </Link>
                 <Link to="/about_app" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
