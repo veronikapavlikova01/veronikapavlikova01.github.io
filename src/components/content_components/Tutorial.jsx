@@ -8,7 +8,7 @@ function Tutorial(props) {
             <ol>
                 {
                     props.steps.map((item) => (
-                        <li className="margin-bottom-primary">{item}</li>
+                        <li className="margin-bottom-primary" key={item}>{item}</li>
                     ))
                 }
             </ol>

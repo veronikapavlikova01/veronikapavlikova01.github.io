@@ -27,9 +27,9 @@ function FaceRecognition() {
     useEffect(() => {
         const MODEL_URL = process.env.PUBLIC_URL + '/models';
         Promise.all([
-            faceapi.loadSsdMobilenetv1Model(MODEL_URL),
-            faceapi.loadFaceLandmarkModel(MODEL_URL),
-            faceapi.loadFaceRecognitionModel(MODEL_URL)
+            faceapi.nets.ssdMobilenetv1.loadFromUri(MODEL_URL),
+            faceapi.nets.faceLandmark68Net.loadFromUri(MODEL_URL),
+            faceapi.nets.faceRecognitionNet.loadFromUri(MODEL_URL)
         ]).then(
             window.isModelsLoaded = true
         );
