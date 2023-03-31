@@ -24,17 +24,6 @@ function FaceRecognition() {
     const [resultImage, setResultImage] = useState(false);
     const [resultName, setResultName] = useState(false);
 
-    useEffect(() => {
-        const MODEL_URL = process.env.PUBLIC_URL + '/models';
-        Promise.all([
-            faceapi.nets.ssdMobilenetv1.loadFromUri(MODEL_URL),
-            faceapi.nets.faceLandmark68Net.loadFromUri(MODEL_URL),
-            faceapi.nets.faceRecognitionNet.loadFromUri(MODEL_URL)
-        ]).then(
-            window.isModelsLoaded = true
-        );
-    })
-
     const inputChanged = async() => {
         await setWaitDialogOpen(true);
         let file = document.getElementById('native_camera').files[0];
@@ -61,54 +50,59 @@ function FaceRecognition() {
     //detekce může trvat i několik sekund - proto byl zaveden spinner
     //prvni rozpoznavani trva i kolem 10s, dalsi uz jsou rychlejsi. Funguje rychleji, pokud je aplikace stažena
     const handleImg = async () => {
-        if (window.isModelsLoaded) {
-            let img = document.getElementById('person_picture');
-            let fullFaceDescriptions = await faceapi.detectAllFaces(img).withFaceLandmarks().withFaceDescriptors()  
-
-
-            if (fullFaceDescriptions.length === 0) {
+        try{
+            if (window.isModelsLoaded) {
+                let img = document.getElementById('person_picture');
+                let fullFaceDescriptions = await faceapi.detectAllFaces(img).withFaceLandmarks().withFaceDescriptors()  
+    
+    
+                if (fullFaceDescriptions.length === 0) {
+                    waitDialogClose();
+                    setDialogOpen(true);
+                    return;
+                }
+    
+                const labeledFaceDescriptors = await Promise.all(
+                    people.map(async human => {
+                        const imgUrl = require(`../img${human.img}`);
+                        //face api takes only html element
+                        const img = document.createElement('img');
+                        img.src = imgUrl;
+    
+                        const fullFaceDescription = await faceapi.detectSingleFace(img).withFaceLandmarks().withFaceDescriptor()
+    
+                        const faceDescriptors = [fullFaceDescription.descriptor]
+                        return new faceapi.LabeledFaceDescriptors(human.name, faceDescriptors)
+                    })
+                ).catch(err => {
+                    waitDialogClose();
+                    setDialogOpen(true);
+                    return;
+                });
+    
+    
+                const maxDescriptorDistance = 0.6
+                const faceMatcher = new faceapi.FaceMatcher(labeledFaceDescriptors, maxDescriptorDistance)
+    
+                const results = fullFaceDescriptions.map(fd => faceMatcher.findBestMatch(fd.descriptor))
+    
+                if (results[0].label === 'unknown') {
+                    waitDialogClose();
+                    setDialogOpen(true);
+                    return
+                }
+    
+                setResultName(results[0].label);
+                setResultImage(getPeopleImg(results[0].label));
                 waitDialogClose();
-                setDialogOpen(true);
-                return;
+                setIsResultDisplayed(true)
+    
+            } else{
+                waitDialogClose();
+                window.alert("Nothing loaded");
             }
-
-            const labeledFaceDescriptors = await Promise.all(
-                people.map(async human => {
-                    const imgUrl = require(`../img${human.img}`);
-                    //face api takes only html element
-                    const img = document.createElement('img');
-                    img.src = imgUrl;
-
-                    const fullFaceDescription = await faceapi.detectSingleFace(img).withFaceLandmarks().withFaceDescriptor()
-
-                    const faceDescriptors = [fullFaceDescription.descriptor]
-                    return new faceapi.LabeledFaceDescriptors(human.name, faceDescriptors)
-                })
-            ).catch(err => {
-                waitDialogClose();
-                setDialogOpen(true);
-                return;
-            });
-
-
-            const maxDescriptorDistance = 0.6
-            const faceMatcher = new faceapi.FaceMatcher(labeledFaceDescriptors, maxDescriptorDistance)
-
-            const results = fullFaceDescriptions.map(fd => faceMatcher.findBestMatch(fd.descriptor))
-
-            if (results[0].label === 'unknown') {
-                waitDialogClose();
-                setDialogOpen(true);
-                return
-            }
-
-            setResultName(results[0].label);
-            setResultImage(getPeopleImg(results[0].label));
+        } catch(err){
             waitDialogClose();
-            setIsResultDisplayed(true)
-
-        } else{
-            window.alert("Nothing loaded");
         }
     }
 

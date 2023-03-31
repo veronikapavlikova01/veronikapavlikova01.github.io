@@ -117,6 +117,14 @@ class App extends React.Component {
   componentDidMount() {
     var fontSize = localStorage.getItem("fontSize") !== null ? JSON.parse(localStorage.getItem("fontSize")) : "d";
     this.setFontSize(fontSize);
+    const MODEL_URL = process.env.PUBLIC_URL + '/models';
+    Promise.all([
+        faceapi.nets.ssdMobilenetv1.loadFromUri(MODEL_URL),
+        faceapi.nets.faceLandmark68Net.loadFromUri(MODEL_URL),
+        faceapi.nets.faceRecognitionNet.loadFromUri(MODEL_URL)
+    ]).then(
+        window.isModelsLoaded = true
+    );
   }
 
 
