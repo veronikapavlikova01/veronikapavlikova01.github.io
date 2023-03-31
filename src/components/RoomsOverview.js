@@ -20,7 +20,7 @@ function RoomsOverview() {
             <Header header={header.rooms} />
             <div className="content-container background-secondary">
                 {
-                    !(context.tour) ? (<span className="padding-third font-weight-primary text-medium">{roomsOverview.tour_not_selected}</span>) :
+                    !(context.tour) ? (<span className="padding-third display-block font-weight-primary text-medium">{roomsOverview.tour_not_selected}</span>) :
                         <>
                             <Information info={info.info} content ={info.rooms_overview}/>
                             <h3 className={visited.length? "opacity padding-top-primary padding-bottom-primary" : "display-none"}>{roomsOverview.seen}</h3>

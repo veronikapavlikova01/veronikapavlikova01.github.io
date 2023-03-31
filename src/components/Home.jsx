@@ -65,7 +65,7 @@ function Home() {
                     {home.label_1}<br />{home.label_2}<br />{home.label_3}
                 </h1>
                 <Link to="/tours">
-                    <span className="button display-block margin-top-primary background-primary color-primary welcome-text-button font-weight-primary text-transform-primary">
+                    <span className="button center-text display-block margin-top-primary background-primary color-primary welcome-text-button font-weight-primary text-transform-primary">
                         {home.button_label}
                     </span>
                 </Link>
