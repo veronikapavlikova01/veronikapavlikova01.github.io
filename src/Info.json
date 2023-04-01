@@ -1339,25 +1339,25 @@
             "button": "Start tour",
             "rooms": [
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/chateau/en_room_1.mp3",
                     "number": 1,
                     "img": "/chateau/dolni_nadvori.jpg",
                     "title": "The lower courtyard",
                     "card_label": "We are currently standing in the lower courtyard, where we can see the whole complex.",
                     "button": "Visit",
-                    "text": "Dear visitors, we welcome you to the state castle and chateau of Frýdlant. Before the start of the tour, we ask you to silence your mobile phones so that the tour is not disturbed. If you are using an audio guide, wear headphones while listening. Furthermore, we ask you not to touch the displayed exhibits and stay with your group. Thank you for your understanding and we wish you a pleasant visit.\n\nWe are currently standing in the lower courtyard, where we can see the whole complex.\n\nThe oldest part is the round tower called Indica. According to the legend, a fire was being lit on the top of Indica, so the tower served as a beacon for the trade route between the Czech Kingdom and the Kingdoms in the North. The tower is 49 metres high and its walls are in the first floor 4 metres thick.\n\nIn the 13th century, the old gothic castle was built around the tower. Then in the 16th century, it was rebuilt in renaissance style, which is the current form of the castle.\n\nThe yellow building behind the tree is the chapel. It was built between 1598 - 1602 by Catherine Redern. Next to the chapel is the renaissance wing of the chateau from the 16th century. On its facade, we can see the original renaissance pictures called sgraffito. And the youngest part of the complex is the last wing of the chateau, called the Castellan wing. That was built in the 19th century by Eduard Clam-Gallas.\n\nOn this tour through the chateau, we will visit all floors of the renaissance wing. And at the end, we will see the chapel. \n\nNow let us begin our tour in the chateau's kitchen."
+                    "text": "Dear visitors, we welcome you to the state castle and chateau of Frýdlant. Before the start of the tour, we ask you to silence your mobile phones so that the tour is not disturbed. If you are using an audio guide, wear headphones while listening. Furthermore, we ask you not to touch the displayed exhibits and stay with your group. Thank you for your understanding and we wish you a pleasant visit.\n\nWe are currently standing in the lower courtyard, where we can see the whole complex.\n\nThe oldest part is the round tower called Indica. According to the legend, a fire was being lit on the top of Indica, so the tower served as a beacon for the trade route between the Czech Kingdom and the Kingdoms in the North. The tower is 49 metres high and its walls are on the first floor 4 metres thick.\n\nIn the 13th century, the old gothic castle was built around the tower. Then in the 16th century, it was rebuilt in the renaissance style, which is the current form of the castle.\n\nThe yellow building behind the tree is the chapel. It was built between 1598 - 1602 by Catherine Redern. Next to the chapel is the renaissance wing of the chateau from the 16th century. On its facade, we can see the original renaissance pictures called sgraffito. And the youngest part of the complex is the last wing of the chateau, called the Castellan wing. That was built in the 19th century by Eduard Clam-Gallas.\n\nOn this tour through the chateau, we will visit all floors of the renaissance wing. And at the end, we will see the chapel. \n\nNow let us begin our tour in the chateau's kitchen."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_2.mp3",
                     "number": 2,
                     "img": "/chateau/kuchyne.jpg",
                     "title": "The kitchen",
                     "card_label": "We entered the chateau building from the 16th century. ",
                     "button": "Visit",
-                    "text": "We entered the chateau building from the 16th century. Originally this building was not supposed to be for the nobles. On the upper floors were offices, and on the ground floor were stables for horses. In the 19th century, nobles moved from the upper castle to the chateau. Chateau was reconstructed and furnished with new things, meaning that the interiors we have today are from the 19th century. The castle was in 1801 opened to the public as the first Castle Museum in Central Europe.\n\nAs we are on the ground floor, this room used to be stable. Proof for this statement is the stone trough next to the doors. During the reconstruction, cooks wanted to keep it here, so they could wash dishes or keep live fish in it.\n\nThe kitchen is, for its time, relatively modern. Displayed is the most extensive collection of copper dishes in the Czech Republic. The dishes are tin-plated inside.\n\nThe larger stove has five ovens, it is still functional, and on some special occasions, we even bake some treats on them. A big black box is placed on top of them, that is a water-heating system for the chateau's bathroom.\n\nThe smaller stove is a grill and smoking chamber. Unfortunately, it is no longer functional."
+                    "text": "We entered the chateau building from the 16th century. Originally this building was not supposed to be for the nobles. On the upper floors were offices, and on the ground floor were stables for horses. In the 19th century, nobles moved from the upper castle to the chateau. Chateau was reconstructed and furnished with new things, meaning that the interiors we have today are from the 19th century. The castle was in 1801 opened to the public as the first Castle Museum in Central Europe.\n\nAs we are on the ground floor, this room used to be stable. Proof of this statement is the stone trough next to the doors. During the reconstruction, cooks wanted to keep it here, so they could wash dishes or keep live fish in it.\n\nThe kitchen is, for its time, relatively modern. Displayed is the most extensive collection of copper dishes in the Czech Republic. The dishes are tin-plated inside.\n\nThe larger stove that has five ovens, it is still functional, and on some special occasions, we even bake some treats on them. A big black box is placed on top of them, which is a water-heating system for the chateau's bathroom.\n\nThe smaller stove is a grill and smoking chamber. Unfortunately, it is no longer functional."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_3.mp3",
                     "number": 3,
                     "img": "/chateau/spizirna.jpg",
                     "title": "The larder",
@@ -1366,7 +1366,7 @@
                     "text": "This larder was carved into the rock on which the castle and chateau Frýdlant was built. That is why the temperature is quite cold here during the year, which is optimal for storing food. Interesting are those compotes in the cabinet, some of which are from 1945. Everything else in this larder is not originally from the Frýdlant. It was brought here from the surrounding villages."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_4.mp3",
                     "number": 4,
                     "img": "/chateau/pripravna.jpg",
                     "title": "Food preparation room",
@@ -1375,34 +1375,34 @@
                     "text": "The room behind the window was used as a preparation room for food.\n\nFood cooked downstairs in the kitchen was brought here, put on the dishes, decorated, and then servants took it from this window and carried it through the door to the dining room to be served."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_5.mp3",
                     "number": 5,
                     "img": "/chateau/erbovni_sal.jpg",
                     "title": "Coat of arms hall",
                     "card_label": "We have now entered the Coats of arms hall, and here we can briefly summarize the history of Frýdlant.",
                     "button": "Visit",
-                    "text": "We have now entered the Coats of arms hall, and here we can briefly summarize the history of Frýdlant.\n\nFrýdland was founded in half of the 13th century by the family of Ronovci; specifically, one ancestral line called Berka z Dubé. \n\nIn the year 1278, the Czech king confiscated the castle and sold it to the house of Bieberstein. They remained at Frýdlant for almost 300 years. However, the Bieberstein family that lived on Frýdland died out in 1551. \n\nThen in 1558, Rederns came to this castle. However, they were protestants, so after a battle of the battle of White Mountain, they were forced to emigrate. The Habsburg emperor confiscated all their properties and sold them to Albrecht von Wallenstein in 1622.\n\nAlbrecht owned Frýdlant for twelve years, visited it four times, but never built anything here. For the supposed treason of the emperor, Albrecht was assassinated on 25th February 1634.\n\nEmperor then gave Frýdlant to Albrecht's traitor Matthias Gallas. Gallas family, however, died out in 1757. According to last will of the last Gallas, Frýdlant should be passed on to his nephew Christian Philip of Clam under the condition that the name and coat of arms of the Clam family would be joined by the name and coat of arms of the Gallas family.\n\nAnd so in 1759, Clam-Gallas family gained Frýdlant. They owned Frýdlant till 1945, when it was nationalized by the Czechoslovakian state due to the Beneš decrees, series of laws, thanks to which the German population was expelled from the state after WW2.\n\nOn this tour, we will talk mainly about the Clam-Gallas family, specifically about the last male owner Francis Clam-Gallas, his daughter - the last owner - Clotilde Clam-Gallas, and his father - Eduard Clam-Gallas. \n\nThis grand hall served as a game room, so we have the roulette and the pool table here. On the fireplace is a tankard made from one tusk. The adjoining room is the large dining room."
+                    "text": "We have now entered the Coats of arms hall, and here we can briefly summarize the history of Frýdlant.\n\nFrýdland was founded in half of the 13th century by the family of Ronovci; specifically, one ancestral line called Berka z Dubé. \n\nIn the year 1278, the Czech king confiscated the castle and sold it to the house of Bieberstein. They remained at Frýdlant for almost 300 years. However, the Bieberstein family that lived on Frýdland died out in 1551. \n\nThen in 1558, Rederns came to this castle. However, they were protestants, so after a battle of the battle of White Mountain, they were forced to emigrate. The Habsburg emperor confiscated all their properties and sold them to Albrecht von Wallenstein in 1622.\n\nAlbrecht owned Frýdlant for twelve years, visited it four times but never built anything here. For the supposed treason of the emperor, Albrecht was assassinated on 25th February 1634.\n\nEmperor then gave Frýdlant to Albrecht's traitor Matthias Gallas. Gallas family, however, died out in 1757. According to the last will of the last Gallas, Frýdlant should be passed on to his nephew Christian Philip of Clam under the condition that the name and coat of arms of the Clam family would be joined by the name and coat of arms of the Gallas family.\n\nAnd so in 1759, Clam-Gallas family gained Frýdlant. They owned Frýdlant till 1945 when it was nationalized by the Czechoslovakian state due to the Beneš decrees, a series of laws, thanks to which the German population was expelled from the state after WW2.\n\nOn this tour, we will talk mainly about the Clam-Gallas family, specifically about the last male owner Francis Clam-Gallas, his daughter - the last owner - Clotilde Clam-Gallas, and his father - Eduard Clam-Gallas. \n\nThis grand hall served as a game room, so we have the roulette and the pool table here. On the fireplace is a tankard made from one tusk. The adjoining room is the large dining room."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_6.mp3",
                     "number": 6,
                     "img": "/chateau/jidelna.jpg",
                     "title": "The large dining room",
                     "card_label": "This large dining room was mainly used as a festive dining room.",
                     "button": "Visit",
-                    "text": "This large dining room was mainly used as a festive dining room. The Clam-Gallas family used it on some special occasions like birthdays or Christmas. Next to the dining room is a terrace, which they used instead of the dining room when the weather was nice. The dining room is panelled with wood, and the Faience of Delft is displayed on the panelling. Ceramic dishes displayed on the tables are then from England. This is also the only room in the complex with a coffered ceiling."
+                    "text": "This large dining room was mainly used as a festive dining room. The Clam-Gallas family used it on some special occasions like birthdays or Christmas. Next to the dining room is a terrace, which they used instead of the dining room when the weather was nice. The dining room is panelled with wood, and the Faience of Delft is displayed on the panelling. The ceramic dishes displayed on the tables are then from England. This is also the only room in the complex with a coffered ceiling."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_7.mp3",
                     "number": 7,
                     "img": "/chateau/modry_salon.jpg",
                     "title": "The blue salon",
                     "card_label": "This floor could be divided into two parts representative rooms, where we are now, and a private apartment of the last male owner of the Frýdlant - Francis Clam-Gallas.",
                     "button": "Visit",
-                    "text": "This floor could be divided into two parts representative rooms, where we are now, and a private apartment of the last male owner of the Frýdlant - Francis Clam-Gallas.\n\nOn the floor is an immense Persian carpet, which is just a copy made in a village near the city of Liberec. On the walls are several paintings from the Netherlands. The author is unknown. The salon served the family of Francis Clam-Gallas, whose portrait you can find between the windows, as the main living room where not only visitors but also all family members meet. In the case of Francis Clam-Glass, all his 7 daughters. He and his wife, Maria Hoyos Sprinzenstein, were given another floor of the castle, as well as part of the newest wing, but if they wanted to spend time together, this was the main salon. It was a smoking room, a reading room and a rest room at the same time. Later, after the introduction of electricity, a radio was also placed here, so it was really a living room with all the modern conveniences."
+                    "text": "This floor could be divided into two parts representative rooms, where we are now, and a private apartment of the last male owner of the Frýdlant - Francis Clam-Gallas.\n\nOn the floor is an immense Persian carpet, which is just a copy made in a village near the city of Liberec. On the walls are several paintings from the Netherlands. The author is unknown. The salon served the family of Francis Clam-Gallas, whose portrait you can find between the windows, as the main living room where not only visitors but also all family members meet. In the case of Francis Clam-Glass, all his 7 daughters. He and his wife, Maria Hoyos Sprinzenstein, were given another floor of the castle, as well as part of the newest wing, but if they wanted to spend time together, this was the main salon. It was a smoking room, a reading room and a restroom at the same time. Later, after the introduction of electricity, a radio was also placed here, so it was a living room with all the modern conveniences."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_8.mp3",
                     "number": 8,
                     "img": "/chateau/knihovna.jpg",
                     "title": "Small library",
@@ -1411,7 +1411,7 @@
                     "text": "This is a small library. Small because we have another larger one. Unfortunately, that one is not open to the public. Here we can again notice golden leather wallpapers, part of the castle's book collection, or a big mirror from Venice."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_9.mp3",
                     "number": 9,
                     "img": "/chateau/panska_chodba.jpg",
                     "title": "The hallway",
@@ -1420,16 +1420,16 @@
                     "text": "This hallway is again panelled with wood. In panelling are displayed plates made in the Netherlands. At the end of the hallway is a stuffed bear. His name is Ali, and he used to live in our castle's ditch. When he grew up, he became aggressive, so the nobles decided to euthanize him, and since then, he has been up here stuffed."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_10.mp3",
                     "number": 10,
                     "img": "/chateau/prijimaci_salon.jpg",
                     "title": "Entrance salon",
                     "card_label": "This salon is one of the few panelled with wood up to the ceiling.",
                     "button": "Visit",
-                    "text": "This salon is one of the few panelled with wood up to the ceiling. The ceiling was then decorated with gold. \n\nOn the walls are copies of paintings that could be seen on our second tour through the castle. The first is Christian Philip of Clam-Gallas, founder of near Lázně Libverda spa. During his reign, the upper castle was in 1801 opened to the public as the first Castle Museum in Central Europe. Our complex has this one big primacy because the tours are here from 1801 without any break, which means we had tours here even during both world wars. The two following pictures are Albrecht von Wallenstein (on the left one) and his traitor Matthias Gallas (on the right one). Opposite of them is Melchior Redern with his son Christopher. Christopher is the one who fought in 1620 in the battle of the White mountain, and after the defeat he had to run away from the Czech Kingdom."
+                    "text": "This salon is one of the few panelled with wood up to the ceiling. The ceiling was then decorated with gold. \n\nOn the walls are copies of paintings that could be seen on our second tour through the castle. The first is Christian Philip of Clam-Gallas, founder of the near Lázně Libverda spa. During his reign, the upper castle was 1801 opened to the public as the first Castle Museum in Central Europe. Our complex has this one big primacy because the tours are here since 1801 without any break, which means we had tours here even during both world wars. The two following pictures are Albrecht von Wallenstein (on the left one) and his traitor Matthias Gallas (on the right one). Opposite of them is Melchior Redern with his son Christopher. Christopher is the one who fought in 1620 in the battle of the White mountain, and after the defeat, he had to run away from the Czech Kingdom."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_11.mp3",
                     "number": 11,
                     "img": "/chateau/pracovna.jpg",
                     "title": "Francis' study",
@@ -1438,16 +1438,16 @@
                     "text": "In this room, we have many personal belongings of the last male owner of Frýdlant - Francis Clam-Gallas. On the table is a photo of Francis with his wife Maria. Above it is the photo of Francis playing with his daughters on dog sledging. n\n In addition to the work desk, we also come across another part of the library here. Another small interesting thing. The name Karel Jaromír Erben is certainly not unknown to you. The author of Kytice is connected with the Frýdlant castle. He worked here at the castle as an archivist and was in charge of the book collection. By the way, he was also the first creator of the libretto, actually the guide text for the then open exposition of the Upper Castle."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_12.mp3",
                     "number": 12,
                     "img": "/chateau/loznice.jpg",
                     "title": "Francis' bedroom",
                     "card_label": "The last room of the men's suite - the bedroom - belonged to Francis, whom we saw not only in the photographs, but also in the portrait in the blue salon",
                     "button": "Visit",
-                    "text": "The last room of the men's suite - the bedroom - belonged to Francis, whom we saw not only in the photographs, but also in the portrait in the blue salon. We have already talked about the fact that he was the father of seven daughters - here we also find a photo hanging on the door to the chamberlain's room. We have already talked about one of them, Clotilde, who took over the family estate from her father in difficult times. I will mention others in the ladies' floor, where we will go in a moment.\n\nFrancis experienced a turning point in the castle, namely the disintegration of Austria-Hungary and the establishment of the republic. Although a monarchist, after the establishment of the Republic he accepted Czechoslovak citizenship and became a proud Czechoslovak. Land reforms and the fact that the state expropriated about 70% of their property eventually changed his decision and he returned to German citizenship. This is precisely why Beneš's decrees applied to the property, so that since 1945 Frýdlant has been a chateau under state administration. He died of illness in 1930, and since then his sixth daughter, whom we will talk about later, took care of the Frydlant estate."
+                    "text": "The last room of the men's suite - the bedroom - belonged to Francis, whom we saw not only in the photographs but also in the portrait in the blue salon. We have already talked about the fact that he was the father of seven daughters - here we also find a photo hanging on the door to the chamberlain's room. We have already talked about one of them, Clotilde, who took over the family estate from her father in difficult times. I will mention others on the ladies' floor, where we will go in a moment.\n\nFrancis experienced a turning point in the castle, namely the disintegration of Austria-Hungary and the establishment of the republic. Although a monarchist, after the establishment of the Republic he accepted Czechoslovak citizenship and became a proud Czechoslovak. Land reforms and the fact that the state expropriated about 70% of their property eventually changed his decision and he returned to German citizenship. This is precisely why Beneš's decrees applied to the property, so that since 1945 Frýdlant has been a chateau under state administration. He died of illness in 1930, and since then his sixth daughter, whom we will talk about later, took care of the Frydlant estate."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_13.mp3",
                     "number": 13,
                     "img": "/chateau/chodba.jpg",
                     "title": "The royal hallway",
@@ -1456,7 +1456,7 @@
                     "text": "Now we are on the second floor of the chateau, where all the ladies have lived. The hallway we are standing in is known by the name The royal hallway because around the walls are pictures of members of the royal families all-across Europe from the 16th century."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_14.mp3",
                     "number": 14,
                     "img": "/chateau/kvetinovy_salon.jpg",
                     "title": "Music lounge",
@@ -1465,7 +1465,7 @@
                     "text": "We have now entered probably the most beautiful room in the chateau. The salon is called a music lounge because the ladies used to spend their time with music here. This room is also known as the flower salon because of the flower-patterned wallpaper. Around the room, you can notice a big fruit bowl from China, a vast Rococo stove or a chandelier made in town Nový Bor. Between the windows is Clotilde Clam-Gallas, born Dietrichstein, grandma of our last owner, also named Clotilde."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_15.mp3",
                     "number": 15,
                     "img": "/chateau/loznice_damske1.jpg",
                     "title": "Bedroom",
@@ -1474,7 +1474,7 @@
                     "text": "Today, the women's floor consists of two apartments. The first belonged to the mother of seven daughters, Maria Hoyos Sprinzenstein. Here, too, the interiors have been returned to the form around 1930, when the three-room apartment looked like we see it today. The original equipment is back in place. The bed next to the stove is in the place where the other rooms have the entrance to the King's Hall. Next to it we can see the old rod that controlled the bell. The old signaling device is brought out not only into the corridor, but also into the tent salon, where we will have the opportunity to view it.\n\nNext to the door we will find a prayer kneeler designed for private evening prayer."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_16.mp3",
                     "number": 16,
                     "img": "/chateau/prevlekarna_salon.jpg",
                     "title": "Changing room",
@@ -1483,7 +1483,7 @@
                     "text": "The second room we just walk through is the changing room. It is led by a large screen, which was used for privacy when changing clothes. Among the paintings here, I can also mention the effigies above the door. On one of them, Christian Christoph Clam-Gallas, Francis' great-grandfather, the first of the owners of Frýdlant, who started living here in the castle and not in the upper castle. He supported art, painted, and it was he who opened the castle museum to the public here in Frýdlant in 1801."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_17.mp3",
                     "number": 17,
                     "img": "/chateau/stanovy_salon.jpg",
                     "title": "Tent salon",
@@ -1492,7 +1492,7 @@
                     "text": "The last room of the first suite is the tent salon. It has the form of a field tent, which was a fashionable thing in the 19th century, and again it is a design from the time of Francis's parents, who were inspired by the interiors of English estates.\n\nThe tent salon was also used as a small dining room, which is also evident from its furnishings. We can also see a change in the interior equipment. While the 19th century tried to unify styles, in the twentieth century it was mainly about functionality. That is why, for example, a sideboard is completely different from other pieces of furniture."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_18.mp3",
                     "number": 18,
                     "img": "/chateau/loznice_klotildy.jpg",
                     "title": "Clotilde's bedroom",
@@ -1501,16 +1501,16 @@
                     "text": "This room was previously used as a maid's room. After the death of Francis Clam-Gallas, the castle was inherited by his daughter Clotilde, who also took care of her mother. Therefore, this room was converted into her bedroom."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_19.mp3",
                     "number": 19,
                     "img": "/chateau/salon_damske.jpg",
                     "title": "Salon",
                     "card_label": "The wood paneled room is furnished as a lounge.",
                     "button": "Visit",
-                    "text": "The wood paneled room is furnished as a lounge. The ceiling is lined with ceramics mainly from Holland and China, where you can find various plates, jugs and tankards. Oriental elements, very popular at the time, can still be seen in the showcase.\n\nThe room served as a living room, which served not only Clotilde, but was also adapted for sitting with visitors and at the same time as a small study.\n\nOn the piano behind the door we can find family photographs. The most interesting is probably the joint photo portrait of Francis' daughters, we also find grandmother Clotilde and other family members. The daughters married, except for Clotilde, who took care of her parents. Thanks to them, the Clam-Gallas family became connected with, for example, the Kinský family, the Schwarzenberg family, the Auerspergy family, or perhaps the Moravian family Podstatský Lichtenstein. \n\nEduardina is the only daughter who did not marry an aristocrat and connected her life with Dr. Winkelnbauer, whom she met while working as a nurse during the war. Francis divided all the family property between his daughters. We already mentioned that Clotilde inherited Frýdlant. She was deported herself in 1945. She lived the second half of her life abroad, where she also died in 1970. She was the last owner of this estate and is not buried in Hejnice, where the Clam-Gallas tomb is located. The last member of the family buried here is Francis's wife Marie Hoyos Sprinzenstein."
+                    "text": "The wood-panelled room is furnished as a lounge. The ceiling is lined with ceramics mainly from Holland and China, where you can find various plates, jugs and tankards. Oriental elements, very popular at the time, can still be seen in the showcase.\n\nThe room served as a living room, which served not only Clotilde, but was also adapted for sitting with visitors and at the same time as a small study.\n\nOn the piano behind the door we can find family photographs. The most interesting is probably the joint photo portrait of Francis' daughters, we also find grandmother Clotilde and other family members. The daughters married, except for Clotilde, who took care of her parents. Thanks to them, the Clam-Gallas family became connected with, for example, the Kinský family, the Schwarzenberg family, the Auerspergy family, or perhaps the Moravian family Podstatský Lichtenstein. \n\nEduardina is the only daughter who did not marry an aristocrat and connected her life with Dr Winkelnbauer, whom she met while working as a nurse during the war. Francis divided all the family property between his daughters. We already mentioned that Clotilde inherited Frýdlant. She has deported herself in 1945. She lived the second half of her life abroad, where she also died in 1970. She was the last owner of this estate and is not buried in Hejnice, where the Clam-Gallas tomb is located. The last member of the family buried here is Francis's wife Marie Hoyos Sprinzenstein."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_20.mp3",
                     "number": 20,
                     "img": "/chateau/prevlekarna.jpg",
                     "title": "The dressing room",
@@ -1519,16 +1519,16 @@
                     "text": "We have just reached the end of the enfilade. This room served as a dressing room, from which you could enter not only the bathroom, but also the terrace."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_21.mp3",
                     "number": 21,
                     "img": "/chateau/koupelna.jpg",
                     "title": "The bathroom",
                     "card_label": "The approximately hundred-year-old bathroom is one of the most interesting rooms.",
                     "button": "Visit",
-                    "text": "The approximately hundred-year-old bathroom is one of the most interesting rooms. It is dominated by the bathtub, where you will find not only a shower, but also a bubble and steam bath. If you dipped the wooden board that you can see above its front into the tub, the pump drove air into the tub through a rubber tube, so you could treat yourself to a bubble bath. If the plate stayed where it is - it served as a steam bath.\n\nTo the left of the bath is a hot water tank. It came from the castle kitchen on the ground floor, where it was heated and then pumped into the storage tank. Because the kitchen was in operation all day, there was plenty of hot water for everyone. \n\nThe built-in corner then hid the toilet, so you had all the comfort of that time in the bathroom."
+                    "text": "The approximately hundred-year-old bathroom is one of the most interesting rooms. It is dominated by the bathtub, where you will find not only a shower but also a bubble and steam bath. If you dipped the wooden board that you can see above its front into the tub, the pump drove air into the tub through a rubber tube, so you could treat yourself to a bubble bath. If the plate stayed where it is - it served as a steam bath.\n\nTo the left of the bath is a hot water tank. It came from the castle kitchen on the ground floor, where it was heated and then pumped into the storage tank. Because the kitchen was in operation all day, there was plenty of hot water for everyone. \n\nThe built-in corner then hid the toilet, so you had all the comfort of that time in the bathroom."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_22.mp3",
                     "number": 22,
                     "img": "/chateau/umyvarna.jpg",
                     "title": "Servant's room",
@@ -1537,16 +1537,16 @@
                     "text": "This room served as a facility for the servants, where, for example, washing sets were stored. At the same time, it served as a washroom for servants with its own toilet. From this room we move to the royal corridor."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_23.mp3",
                     "number": 23,
                     "img": "/chateau/chodba.jpg",
                     "title": "The royal hallway",
                     "card_label": "A narrow staircase, below which there is an exit to the outdoor terrace, would lead us to the attic, where our tour will continue, but we will go there by the main spiral staircase.",
                     "button": "Visit",
-                    "text": "A narrow staircase, below which there is an exit to the outdoor terrace, would lead us to the attic, where our tour will continue, but we will go there by the main spiral staircase.\n\nYou can notice the stained glass windows on these. One represents the Frýdlant castle, and on the other we again come across the coat of arms of the Clam-Gallas, which we have already talked about today.\nPictures of European monarchs did not originally hang here. They didn't get here until sometime after 1930. According to records, the entire collection originally decorated a summer villa somewhere in today's Croatia. After its reconstruction, however, they moved here and thus replaced the weapons that were hanging in the corridor in front of them.\n\nWe will go through the corridor again past the rooms of the enfilade and then I will ask you to continue up and to the left."
+                    "text": "A narrow staircase, below which there is an exit to the outdoor terrace, would lead us to the attic, where our tour will continue, but we will go there by the main spiral staircase.\n\nYou can notice the stained glass windows on these. One represents the Frýdlant castle, and on the other, we again come across the coat of arms of the Clam-Gallas, which we have already talked about today.\nPictures of European monarchs did not originally hang here. They didn't get here until sometime after 1930. According to records, the entire collection originally decorated a summer villa somewhere in today's Croatia. After its reconstruction, however, they moved here and thus replaced the weapons that were hanging in the corridor in front of them.\n\nWe will go through the corridor again past the rooms of the enfilade and then I will ask you to continue up and to the left."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_24.mp3",
                     "number": 24,
                     "img": "/chateau/podkrovi.jpg",
                     "title": "The attic",
@@ -1555,7 +1555,7 @@
                     "text": "Not every castle has the opportunity to show its visitors all the floors. Frýdlant is an exception in this, and its well-preserved spaces under the roof allow you to see several rooms for children and servants."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_25.mp3",
                     "number": 25,
                     "img": "/chateau/detsky_pokoj.jpg",
                     "title": "Children's room",
@@ -1564,7 +1564,7 @@
                     "text": "At the head of the attic is one of the children's rooms. You will definitely be interested in his wallpaper, which is actually a collection of jokes from the French magazine Charivari. In the room, we come across a few toys, such as a children's cart with a horse, into which one of the children could slip and pull someone else in disguise, or a board game. The room originally belonged to two daughters, but later it became a boy's room - the sons of one of the daughters, Eleonora, lived here when they visited their grandparents on vacation. Perhaps that is why the room has this wall decoration."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_26.mp3",
                     "number": 26,
                     "img": "/chateau/loznice_dcer_podkrovi.jpg",
                     "title": "Daughter's bedroom",
@@ -1573,16 +1573,16 @@
                     "text": "The adjacent room then served as a common bedroom for the other two daughters. Here too, as in the next room, we come across the original equipment. Very nice beds with carved headboards, they are divided by a washing table, and just like next door, here too we find several original toys of the daughters of the last owners. The most famous toy was the so-called Donut, which lies on the pillow of the back bed. The other well-preserved lumps left by the daughters are today stored in the newest wing, where the Children's Sightseeing Circuit leads."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_27.mp3",
                     "number": 27,
                     "img": "/chateau/lokajna.jpg",
                     "title": "Footman's room",
                     "card_label": "Right next to another children's room, you can take a look into one of the servants' apartments.",
                     "button": "Visit",
-                    "text": "Right next to another children's room, you can take a look into one of the servants' apartments. This one is furnished as a so-called footman. In the room of the footman, who looked after the family members and served at the table, we find an extensive collection of well-preserved servant uniforms for various occasions. A simple winter coat hangs on the door, and in the closet you can see the uniforms that are used in the performance of duties. They have sewn-on straps with the C-G crest. One set is then hung on the cabinet door. In addition to uniforms, you will also find travel luggage here, again with the owner's emblem, and caps for various occasions - on the chest of drawers, for example, headgear for drivers."
+                    "text": "Right next to another children's room, you can take a look into one of the servants' apartments. This one is furnished as a so-called footman. In the room of the footman, who looked after the family members and served at the table, we find an extensive collection of well-preserved servant uniforms for various occasions. A simple winter coat hangs on the door, and in the closet, you can see the uniforms that are used in the performance of duties. They have sewn-on straps with the C-G crest. One set is then hung on the cabinet door. In addition to uniforms, you will also find travel luggage here, again with the owner's emblem, and caps for various occasions - on the chest of drawers, for example, headgear for drivers."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_28.mp3",
                     "number": 28,
                     "img": "/chateau/pokoj_sluzebnych_podkrovi.jpg",
                     "title": "Maid's room",
@@ -1591,7 +1591,7 @@
                     "text": "This room was used by two servants - maids, who were in charge not only of the cleanliness of the rooms and cleaning, but also of minor repairs of clothes, ironing and also looking after the girls. That is why in their room we come across, for example, an old sewing machine or an ironing board of the brand Včela. The stove in the room was also used to heat food or an iron. Then there is a primus on the table and another of the washing tables under the next window."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_29.mp3",
                     "number": 29,
                     "img": "/chateau/pokoj_dcer_2.jpg",
                     "title": "Daughter's bedroom",
@@ -1600,7 +1600,7 @@
                     "text": "This room also served as a bedroom, but this time for the other daughters."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_30.mp3",
                     "number": 30,
                     "img": "/chateau/ucebna.jpg",
                     "title": "Classroom",
@@ -1609,7 +1609,7 @@
                     "text": "The most spacious room in the attic served as a common classroom. The little girls were taught by a governess, while the older ones were tutored by home teachers from the local school. The girls were educated in both German and Czech. The classroom is furnished as a versatile space with several showcases. For example, there is part of the mineral collection, stuffed animals, a geographical map, but also musical instruments and pictures of famous ancestors and family members. Here, for example, we can find the girls' great-grandmother, Josefina Clara Aldrigen, thanks to whom the family was associated with musical talent, or above the sofa of the first Gallas - Matyáš, great-grandfather Kristian and grandfather Eduard with his brother Vilém. We talked about all of them today on the tour. There is also a portrait of the emperor between the windows, as a reminder of the monarchy and the times before the establishment of the republic."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_31.mp3",
                     "number": 31,
                     "img": "/chateau/pokoj_vychovatelky.jpg",
                     "title": "The teacher's room",
@@ -1618,7 +1618,7 @@
                     "text": "This room served as the teacher's room. It is also the last room to be seen on this floor of the castle. Behind this door is the area of the sub-chapel, through which we will go to the staircase, which will lead us to the last area of our tour today - the castle chapel."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "en/chateau/en_room_32.mp3",
                     "number": 32,
                     "img": "/chateau/kaple.jpg",
                     "title": "Saint Anne's Chapel",
