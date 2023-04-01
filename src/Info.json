@@ -439,11 +439,11 @@
                 },
                 {
                     "name": "Francis of Clam-Gallas",
-                    "img": "/people/frantisek_ferdinand_gallas.jpg"
+                    "img": "/people/frantisek_clamgallas.jpg"
                 },
                 {
                     "name": "Clotilde of Clam-Gallas",
-                    "img": "/people/katerina_redern.jpg"
+                    "img": "/people/clotilda_clamgallas_mladsi.jpg"
                 }
             ]
         },
@@ -508,11 +508,11 @@
                 },
                 {
                     "name": "Franz von Clam-Gallas",
-                    "img": "/people/frantisek_ferdinand_gallas.jpg"
+                    "img": "/people/frantisek_clamgallas.jpg"
                 },
                 {
                     "name": "Clotilde von Clam-Gallas",
-                    "img": "/people/katerina_redern.jpg"
+                    "img": "/people/clotilda_clamgallas_mladsi.jpg"
                 }
             ]
         }
@@ -991,16 +991,16 @@
             "button": "Start tour",
             "rooms": [
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_1.mp3",
                     "number": 1,
                     "img": "/castle/dolni_nadvori.jpg",
                     "title": "The lower courtyard",
                     "card_label": "We are currently standing in the lower courtyard, where we can see the whole complex.",
                     "button": "Visit",
-                    "text": "Dear visitors, we welcome you to the state castle and chateau of Frýdlant. Before the start of the tour, we ask you to silence your mobile phones so that the tour is not disturbed. If you are using an audio guide, wear headphones while listening. Furthermore, we ask you not to touch the displayed exhibits and stay with your group. Thank you for your understanding and we wish you a pleasant visit.\n\n We are currently standing in the lower courtyard, where we can see the whole complex.\n\nThe oldest part is the round tower called Indica. According to the legend, a fire was being lit on the top of Indica, so the tower served as a beacon for the trade route between the Czech Kingdom and the Kingdoms in the North. The tower is 49 metres high and its walls are in the first floor 4 metres thick.\n\n In the 13th century, the old gothic castle was built around the tower. Then in the 16th century, it was rebuilt in renaissance style, which is the current form of the castle.\n\nThe yellow building behind the tree is the chapel. It was built between 1598 - 1602 by Catherine Redern. Next to the chapel is the renaissance wing of the chateau from the 16th century. On its facade, we can see the original renaissance pictures called sgraffito. And the youngest part of the complex is the last wing of the chateau, called the Castellan wing. That was built in the 19th century by Eduard Clam-Gallas.\n\nUnder the original defensive wall, we can see the path leading up to the castle. The path is called the Knights road because knights rode their horses all the way to the castle doors in olden times while ladies were carried up in sedans. But unfortunately today we have to go by ourselves."
+                    "text": "Dear visitors, we welcome you to the state castle and chateau of Frýdlant. Before the start of the tour, we ask you to silence your mobile phones so that the tour is not disturbed. If you are using an audio guide, wear headphones while listening. Furthermore, we ask you not to touch the displayed exhibits and stay with your group. Thank you for your understanding and we wish you a pleasant visit.\n\n We are currently standing in the lower courtyard, where we can see the whole complex.\n\nThe oldest part is the round tower called Indica. According to the legend, a fire was being lit on the top of Indica, so the tower served as a beacon for the trade route between the Czech Kingdom and the Kingdoms in the North. The tower is 49 meters high and its walls are on the first floor 4 meters thick.\n\n In the 13th century, the old gothic castle was built around the tower. Then in the 16th century, it was rebuilt in the renaissance style, which is the current form of the castle.\n\nThe yellow building behind the tree is the chapel. It was built between 1598 - 1602 by Catherine Redern. Next to the chapel is the renaissance wing of the chateau from the 16th century. On its facade, we can see the original renaissance pictures called sgraffito. And the youngest part of the complex is the last wing of the chateau, called the Castellan wing. That was built in the 19th century by Eduard Clam-Gallas.\n\nUnder the original defensive wall, we can see the path leading up to the castle. The path is called the Knights road because knights rode their horses all the way to the castle doors in olden times while ladies were carried up in sedans. But unfortunately today we have to go by ourselves."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_2.mp3",
                     "number": 2,
                     "img": "/castle/pred_kapli.jpg",
                     "title": "In front of the castle",
@@ -1009,7 +1009,7 @@
                     "text": "Here we can see that the castle was erected on a natural rock foundation. The nickname for the rock is the Devil's Organ because, according to the legend, the Devil played a game of dice with a castle owner. Because he lost, he had to plough the furrows in this basalt rock base.\n\n Here above us, we can see this arc. It's called the Diaphragm arch. Owners used it as a corridor between the upper courtyard and the chapel.\n\nAbove the castle gate, there are two coats of arms. The one on the left belongs to one of the castle's former owners - Anton Pancratius Gallas. The right one belongs to his wife, to Del Arco's family.\n\nHere is also this platform where we can admire a beautiful view of the Jizera Mountains and the valley of the river Smědá.\n\nWhen we go upstairs, there are three fire extinguishers from the 19th century along the corridor walls."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_3.mp3",
                     "number": 3,
                     "img": "/castle/hradni_nadvori.jpg",
                     "title": "The small castle courtyard",
@@ -1018,25 +1018,25 @@
                     "text": "This courtyard is this small due to the rock we had seen before, which did not allow the owners to build the castle very wide.\n\nAs you already know, the oldest part is the tower called Indica. Only two cells are in the tower (behind the wooden doors). They used to serve as a prison and later as a treasure room.\n\nThe table above the door commemorates that Christopher Bierberstein completed the first renaissance rebuilding of the castle in the year 1551.\n\nOn the wall above is the coat of arms of Matthias Gallas, and the coat of arms above the door belongs to the Bieberstein family.\n\nWe will now go inside the castle, and we want to remind you that you cannot touch any exhibits inside. We appreciate your understanding."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_4.mp3",
                     "number": 4,
                     "img": "/castle/prvni_hradni.jpg",
                     "title": "The first room of the castle",
                     "card_label": "From the second half of the 13th century, this region of Bohemia was ruled by a family called Ronovci, whose coat of arms can be seen above the entrance door.",
                     "button": "Visit",
-                    "text": "From the second half of the 13th century, this region of Bohemia was ruled by a family called Ronovci, whose coat of arms can be seen above the entrance door.\n\nIn the year 1278, the Czech king confiscated the castle and sold it to the house of Bieberstein. They remained at Frýdlant for almost 300 years. However, the Bieberstein family that lived on Frýdland died out in 1551.\n\n Then in 1558, Rederns came to this castle. In this room, we have three pictures of members of the Redern family. Next to the window is Melchior Redern. He fought against the Turks with great success and even became the Imperial marshall. During his absence and after his death, his wife Catherine (between windows) controlled his property and affairs.\n\nAt the beginning of the 17th century, she built the castle chapel, the old section of the chateau and the family tomb in a local church. In addition, she was able to finance all her son's journeys to Italy and all around Europe. Unfortunately, many of these expenses were paid by taxes from the local population, which angered them. So they started calling her Catherine the Bad.\n\nThen their son Christopher Redern controlled the castle. He took part in the insurrection of the Czech protestants against the catholic Habsburgs from 1618 to 1620. The rebellion culminated on the 8th of November 1620. After the decisive battle of White Mountain, Christopher was forced to emigrate. The Habsburg emperor then confiscated all his property and sold it to Albrecht of Wallenstein in 1622.\n\nThe most interesting things in this room are those two models of Frýdlant. They are both from the 19th century. The right one is the actual form of the castle, and the left one is a reconstruction that was never built.\n\nIn the glass case, the relics of Melchior Redern are displayed. It is his left armbone, his helmet, and his sword. Above it is his burial clothing robe."
+                    "text": "From the second half of the 13th century, this region of Bohemia was ruled by a family called Ronovci, whose coat of arms can be seen above the entrance door.\n\nIn the year 1278, the Czech king confiscated the castle and sold it to the house of Bieberstein. They remained at Frýdlant for almost 300 years. However, the Bieberstein family that lived on Frýdland died out in 1551.\n\n Then in 1558, Rederns came to this castle. In this room, we have three pictures of members of the Redern family. Next to the window is Melchior Redern. He fought against the Turks with great success and even became the Imperial marshall. During his absence and after his death, his wife Catherine (between windows) controlled his property and affairs.\n\nAt the beginning of the 17th century, she built the castle chapel, the old section of the chateau, and the family tomb in a local church. In addition, she was able to finance all her son's journeys to Italy and all around Europe. Unfortunately, many of these expenses were paid by taxes from the local population, which angered them. So they started calling her Catherine the Bad.\n\nThen their son Christopher Redern controlled the castle. He took part in the insurrection of the Czech protestants against the catholic Habsburgs from 1618 to 1620. The rebellion culminated on the 8th of November 1620. After the decisive battle of White Mountain, Christopher was forced to emigrate. The Habsburg emperor then confiscated all his property and sold it to Albrecht of Wallenstein in 1622.\n\nThe most interesting things in this room are those two models of Frýdlant. They are both from the 19th century. The right one is the actual form of the castle, and the left one is a reconstruction that was never built.\n\nIn the glass case, the relics of Melchior Redern are displayed. It is his left armbone, his helmet, and his sword. Above it is his burial clothing robe."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_5.mp3",
                     "number": 5,
                     "img": "/castle/albrecht.jpg",
                     "title": "Albrecht of Wallenstein",
                     "card_label": "In 1622 the country around the Frýdlant was purchased by Albrecht of Wallenstein (picture on the wall next to the entrance doors). ",
                     "button": "Visit",
-                    "text": "In 1622 the country around the Frýdlant was purchased by Albrecht of Wallenstein (picture on the wall next to the entrance doors). Although Albrecht became the Duke of Frýdlant, the castle was never his chief residence.\n\nAlbrecht of Wallenstein was the most important and best-known person in the Thirty years' war (1618-1648) in the 17th century. At the war's end, he started to negotiate with enemies and was accused of high treason. In 1634 he was assassinated in the town of Cheb.\n\nTwo paintings on the side of the door represent the murder of Wallenstein. The one on the left is a murder of his friends, and the one on the right is the murder of Wallenstein himself.\n\nLook at the other portraits in this room: \n\nHis daughter and wife are next to Albrecht's painting.\n\n On the left wall, next to the window, is Albrecht's brother-in-law, cardinal Harrach.\n\nThe great painting presents Wallenstein's favourite horse, which he took as a spoil of war in 1632. The Spanish inscription MAS QUERIDO means My darling.\n\nIn the corner is Wallenstein's family tree, and next to the door is a portrait of Wallenstein's astrologer Giovanni Battista Seni."
+                    "text": "In 1622 the country around the Frýdlant was purchased by Albrecht of Wallenstein (picture on the wall next to the entrance doors). Although Albrecht became the Duke of Frýdlant, the castle was never his chief residence.\n\nAlbrecht of Wallenstein was the most important and best-known person in the Thirty years' war (1618-1648) in the 17th century. At the war's end, he started to negotiate with enemies and was accused of high treason. In 1634 he was assassinated in the town of Cheb.\n\nTwo paintings on the side of the door represent the murder of Wallenstein. The one on the left is a murder of his friends, and the one on the right is the murder of Wallenstein himself.\n\nLook at the other portraits in this room: \n\nHis daughter and wife are next to Albrecht's painting.\n\n On the left wall, next to the window, is Albrecht's brother-in-law, cardinal Harrach.\n\nThe great painting presents Wallenstein's favorite horse, which he took as a spoil of war in 1632. The Spanish inscription MAS QUERIDO means My darling."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_6.mp3",
                     "number": 6,
                     "img": "/castle/rytirsky_sal.jpg",
                     "title": "The knight hall",
@@ -1045,106 +1045,106 @@
                     "text": "Now we are in the knight hall, which was established as a gallery in 1801 when the castle was opened to the public as the first castle museum in central Europe.\n\nOn the left wall is situated the picture of Matthias Gallas. He betrayed Albrecht of Wallenstein, so he got the castle from the emperor. Next to there is his wife, Dorothy. They had four sons and five daughters. Here we can see only 2 of their sons - Anton Pancratius and Francis Ferdinand.\n\nFrancis reconstructed the castle in the baroque style. His portrait is on the right side of the door. His wife Joanne (on the other side of the door) died when she was 92 years old, which means that she outlived her husband and their son.\n\n Their son John Wenceslaus (between windows on the right side) was in 1719 appointed as a Viceroy of Naples. Opposite him is a painting of his wife, Mary Ann, who is thought to be the most beautiful lady in the castle.\n\nPhillip Joseph, their son, was the last ruling member of the house of Gallas. As he had no children, his family line ended with him. According to his last will, Frýdlant should be passed on to his nephew Christian Philip of Clam (on the left side of the door) under the condition that the name and coat of arms of the Clam family would be joined by the name and coat of arms of the Gallas family.\n\nAnd so in 1757, Clam-Gallas family gained Frýdlant."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_7.mp3",
                     "number": 7,
                     "img": "/castle/piano.jpg",
                     "title": "The piano room",
                     "card_label": "In this room, there are portraits of the Clam-Gallas family members. ",
                     "button": "Visit",
-                    "text": "In this room, there are portraits of the Clam-Gallas family members.\n\nChristian Christopher and his wife Josephine (paintings on the left side of the door we came through) sponsored many cultural events such as theather plays and musical performances. Josephine was an accomplished singer, guitarist and pianist. She was a friend of Ludwig van Beethoven who dedicated two of his musical compositions to her.\n\nJosephine and Christian had two sons - William and Eduard.\n\n William (next to the window) died during a hunting trip when he was only 20.\n\n Eduard was a famous general in the Habsburg army. He fought side by side with Marshal Radetzky in the war in Northern Italy. For his deeds, he was rewarded the Order of the Golden Fleece - the highest honours in the Habsburg Monarchy. For his defeats in 1866, he was court-martialled, but he was acquitted because of his position in society. After he abandoned military life, he retired to Frýdlant Castle.\n\nEduard had one son named Francis, whose bust we can see between the windows. Francis left no male heir, although he had seven daughters.\n\n His second youngest daughter Clotilde lived at Frýdlant castle till 1945.\n\n In 1945 Frýdlant was due to the Beneš decrees (after the 2WW - series of laws, thanks to which the German population was expelled from the state) confiscated by the Czechoslovakian state. Clotilde then moved to Wien, where she died in 1975 without heirs, so the castle is forever in the ownership of the Czech Republic.\n\nAnd that is the end of our long history. Now we will visit the rest of the castle, which is set up as the Castle Museum precisely as it was in 1801 when the owners of the castle opened it."
+                    "text": "In this room, there are portraits of the Clam-Gallas family members.\n\nChristian Christopher and his wife Josephine (paintings on the left side of the door we came through) sponsored many cultural events such as theater plays and musical performances. Josephine was an accomplished singer, guitarist, and pianist. She was a friend of Ludwig van Beethoven who dedicated two of his musical compositions to her.\n\nJosephine and Christian had two sons - William and Eduard.\n\n William (next to the window) died during a hunting trip when he was only 20.\n\n Eduard was a famous general in the Habsburg army. He fought side by side with Marshal Radetzky in the war in Northern Italy. For his deeds, he was rewarded the Order of the Golden Fleece - the highest honors in the Habsburg Monarchy. For his defeats in 1866, he was court-martialled, but he was acquitted because of his position in society. After he abandoned military life, he retired to Frýdlant Castle.\n\nEduard had one son named Francis, whose bust we can see between the windows. Francis left no male heir, although he had seven daughters.\n\n His second youngest daughter Clotilde lived at Frýdlant castle till 1945.\n\n In 1945 Frýdlant was due to the Beneš decrees (after the 2WW - series of laws, thanks to which the German population was expelled from the state) confiscated by the Czechoslovakian state. Clotilde then moved to Wien, where she died in 1975 without heirs, so the castle is forever in the ownership of the Czech Republic.\n\nAnd that is the end of our long history. Now we will visit the rest of the castle, which is set up as the Castle Museum precisely as it was in 1801 when the owners of the castle opened it."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_8.mp3",
                     "number": 8,
                     "img": "/castle/eduard.jpg",
                     "title": "Eduard's study",
                     "card_label": "In this room, you can examine Eduard's personal belongings. ",
                     "button": "Visit",
-                    "text": "In this room, you can examine Eduard's personal belongings.\n\n In the glass boxes on the tables are two books. The bigger one is Eduard's photo album, and the smaller one is a birthday wish with photos inside.\n\nPictures around the rooms represent battles in North Italy, where Eduard fought alongside Marshal Radetzky. In the showcase at the wall, there are gifts from Radetzky to Eduard for his 80th birthday.\n\nIn the showcase on the left side of the door are other gifts. On the right side of the door are Eduard's three general uniforms - (from the left) Hussar uniform, Uhlan uniform and Dragoon uniform.\n\nThe showcase by the left window contains the personal belongings of Eduard's wife, Clotilde Dietrichstein. The one by the right window has military honours, sealing stamps or keys inside it. There is also the Order of the Golden Fleece - golden sheep on the red ribbon."
+                    "text": "In this room, you can examine Eduard's personal belongings.\n\n In the glass boxes on the tables are two books. The bigger one is Eduard's photo album, and the smaller one is a birthday wish with photos inside.\n\nPictures around the rooms represent battles in North Italy, where Eduard fought alongside Marshal Radetzky. In the showcase at the wall, there are gifts from Radetzky to Eduard for his 80th birthday.\n\nIn the showcase on the left side of the door are other gifts. On the right side of the door are Eduard's three general uniforms - (from the left) Hussar uniform, Uhlan uniform, and Dragoon uniform.\n\nThe showcase by the left window contains the personal belongings of Eduard's wife, Clotilde Dietrichstein. The one by the right window has military honors, sealing stamps, or keys inside it. There is also the Order of the Golden Fleece - golden sheep on the red ribbon."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_9.mp3",
                     "number": 9,
                     "img": "/castle/uniformy.jpg",
                     "title": "The uniforms",
                     "card_label": "Previously this room served as a luxury accommodation place for all important visitors to the castle. ",
                     "button": "Visit",
-                    "text": "Previously this room served as a luxury accommodation place for all important visitors to the castle. Nowadays, several uniforms of the castle servants are displayed in this room.\n\nIn the smaller wardrobe at the wall are four different uniforms of the coachman. There are festive/ordinary and winter/summer uniforms.\n\nIn the more extensive wardrobe in the middle of the room are uniforms of the castle foresters, porters or valets. Underneath are several military hats and wigs, some of which were made from real human hair."
+                    "text": "Previously this room served as a luxury accommodation place for all important visitors to the castle. Nowadays, several uniforms of the castle servants are displayed in this room.\n\nIn the smaller wardrobe at the wall are four different uniforms of the coachman. There are festive/ordinary and winter/summer uniforms.\n\nIn the more extensive wardrobe in the middle of the room are uniforms of the castle foresters, porters, or valets. Underneath are several military hats and wigs, some of which were made from real human hair."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_10.mp3",
                     "number": 10,
                     "img": "/castle/nositka.jpg",
                     "title": "Means of transport",
                     "card_label": "Here in this room are displayed several means of transport used by nobles",
                     "button": "Visit",
-                    "text": "Here in this room are displayed several means of transport used by nobles. \n\nFrom the left, the first one is the chassis of the children's coach; goats or ponies usually pulled that. \n\nNext are two children's baroque sledges. The bigger one has an animal's motive on it, specifically a dolphin's. However, it does not look like a dolphin because the maker of the sledge never saw a real dolphin and only read about them, that they look like fish with the head of a dog.\n\nThe last mean of transport is a lady's sedan.\n\nOther exhibits are a folding screen from 1719, used as a portable wall when changing clothes, or a very rare shooting target because already used targets were usually burned."
+                    "text": "Here in this room are displayed several means of transport used by nobles. \n\nFrom the left, the first one is the chassis of the children's coach. Goats or ponies usually pulled that. \n\nNext are two children's baroque sleds. The bigger one has an animal's motive on it, specifically a dolphin's. However, it does not look like a dolphin because the maker of the sled never saw a real dolphin and only read about them, that they look like fish with the head of a dog.\n\nThe last means of transport is a lady's sedan.\n\nOther exhibits are a folding screen from 1719, used as a portable wall when changing clothes, or a very rare shooting target because already used targets were usually burned."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_11.mp3",
                     "number": 11,
                     "img": "/castle/lovecky_salon.jpg",
                     "title": "Hunting salon",
                     "card_label": "Hunting was a very popular amusement for the aristocracy. ",
                     "button": "Visit",
-                    "text": "Hunting was a very popular amusement for the aristocracy. Here on Frýdlant, the castle owners were no exception. Like the other nobles, they organized many hunts, mainly in the nearby forests of the Jizera mountains. Trophies from their hunts decorate the walls around the whole complex. Many of the antlers on the walls also have signs stating when, where, and by whom the animal was killed; some also note the animal's weight.\n\nIn this room, we have this scarce table. It was made from the trunk of 130 years old birch tree. On it is a collection of pipes that belonged to Eduard Clam-Gallas. Eduard and his son Francis had collected and gathered more than 220 pipes worldwide. Some of them are displayed like this throughout the entire tour of the castle.\n\nOpposite the table, on the wall, is the great painting of the last killed wolf in Frýdlant woods, which was shot in 1766."
+                    "text": "Hunting was a very popular amusement for the aristocracy. Here on Frýdlant, the castle owners were no exception. Like the other nobles, they organized many hunts, mainly in the nearby forests of the Jizera mountains. Trophies from their hunts decorate the walls around the whole complex. Many of the antlers on the walls also have signs stating when, where, and by whom the animal was killed. Some also note the animal's weight.\n\nIn this room, we have this scarce table. It was made from the trunk of 130 years old birch tree. On it is a collection of pipes that belonged to Eduard Clam-Gallas. Eduard and his son Francis had collected and gathered more than 220 pipes worldwide. Some of them are displayed like this throughout the entire tour of the castle.\n\nOpposite the table, on the wall, is the great painting of the last killed wolf in Frýdlant woods, which was shot in 1766."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_12.mp3",
                     "number": 12,
                     "img": "/castle/jidelna.jpg",
                     "title": "Renaissance dining room",
                     "card_label": "This old Redern's dining room is equipped in renaissance style. ",
                     "button": "Visit",
-                    "text": "nThis old Redern's dining room is equipped in renaissance style. The collection of the dishes made from the tin is from the 17th, 18th and 19th centuries. The stove in this room is the oldest in the whole castle, from the 17th century. On the wall next to the stove is the clock from the 17th century, entirely made from wood, except for three glass bells. Behind the door is a terrace with a view of the lower courtyard and the town of Frýdlant."
+                    "text": "This old Redern's dining room is equipped in renaissance style. The collection of dishes made from the tin is from the 17th, 18th, and 19th centuries. The stove in this room is the oldest in the whole castle, from the 17th century. On the wall next to the stove is the clock from the 17th century, entirely made from wood, except for three glass bells. Behind the door is a terrace with a view of the lower courtyard and the town of Frýdlant."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_13.mp3",
                     "number": 13,
                     "img": "/castle/vezeni.jpg",
                     "title": "The hallway",
                     "card_label": "The wall here is curved due to the fact, that we are going along the high tower called Indica. ",
                     "button": "Visit",
-                    "text": "nThe wall here is curved due to the fact, that we are going along the high tower called Indica. The first door was used for putting the wood into the stove, and the second one leads into one of the cells (used as a prison, later as a treasure room) that are in the tower. Now we will go upstairs to the Castle's armoury."
+                    "text": "The wall here is curved due to the fact, that we are going along the high tower called Indica. The first door was used for putting the wood into the stove, and the second one leads into one of the cells (used as a prison, later as a treasure room) that are in the tower. Now we will go upstairs to the Castle's armory."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_14.mp3",
                     "number": 14,
                     "img": "/castle/zbrojnice1.jpg",
-                    "title": "The armoury – Main hall",
+                    "title": "The armory – Main hall",
                     "card_label": "On the ceiling of this room are coats of arms of families from the Thirty years' war which lasted from 1618 to 1648.",
                     "button": "Visit",
-                    "text": "On the ceiling of this room are coats of arms of families from the Thirty years' war which lasted from 1618 to 1648. Most weapons are muskets (long guns on the walls) from the 17th century; they can shoot up to 300 metres and weigh 5-9 kilos. On the left are very rare those two big guns. They are called Arquebus. They were used from the 14th century; one was operated by two men, weighed 50 kilos and could shoot up to 100 metres. On the wall above the doors are copies of Hussit's weapons as a reminder that Hussites tried to conquer the castle twice but never succeeded."
+                    "text": "On the ceiling of this room are coats of arms of families from the Thirty years' war which lasted from 1618 to 1648. Most weapons are muskets (long guns on the walls) from the 17th century. They can shoot up to 300 metres and weigh 5-9 kilos. On the left are very rare those two big guns. They are called Arquebus. They were used from the 14th century. One was operated by two men, weighed 50 kilos and could shoot up to 100 metres. On the wall above the doors are copies of Hussit's weapons as a reminder that Hussites tried to conquer the castle twice but never succeeded."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_15.mp3",
                     "number": 15,
                     "img": "/castle/zbrojnice2.jpg",
-                    "title": "The armoury – the second room",
+                    "title": "The armory – the second room",
                     "card_label": "In this room we have equipment for castle garrison. ",
                     "button": "Visit",
                     "text": "In this room we have equipment for castle garrison. It was bought by one of the castle owners - Count Francis Ferdinand Gallas. His initials are also on the cartridge bags on the walls (from German) - Franz Ferdinand Gräf von Gallas. Displayed are also mortars and tiny cannons used as festive weapons."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_16.mp3",
                     "number": 16,
                     "img": "/castle/postroje.jpg",
                     "title": "Equipment for horses",
                     "card_label": "On the left are four silver harnesses used last time in 1930 at the funeral of the last male owner of the castle - Francis Clam-Gallas.",
                     "button": "Visit",
-                    "text": "On the left are four silver harnesses used last time in 1930 at the funeral of the last male owner of the castle - Francis Clam-Gallas. Behind them, next to the door, are boots and a hat. That belonged to the courier. Couriers filled the boots with hay and put them over their own shoes so their feet would stay warm. The hat is, in fact, a secret backpack for letters or money.\n\nThe other two harnesses are golden, and behind them, on the wall, are three nets. They were used as a protection for horses against the insect. In the adjoining room, you can view some other equipment for horses."
+                    "text": "On the left are four silver harnesses used last time in 1930 at the funeral of the last male owner of the castle - Francis Clam-Gallas. Behind them, next to the door, are boots and a hat. That belonged to the courier. Couriers filled the boots with hay and put them over their own shoes so their feet would stay warm. The hat is, in fact, a secret backpack for letters or money.\n\nThe other two harnesses are golden, and behind them, on the wall, are three nets. They were used as protection for horses against insects. In the adjoining room, you can view some other equipment for horses."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_17.mp3",
                     "number": 17,
                     "img": "/castle/obrazarna.jpg",
                     "title": "The Castle’s gallery",
                     "card_label": "Here in the gallery are pictures of many owners of the castle, like Christian Philip of Clam-Gallas, William Clam-Gallas, Albrecht Wallenstein or John Wenceslaus Gallas.",
                     "button": "Visit",
-                    "text": "Here in the gallery are pictures of many owners of the castle, like Christian Philip of Clam-Gallas, William Clam-Gallas, Albrecht Wallenstein or John Wenceslaus Gallas.\n\nSome of the pictures also show aristocracy all around Europe. For example, the painting above the entrance door is Spanish princess Margaret Theresa - wife of the Habsburg emperor Leopold I. On the right side of her portrait is emperor Charles VI.\n\nA fruit bowl made from alabaster is on the table in the middle of the room.   On the other table is a showcase with ostrich egg (a souvenir from travels of the Clam-Gallas family) and burned money - another tourist attraction for the Castle Museum."
+                    "text": "Here in the gallery are pictures of many owners of the castle, like Christian Philip of Clam-Gallas, William Clam-Gallas, Albrecht Wallenstein or John Wenceslaus Gallas.\n\nSome of the pictures also show aristocracy all around Europe. \n\nA fruit bowl made from alabaster is on the table in the middle of the room. On the other table is a showcase with ostrich egg (a souvenir from travels of the Clam-Gallas family) and burned money - another tourist attraction for the Castle Museum."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/en/castle/en_room_18.mp3",
                     "number": 18,
                     "img": "/castle/vrchnostenska.jpg",
                     "title": "Administrative office",
@@ -1165,43 +1165,43 @@
             "button": "Führung beginnen",
             "rooms": [
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_1.mp3",
                     "number": 1,
                     "img": "/castle/dolni_nadvori.jpg",
                     "title": "Der erste Schlosshof",
                     "card_label": "Wir befinden uns auf dem unteren Schlosshof, woher wir das ganze Objekt übersehen können.",
                     "button": "Besuchen",
-                    "text": "Herzlich willkommen auf dem Staatsschloss Frýdlant. Vor Beginn der Tour bitten wir Sie, Ihre Handys lautlos zu schalten, damit die Tour nicht gestört wird. Wenn Sie einen Audioguide verwenden, tragen Sie beim Hören Kopfhörer. Außerdem bitten wir Sie, die ausgestellten Exponate nicht zu berühren und bei Ihrer Gruppe zu bleiben. Vielen Dank für Ihr Verständnis und wir wünschen Ihnen einen angenehmen Besuch.\n\nWir befinden uns auf dem unteren Schlosshof, woher wir das ganze Objekt übersehen können.\n\nWir sehen die Burg, die Schlosskapelle, das sogenannte Alte Schloss aus dem 16.Jhr. und hier links das sogenannte Neue Schloss aus der 2.Hälfte des 19. Jhds.\n\nDie Burg Frýdlant gehört zu den ältesten und mächtigsten gut erhaltenen Burgen in Nordböhmen. Sie wurde gegen die Hälfte des 13.Jhd im gotischen Stil erbaut. Der älteste Teil der Burg ist der hohe Turm, der Indica gennant wird. Eine alte Sage erzählt, dass der Turm früher oben flach war. Wahrscheinlich wurde auf ihm das Feuer angezündet und der Turm diente als Leuchterturm auf dem Handelsweg aus Böhmen in die Lausitz und weiter nach Polen.\n\nDie Schlosskapelle (das gelbe Gebäude) liess Katharina von Redern mit ihrem Mann Melchior in den Jahren 1598 – 1602 erbauen.\n\nNach der Besichtigung der Kapelle gehen wir durch den älteren Teil des Schlosses aus dem 16. Jhd, der im Renaissancestil erbaut wurde. Seine Fassade ist mit den echten Renaisancesgraffitos (auch 16.Jhd) geschmückt. Die Sgraffitos wurden erst im Jahr 1960 nach Jahrhunderten entdeckt.\n\nDie Besichtigung beenden wir in dem neusten Teil des Schlosses aus der 2.Hälfte des 19.Jhd und dann als letzte besuchen wir schöne Schlossküche aus dem 19.Jhd.\n\nRechts sehen Sie die ursprünglichen Burgmauern. Dieser steiler Weg heisst „Ritterweg“. Hier sind damals die Ritter auf Pferden bis hinauf in die Burg geritten. Die Damen wurden in ihren Sänften nach oben getragen. Aber heuzutage müssen auch die Damen zu Fuss gehen."
+                    "text": "Herzlich willkommen auf dem Staatsschloss Frýdlant. Vor Beginn der Tour bitten wir Sie, Ihre Handys lautlos zu schalten, damit die Tour nicht gestört wird. Wenn Sie einen Audioguide verwenden, tragen Sie beim Hören Kopfhörer. Außerdem bitten wir Sie, die ausgestellten Exponate nicht zu berühren und bei Ihrer Gruppe zu bleiben. Vielen Dank für Ihr Verständnis und wir wünschen Ihnen einen angenehmen Besuch.\n\nWir befinden uns auf dem unteren Schlosshof, woher wir das ganze Objekt übersehen können.\n\nWir sehen die Burg, die Schlosskapelle, das sogenannte Alte Schloss aus dem 16. Jahrhundert, und hier links das sogenannte Neue Schloss aus der 2.Hälfte des 19. Jahrhunderts.\n\nDie Burg Frýdlant gehört zu den ältesten und mächtigsten gut erhaltenen Burgen in Nordböhmen. Sie wurde gegen die Hälfte des 13. Jahrhundertdert im gotischen Stil erbaut. Der älteste Teil der Burg ist der hohe Turm, der Indica gennant wird. Eine alte Sage erzählt, dass der Turm früher oben flach war. Wahrscheinlich wurde auf ihm das Feuer angezündet und der Turm diente als Leuchterturm auf dem Handelsweg aus Böhmen in die Lausitz und weiter nach Polen.\n\nDie Schlosskapelle (das gelbe Gebäude) liess Katharina von Redern mit ihrem Mann Melchior in den Jahren 1598 – 1602 erbauen.\n\nNach der Besichtigung der Kapelle gehen wir durch den älteren Teil des Schlosses aus dem 16. Jahrhundert, der im Renaissancestil erbaut wurde. Seine Fassade ist mit den echten Renaisancesgraffitos (auch 16. Jahrhundertdert) geschmückt. Die Sgraffitos wurden erst im Jahr 1960 nach Jahrhunderten entdeckt.\n\nDie Besichtigung beenden wir in dem neusten Teil des Schlosses aus der 2.Hälfte des 19. Jahrhundertdert und dann als letzte besuchen wir schöne Schlossküche aus dem 19. Jahrhundertdert.\n\nRechts sehen Sie die ursprünglichen Burgmauern. Dieser steiler Weg heisst „Ritterweg“. Hier sind damals die Ritter auf Pferden bis hinauf in die Burg geritten. Die Damen wurden in ihren Sänften nach oben getragen. Aber heutzutage müssen auch die Damen zu Fuss gehen."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_2.mp3",
                     "number": 2,
                     "img": "/castle/pred_kapli.jpg",
                     "title": "Vor der Schlosskapelle",
                     "card_label": "Wir stehen jetzt vor der Renaissanceburg aus der Hälfte des 16. Jahrhunderts.",
                     "button": "Besuchen",
-                    "text": "Wir stehen jetzt vor der Renaissanceburg aus der Hälfte des 16. Jahrhunderts. Die Burg steht auf einem natührlichen Basaltfelsen. Der Sage nach hat diesen Felsen der Teufel gepflügt und deshalb nennt man den Felsen auch die „Teufelsorgel“.\n\nDer Bogen hier oben ist eine Brücke zwischen der Burg und der Schlosskapelle.\n\nÜber dem alten ursprünglichen Eingang in die Burg sehen Sie 2 Wappen. Links das Wappen von Anton Pankratius Gallas und das Wappen rechts gehörte seiner Mutter Victoria de Arco.\n\nHinaufsteigend die Treppe zum kleinen Burghof sehen Sie rechts 3 alten Wasserpumpen = Feuerlöscher (links und rechts aus dem 18.Jhd, in der Mitte aus dem Jahr 1877 aus Wien)."
+                    "text": "Wir stehen jetzt vor der Renaissanceburg aus der Hälfte des 16. Jahrhunderts. Die Burg steht auf einem natührlichen Basaltfelsen. Der Sage nach hat diesen Felsen der Teufel gepflügt und deshalb nennt man den Felsen auch die „Teufelsorgel“.\n\nDer Bogen hier oben ist eine Brücke zwischen der Burg und der Schlosskapelle.\n\nÜber dem alten ursprünglichen Eingang in die Burg sehen Sie 2 Wappen. Links das Wappen von Anton Pankratius Gallas und das Wappen rechts gehörte seiner Mutter Victoria de Arco.\n\nHinaufsteigend die Treppe zum kleinen Burghof sehen Sie rechts 3 alten Wasserpumpen = Feuerlöscher (links und rechts aus dem 18. Jahrhundertdert, in der Mitte aus dem Jahr 1877 aus Wien)."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_3.mp3",
                     "number": 3,
                     "img": "/castle/hradni_nadvori.jpg",
                     "title": "Der Burghof",
                     "card_label": "Wir befinden uns in dem kleinen Burghof.",
                     "button": "Besuchen",
-                    "text": "Wir befinden uns in dem kleinen Burghof. Der Basaltfelsen ist relativ klein, deshalb baute man die Burg nicht in die Breite, aber in die Höhe.\n\nDie ursprüngliche gotische Burg wurde im 16.Jhd im Renaissancestil umgebaut. Auf dieser Gedenktafel über der Tür ist lateinisch geschrieben, dass den ersten Renaissanceumbau der Burg Christoph von Biberstein beendete. Über dem Dach sehen Sie ein kleines Wappen. Das gehörte der Adelsfamilie Biberstein.\n\nDas grosse Wappen hier oben gehörte dem Grafen Mathias Gallas de Campo. Er war ursprünglich Wallensteins General wärend des 30-Jahrigen Krieges, auch sein Kolege, später sein Verräter. Mathias Gallas hat nach der Wallensteinsermordung im Jahr 1634 übernahm die ganze Herschaft Frýdlant als die Belohnung für die Waldsteinsermordung.\n\nVon hier aus können Sie sich den hohen Burgturm Indica ansehen. Er wurde schon im Jahre 1014 erbaut und ist also der älteste Teil der Burg. Der Turm ist 49 m hoch und die Mauer sind in der Höhe der 1.Etage fast 4m breit. In der Mitte ist ein kleiner Raum (Gefängnis oder Schatzkammer in der 1. + 2. Etage)."
+                    "text": "Wir befinden uns in dem kleinen Burghof. Der Basaltfelsen ist relativ klein, deshalb baute man die Burg nicht in die Breite, aber in die Höhe.\n\nDie ursprüngliche gotische Burg wurde im 16. Jahrhundertdert im Renaissancestil umgebaut. Auf dieser Gedenktafel über der Tür ist lateinisch geschrieben, dass den ersten Renaissanceumbau der Burg Christoph von Biberstein beendete. Über dem Dach sehen Sie ein kleines Wappen. Das gehörte der Adelsfamilie Biberstein.\n\nDas grosse Wappen hier oben gehörte dem Grafen Mathias Gallas de Campo. Er war ursprünglich Wallensteins General wärend des 30-Jahrigen Krieges, auch sein Kolege, später sein Verräter. Mathias Gallas hat nach der Wallensteinsermordung im Jahr 1634 übernahm die ganze Herschaft Frýdlant als die Belohnung für die Waldsteinsermordung.\n\nVon hier aus können Sie sich den hohen Burgturm Indica ansehen. Er wurde schon im Jahre 1014 erbaut und ist also der älteste Teil der Burg. Der Turm ist 49 m hoch und die Mauer sind in der Höhe der 1.Etage fast 4m breit. In der Mitte ist ein kleiner Raum (Gefängnis oder Schatzkammer in der 1. + 2. Etage)."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_4.mp3",
                     "number": 4,
                     "img": "/castle/prvni_hradni.jpg",
                     "title": "Der erste Burgraum",
                     "card_label": "Wir sind jetzt in dem 1. Burgraum.",
                     "button": "Besuchen",
-                    "text": "Wir sind jetzt in dem 1. Burgraum. Wir beginnen mit der ältesten Historie: Der Gründer der Burg ist heute schon unbekannt. Seit der Hälfte des 13.Jhds herrschte hier im Namen des böhmischen Königs die Adelsfamilie Ronowitzer, eine der mächtigsten böhmischen Adelsfamilien. Das Wappen der Ronowitzer sehen Sie hier links über der Tür.\n\nIm Jahre 1278 hat der böhmische König Přemysl Otakar II. den Ronowitzer die Herrschaft abgenommen. Und noch in diesem Jahr 1278 kaufte die Herrschaft Frýdlant der sächsische Edelsmann Rudolf von Biberstein. Und diese Adelsfamilie von Biberstein blieb am längsten da, fast 300 Jahre (1278 - 1551 = 273 Jahre). Die Bibersteins realisierten hier den Renaissanceumbau der Burg. In dem Jahr 1551 starb auch der letzte aus der Friedlander Adelsfamilie Biberstein.\n\nIm Jahre 1558 kaufte Frýdlant Fridrich von Redern. In diesem Jahr gewann er auch die Herrschaft Liberec und Zawidow. Er starb schon im Jahre 1564 und seinen Besitz vererbten seine Söhne.\n\nSeit 1591 blieb hier als einziger Besitzer Melchior von  Redern, der kaiserliche Feldherr und Präsident der kaiserlichen Geheimrates. Melchior war ein herrvorragender Krieger. Er kämpfte in Ungarn gegen Türken. Nach seinem Tod im Jahr 1600 übernahm die Herrschaft Frýdlant seine Frau Katharina von Redern (geborene Schlick). Ihr Bild sehen Sie zwischen den Fenstern.\n\nKatharina von Redern war eine sehr energische Frau, deshalb hat sie von der Bevölkerung einen Spitznamen bekommen: „die böse Katharina“. Sie hat nach ihrem Mann mit der Harrschaft Frýdlant auch seine riesigen Schulden vererbt. Aber den Hauptteil dieser Schulden bezahlte sie. Sie liess auch die Schlosskapelle, den alten Teil des Schlosses und die Familiengruft der Adelsfamilie Redern in der Kirche hier in Frýdlant erbauen. Das Bild der Familiengruft können sie rechts von der zweiten Tür sehen. In dieser Vitrine links von der Tür sind Melchiors Überreste ausgestellt. Und im dem kleinem Sarg befindet sich sein Armknochen.\n\nKatharina führte auch einen Prozess gegen Bürgen um das Braurecht. Diesen Prozess hat sie verloren und den Bürgern zum Trotz liess sie auf dem Marktplatz hier in Frýdlant das sogenannte „Trotzhaus“ erbauen, das dort bis heute noch steht. Katharina starb wahrscheinlich im Jahre 1618, aber ihr Grab wurde bis heute nicht gefunden.\n\nNach dem Katharinas Tod übernahm Herschaft Frýdlant ihr Sohn Christoph von Redern. Christoph nahm mit seinem Onkel, dem Grafen Joachim Andreas von Schlick, auf dem Aufstand gegen Kaiser Ferdinand auf dem Weissen Berg im Jahre 1620 teil. Als der Widerstand geschlagen wurde, musste Christoph fliehen. Sein Onkel wurde am 21.Juni 1621 auf dem Altstätder Ring in Prag hingerichtet.\n\nDie Herschaft der Adelsfamilie Redern wurde dann konfisziert und im Jahre 1622 kaufte sie Albrecht von Waldstein (Wallenstein)."
+                    "text": "Wir sind jetzt in dem 1. Burgraum. Wir beginnen mit der ältesten Historie: Der Gründer der Burg ist heute schon unbekannt. Seit der Hälfte des 13. Jahrhundertderts herrschte hier im Namen des böhmischen Königs die Adelsfamilie Ronowitzer, eine der mächtigsten böhmischen Adelsfamilien. Das Wappen der Ronowitzer sehen Sie hier links über der Tür.\n\nIm Jahre 1278 hat der böhmische König Přemysl Otakar II. den Ronowitzer die Herrschaft abgenommen. Und noch in diesem Jahr 1278 kaufte die Herrschaft Frýdlant der sächsische Edelsmann Rudolf von Biberstein. Und diese Adelsfamilie von Biberstein blieb am längsten da, fast 300 Jahre (1278 - 1551 = 273 Jahre). Die Bibersteins realisierten hier den Renaissanceumbau der Burg. In dem Jahr 1551 starb auch der letzte aus der Friedlander Adelsfamilie Biberstein.\n\nIm Jahre 1558 kaufte Frýdlant Fridrich von Redern. In diesem Jahr gewann er auch die Herrschaft Liberec und Zawidow. Er starb schon im Jahre 1564 und seinen Besitz vererbten seine Söhne.\n\nSeit 1591 blieb hier als einziger Besitzer Melchior von  Redern, der kaiserliche Feldherr und Präsident der kaiserlichen Geheimrates. Melchior war ein herrvorragender Krieger. Er kämpfte in Ungarn gegen Türken. Nach seinem Tod im Jahr 1600 übernahm die Herrschaft Frýdlant seine Frau Katharina von Redern (geborene Schlick). Ihr Bild sehen Sie zwischen den Fenstern.\n\nKatharina von Redern war eine sehr energische Frau, deshalb hat sie von der Bevölkerung einen Spitznamen bekommen: „die böse Katharina“. Sie hat nach ihrem Mann mit der Harrschaft Frýdlant auch seine riesigen Schulden vererbt. Aber den Hauptteil dieser Schulden bezahlte sie. Sie liess auch die Schlosskapelle, den alten Teil des Schlosses und die Familiengruft der Adelsfamilie Redern in der Kirche hier in Frýdlant erbauen. Das Bild der Familiengruft können sie rechts von der zweiten Tür sehen. In dieser Vitrine links von der Tür sind Melchiors Überreste ausgestellt. Und im dem kleinem Sarg befindet sich sein Armknochen.\n\nKatharina führte auch einen Prozess gegen Bürgen um das Braurecht. Diesen Prozess hat sie verloren und den Bürgern zum Trotz liess sie auf dem Marktplatz hier in Frýdlant das sogenannte „Trotzhaus“ erbauen, das dort bis heute noch steht. Katharina starb wahrscheinlich im Jahre 1618, aber ihr Grab wurde bis heute nicht gefunden.\n\nNach dem Katharinas Tod übernahm Herschaft Frýdlant ihr Sohn Christoph von Redern. Christoph nahm mit seinem Onkel, dem Grafen Joachim Andreas von Schlick, auf dem Aufstand gegen Kaiser Ferdinand auf dem Weissen Berg im Jahre 1620 teil. Als der Widerstand geschlagen wurde, musste Christoph fliehen. Sein Onkel wurde am 21.Juni 1621 auf dem Altstätder Ring in Prag hingerichtet.\n\nDie Herschaft der Adelsfamilie Redern wurde dann konfisziert und im Jahre 1622 kaufte sie Albrecht von Waldstein (Wallenstein)."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_5.mp3",
                     "number": 5,
                     "img": "/castle/albrecht.jpg",
                     "title": "Albrecht von Wallenstein",
@@ -1210,52 +1210,52 @@
                     "text": "Albrecht von  Wallenstein kaufte die konfiszierten Domänen der Adelsfamilie Redern im Jahre 1622.  Wallenstein war aber ein böhmischer Adeliger, eine grosse Persönlichkeit des 30-Jahrigen Krieg.\n\nWallenstein war ein sehr ergeiziger Mann. Im Jahre 1624 wurde er zum Herzog von Frýdlant genannt. Aber sein Hauptsitz war das Schloss Jičín. In Frýdlant hielt er sich sehr selten auf. Nach der Schlacht auf dem Weissen Berg wurde er kurzer Zeit einer der reichsten Männer in Böhmen.\n\nIhm fehlte nur die Böhmische Köningskrone. Deswegen paktierte er mit den Schweden und anderen Gegnern der Habsburgen. Seine geheimen Verhandlungen waren aber seinen Generälen bekannt. Seine Generäle Octavio Piccolomini und Mathyas Galls de Campo informierten über seine Pläne den Kaiser. Am Anfang des Jahres 1634 wurde in Wien über  Wallensteins Ermordung entschieden und dann, am 25.Februar 1634, wurde dann  Wallenstein in Cheb (deutsch damals Eger) ermordet.\n\nHier links sehen Sie sein Porträt aus dem Jahr 1630. Das Bild ist wahrscheinlich ein Werk des friedlander Malers Christian Kaulfersch. Daneben ist der Stambaum der Adelsfamilie  Wallenstein. Im Bild ist sein echter Name (Wallenstein) geschrieben. Und oft auch Generalisimus von Friedland.\n\nAuf dem grössten Bild ist  Wallensteins Pferd, seine Kriegsbeute aus der Schlacht  bei Lützen bei Leipzig (1632), wo der schwedische König Gustav II. Adolf gestorben ist. Die spanische Überschrift „Mas Querido“  bedeutet „beliebteste“. Über der Tür sehen Sie  Wallenstein´s Wappen."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_6.mp3",
                     "number": 6,
                     "img": "/castle/rytirsky_sal.jpg",
                     "title": "Der grosse Rittersaal",
                     "card_label": "Wir sind jetzt im dem grossen Rittersaal, der seit 1801 als Bildergalerie der Adelsfamilie Gallas und Clam-Gallas diente.",
                     "button": "Besuchen",
-                    "text": "Wir sind jetzt im dem grossen Rittersaal, der seit 1801 als Bildergalerie der Adelsfamilie Gallas und Clam-Gallas diente.\n\nIm Jahre 1634 bekam die Herrschaft Frýdlant Graf Mathyas Gallas de Campo, als die Belohnung für den Mord Albrecht von  Wallenstein. Noch in diesem Jahr besetzen die Burg und die Stadt Frýdlant die Schweden, die hier  mehrmals bis 1649 waren. Das Porträt von Mathyas Gallas ist ein Werk von Franz Leux. Daneben ist seine Gemahlin, Grafin von Lodron.\n\nMathias Gallas hatte 4 Söhne und 5 Tochter. Links von der ersten Tür sehen Sie das Porträt seines Sohnes Franz Ferdinand Graf von Gallas. Er gründete im 17.Jhd in Helnice (deutsch Heindorf ) das Kloster und in der Kirche auch die Familiengruft der Adelsfamilie Gallas. Rechts von der Tür sehen Sie auf dem Bild seine Gemahlin Johanna Emerenziana, geborene Gräfin Gaschin-Rosenberg. Sie herrste noch sehr lange nach dem Tod ihrers Mannes, sie starb im Jahre 1735, als sie 92 Jahre alt war.\n\nIhr Sohn, Johann Wenzeslaus von Gallas (rechts in der Mitte des Saales) war ein kaiserlicher Diplomat. Im Jahre 1719 wurde er zum Vicekönig von Neapol ernannt. Johann Wenzeslaus liess das Palais in Prag, heuzutage „Clam-Gallas Palais“ umbauen. Die Bauarbeiten hat, nach Plänen von Jan Bernard Fischer von Erlach, am Anfang des 18.Jhds G.B.Canevale geführt. Johann Wenzeslaus starb in Neapol und dort wurde er auch begraben. Aber nach seinem Wunsch wurde sein Herz in der Familiengruft in Hejnice beigesetzt.\n\nDer letzte Besitzer aus der Adelsfamilie Gallas war Filip Josef. Durch ihn starb die Familie Gallas im Jahre 1757 aus. Nach seinem letzten Willen übernahm dann die Herrschaft Frýdlant als Erbe sein Neffe, Cristian Philip von Clam. Aber nur unter der Bedingung, dass zum Namen und Wappen der Adelsfamilie Clam der Name und Wappen der Adelsfamilie Gallas zugegeben wird.\n\nUnd so entstand eine der reichsten und mächtigsten Adelsfamilien in Österreich und in Böhmen = die Adelsamilie Clam-Gallas. Der erste von ihnen, Cristian Philip hat den bekannten Kurort Bad Libverda, der in der Nähe von Frýdlant liegt, gegründet.\n\nUnd in dem nächsten Raum sehen Sie weitere Porträte der Mitgliedern der Adelsfamilie Clam-Gallas."
+                    "text": "Wir sind jetzt im dem grossen Rittersaal, der seit 1801 als Bildergalerie der Adelsfamilie Gallas und Clam-Gallas diente.\n\nIm Jahre 1634 bekam die Herrschaft Frýdlant Graf Mathyas Gallas de Campo, als die Belohnung für den Mord Albrecht von  Wallenstein. Noch in diesem Jahr besetzen die Burg und die Stadt Frýdlant die Schweden, die hier  mehrmals bis 1649 waren. Das Porträt von Mathyas Gallas ist ein Werk von Franz Leux. Daneben ist seine Gemahlin, Grafin von Lodron.\n\nMathias Gallas hatte 4 Söhne und 5 Tochter. Links von der ersten Tür sehen Sie das Porträt seines Sohnes Franz Ferdinand Graf von Gallas. Er gründete im 17. Jahrhundertdert in Helnice (deutsch Heindorf ) das Kloster und in der Kirche auch die Familiengruft der Adelsfamilie Gallas. Rechts von der Tür sehen Sie auf dem Bild seine Gemahlin Johanna Emerenziana, geborene Gräfin Gaschin-Rosenberg. Sie herrste noch sehr lange nach dem Tod ihrers Mannes, sie starb im Jahre 1735, als sie 92 Jahre alt war.\n\nIhr Sohn, Johann Wenzeslaus von Gallas (rechts in der Mitte des Saales) war ein kaiserlicher Diplomat. Im Jahre 1719 wurde er zum Vicekönig von Neapol ernannt. Johann Wenzeslaus liess das Palais in Prag, heutzutage „Clam-Gallas Palais“ umbauen. Die Bauarbeiten hat, nach Plänen von Jan Bernard Fischer von Erlach, am Anfang des 18. Jahrhundertderts G.B.Canevale geführt. Johann Wenzeslaus starb in Neapol und dort wurde er auch begraben. Aber nach seinem Wunsch wurde sein Herz in der Familiengruft in Hejnice beigesetzt.\n\nDer letzte Besitzer aus der Adelsfamilie Gallas war Filip Josef. Durch ihn starb die Familie Gallas im Jahre 1757 aus. Nach seinem letzten Willen übernahm dann die Herrschaft Frýdlant als Erbe sein Neffe, Cristian Philip von Clam. Aber nur unter der Bedingung, dass zum Namen und Wappen der Adelsfamilie Clam der Name und Wappen der Adelsfamilie Gallas zugegeben wird.\n\nUnd so entstand eine der reichsten und mächtigsten Adelsfamilien in Österreich und in Böhmen = die Adelsamilie Clam-Gallas. Der erste von ihnen, Cristian Philip hat den bekannten Kurort Bad Libverda, der in der Nähe von Frýdlant liegt, gegründet.\n\nUnd in dem nächsten Raum sehen Sie weitere Porträte der Mitgliedern der Adelsfamilie Clam-Gallas."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_7.mp3",
                     "number": 7,
                     "img": "/castle/piano.jpg",
                     "title": "Bei dem Klavier",
                     "card_label": "In dem Bild über dem Flügel ist der nächste Besitzer, Cristian Christoph Clam-Gallas.",
                     "button": "Besuchen",
-                    "text": "In dem Bild über dem Flügel ist der nächste Besitzer, Cristian Christoph Clam-Gallas. Er war ein grosser Kunst- und Musikliebhaber. Neben ihm sehen sie seine Gemahlin, Josephine Clam-Gallas, geborene Gräfin Clary–Aldringen. Beide unterstützten Theater und Musik in Frýdlant. Josephine konnte gut singen und Klavier und Gitare spielen. Sie war auch mit dem Komponisten Ludwig van Beethoven persönlich befreudet und hat mit ihm auch in Bad Teplice konzertiert.\n\nChristian mit Josephine hatten 2 Söhne: der ältere Sohn Wilhelm (sein Porträt ist an der Wand hinter Ihnen) starb an der Jagd in Hejnice, als er 20 Jahre alt war. Sein jüngere Bruder Eduard übernahm die Verwaltung der Herrschaft Frýdlant im Jahre 1838, unmittelbar nach dem Tod seines Vaters. Sein Porträt mahlte der Wiener Mahler Franz Schrotzberg im Jahre 1852.\n\nEduard Clam-Gallas war ein bedeutender österreichischer Generäl. Er kämpfte gemeinsam mit dem bekannten Marschall Radecky in der 2.Hälfte des 19.Jhd. in Norditalien. Im Jahre 1866 (Österreich-Preusischer Krieg) wurden seine Regimente mehrmals geschlagen und Eduard wurde gerichtet und obwohl unschuldig, zum Tod verurteilt. Zum Schluss wurde er aber freigesprochen und als unschuldig geklärt. Dann zog er auf Schloss Frýdlant um und lebte hier bis zum Ende des Lebens. Er starb im Jahre 1891 in Wien.\n\nEduard Clam-Gallas hatte nur einen einzigen Sohn Franz. Hier ist seine Büste, ein Werk des Wiener Bildhauers Heinrich Karl Scholz. Franz Clam-Gallas starb im Jahre 1930 und hatte 7 Töchter. Eine von ihnen, Clottilde, lebte hier bis zum April 1945, wann sie nach Österreich umgezogen ist.\n\nSeit dem Jahr 1945 gehört die Burg und Schloss Frýdlant dem Staat."
+                    "text": "In dem Bild über dem Flügel ist der nächste Besitzer, Cristian Christoph Clam-Gallas. Er war ein grosser Kunst- und Musikliebhaber. Neben ihm sehen sie seine Gemahlin, Josephine Clam-Gallas, geborene Gräfin Clary–Aldringen. Beide unterstützten Theater und Musik in Frýdlant. Josephine konnte gut singen und Klavier und Gitare spielen. Sie war auch mit dem Komponisten Ludwig van Beethoven persönlich befreudet und hat mit ihm auch in Bad Teplice konzertiert.\n\nChristian mit Josephine hatten 2 Söhne: der ältere Sohn Wilhelm (sein Porträt ist an der Wand hinter Ihnen) starb an der Jagd in Hejnice, als er 20 Jahre alt war. Sein jüngere Bruder Eduard übernahm die Verwaltung der Herrschaft Frýdlant im Jahre 1838, unmittelbar nach dem Tod seines Vaters. Sein Porträt mahlte der Wiener Mahler Franz Schrotzberg im Jahre 1852.\n\nEduard Clam-Gallas war ein bedeutender österreichischer Generäl. Er kämpfte gemeinsam mit dem bekannten Marschall Radecky in der 2.Hälfte des 19. Jahrhundertderts. in Norditalien. Im Jahre 1866 (Österreich-Preusischer Krieg) wurden seine Regimente mehrmals geschlagen und Eduard wurde gerichtet und obwohl unschuldig, zum Tod verurteilt. Zum Schluss wurde er aber freigesprochen und als unschuldig geklärt. Dann zog er auf Schloss Frýdlant um und lebte hier bis zum Ende des Lebens. Er starb im Jahre 1891 in Wien.\n\nEduard Clam-Gallas hatte nur einen einzigen Sohn Franz. Hier ist seine Büste, ein Werk des Wiener Bildhauers Heinrich Karl Scholz. Franz Clam-Gallas starb im Jahre 1930 und hatte 7 Töchter. Eine von ihnen, Clottilde, lebte hier bis zum April 1945, wann sie nach Österreich umgezogen ist.\n\nSeit dem Jahr 1945 gehört die Burg und Schloss Frýdlant dem Staat."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_8.mp3",
                     "number": 8,
                     "img": "/castle/eduard.jpg",
                     "title": "Das Eduards Arbeitszimmer",
                     "card_label": "Wir sind jetzt in dem Arbeitszimmer des Generäls Eduard Clam-Gallas. ",
                     "button": "Besuchen",
-                    "text": "Wir sind jetzt in dem Arbeitszimmer des Generäls Eduard Clam-Gallas. In dem Schrank links können sie sich die Andenken an Eduars Kollege und Freund, Marschall Radecky, ansehen.\n\nDie Bilder stellen die Schlachten in Norditalien dar, die Österreich-Ungarn Monarchie in der 2.Hälfte des 19.Jhds führte.\n\nIn dem grossen Schrank links von der Tür sind die Geschenke, die Eduard von seinen Offizieren und Freunden bekommen hat und dem Schrank rechts von der Tür sind Eduards Uniformen – die Ulanuniform, die Dragoner- und die Hussarenuniform ausgestellt.\n\nIn dem Schaukasten am rechten Fenster sind Eduards Militärsorden ausgestellt. Unter ihnen ist auch der bekannteste österreichischer Orden „Zum goldenen Vlieses“."
+                    "text": "Wir sind jetzt in dem Arbeitszimmer des Generäls Eduard Clam-Gallas. In dem Schrank links können sie sich die Andenken an Eduars Kollege und Freund, Marschall Radecky, ansehen.\n\nDie Bilder stellen die Schlachten in Norditalien dar, die Österreich-Ungarn Monarchie in der 2.Hälfte des 19. Jahrhundertderts führte.\n\nIn dem grossen Schrank links von der Tür sind die Geschenke, die Eduard von seinen Offizieren und Freunden bekommen hat und dem Schrank rechts von der Tür sind Eduards Uniformen – die Ulanuniform, die Dragoner- und die Hussarenuniform ausgestellt.\n\nIn dem Schaukasten am rechten Fenster sind Eduards Militärsorden ausgestellt. Unter ihnen ist auch der bekannteste österreichischer Orden „Zum goldenen Vlieses“."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_9.mp3",
                     "number": 9,
                     "img": "/castle/uniformy.jpg",
                     "title": "Die Uniformen",
                     "card_label": "Dieser Eckraum diente früher als Gastzimmer für sehr geehrte Besucher, später auch als Herrenklub.",
                     "button": "Besuchen",
-                    "text": "Dieser Eckraum diente früher als Gastzimmer für sehr geehrte Besucher, später auch als Herrenklub. Heuzutage sind hier einige Uniformen der Schlossdienerschaft ausgestellt. In dem grossen Schrank in der Mitte des Raumes sehen Sie von links nach rechts Uniformen des Oberfärsters, des Försters und des Adjunkten, und dann altags- und Feieruniform des Majordomus. Daneben ist der Ceremoniestock."
+                    "text": "Dieser Eckraum diente früher als Gastzimmer für sehr geehrte Besucher, später auch als Herrenklub. Heutzutage sind hier einige Uniformen der Schlossdienerschaft ausgestellt. In dem grossen Schrank in der Mitte des Raumes sehen Sie von links nach rechts Uniformen des Oberfärsters, des Försters und des Adjunkten, und dann altags- und Feieruniform des Majordomus. Daneben ist der Ceremoniestock."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_10.mp3",
                     "number": 10,
                     "img": "/castle/nositka.jpg",
                     "title": "Die Sänfte",
                     "card_label": "In diesem Raum sehen Sie rechts die Damensänfte und vor den Fenstern Barockschlitten.",
                     "button": "Besuchen",
-                    "text": "In diesem Raum sehen Sie rechts die Damensänfte und vor den Fenstern Barockschlitten. Weiter sehen Sie hier noch den unteren Teil der Kinderkutsche, vermutlich von den Ponny gezogen.\n\n Im nächsten Raum sehen Sie Zielscheiben aus dem 18. und 19. Jhd."
+                    "text": "In diesem Raum sehen Sie rechts die Damensänfte und vor den Fenstern Barockschlitten. Weiter sehen Sie hier noch den unteren Teil der Kinderkutsche, vermutlich von den Ponny gezogen.\n\n Im nächsten Raum sehen Sie Zielscheiben aus dem 18. und 19. Jahrhundert."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_11.mp3",
                     "number": 11,
                     "img": "/castle/lovecky_salon.jpg",
                     "title": "Der Jagdsalon",
@@ -1264,7 +1264,7 @@
                     "text": "In dem  Jagdsalon sehen Sie das Bild des Wolfes, der im Jahre 1766 als der lezte Wolf hier im Isergebirge erschossen wurde. Am Fenster steht ein Tisch. Seine Tischplatte ist aus der hunderdreissig Jahre alten Birke hergestellt.\n\nIm nächsten Raum sind mehrere Tiere als Kuriositäten, ausgestellt."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_12.mp3",
                     "number": 12,
                     "img": "/castle/jidelna.jpg",
                     "title": "Der Renaissancespeisesaal",
@@ -1273,7 +1273,7 @@
                     "text": "Der Speisesaal ist im Renaissancestil eingerichtet. Die Sammlung der Zinngeschirre stammt aus dem 17., 18. und 19. Jahrhundert. Der Ofen in diesem Raum ist der älteste im ganzen Schloss und stammt aus dem 17. Jahrhundert. An der Wand neben dem Ofen befindet sich die Uhr aus dem 17. Jahrhundert, die bis auf drei Glasglocken vollständig aus Holz besteht. Hinter der Tür ist eine Terrasse mit Blick auf den unteren Hof und die Stadt Frýdlant."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_13.mp3",
                     "number": 13,
                     "img": "/castle/vezeni.jpg",
                     "title": "Gefängnis",
@@ -1282,7 +1282,7 @@
                     "text": "Die Wand hier ist gekrümmt, weil wir an dem hohen Turm namens Indica entlang gehen. Die erste Tür diente dazu, das Holz in den Ofen zu legen, und die zweite führt in eine der Zellen (die als Gefängnis, später als Schatzkammer dienten), die sich im Turm befinden. Jetzt gehen wir nach oben in die Waffenkammer des Schlosses."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_14.mp3",
                     "number": 14,
                     "img": "/castle/zbrojnice1.jpg",
                     "title": "Die Waffenkammer - Teil 1",
@@ -1291,7 +1291,7 @@
                     "text": "An der Decke dieses Raumes befinden sich Wappen von Familien aus dem Dreißigjährigen Krieg, der von 1618 bis 1648 dauerte. Die meisten Waffen sind Musketen (Langwaffen an den Wänden) aus dem 17. Jahrhundert. Sie können bis zu 300 Meter weit schießen und 5-9 Kilo wiegen. Auf der linken Seite sind diese beiden großen Kanonen sehr selten. Sie werden Arkebuse genannt. Sie wurden ab dem 14. Jahrhundert verwendet. Einer wurde von zwei Männern bedient, wog 50 Kilo und konnte bis zu 100 Meter weit schießen. An der Wand über den Türen sind Kopien von Hussitenwaffen als Erinnerung daran, dass die Hussiten zweimal versuchten, die Burg zu erobern, aber es gelang ihnen nicht."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_15.mp3",
                     "number": 15,
                     "img": "/castle/zbrojnice2.jpg",
                     "title": "Der Waffenkammer - Teil 2",
@@ -1300,7 +1300,7 @@
                     "text": "In diesem Raum haben wir Ausrüstung für die Burggarnison. Es wurde von einem der Schlossbesitzer - Graf Francis Ferdinand Gallas - gekauft. Seine Initialen stehen auch auf den Patronentaschen an den Wänden (aus dem Deutschen) - Franz Ferdinand Gräf von Gallas. Ausgestellt sind auch Mörser und kleine Kanonen, die als festliche Waffen verwendet werden."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_16.mp3",
                     "number": 16,
                     "img": "/castle/postroje.jpg",
                     "title": "Die Kutschergeschirre",
@@ -1309,7 +1309,7 @@
                     "text": "Hier sehen Sie die alten Kutschergeschirre. Die ersten zwei sind Brustgeschirre, die anderen vier sind Kummergeschirre. Der Hut, die Stieffel und der Sattel links von der Tür gehörten zur Ausrüstung des Reitskuriers. Den Hut hat der Kurier auf den Rücken getragen und drinnen hat er die Post übertragen. Die Stiefel wurden als seine überschuhen benutzt."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_17.mp3",
                     "number": 17,
                     "img": "/castle/obrazarna.jpg",
                     "title": "Die Bildergalerie",
@@ -1318,13 +1318,13 @@
                     "text": "Hier in der Galerie sind Bilder von vielen Besitzern des Schlosses, wie Christian Philip von Clam-Gallas, William Clam-Gallas, Albrecht Wallenstein oder John Wenceslaus Gallas.\n\nEinige der Bilder zeigen auch Aristokratie in ganz Europa. Zum Beispiel die spanische Prinzessin Margaret Theresa - Ehefrau des Habsburger Kaisers Leopold I.\n\nEine Obstschale aus Alabaster steht auf dem Tisch in der Mitte des Raumes. Auf dem anderen Tisch steht eine Vitrine mit Straußenei, ein Souvenir von Reisen der Familie Clam-Gallas, und verbranntem Geld – eine weitere Touristenattraktion für das Schlossmuseum."
                 },
                 {
-                    "audio": "/kcd.mp3",
+                    "audio": "/de/castle/de_room_18.mp3",
                     "number": 18,
                     "img": "/castle/vrchnostenska.jpg",
                     "title": "Die Hauptmannkanzlei",
                     "card_label": "Hier haben wir viele Alltagssachen, die Büroangestellte für ihren Job benötigen.",
                     "button": "Besuchen",
-                    "text": "Hier haben wir viele Alltagssachen, die Büroangestellte für ihren Job benötigen.\n\nDieses Büro hat zwei Schränke: den jüngeren vorne aus dem 19. Jahrhundert und den älteren hinten aus dem 18. Jahrhundert.An der Wand hängt die älteste Karte der Friedländer Region aus dem 17. Jahrhundert. Das Interessante ist, dass es unten Norden und oben Süden hat. Die folgende Karte ist eine Karte aus der Schule. Der Rohputz auf dem Tisch ist eine Karte des Schlossparks aus dem 19. Jahrhundert. Die letzte Karte ist eine Karte der Region aus dem Jahr 1880.\n\nZwischen den Fenstern hängt ein Foto von Eduard Clam-Gallas. Über der Tür befindet sich ein Holzschnitt des Heiligen Florian, weil die Burgbesitzer glaubten, dass er die Burg vor Feuer schützen würde.\n\nAuf unserem Weg nach draußen können Sie eine Tafel an der Wand entdecken, auf der der Preis für den Eintritt in das Burgmuseum steht.\n\nLiebe Besucher, unsere Tour endet hier. Ich danke Ihnen für Ihre Aufmerksamkeit und wünsche Ihnen einen schönen Rest des Tages."
+                    "text": "Hier haben wir viele Alltagssachen, die Büroangestellte für ihren Job benötigen.\n\nDieses Büro hat zwei Schränke: den jüngeren vorne aus dem 19. Jahrhundert und den älteren hinten aus dem 18. Jahrhundert. An der Wand hängt die älteste Karte der Friedländer Region aus dem 17. Jahrhundert. Das Interessante ist, dass es unten Norden und oben Süden hat. Die folgende Karte ist eine Karte aus der Schule. Der Rohputz auf dem Tisch ist eine Karte des Schlossparks aus dem 19. Jahrhundert. Die letzte Karte ist eine Karte der Region aus dem Jahr 1880.\n\nZwischen den Fenstern hängt ein Foto von Eduard Clam-Gallas. Über der Tür befindet sich ein Holzschnitt des Heiligen Florian, weil die Burgbesitzer glaubten, dass er die Burg vor Feuer schützen würde.\n\nAuf unserem Weg nach draußen können Sie eine Tafel an der Wand entdecken, auf der der Preis für den Eintritt in das Burgmuseum steht.\n\nLiebe Besucher, unsere Tour endet hier. Ich danke Ihnen für Ihre Aufmerksamkeit und wünsche Ihnen einen schönen Rest des Tages."
                 }
             ]
         },
@@ -1354,7 +1354,7 @@
                     "title": "The kitchen",
                     "card_label": "We entered the chateau building from the 16th century. ",
                     "button": "Visit",
-                    "text": "We entered the chateau building from the 16th century. Originally this building was not supposed to be for the nobles. On the upper floors were offices, and on the ground floor were stables for horses. In the 19th century, nobles moved from the upper castle to the chateau. Chateau was reconstructed and furnished with new things, meaning that the interiors we have today are from the 19th century. The castle was in 1801 opened to the public as the first Castle Museum in Central Europe.\n\nAs we are on the ground floor, this room used to be stable. Proof for this statement is the stone trough next to the doors. During the reconstruction, cooks wanted to keep it here, so they could wash dishes or keep live fish in it.\n\nThe kitchen is, for its time, relatively modern. Displayed is the most extensive collection of copper dishes in the Czech Republic. The dishes are tin-plated inside.\n\nThe larger stove has five ovens, it is still functional, and on some special occasions, we even bake some treats on them. A big black box is placed on top of them, that is a water-heating system for the chateau's bathroom.\n\nThe smaller stove is a grill and smoking chamber; unfortunately, it is no longer functional."
+                    "text": "We entered the chateau building from the 16th century. Originally this building was not supposed to be for the nobles. On the upper floors were offices, and on the ground floor were stables for horses. In the 19th century, nobles moved from the upper castle to the chateau. Chateau was reconstructed and furnished with new things, meaning that the interiors we have today are from the 19th century. The castle was in 1801 opened to the public as the first Castle Museum in Central Europe.\n\nAs we are on the ground floor, this room used to be stable. Proof for this statement is the stone trough next to the doors. During the reconstruction, cooks wanted to keep it here, so they could wash dishes or keep live fish in it.\n\nThe kitchen is, for its time, relatively modern. Displayed is the most extensive collection of copper dishes in the Czech Republic. The dishes are tin-plated inside.\n\nThe larger stove has five ovens, it is still functional, and on some special occasions, we even bake some treats on them. A big black box is placed on top of them, that is a water-heating system for the chateau's bathroom.\n\nThe smaller stove is a grill and smoking chamber. Unfortunately, it is no longer functional."
                 },
                 {
                     "audio": "/kcd.mp3",
@@ -1363,7 +1363,7 @@
                     "title": "The larder",
                     "card_label": "This larder was carved into the rock on which the castle and chateau Frýdlant was built. ",
                     "button": "Visit",
-                    "text": "This larder was carved into the rock on which the castle and chateau Frýdlant was built. That is why the temperature is quite cold here during the year, which is optimal for storing food. Interesting are those compotes in the cabinet, some of which are from 1945. Everything else in this larder is not originally from the Frýdlant; it was brought here from the surrounding villages."
+                    "text": "This larder was carved into the rock on which the castle and chateau Frýdlant was built. That is why the temperature is quite cold here during the year, which is optimal for storing food. Interesting are those compotes in the cabinet, some of which are from 1945. Everything else in this larder is not originally from the Frýdlant. It was brought here from the surrounding villages."
                 },
                 {
                     "audio": "/kcd.mp3",
@@ -1399,7 +1399,7 @@
                     "title": "The blue salon",
                     "card_label": "This floor could be divided into two parts representative rooms, where we are now, and a private apartment of the last male owner of the Frýdlant - Francis Clam-Gallas.",
                     "button": "Visit",
-                    "text": "This floor could be divided into two parts representative rooms, where we are now, and a private apartment of the last male owner of the Frýdlant - Francis Clam-Gallas.\n\nOn the floor is an immense Persian carpet, which is just a copy made in a village near the city of Liberec. On the walls are several paintings from the Netherlands; the author is unknown. The salon served the family of Francis Clam-Gallas, whose portrait you can find between the windows, as the main living room where not only visitors but also all family members meet. In the case of Francis Clam-Glass, all his 7 daughters. He and his wife, Maria Hoyos Sprinzenstein, were given another floor of the castle, as well as part of the newest wing, but if they wanted to spend time together, this was the main salon. It was a smoking room, a reading room and a rest room at the same time. Later, after the introduction of electricity, a radio was also placed here, so it was really a living room with all the modern conveniences."
+                    "text": "This floor could be divided into two parts representative rooms, where we are now, and a private apartment of the last male owner of the Frýdlant - Francis Clam-Gallas.\n\nOn the floor is an immense Persian carpet, which is just a copy made in a village near the city of Liberec. On the walls are several paintings from the Netherlands. The author is unknown. The salon served the family of Francis Clam-Gallas, whose portrait you can find between the windows, as the main living room where not only visitors but also all family members meet. In the case of Francis Clam-Glass, all his 7 daughters. He and his wife, Maria Hoyos Sprinzenstein, were given another floor of the castle, as well as part of the newest wing, but if they wanted to spend time together, this was the main salon. It was a smoking room, a reading room and a rest room at the same time. Later, after the introduction of electricity, a radio was also placed here, so it was really a living room with all the modern conveniences."
                 },
                 {
                     "audio": "/kcd.mp3",
@@ -1435,7 +1435,7 @@
                     "title": "Francis' study",
                     "card_label": "In this room, we have many personal belongings of the last male owner of Frýdlant - Francis Clam-Gallas.",
                     "button": "Visit",
-                    "text": "In this room, we have many personal belongings of the last male owner of Frýdlant - Francis Clam-Gallas. On the table is a photo of Francis with his wife Maria; above it is the photo of Francis playing with his daughters on dog sledging. n\n In addition to the work desk, we also come across another part of the library here. Another small interesting thing. The name Karel Jaromír Erben is certainly not unknown to you. The author of Kytice is connected with the Frýdlant castle. He worked here at the castle as an archivist and was in charge of the book collection. By the way, he was also the first creator of the libretto, actually the guide text for the then open exposition of the Upper Castle."
+                    "text": "In this room, we have many personal belongings of the last male owner of Frýdlant - Francis Clam-Gallas. On the table is a photo of Francis with his wife Maria. Above it is the photo of Francis playing with his daughters on dog sledging. n\n In addition to the work desk, we also come across another part of the library here. Another small interesting thing. The name Karel Jaromír Erben is certainly not unknown to you. The author of Kytice is connected with the Frýdlant castle. He worked here at the castle as an archivist and was in charge of the book collection. By the way, he was also the first creator of the libretto, actually the guide text for the then open exposition of the Upper Castle."
                 },
                 {
                     "audio": "/kcd.mp3",
@@ -1654,7 +1654,7 @@
                     "title": "Die Schlossküche",
                     "card_label": "Wir betraten das Schlossgebäude aus dem 16. Jahrhundert.",
                     "button": "Besuchen",
-                    "text": "Wir betraten das Schlossgebäude aus dem 16. Jahrhundert. Ursprünglich war dieses Gebäude nicht für die Adligen bestimmt. In den oberen Stockwerken befanden sich Büros und im Erdgeschoss Ställe für Pferde. Im 19. Jahrhundert zogen die Adligen aus der Burg zum Schloss um. Das Schloss wurde rekonstruiert und mit neuen Dingen ausgestattet, was bedeutet, dass die Innenräume, die wir heute haben, aus dem 19. Jahrhundert stammen. Das Schloss wurde 1801 als erstes Schlossmuseum in Mitteleuropa der Öffentlichkeit zugänglich gemacht.\n\n Da wir uns im Erdgeschoss befinden, war dieser Raum früher ein Stall. Beweis für diese Aussage ist der Steintrog neben den Türen.Während des Umbaus wollten Köche ihn hier behalten, um Geschirr zu spülen oder lebende Fische darin zu halten .\n\n Die Küche ist für die damalige Zeit relativ modern. Ausgestellt ist die umfangreichste Sammlung von Kupfergeschirr in der Tschechischen Republik. Das Geschirr ist innen verzinnt.\n\n Der größere Herd hat fünf Backöfen, it ist immer noch funktionsfähig, und zu einigen besonderen Anlässen haben wir sogar Backen Sie ein paar Leckereien darauf. Auf ihnen ist eine große schwarze Box platziert, das ist ein Wasserheizsystem für das Badezimmer des Schlosses.\n\n Der kleinere Ofen ist ein Grill und eine Räucherkammer; leider nicht mehr funktionsfähig."
+                    "text": "Wir betraten das Schlossgebäude aus dem 16. Jahrhundert. Ursprünglich war dieses Gebäude nicht für die Adligen bestimmt. In den oberen Stockwerken befanden sich Büros und im Erdgeschoss Ställe für Pferde. Im 19. Jahrhundert zogen die Adligen aus der Burg zum Schloss um. Das Schloss wurde rekonstruiert und mit neuen Dingen ausgestattet, was bedeutet, dass die Innenräume, die wir heute haben, aus dem 19. Jahrhundert stammen. Das Schloss wurde 1801 als erstes Schlossmuseum in Mitteleuropa der Öffentlichkeit zugänglich gemacht.\n\n Da wir uns im Erdgeschoss befinden, war dieser Raum früher ein Stall. Beweis für diese Aussage ist der Steintrog neben den Türen.Während des Umbaus wollten Köche ihn hier behalten, um Geschirr zu spülen oder lebende Fische darin zu halten .\n\n Die Küche ist für die damalige Zeit relativ modern. Ausgestellt ist die umfangreichste Sammlung von Kupfergeschirr in der Tschechischen Republik. Das Geschirr ist innen verzinnt.\n\n Der größere Herd hat fünf Backöfen, it ist immer noch funktionsfähig, und zu einigen besonderen Anlässen haben wir sogar Backen Sie ein paar Leckereien darauf. Auf ihnen ist eine große schwarze Box platziert, das ist ein Wasserheizsystem für das Badezimmer des Schlosses.\n\n Der kleinere Ofen ist ein Grill und eine Räucherkammer. Leider nicht mehr funktionsfähig."
                 },
                 {
                     "audio": "/kcd.mp3",
@@ -1681,7 +1681,7 @@
                     "title": "Der Wappensaal",
                     "card_label": "Wir haben jetzt die Wappenhalle betreten, und hier können wir die Geschichte von Frýdlant kurz zusammenfassen.",
                     "button": "Besuchen",
-                    "text": "Wir haben jetzt die Wappenhalle betreten, und hier können wir die Geschichte von Frýdlant kurz zusammenfassen.\n\nFrýdland wurde in der Hälfte des 13. Jahrhunderts von der Familie Ronovci gegründet; genauer gesagt, einer Ahnenlinie namens Berka z Dubé. \n\nIm Jahr 1278 beschlagnahmte der böhmische König die Burg und verkaufte sie an das Haus Bieberstein. Sie blieben fast 300 Jahre in Frýdlant. Die Familie Bieberstein, die auf Frýdland lebte, starb jedoch 1551 aus. \n\nDann 1558 kamen Rederns auf diese Burg, sie waren jedoch Protestanten, so dass sie nach einer Schlacht in der Schlacht am Weißen Berg zur Auswanderung gezwungen wurden, der Habsburger Kaiser beschlagnahmte ihren gesamten Besitz und verkaufte ihn 1622 an Albrecht von Wallenstein.\n\nAlbrecht besaß Frýdlant zwölf Jahre lang, besuchte es viermal, baute hier aber nie etwas. Wegen angeblichen Verrats des Kaisers wurde Albrecht am 25. Februar 1634 ermordet.\n\nKaiser übergab Frýdlant dann an Albrechts Verräter Matthias Gallas. Gallas Familie, wie ver, starb 1757 aus. Laut Testament des letzten Gallas sollte Frýdlant an seinen Neffen Christian Philipp von Clam unter der Bedingung vererbt werden, dass der Name und das Wappen der Familie Clam mit dem Namen und dem Wappen verbunden würden Wappen der Familie Gallas.\n\nUnd so erwarb die Familie Clam-Gallas 1759 Frýdlant. Sie besaßen Frýdlant bis 1945, als es vom tschechoslowakischen Staat aufgrund der Beneš-Dekrete, einer Reihe von Gesetzen, dank derer die deutsche Bevölkerung nach dem 2. Weltkrieg aus dem Staat vertrieben wurde, verstaatlicht wurde.\n\nAuf dieser Führung werden wir hauptsächlich über Familie Clam-Gallas sprechen, insbesonders über den letzten männlichen Besitzer Franz Clam-Gallas, seine Tochter, die letzte Besitzerin Clotilde Clam-Gallas, und seinen Vater Eduard Clam-Gallas. \n\nDiese große Halle diente als Spielzimmer, also haben wir hier das Roulette und den Billardtisch. Auf dem Kamin steht ein Krug aus einem Stoßzahn. Das Nebenzimmer ist das große Esszimmer."
+                    "text": "Wir haben jetzt die Wappenhalle betreten, und hier können wir die Geschichte von Frýdlant kurz zusammenfassen.\n\nFrýdland wurde in der Hälfte des 13. Jahrhunderts von der Familie Ronovci gegründet. Genauer gesagt, einer Ahnenlinie namens Berka z Dubé. \n\nIm Jahr 1278 beschlagnahmte der böhmische König die Burg und verkaufte sie an das Haus Bieberstein. Sie blieben fast 300 Jahre in Frýdlant. Die Familie Bieberstein, die auf Frýdland lebte, starb jedoch 1551 aus. \n\nDann 1558 kamen Rederns auf diese Burg, sie waren jedoch Protestanten, so dass sie nach einer Schlacht in der Schlacht am Weißen Berg zur Auswanderung gezwungen wurden, der Habsburger Kaiser beschlagnahmte ihren gesamten Besitz und verkaufte ihn 1622 an Albrecht von Wallenstein.\n\nAlbrecht besaß Frýdlant zwölf Jahre lang, besuchte es viermal, baute hier aber nie etwas. Wegen angeblichen Verrats des Kaisers wurde Albrecht am 25. Februar 1634 ermordet.\n\nKaiser übergab Frýdlant dann an Albrechts Verräter Matthias Gallas. Gallas Familie, wie ver, starb 1757 aus. Laut Testament des letzten Gallas sollte Frýdlant an seinen Neffen Christian Philipp von Clam unter der Bedingung vererbt werden, dass der Name und das Wappen der Familie Clam mit dem Namen und dem Wappen verbunden würden Wappen der Familie Gallas.\n\nUnd so erwarb die Familie Clam-Gallas 1759 Frýdlant. Sie besaßen Frýdlant bis 1945, als es vom tschechoslowakischen Staat aufgrund der Beneš-Dekrete, einer Reihe von Gesetzen, dank derer die deutsche Bevölkerung nach dem 2. Weltkrieg aus dem Staat vertrieben wurde, verstaatlicht wurde.\n\nAuf dieser Führung werden wir hauptsächlich über Familie Clam-Gallas sprechen, insbesonders über den letzten männlichen Besitzer Franz Clam-Gallas, seine Tochter, die letzte Besitzerin Clotilde Clam-Gallas, und seinen Vater Eduard Clam-Gallas. \n\nDiese große Halle diente als Spielzimmer, also haben wir hier das Roulette und den Billardtisch. Auf dem Kamin steht ein Krug aus einem Stoßzahn. Das Nebenzimmer ist das große Esszimmer."
                 },
                 {
                     "audio": "/kcd.mp3",
@@ -1699,7 +1699,7 @@
                     "title": "Der blaue Salon",
                     "card_label": "Wie befinden uns jetzt in dem grossen blauen Salon. ",
                     "button": "Besuchen",
-                    "text": "Wie befinden uns jetzt in dem grossen blauen Salon. Dieser raum ist bis zur Hälfte mit Holz hetäflt. Auch hier, in den Luneten, sind Tapeten aus Leder, handgemalt und vergoldet. Das Gewölbe ist mit dem Stuck verziert und vergoldet. Auf dem Boden liegt ein grosser Teppich mit dem reichen persischen Muster, handgebunden im Teppichbetrieb in Vratislavice bei Liberec im 20.Jhd. Die vier kleinen Spiegel sind echte venezianischen Spiegeln.\n\nDie Bilder an den Wänden – Öl auf dem Holz – sind Werke der unbekannten Holänder aus dem 17.Jhd. Rechts von der Tür steht ein kleiner Spieltisch. Beachtenswert sind auch die Wandteller und die Schalen, die mit dem blauen Muster geschmückt sind, und die grosse chinesische Vase."
+                    "text": "Wie befinden uns jetzt in dem grossen blauen Salon. Dieser raum ist bis zur Hälfte mit Holz hetäflt. Auch hier, in den Luneten, sind Tapeten aus Leder, handgemalt und vergoldet. Das Gewölbe ist mit dem Stuck verziert und vergoldet. Auf dem Boden liegt ein grosser Teppich mit dem reichen persischen Muster, handgebunden im Teppichbetrieb in Vratislavice bei Liberec im 20. Jahrhundertdert. Die vier kleinen Spiegel sind echte venezianischen Spiegeln.\n\nDie Bilder an den Wänden – Öl auf dem Holz – sind Werke der unbekannten Holänder aus dem 17. Jahrhundertdert. Rechts von der Tür steht ein kleiner Spieltisch. Beachtenswert sind auch die Wandteller und die Schalen, die mit dem blauen Muster geschmückt sind, und die grosse chinesische Vase."
                 },
                 {
                     "audio": "/kcd.mp3",
@@ -1717,7 +1717,7 @@
                     "title": "Der Gang in der Herrenetage",
                     "card_label": "Dieser Gang verbindet alle Zimmer der Herrenetage.",
                     "button": "Besuchen",
-                    "text": "Dieser Gang verbindet alle Zimmer der Herrenetage. Hier wohnte der Besitzer der Herrschaft. Am Ende des 19.Jhds liess sich hier Eduard Clam-Gallas ein bequeme Wohnung im Neorenaissancestil einrichten."
+                    "text": "Dieser Gang verbindet alle Zimmer der Herrenetage. Hier wohnte der Besitzer der Herrschaft. Am Ende des 19. Jahrhundertderts liess sich hier Eduard Clam-Gallas ein bequeme Wohnung im Neorenaissancestil einrichten."
                 },
                 {
                     "audio": "/kcd.mp3",
@@ -1744,7 +1744,7 @@
                     "title": "Das Herrenschlafzimmer",
                     "card_label": "Wir sind jetzt im Schlafzimmer des Grafen Franz Clam-Gallas, des letzten mänlichen Nachkommen der Adelsfamilie Clam-Gallas.",
                     "button": "Besuchen",
-                    "text": "Wir sind jetzt im Schlafzimmer des Grafen Franz Clam-Gallas, des letzten mänlichen Nachkommen der Adelsfamilie Clam-Gallas. Hier beginnen wir die Besichtigung der Herrenzimmern. Interessant ist die flämische Tapiserie aus dem 17.Jhd mit dem Motiv aus der antiken Mythologie – Heracles und Hera genannt. Auf dem Boden liegt der persische Teppich. Auf dem Bild ist der Graf Franz Clam-Gallas, der hier 1930 gestorben ist.\n\nJetzt gehen wir die Treppe nach oben zur Damenetage"
+                    "text": "Wir sind jetzt im Schlafzimmer des Grafen Franz Clam-Gallas, des letzten mänlichen Nachkommen der Adelsfamilie Clam-Gallas. Hier beginnen wir die Besichtigung der Herrenzimmern. Interessant ist die flämische Tapiserie aus dem 17. Jahrhundertdert mit dem Motiv aus der antiken Mythologie – Heracles und Hera genannt. Auf dem Boden liegt der persische Teppich. Auf dem Bild ist der Graf Franz Clam-Gallas, der hier 1930 gestorben ist.\n\nJetzt gehen wir die Treppe nach oben zur Damenetage"
                 },
                 {
                     "audio": "/kcd.mp3",
@@ -1753,7 +1753,7 @@
                     "title": "Königsgang in der Damenetage",
                     "card_label": "Die zweite Etage des Schlosses haben nur Damen bewohnt",
                     "button": "Besuchen",
-                    "text": "Die zweite Etage des Schlosses haben nur Damen bewohnt. Dieser Korridor hat den Namen „Königskorridor“, weil hier die Porträts der Mitglieder der Europäischen Königsfamilien vom 16.Jhd ausgestellt sind."
+                    "text": "Die zweite Etage des Schlosses haben nur Damen bewohnt. Dieser Korridor hat den Namen „Königskorridor“, weil hier die Porträts der Mitglieder der Europäischen Königsfamilien vom 16. Jahrhundertdert ausgestellt sind."
                 },
                 {
                     "audio": "/kcd.mp3",
@@ -1780,7 +1780,7 @@
                     "title": "Umkleidekabine",
                     "card_label": "Der zweite Raum, durch den wir gerade gehen, ist die Umkleidekabine.",
                     "button": "Besuchen",
-                    "text": "Der zweite Raum, durch den wir gerade gehen, ist die Umkleidekabine. Es wird von einem großen Bildschirm geleitet, der als Sichtschutz beim Umziehen diente. Unter den Gemälden hier kann ich auch die Bildnisse über der Tür erwähnen. Auf einem von ihnen Christian Christoph Clam-Gallas, Urgroßvater von Francis, der erste der Besitzer von Frýdlant, der hier in der Burg und nicht in der Oberburg zu leben begann. Er förderte die Kunst, malte, und er war es, der 1801 hier in Frýdlant das Schlossmuseum der Öffentlichkeit zugänglich machte."
+                    "text": "Der zweite Raum, durch den wir gerade gehen, ist die Umkleidekabine. Es wird von einem großen Bildschirm geleitet, der als Sichtschutz beim Umziehen diente. Unter den Gemälden hier kann ich auch die Bildnisse über der Tür erwähnen. Auf einem von ihnen Christian Christoph Clam-Gallas, Urgroßvater von Franz, der erste der Besitzer von Frýdlant, der hier in der Burg und nicht in der Oberburg zu leben begann. Er förderte die Kunst, malte, und er war es, der 1801 hier in Frýdlant das Schlossmuseum der Öffentlichkeit zugänglich machte."
                 },
                 {
                     "audio": "/kcd.mp3",
@@ -1807,7 +1807,7 @@
                     "title": "Salon",
                     "card_label": "Der holzgetäfelte Raum ist als Aufenthaltsraum eingerichtet.",
                     "button": "Besuchen",
-                    "text": "Der holzgetäfelte Raum ist als Aufenthaltsraum eingerichtet. Die Decke ist mit Keramik hauptsächlich aus Holland und China verkleidet, wo Sie verschiedene Teller, Krüge und Humpen finden. In der Vitrine sind noch heute sehr beliebte orientalische Elemente zu sehen.\n\nDer Raum diente als Wohnzimmer, das nicht nur Clotilde diente, sondern auch zum Sitzen mit Besuchern und gleichzeitig zum Studieren hergerichtet war. \n\nAuf dem Klavier hinter der Tür finden wir Familienfotos. Am interessantesten ist wohl das gemeinsame Fotoporträt der Franz-Töchter, wir finden auch Großmutter Clotilde und andere Familienmitglieder. Die Töchter heirateten, bis auf Clotilde, die sich um ihre Eltern kümmerte. Dank ihnen wurde die Familie Clam-Gallas zum Beispiel mit der Familie Kinský, der Familie Schwarzenberg, der Familie Auerspergy oder vielleicht der mährischen Familie Podstatský Lichtenstein verbunden. \n\nEduardina ist die einzige Tochter, die keinen Aristokraten geheiratet und ihr Leben mit Dr. Winkelnbauer verbunden hat, den sie während ihrer Arbeit als Krankenschwester während des Krieges kennengelernt hat. Francis teilte den gesamten Familienbesitz unter seinen Töchtern auf. Clotilde erbte Frýdlant. Sie wurde 1945 deportiert. Die zweite Hälfte ihres Lebens verbrachte sie im Ausland, wo sie auch 1970 starb. Sie war die letzte Besitzerin dieses Anwesens und ist nicht in Hejnice begraben, wo sich das Clam-Gallas-Grab befindet. Das letzte hier begrabene Familienmitglied ist Franz Ehefrau Marie Hoyos Sprinzenstein."
+                    "text": "Der holzgetäfelte Raum ist als Aufenthaltsraum eingerichtet. Die Decke ist mit Keramik hauptsächlich aus Holland und China verkleidet, wo Sie verschiedene Teller, Krüge und Humpen finden. In der Vitrine sind noch heute sehr beliebte orientalische Elemente zu sehen.\n\nDer Raum diente als Wohnzimmer, das nicht nur Clotilde diente, sondern auch zum Sitzen mit Besuchern und gleichzeitig zum Studieren hergerichtet war. \n\nAuf dem Klavier hinter der Tür finden wir Familienfotos. Am interessantesten ist wohl das gemeinsame Fotoporträt der Franz-Töchter, wir finden auch Großmutter Clotilde und andere Familienmitglieder. Die Töchter heirateten, bis auf Clotilde, die sich um ihre Eltern kümmerte. Dank ihnen wurde die Familie Clam-Gallas zum Beispiel mit der Familie Kinský, der Familie Schwarzenberg, der Familie Auerspergy oder vielleicht der mährischen Familie Podstatský Lichtenstein verbunden. \n\nEduardina ist die einzige Tochter, die keinen Aristokraten geheiratet und ihr Leben mit Dr. Winkelnbauer verbunden hat, den sie während ihrer Arbeit als Krankenschwester während des Krieges kennengelernt hat. Franz teilte den gesamten Familienbesitz unter seinen Töchtern auf. Clotilde erbte Frýdlant. Sie wurde 1945 deportiert. Die zweite Hälfte ihres Lebens verbrachte sie im Ausland, wo sie auch 1970 starb. Sie war die letzte Besitzerin dieses Anwesens und ist nicht in Hejnice begraben, wo sich das Clam-Gallas-Grab befindet. Das letzte hier begrabene Familienmitglied ist Franz Ehefrau Marie Hoyos Sprinzenstein."
                 },
                 {
                     "audio": "/kcd.mp3",
@@ -1924,7 +1924,7 @@
                     "title": "Die Schlosskapelle",
                     "card_label": "Wir befinden uns jetzt in der Schlosskapelle der heiligen Anna.",
                     "button": "Besuchen",
-                    "text": "Wir befinden uns jetzt in der Schlosskapelle der heiligen Anna. Die Kapelle liess Katharina von Redern mit ihrem Mann Melchior in den Jahren 1598 – 1602 erbauen.Der Baumeister war bekannter Marcus Spazio. Auf dem Gebiet der heutigen Kapelle stand früher ein Wachturm, dessen Mauern für den neuen Bau zugrunde lagen. Der Grundriss der Kapelle bildet ein Kreuz.\n\nIn der Kapelle gibt es zwei Altäre. Der ältere protestantische Altar stammt aus der Zeit Katharina von Redern, aus dem Jahr 1609. Dieser Altar, sowie die Kanzel (auch aus dieser Zeit) sind Werke des Liberecer Holzschnitzers Ambrosius Fritsch.\n\nDer zweite (links von dem protestantischen Altar zu sehen) katholische Altar im Barockstil, wurde am Ende des 17.Jhds angefertigt.\n\nDie Sgrafittos sind von dem Münchner Maler Franz Dietrich aus dem Jahre 1871. In diesem Jahr liess Clotilde Clam-Gallas die Kapelle umbauen und neu ausgestatten. Hier oben ist die ursprüngliche Orgel, die auf der Weltaustellung im Jahre 1874 gekauft wurde.\n\nBeim dem Gottesdienst sass die Herrschaft oben auf der Empore und hier unten sassen die anderen, zum Beispiel Schlossdienerschaft. \n\nUnd hier ist die Schlossbesichtigung jetzt zu Ende.Wir bedanken Ihnen für Ihren Besuch. Auf Wiedersehen."
+                    "text": "Wir befinden uns jetzt in der Schlosskapelle der heiligen Anna. Die Kapelle liess Katharina von Redern mit ihrem Mann Melchior in den Jahren 1598 – 1602 erbauen.Der Baumeister war bekannter Marcus Spazio. Auf dem Gebiet der heutigen Kapelle stand früher ein Wachturm, dessen Mauern für den neuen Bau zugrunde lagen. Der Grundriss der Kapelle bildet ein Kreuz.\n\nIn der Kapelle gibt es zwei Altäre. Der ältere protestantische Altar stammt aus der Zeit Katharina von Redern, aus dem Jahr 1609. Dieser Altar, sowie die Kanzel (auch aus dieser Zeit) sind Werke des Liberecer Holzschnitzers Ambrosius Fritsch.\n\nDer zweite (links von dem protestantischen Altar zu sehen) katholische Altar im Barockstil, wurde am Ende des 17. Jahrhundertderts angefertigt.\n\nDie Sgrafittos sind von dem Münchner Maler Franz Dietrich aus dem Jahre 1871. In diesem Jahr liess Clotilde Clam-Gallas die Kapelle umbauen und neu ausgestatten. Hier oben ist die ursprüngliche Orgel, die auf der Weltaustellung im Jahre 1874 gekauft wurde.\n\nBeim dem Gottesdienst sass die Herrschaft oben auf der Empore und hier unten sassen die anderen, zum Beispiel Schlossdienerschaft. \n\nUnd hier ist die Schlossbesichtigung jetzt zu Ende.Wir bedanken Ihnen für Ihren Besuch. Auf Wiedersehen."
                 }
             ]
         }

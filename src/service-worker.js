@@ -22,20 +22,6 @@ clientsClaim();
 // even if you decide not to use precaching. See https://cra.link/PWA
 precacheAndRoute(self.__WB_MANIFEST);
 
-//precache UnifrakturaMagunti font
-
-precacheAndRoute([
-  {
-    url:'https://veronikapavlikova01.github.io/models/face_landmark_68_model-weights_manifest.json'
-  },
-  {
-    url:'https://veronikapavlikova01.github.io/models/face_landmark_68_model-weights_manifest.json'
-  },
-  {
-    url:'https://veronikapavlikova01.github.io/models/ssd_mobilenetv1_model-weights_manifest.json'
-  }
-]);
-
 
 // Set up App Shell-style routing, so that all navigation requests
 // are fulfilled with your index.html shell. Learn more at

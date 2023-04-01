@@ -123,6 +123,7 @@ class App extends React.Component {
         faceapi.nets.faceLandmark68Net.loadFromUri(MODEL_URL),
         faceapi.nets.faceRecognitionNet.loadFromUri(MODEL_URL)
     ]).then(
+        console.log("loaded"),
         window.isModelsLoaded = true
     );
   }

@@ -19,7 +19,6 @@ function FaceRecognition() {
     const dialogs = dataAPI.getDialogs(context.language);
     const [dialogOpen, setDialogOpen] = useState(false);
     const [waitDialogOpen, setWaitDialogOpen] = useState(false);
-    let waitDialogDisplayed = false;
     const [isResultDisplayed, setIsResultDisplayed] = useState(false);
     const [resultImage, setResultImage] = useState(false);
     const [resultName, setResultName] = useState(false);
