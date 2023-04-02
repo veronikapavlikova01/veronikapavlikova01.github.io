@@ -25,7 +25,7 @@ function Other() {
         <>
             <Header header={header.menu} />
             <div className="content-container">
-                <Link to="/history" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                <Link to="/history" className="card flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
                     <div className="flex-secondary align-items-primary">
                         <div className="flex round-item background-fourth margin-right-secondary">
                             <HistoryEduIcon className="round-item-content color-primary" />
@@ -33,7 +33,7 @@ function Other() {
                         <span>{other.history}</span>
                     </div>
                 </Link>
-                <Link to="/gallery" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                <Link to="/gallery" className="card flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
                     <div className="flex-secondary align-items-primary">
                         <div className="flex round-item background-fourth margin-right-secondary">
                             <CollectionsIcon className="round-item-content color-primary" />
@@ -41,7 +41,7 @@ function Other() {
                         <span>{other.gallery}</span>
                     </div>
                 </Link>
-                <Link to="/image_recognition" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                <Link to="/image_recognition" className="card display-none box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
                     <div className="flex-secondary align-items-primary">
                         <div className="flex round-item background-fourth margin-right-secondary">
                             <PortraitIcon className="round-item-content color-primary" />
@@ -49,7 +49,7 @@ function Other() {
                         <span>{other.image_recognition}</span>
                     </div>
                 </Link>
-                <Link to="/scan_room" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                <Link to="/scan_room" className="card display-none box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
                     <div className="flex-secondary align-items-primary">
                         <div className="flex round-item background-fourth margin-right-secondary">
                             <QrCode2Icon className="round-item-content color-primary" />
@@ -57,7 +57,7 @@ function Other() {
                         <span>{other.scan_room}</span>
                     </div>
                 </Link>
-                <Link to="/where_to_next" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                <Link to="/where_to_next" className="card flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
                     <div className="flex-secondary align-items-primary">
                         <div className="flex round-item background-fourth margin-right-secondary">
                             <NotListedLocationIcon className="round-item-content color-primary" />
@@ -65,7 +65,7 @@ function Other() {
                         <span>{other.where_to_next}</span>
                     </div>
                 </Link>
-                <Link to="/contact" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                <Link to="/contact" className="card flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
                     <div className="flex-secondary align-items-primary">
                         <div className="flex round-item background-fourth margin-right-secondary">
                             <LocalPhoneIcon className="round-item-content color-primary" />
@@ -73,7 +73,7 @@ function Other() {
                         <span>{other.contact}</span>
                     </div>
                 </Link>
-                <Link to="/settings" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                <Link to="/settings" className="card flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
                     <div className="flex-secondary align-items-primary">
                         <div className="flex round-item background-fourth margin-right-secondary">
                             <SettingsIcon className="round-item-content color-primary" />
@@ -81,7 +81,7 @@ function Other() {
                         <span>{other.settings}</span>
                     </div>
                 </Link>
-                <Link to="/help" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                <Link to="/help" className="card flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
                     <div className="flex-secondary align-items-primary">
                         <div className="flex round-item background-fourth margin-right-secondary">
                             <HelpIcon className="round-item-content color-primary" />
@@ -89,7 +89,7 @@ function Other() {
                         <span>{other.help}</span>
                     </div>
                 </Link>
-                <Link to="/about_app" className="card box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                <Link to="/about_app" className="card flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
                     <div className="flex-secondary align-items-primary">
                         <div className="flex round-item background-fourth margin-right-secondary">
                             <InfoIcon className="round-item-content color-primary" />
