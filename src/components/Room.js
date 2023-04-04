@@ -153,7 +153,7 @@ function Room() {
                     <div className={`flex round-item background-fourth margin-right-primary ${isPrev ? '' : ' visibility-hidden'}`}>
                         <ArrowBackIcon className="round-item-content color-primary margin-top-third cursor-primary" onClick={() => { previous() }} />
                     </div>
-                    <Link to="/scan_room" className="flex round-item background-fourth visibility-hidden">
+                    <Link to="/scan_room" className="flex round-item background-fourth">
                         <QrCode2Icon className="round-item-content color-primary margin-top-third cursor-primary" />
                     </Link>
                     <div className={`flex round-item background-fourth margin-left-primary ${isNext ? '' : ' visibility-hidden'}`}>

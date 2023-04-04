@@ -37,13 +37,13 @@ function Other() {
                     </div>
                     <span>{other.gallery}</span>
                 </Link>
-                <Link to="/image_recognition" className="card align-items-primary box-shadow transition-primary hover-primary padding-third margin-bottom-primary display-none">
+                <Link to="/image_recognition" className="card align-items-primary flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
                     <div className="flex round-item background-fourth margin-right-secondary">
                         <PortraitIcon className="round-item-content color-primary" />
                     </div>
                     <span>{other.image_recognition}</span>
                 </Link>
-                <Link to="/scan_room" className="card align-items-primary box-shadow transition-primary hover-primary padding-third margin-bottom-primary display-none">
+                <Link to="/scan_room" className="card align-items-primary flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
                     <div className="flex round-item background-fourth margin-right-secondary">
                         <QrCode2Icon className="round-item-content color-primary" />
                     </div>
