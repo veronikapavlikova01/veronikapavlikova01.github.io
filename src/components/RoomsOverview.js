@@ -37,13 +37,11 @@ function RoomsOverview() {
                             <h3 className="padding-top-primary padding-bottom-primary">{unvisited.length? roomsOverview.not_seen : roomsOverview.nothing_more}</h3>
                             {
                                 unvisited.map((item) => (
-                                    <Link to="/room" className="transition-primary hover-primary card margin-bottom-primary box-shadow padding-third" onClick={() => context.setRoom(item.number)}>
-                                        <div className="flex-secondary align-items-primary">
-                                            <div className="flex round-item background-fourth margin-right-secondary">
-                                                <span className="round-item-content color-primary">{item.number}</span>
-                                            </div>
-                                            <span>{item.title}</span>
+                                    <Link to="/room" className="transition-primary hover-primary card flex-secondary align-items-primary margin-bottom-primary box-shadow padding-third" onClick={() => context.setRoom(item.number)}>
+                                        <div className="flex round-item background-fourth margin-right-secondary">
+                                            <span className="round-item-content color-primary">{item.number}</span>
                                         </div>
+                                        <span>{item.title}</span>
                                     </Link>
                                 ))
                             }

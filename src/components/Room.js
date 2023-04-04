@@ -117,6 +117,10 @@ function Room() {
             audio.onseeked = () => {
                 updatePositionState()
             }
+
+            audio.onended = () => {
+                console.log("ended");
+            }
     
             if (isPlaying) {
                 audio.play();
