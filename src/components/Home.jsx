@@ -71,7 +71,7 @@ function Home() {
                 </Link>
             </div>
             <div className="help-box flex margin-primary font-weight-primary">
-                <Link to="help" className="color-secondary center-text">
+                <Link to="help" className="color-primary center-text">
                     {help.help}
                 </Link>
             </div>

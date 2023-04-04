@@ -25,77 +25,59 @@ function Other() {
         <>
             <Header header={header.menu} />
             <div className="content-container">
-                <Link to="/history" className="card flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
-                    <div className="flex-secondary align-items-primary">
-                        <div className="flex round-item background-fourth margin-right-secondary">
-                            <HistoryEduIcon className="round-item-content color-primary" />
-                        </div>
-                        <span>{other.history}</span>
+                <Link to="/history" className="card align-items-primary flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                    <div className="flex round-item background-fourth margin-right-secondary">
+                        <HistoryEduIcon className="round-item-content color-primary" />
                     </div>
+                    <span>{other.history}</span>
                 </Link>
-                <Link to="/gallery" className="card flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
-                    <div className="flex-secondary align-items-primary">
-                        <div className="flex round-item background-fourth margin-right-secondary">
-                            <CollectionsIcon className="round-item-content color-primary" />
-                        </div>
-                        <span>{other.gallery}</span>
+                <Link to="/gallery" className="card align-items-primary flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                    <div className="flex round-item background-fourth margin-right-secondary">
+                        <CollectionsIcon className="round-item-content color-primary" />
                     </div>
+                    <span>{other.gallery}</span>
                 </Link>
-                <Link to="/image_recognition" className="card display-none box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
-                    <div className="flex-secondary align-items-primary">
-                        <div className="flex round-item background-fourth margin-right-secondary">
-                            <PortraitIcon className="round-item-content color-primary" />
-                        </div>
-                        <span>{other.image_recognition}</span>
+                <Link to="/image_recognition" className="card align-items-primary box-shadow transition-primary hover-primary padding-third margin-bottom-primary display-none">
+                    <div className="flex round-item background-fourth margin-right-secondary">
+                        <PortraitIcon className="round-item-content color-primary" />
                     </div>
+                    <span>{other.image_recognition}</span>
                 </Link>
-                <Link to="/scan_room" className="card display-none box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
-                    <div className="flex-secondary align-items-primary">
-                        <div className="flex round-item background-fourth margin-right-secondary">
-                            <QrCode2Icon className="round-item-content color-primary" />
-                        </div>
-                        <span>{other.scan_room}</span>
+                <Link to="/scan_room" className="card align-items-primary box-shadow transition-primary hover-primary padding-third margin-bottom-primary display-none">
+                    <div className="flex round-item background-fourth margin-right-secondary">
+                        <QrCode2Icon className="round-item-content color-primary" />
                     </div>
+                    <span>{other.scan_room}</span>
                 </Link>
-                <Link to="/where_to_next" className="card flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
-                    <div className="flex-secondary align-items-primary">
-                        <div className="flex round-item background-fourth margin-right-secondary">
-                            <NotListedLocationIcon className="round-item-content color-primary" />
-                        </div>
-                        <span>{other.where_to_next}</span>
+                <Link to="/where_to_next" className="card align-items-primary flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                    <div className="flex round-item background-fourth margin-right-secondary">
+                        <NotListedLocationIcon className="round-item-content color-primary" />
                     </div>
+                    <span>{other.where_to_next}</span>
                 </Link>
-                <Link to="/contact" className="card flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
-                    <div className="flex-secondary align-items-primary">
-                        <div className="flex round-item background-fourth margin-right-secondary">
-                            <LocalPhoneIcon className="round-item-content color-primary" />
-                        </div>
-                        <span>{other.contact}</span>
+                <Link to="/contact" className="card align-items-primary flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                    <div className="flex round-item background-fourth margin-right-secondary">
+                        <LocalPhoneIcon className="round-item-content color-primary" />
                     </div>
+                    <span>{other.contact}</span>
                 </Link>
-                <Link to="/settings" className="card flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
-                    <div className="flex-secondary align-items-primary">
-                        <div className="flex round-item background-fourth margin-right-secondary">
-                            <SettingsIcon className="round-item-content color-primary" />
-                        </div>
-                        <span>{other.settings}</span>
+                <Link to="/settings" className="card align-items-primary flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                    <div className="flex round-item background-fourth margin-right-secondary">
+                        <SettingsIcon className="round-item-content color-primary" />
                     </div>
+                    <span>{other.settings}</span>
                 </Link>
-                <Link to="/help" className="card flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
-                    <div className="flex-secondary align-items-primary">
-                        <div className="flex round-item background-fourth margin-right-secondary">
-                            <HelpIcon className="round-item-content color-primary" />
-                        </div>
-                        <span>{other.help}</span>
+                <Link to="/help" className="card align-items-primary flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                    <div className="flex round-item background-fourth margin-right-secondary">
+                        <HelpIcon className="round-item-content color-primary" />
                     </div>
+                    <span>{other.help}</span>
                 </Link>
-                <Link to="/about_app" className="card flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
-                    <div className="flex-secondary align-items-primary">
-                        <div className="flex round-item background-fourth margin-right-secondary">
-                            <InfoIcon className="round-item-content color-primary" />
-                        </div>
-                        <span>{other.about_app}</span>
+                <Link to="/about_app" className="card align-items-primary flex-secondary box-shadow transition-primary hover-primary padding-third margin-bottom-primary">
+                    <div className="flex round-item background-fourth margin-right-secondary">
+                        <InfoIcon className="round-item-content color-primary" />
                     </div>
+                    <span>{other.about_app}</span>
                 </Link>
             </div>
         </>

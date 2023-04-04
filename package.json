@@ -2,7 +2,7 @@
   "name": "frydlant-audio-guide",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://veronikapavlikova01.github.io",
+  "homepage": "https://audio-guide-frydlant.github.io",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
