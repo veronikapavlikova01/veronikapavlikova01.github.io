@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2d26c997.css",
-    "main.js": "/static/js/main.39ec228a.js",
+    "main.js": "/static/js/main.82c6f92b.js",
     "static/media/stanovy_salon.bak.jpg": "/static/media/stanovy_salon.bak.7b67f8cd229ecc0f8db7.jpg",
     "static/media/grabstejn.jpg": "/static/media/grabstejn.7440ae2e7c07ff15232a.jpg",
     "static/media/kcd.mp3": "/static/media/kcd.c641e6bdef1eca0b740e.mp3",
@@ -161,10 +161,10 @@
     "static/media/icon-128.png": "/static/media/icon-128.987b6916ad8cabc59e8a.png",
     "index.html": "/index.html",
     "main.2d26c997.css.map": "/static/css/main.2d26c997.css.map",
-    "main.39ec228a.js.map": "/static/js/main.39ec228a.js.map"
+    "main.82c6f92b.js.map": "/static/js/main.82c6f92b.js.map"
   },
   "entrypoints": [
     "static/css/main.2d26c997.css",
-    "static/js/main.39ec228a.js"
+    "static/js/main.82c6f92b.js"
   ]
 }
