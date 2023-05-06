@@ -14,6 +14,17 @@ function CustomDialog(props) {
     const dataAPI = new DataAPI();
     const dialogs = dataAPI.getDialogs(context.language);
 
+    return (
+        <Dialog open={props.isOpen}>
+            <DialogTitle>{props.title}</DialogTitle>
+            <DialogContent>
+                <DialogContentText>{props.content}</DialogContentText>
+            </DialogContent>
+            <DialogActions>
+                <Button onClick={props.closeDialog}>{dialogs.close_label}</Button>
+            </DialogActions>
+        </Dialog>
+    );
 
 }
 
