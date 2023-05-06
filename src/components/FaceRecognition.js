@@ -30,7 +30,7 @@ function FaceRecognition() {
             let url = window.URL.createObjectURL(file);
             document.getElementById('person_picture').src = url;
             handleImg();
-            document.getElementById('native-camera').files[0] = null;   //jinak je change zavolano pouze jednou
+            //document.getElementById('native-camera').files[0] = null;   //jinak je change zavolano pouze jednou
         } else{
             waitDialogClose();
         }

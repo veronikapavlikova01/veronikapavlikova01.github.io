@@ -65,7 +65,7 @@ function Room() {
         let tour = dataAPI.getTour(context.language, context.tour).title.toString();
 
         if ('mediaSession' in navigator) {
-            navigator.mediaSession.metadata = new MediaMetadata({
+            navigator.mediaSession.metadata = new window.MediaMetadata({
                 title: title,
                 artist: "Audio guide Frýdlant",
                 album: tour,
